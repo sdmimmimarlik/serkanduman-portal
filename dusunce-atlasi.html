@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Mimar Serkan Duman | Açık Düşünce & İlişkiler Atlası</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #121316;
+      --panel-bg: rgba(22, 24, 29, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --text-main: #f0ede6;
+      --text-muted: #9e9ba7;
+      --accent-terracotta: #d97746;
+      --accent-gold: #c89d5c;
+      --accent-clay: #8c7365;
+      --accent-sage: #5e826b;
+      --font-body: 'Plus Jakarta Sans', sans-serif;
+      --font-serif: 'Playfair Display', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+    }
+
+    /* Arka Plan Izgara */
+    #canvas-container {
+      flex: 1;
+      height: 100%;
+      position: relative;
+      background: radial-gradient(circle at 50% 50%, #1a1c23 0%, #101114 100%);
+    }
+
+    /* Üst Başlık & Kontroller */
+    .top-bar {
+      position: absolute;
+      top: 24px;
+      left: 28px;
+      z-index: 10;
+      pointer-events: none;
+    }
+
+    .top-bar * {
+      pointer-events: auto;
+    }
+
+    .brand-title {
+      font-family: var(--font-serif);
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #fff;
+    }
+
+    .brand-sub {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .status-badge {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4ade80;
+      box-shadow: 0 0 10px #4ade80;
+    }
+
+    /* Filtre Hapları */
+    .filter-bar {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: all 0.2s ease;
+    }
+
+    .filter-btn:hover, .filter-btn.active {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+
+    /* Detay Yan Paneli */
+    #detail-panel {
+      width: 440px;
+      height: 100%;
+      background: var(--panel-bg);
+      backdrop-filter: blur(24px);
+      border-left: 1px solid var(--border-color);
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    #detail-panel.hidden {
+      transform: translateX(100%);
+    }
+
+    .panel-header {
+      padding: 28px 28px 20px 28px;
+      border-bottom: 1px solid var(--border-color);
+      position: relative;
+    }
+
+    .category-tag {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    .node-title {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fff;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      background: rgba(255, 255, 255, 0.06);
+      border: none;
+      color: #aaa;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: all 0.2s;
+    }
+
+    .close-btn:hover {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+    }
+
+    .panel-content {
+      padding: 28px;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .section-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .quote-box {
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 3px solid var(--accent-terracotta);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      font-family: var(--font-serif);
+      font-size: 15px;
+      font-style: italic;
+      line-height: 1.6;
+      color: #e5e0d8;
+      margin-bottom: 24px;
+    }
+
+    .body-text {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #c9c5be;
+      margin-bottom: 24px;
+    }
+
+    .connected-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .node-pill {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: #ddd;
+    }
+
+    .node-pill:hover {
+      background: var(--accent-terracotta);
+      color: #fff;
+      border-color: var(--accent-terracotta);
+    }
+
+    /* D3 SVG Grafı Stilleri */
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .link {
+      stroke: rgba(255, 255, 255, 0.12);
+      stroke-width: 1.5px;
+      transition: stroke 0.3s, stroke-width 0.3s;
+    }
+
+    .link.highlighted {
+      stroke: var(--accent-terracotta);
+      stroke-width: 2.5px;
+    }
+
+    .node {
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .node circle {
+      stroke-width: 2px;
+      transition: all 0.3s;
+    }
+
+    .node:hover circle {
+      filter: drop-shadow(0 0 12px currentColor);
+    }
+
+    .node text {
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 500;
+      fill: #e8e4de;
+      pointer-events: none;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+    }
+
+    /* İpucu Kutusu */
+    .hint-box {
+      position: absolute;
+      bottom: 24px;
+      left: 28px;
+      background: rgba(20, 22, 27, 0.7);
+      border: 1px solid var(--border-color);
+      padding: 10px 16px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--text-muted);
+      pointer-events: none;
+      backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Tuval / Graf Alanı -->
+  <div id="canvas-container">
+    <div class="top-bar">
+      <a href="/" style="text-decoration:none;"><div class="brand-title" style="cursor:pointer;">Dr. Mimar Serkan Duman</div></a>
+      <div class="brand-sub">
+        <span class="status-badge"></span>
+        <span>Açık Düşünce & İlişkiler Atlası (Semantik Ağ)</span>
+      </div>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-cat="all">Tüm Düğümler</button>
+        <button class="filter-btn" data-cat="kuram">Kuram & Medeniyet</button>
+        <button class="filter-btn" data-cat="cografya">Coğrafya & Saha</button>
+        <button class="filter-btn" data-cat="malzeme">Toprak & Zanaat</button>
+        <button class="filter-btn" data-cat="proje">Mimari & Zisofa</button>
+      </div>
+    </div>
+
+    <svg id="graph-svg"></svg>
+
+    <div class="hint-box">
+      ✦ Düğümleri sürükleyebilir, üzerlerine tıklayarak düşünsel bağlantıları açabilirsiniz.
+    </div>
+  </div>
+
+  <!-- Sağ Detay Paneli -->
+  <div id="detail-panel">
+    <div class="panel-header">
+      <button class="close-btn" onclick="closePanel()">✕</button>
+      <span class="category-tag" id="panel-category">Kategori</span>
+      <h2 class="node-title" id="panel-title">Düğüm Başlığı</h2>
+    </div>
+    <div class="panel-content">
+      <div class="section-title">Fikir & Düşünsel Alıntı</div>
+      <div class="quote-box" id="panel-quote">...</div>
+
+      <div class="section-title">Açıklama & Saha Karşılığı</div>
+      <div class="body-text" id="panel-body">...</div>
+
+      <div class="section-title">İlişkili Fikirler & Düğümler</div>
+      <div class="connected-tags" id="panel-connections"></div>
+    </div>
+  </div>
+
+  <script>
+    // VERİ HAVUZU: Düğümler ve İlişkiler
+    const graphData = {
+      nodes: [
+        {
+          id: "medeniyet",
+          name: "İslam & Medeniyet",
+          category: "kuram",
+          size: 30,
+          color: "#c89d5c",
+          quote: "Mekân, bir medeniyetin ahlak nizamının maddeye dökülmüş nihai tecellisidir.",
+          body: "Doğu-Batı ayrımında şehir, insanın sadece barındığı değil; Yaratıcı, tabiat ve toplumla ilişkisini inşa ettiği fıtri bir düzlemdir. Şehirlerimizin bugünkü buhranı estetik değil, bir varlık ve idrak buhranıdır."
+        },
+        {
+          id: "cansever",
+          name: "Turgut Cansever",
+          category: "kuram",
+          size: 26,
+          color: "#c89d5c",
+          quote: "Şehri imar ederken gönülleri ihya etmeyi unutanlar, sonra o şehirde yaşayacak insan bulamazlar.",
+          body: "Bilge mimar Turgut Cansever'in miras bıraktığı 'Ev ve Şehir' ahlakı; Osmanlı mahalle nizamındaki sükûnet, tevazu ve tektoniğin günümüzün kibirli betonarme dünyasına karşı yegâne panzehiridir."
+        },
+        {
+          id: "dogu_bati",
+          name: "Doğu-Batı Ayrımı (Kitap)",
+          category: "kuram",
+          size: 24,
+          color: "#c89d5c",
+          quote: "Batı'nın 'görüntü üreticiliği'ne karşı, Doğu'nun varoluşsal mekân kavrayışını yeniden hatırlamak.",
+          body: "Yayımlanan 'Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat' kitabının odağı: Modernizm ile birlikte maddenin tahakkümü altına giren insanın hakikati arayışı ve geleneksel mimari teorisi."
+        },
+        {
+          id: "malavi",
+          name: "Malavi (Afrika)",
+          category: "cografya",
+          size: 28,
+          color: "#d97746",
+          quote: "Toprak sadece bir yapı harcı değil; yoksullukla onur arasındaki en kadim dayanışma köprüsüdür.",
+          body: "Afrika'da yerinde kerpiç üretimi, yerel halkla birlikte inşa edilen insani yardım konutları ve usta yetiştirme programları. Malavi tecrübesi, modern endüstrinin dayattığı yabancılaşmanın sınırlarının aşıldığı canlı bir okuldur."
+        },
+        {
+          id: "bursa",
+          name: "Bursa & Mahalle",
+          category: "cografya",
+          size: 26,
+          color: "#d97746",
+          quote: "Bursa; ahşabın, taşın ve toprağın birbirine saygıyla dokunduğu fıtri şehirciliğin başkentidir.",
+          body: "Cumalıkızık ve Tarihi Yarımada aksındaki geleneksel sivil mimari doku. Sokağın mahremiyetle, avlunun gökyüzüyle kurduğu bağ; Malavi'deki sade barınakla aynı ahlaki ilkeden neşet eder."
+        },
+        {
+          id: "toprak_yapi",
+          name: "Monolitik Toprak (Kerpiç)",
+          category: "malzeme",
+          size: 32,
+          color: "#8c7365",
+          quote: "Toprak nefes alır. İçindeki insanı kimyasal zehirlerden korur, kışın ısıtır, yazın serinletir.",
+          body: "Rammed earth (sıkıştırılmış toprak), Alker ve geleneksel kerpiç teknikleri. Doğadan alınan ve ömrü bittiğinde sıfır atıkla tekrar doğaya dönen en yüksek segment, sağlıklı yapı malzemesi."
+        },
+        {
+          id: "zanaat_usta",
+          name: "Kadim Ustalık Hafızası",
+          category: "malzeme",
+          size: 22,
+          color: "#8c7365",
+          quote: "Ustasını kaybeden malzeme ölür; malzemesini kaybeden medeniyet dilsizleşir.",
+          body: "Fas, Hindistan, Gana ve Anadolu şantiyelerinde edinilen bedensel tecrübe. Toprak harcını elle karmak, kalıbı tokmaklamak; mimarın masadaki çizgiden çıkıp maddeyle doğrudan hemhal olması."
+        },
+        {
+          id: "zisofa",
+          name: "ZISOFA (Sessiz Lüks)",
+          category: "proje",
+          size: 28,
+          color: "#5e826b",
+          quote: "Zamansız mekânlar, yaşayan yüzeyler ve biyofilik sükûnet.",
+          body: "Modern dünyada doğala dönüşü bir taviz değil, en üst düzey 'Quiet Luxury' (Sessiz Lüks) olarak konumlandıran mimari stüdyo. Toksinsiz, bağımsız (off-grid) ve monolitik toprak rezidanslar."
+        },
+        {
+          id: "avlu_evi",
+          name: "Avlu Evi (Çanakkale)",
+          category: "proje",
+          size: 22,
+          color: "#5e826b",
+          quote: "İçe dönük sükûnet, dışa dönük tabiat: Avlu etrafında şekillenen monolitik yaşam.",
+          body: "Çanakkale'de taş, sıkıştırılmış toprak ve ahşap strüktür ile hayata geçirilen avlulu konut mimarisi. Geleneksel sofa ve hayat kurgusunun çağdaş bir villada yeniden vücut bulması."
+        },
+        {
+          id: "afet_deprem",
+          name: "Deprem & Afet Modelleri",
+          category: "proje",
+          size: 25,
+          color: "#5e826b",
+          quote: "Deprem öldürmez; insanın tabiatla inatlaşan hırsı ve kötü betonarmesı öldürür.",
+          body: "6 Şubat depremleri sonrası AFAD ve karar vericiler için hazırlanan alternatif kırsal toprak mesken ve mahalle modelleri. Toprağın sönümleyici gücü ve hafif ahşap karkas ile can güvenliği sağlayan yerel çözümler."
+        }
+      ],
+      links: [
+        { source: "medeniyet", target: "cansever" },
+        { source: "medeniyet", target: "dogu_bati" },
+        { source: "medeniyet", target: "bursa" },
+        { source: "cansever", target: "bursa" },
+        { source: "cansever", target: "dogu_bati" },
+        { source: "malavi", target: "toprak_yapi" },
+        { source: "malavi", target: "zanaat_usta" },
+        { source: "malavi", target: "medeniyet" },
+        { source: "bursa", target: "toprak_yapi" },
+        { source: "bursa", target: "zanaat_usta" },
+        { source: "toprak_yapi", target: "zanaat_usta" },
+        { source: "toprak_yapi", target: "zisofa" },
+        { source: "toprak_yapi", target: "avlu_evi" },
+        { source: "toprak_yapi", target: "afet_deprem" },
+        { source: "zisofa", target: "avlu_evi" },
+        { source: "afet_deprem", target: "malavi" },
+        { source: "afet_deprem", target: "bursa" },
+        { source: "dogu_bati", target: "toprak_yapi" }
+      ]
+    };
+
+    // D3 GRAFİK KURULUMU — pencere yüklendikten sonra boyutları oku
+    function initGraph() {
+    const container = document.getElementById('canvas-container');
+    const width = container.clientWidth || window.innerWidth * 0.65;
+    const height = container.clientHeight || window.innerHeight;
+
+    const svg = d3.select("#graph-svg")
+      .attr("width", width)
+      .attr("height", height)
+      .attr("viewBox", [0, 0, width, height]);
+
+    const g = svg.append("g");
+
+    // Zoom & Pan
+    svg.call(d3.zoom()
+      .extent([[0, 0], [width, height]])
+      .scaleExtent([0.4, 3])
+      .on("zoom", ({transform}) => {
+        g.attr("transform", transform);
+      }));
+
+    // Simülasyon Kuvvetleri
+    const simulation = d3.forceSimulation(graphData.nodes)
+      .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(140))
+      .force("charge", d3.forceManyBody().strength(-400))
+      .force("center", d3.forceCenter(width / 2.3, height / 2))
+      .force("collision", d3.forceCollide().radius(d => d.size + 25));
+
+    // Bağlantılar (Çizgiler)
+    const link = g.append("g")
+      .selectAll("line")
+      .data(graphData.links)
+      .join("line")
+      .attr("class", "link");
+
+    // Düğümler (Gruplar)
+    const node = g.append("g")
+      .selectAll(".node")
+      .data(graphData.nodes)
+      .join("g")
+      .attr("class", "node")
+      .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended))
+      .on("click", (event, d) => selectNode(d));
+
+    // Düğüm Çemberleri
+    node.append("circle")
+      .attr("r", d => d.size)
+      .attr("fill", d => d.color)
+      .attr("fill-opacity", 0.25)
+      .attr("stroke", d => d.color);
+
+    // Çekirdek Nokta
+    node.append("circle")
+      .attr("r", 5)
+      .attr("fill", d => d.color);
+
+    // Düğüm Yazıları
+    node.append("text")
+      .attr("dy", d => d.size + 16)
+      .attr("text-anchor", "middle")
+      .text(d => d.name);
+
+    simulation.on("tick", () => {
+      link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+
+      node.attr("transform", d => `translate(${d.x},${d.y})`);
+    });
+
+    // Sürükleme Fonksiyonları
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+
+    // DÜĞÜM SEÇİMİ & PANELİ GÜNCELLEME
+    function selectNode(selected) {
+      // Paneli Doldur
+      document.getElementById('panel-title').innerText = selected.name;
+      document.getElementById('panel-quote').innerText = `"${selected.quote}"`;
+      document.getElementById('panel-body').innerText = selected.body;
+
+      const catMap = {
+        kuram: { name: "Kuram & Felsefe", color: "var(--accent-gold)" },
+        cografya: { name: "Coğrafya & Saha", color: "var(--accent-terracotta)" },
+        malzeme: { name: "Malzeme & Zanaat", color: "var(--accent-clay)" },
+        proje: { name: "Mimari & Proje", color: "var(--accent-sage)" }
+      };
+
+      const catInfo = catMap[selected.category] || { name: selected.category, color: "#fff" };
+      const catBadge = document.getElementById('panel-category');
+      catBadge.innerText = catInfo.name;
+      catBadge.style.background = `${selected.color}25`;
+      catBadge.style.color = selected.color;
+
+      // İlişkili Düğümleri Bul
+      const connectedNodeIds = new Set();
+      graphData.links.forEach(l => {
+        if (l.source.id === selected.id) connectedNodeIds.add(l.target.id);
+        if (l.target.id === selected.id) connectedNodeIds.add(l.source.id);
+      });
+
+      const tagsContainer = document.getElementById('panel-connections');
+      tagsContainer.innerHTML = '';
+      connectedNodeIds.forEach(id => {
+        const targetNode = graphData.nodes.find(n => n.id === id);
+        if (targetNode) {
+          const pill = document.createElement('div');
+          pill.className = 'node-pill';
+          pill.innerText = `✦ ${targetNode.name}`;
+          pill.onclick = () => selectNode(targetNode);
+          tagsContainer.appendChild(pill);
+        }
+      });
+
+      // Grafikte Vurgulama
+      link.classed('highlighted', l => l.source.id === selected.id || l.target.id === selected.id);
+
+      node.selectAll("circle")
+        .transition().duration(250)
+        .attr("stroke-width", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 4 : 2)
+        .attr("fill-opacity", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 0.6 : 0.15);
+
+      // Paneli Aç
+      document.getElementById('detail-panel').classList.remove('hidden');
+    }
+
+    function closePanel() {
+      document.getElementById('detail-panel').classList.add('hidden');
+      link.classed('highlighted', false);
+      node.selectAll("circle").attr("stroke-width", 2).attr("fill-opacity", 0.25);
+    }
+
+    // FİLTRELEME BUTONLARI
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const cat = btn.dataset.cat;
+
+        if (cat === 'all') {
+          node.style("display", "block");
+          link.style("display", "block");
+        } else {
+          node.style("display", d => d.category === cat ? "block" : "none");
+          link.style("display", l => (l.source.category === cat && l.target.category === cat) ? "block" : "none");
+        }
+      });
+    });
+
+    // Başlangıçta ilk düğümü seç
+    setTimeout(() => {
+      selectNode(graphData.nodes[0]);
+    }, 500);
+    } // initGraph sonu
+
+    // Pencere tamamen yüklenince grafiği başlat
+    window.addEventListener('load', initGraph);
+  </script>
+</body>
+</html>
