@@ -1,0 +1,501 @@
+[
+  {
+    "id": "NNVK_T3HETs",
+    "type": "video",
+    "title": "What does 'Life Aesthetics' mean?",
+    "english_title": "What Does 'Life Aesthetics' Mean? | Ontology of Space & Form",
+    "duration": "7:00",
+    "url": "https://www.youtube.com/watch?v=NNVK_T3HETs",
+    "english_tags": [
+      "#LifeAesthetics",
+      "#IslamicPhilosophy",
+      "#OntologyOfSpace",
+      "#SensoryPerception",
+      "#TraditionalWisdom"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet", "dogu_bati", "ev_felsefesi"],
+    "summary": "An ontological inquiry into aesthetic consciousness, bodily experience, and the sacred perception of space beyond utilitarian reductionism."
+  },
+  {
+    "id": "8avwuUeKLIg",
+    "type": "video",
+    "title": "Building with Ethics | The Secret to Timeless Cities",
+    "english_title": "Building with Ethics: The Sacred Secret to Timeless Cities",
+    "duration": "4:58",
+    "url": "https://www.youtube.com/watch?v=8avwuUeKLIg",
+    "english_tags": [
+      "#EthicalArchitecture",
+      "#TimelessCities",
+      "#UrbanEthics",
+      "#SacredUrbanism",
+      "#CivicHarmony"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["sehir_hukuku", "medeniyet", "cansever", "mahalle_sokak", "katilimci_mimarlik"],
+    "summary": "How ethical foundations, neighborly rights, and cosmic order create cities that endure through centuries without degradation."
+  },
+  {
+    "id": "O0UwIVBUcdI",
+    "type": "video",
+    "title": "21. Yüzyılda İkonik Tasarım Mücadelesi - Modern Mimari Ölüyor mu?",
+    "english_title": "The Crisis of Iconic Design: Is Modern Architecture Dying?",
+    "duration": "3:33",
+    "url": "https://www.youtube.com/watch?v=O0UwIVBUcdI",
+    "english_tags": [
+      "#CritiqueOfModernism",
+      "#IconicArchitecture",
+      "#ModernArchitectureCrisis",
+      "#SoulOfSpace",
+      "#AntiMonumentalism"
+    ],
+    "doors": [1, 2],
+    "atlas_nodes": ["dogu_bati", "cansever", "ekoloji_beton", "mimarlik_egitimi"],
+    "summary": "A critical examination of starchitecture, empty formalism, and the existential exhaustion of late modernism."
+  },
+  {
+    "id": "m54HfahXg_I",
+    "type": "video",
+    "title": "Gelecekçi Tasarımlar ve Geleneksel Bilgelik: Mimarlık Üzerine Yeni Bir Perspektif",
+    "english_title": "Futuristic Design & Traditional Wisdom: A New Architectural Synthesis",
+    "duration": "6:05",
+    "url": "https://www.youtube.com/watch?v=m54HfahXg_I",
+    "english_tags": [
+      "#TraditionalWisdom",
+      "#FuturisticArchitecture",
+      "#LivingTradition",
+      "#VernacularFuture",
+      "#CivilizationalContinuity"
+    ],
+    "doors": [1, 2],
+    "atlas_nodes": ["medeniyet", "dogu_bati", "toprak_yapi", "cansever"],
+    "summary": "Bridging timeless traditional tectonic knowledge with future horizons: living tradition as a regenerative principle rather than historicism."
+  },
+  {
+    "id": "xV958PwTXRk",
+    "type": "video",
+    "title": "Sonsuz Mekân: Güzel şehrin mekanik tasarımlarda değil, başka bir yerde yattığını keşfedin",
+    "english_title": "Infinite Space: Beyond Mechanical Urban Design to Sacred Geography",
+    "duration": "10:21",
+    "url": "https://www.youtube.com/watch?v=xV958PwTXRk",
+    "english_tags": [
+      "#InfiniteSpace",
+      "#SacredGeometry",
+      "#CityAesthetics",
+      "#BeyondMechanism",
+      "#UrbanEcology"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["sehir_hukuku", "medeniyet", "mahalle_sokak", "cansever", "goruntu_hakikat"],
+    "summary": "Why the beauty of the city cannot be engineered by mechanical zoning, and how sacred space embodies infinity in the everyday."
+  },
+  {
+    "id": "8A1Hj_bYgiE",
+    "type": "video",
+    "title": "Putlaştırma Yerine Katılım: Müslüman Bir Bakış Açısı / EPISODE 3",
+    "english_title": "Participation Instead of Idolatry: An Islamic Architectural Perspective",
+    "duration": "5:17",
+    "url": "https://www.youtube.com/watch?v=8A1Hj_bYgiE",
+    "english_tags": [
+      "#ParticipationVsIdolatry",
+      "#IslamicPhilosophy",
+      "#TawhidInArt",
+      "#DemystifyingModernity",
+      "#ParticipatoryAesthetics"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["katilimci_mimarlik", "felsefe_sanat", "medeniyet", "dogu_bati"],
+    "summary": "Demystifying modern spectacle and monumental idolization through authentic participatory building and egalitarian Islamic spatial ethics."
+  },
+  {
+    "id": "NY9PqR1V43g",
+    "type": "video",
+    "title": "Welcome To The IA - Islam and Architecture",
+    "english_title": "Welcome to IA: Islam and Architecture | Global Theoretical Manifesto",
+    "duration": "1:58",
+    "url": "https://www.youtube.com/watch?v=NY9PqR1V43g",
+    "english_tags": [
+      "#IslamAndArchitecture",
+      "#TheoreticalManifesto",
+      "#CivilizationVision",
+      "#SpiritualSpatiality",
+      "#GlobalDiscourse"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["medeniyet", "dogu_bati", "felsefe_sanat"],
+    "summary": "Inaugural manifesto of IA channel: exploring the ontological foundations of Islamic spatial thinking for the contemporary world."
+  },
+  {
+    "id": "oZloV7xqgas",
+    "type": "video",
+    "title": "İslam'da Ferdiyet ve Güzellik Sevgisi",
+    "english_title": "Individuality and the Love of Beauty in Islam",
+    "duration": "4:25",
+    "url": "https://www.youtube.com/watch?v=oZloV7xqgas",
+    "english_tags": [
+      "#IndividualityInIslam",
+      "#LoveOfBeauty",
+      "#IhsanAndAesthetics",
+      "#IslamicOntology",
+      "#HumanScale"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet", "ev_felsefesi", "cansever"],
+    "summary": "The theological roots of individuality, spiritual modesty, and the divine mandate of beauty (Ihsan) reflected in domestic architecture."
+  },
+  {
+    "id": "RpSbqmS4Nhw",
+    "type": "video",
+    "title": "Kâbe hakkında konuşalım",
+    "english_title": "Let's Talk About the Kaaba: Spatial Center & Spiritual Geometry",
+    "duration": "5:40",
+    "url": "https://www.youtube.com/watch?v=RpSbqmS4Nhw",
+    "english_tags": [
+      "#KaabaCosmology",
+      "#SacredCenter",
+      "#TheEmptyCube",
+      "#TawhidInArchitecture",
+      "#CosmicAxis"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet", "dogu_bati", "goruntu_hakikat"],
+    "summary": "The cosmic metaphysics of the Kaaba: why the empty cube is the focal axis of orientation, disallowing iconographic idolatry."
+  },
+  {
+    "id": "jnZDOsbmb3Q",
+    "type": "short",
+    "title": "Why the Kaaba is empty inside ?",
+    "english_title": "Why the Kaaba is Empty Inside: Metaphysics of Formless Sacred",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/jnZDOsbmb3Q",
+    "english_tags": [
+      "#KaabaEmptiness",
+      "#FormlessSacred",
+      "#Tawhid",
+      "#Iconoclasm",
+      "#SacredSpace"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet", "goruntu_hakikat"]
+  },
+  {
+    "id": "38mx3hMPKaI",
+    "type": "short",
+    "title": "The Kaaba is the center of space",
+    "english_title": "The Kaaba as the Universal Center of Space",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/38mx3hMPKaI",
+    "english_tags": [
+      "#CenterOfSpace",
+      "#CosmicAxis",
+      "#KaabaOrientation",
+      "#SacredGeometry"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet"]
+  },
+  {
+    "id": "b2yPkrJKKLw",
+    "type": "short",
+    "title": "The Kaaba Beginning and End",
+    "english_title": "The Kaaba: Beginning and End in Cosmic Tawaf",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/b2yPkrJKKLw",
+    "english_tags": [
+      "#KaabaOrigins",
+      "#TawafDynamics",
+      "#SacredTime",
+      "#Cosmology"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet"]
+  },
+  {
+    "id": "y7QfjeB4R-k",
+    "type": "short",
+    "title": "Meaning of circle and square and the Kaaba",
+    "english_title": "Circle and Square: Geometric Symbolism of the Kaaba",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/y7QfjeB4R-k",
+    "english_tags": [
+      "#CircleAndSquare",
+      "#GeometricSymbolism",
+      "#SquaringTheCircle",
+      "#MetaphysicsOfForm"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "dogu_bati"]
+  },
+  {
+    "id": "tm2luLxt-iM",
+    "type": "short",
+    "title": "İslamic Architecture and Tawhid",
+    "english_title": "Islamic Architecture and Tawhid: Unity in Multiplicity",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/tm2luLxt-iM",
+    "english_tags": [
+      "#TawhidInArchitecture",
+      "#UnityInMultiplicity",
+      "#MonotheisticSpace",
+      "#SacredArt"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet", "cansever"]
+  },
+  {
+    "id": "vreACSYhKug",
+    "type": "short",
+    "title": "Breaking the Idol: Participatory Art & Education",
+    "english_title": "Breaking the Idol: Participatory Art and Education",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/vreACSYhKug",
+    "english_tags": [
+      "#BreakingTheIdol",
+      "#ParticipatoryArt",
+      "#DemocraticArchitecture",
+      "#AuthenticEducation"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["katilimci_mimarlik", "mimarlik_egitimi", "dogu_bati"]
+  },
+  {
+    "id": "ne8FhsAaBQg",
+    "type": "short",
+    "title": "Participatory Worship and Dress",
+    "english_title": "Participatory Worship and Ihram: Radical Spatial Equality",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/ne8FhsAaBQg",
+    "english_tags": [
+      "#ParticipatoryWorship",
+      "#IhramSymbolism",
+      "#RadicalEquality",
+      "#SpiritualSpatiality"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "medeniyet"]
+  },
+  {
+    "id": "pCkjRQLZuzo",
+    "type": "short",
+    "title": "Breaking Boundaries: Active Participation in Eastern Art and Entertainment",
+    "english_title": "Breaking Boundaries: Active Participation in Eastern Art",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/pCkjRQLZuzo",
+    "english_tags": [
+      "#ActiveParticipation",
+      "#EasternArt",
+      "#DissolvingTheStage",
+      "#CommunalSpectacle"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["katilimci_mimarlik", "felsefe_sanat", "dogu_bati"]
+  },
+  {
+    "id": "I0FCVIX87hQ",
+    "type": "short",
+    "title": "Five Senses in Muslim Culture: Activism and Participation",
+    "english_title": "Five Senses in Muslim Culture: Phenomenology and Participation",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/I0FCVIX87hQ",
+    "english_tags": [
+      "#FiveSenses",
+      "#SensoryArchitecture",
+      "#BodilyParticipation",
+      "#IslamicPhenomenology"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "ev_felsefesi", "cansever"]
+  },
+  {
+    "id": "Vh15LXFiroI",
+    "type": "short",
+    "title": "Fractal Geometry and Architecture",
+    "english_title": "Fractal Geometry and Architecture: Cosmic Patterns",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/Vh15LXFiroI",
+    "english_tags": [
+      "#FractalGeometry",
+      "#SelfSimilarity",
+      "#PatternLanguage",
+      "#MathematicsInNature"
+    ],
+    "doors": [1, 2],
+    "atlas_nodes": ["felsefe_sanat", "cansever", "toprak_yapi"]
+  },
+  {
+    "id": "nsLdLIleBsU",
+    "type": "short",
+    "title": "Are Modern Cities Built for People or Profit?",
+    "english_title": "Are Modern Cities Built for People or Profit? A Radical Question",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/nsLdLIleBsU",
+    "english_tags": [
+      "#CapitalistUrbanism",
+      "#CitiesForProfit",
+      "#HumanCenteredUrbanism",
+      "#CityMorality"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["sehir_hukuku", "mahalle_sokak", "ekoloji_beton"]
+  },
+  {
+    "id": "5Qi_Ry4wj6M",
+    "type": "short",
+    "title": "Human beings are valuable creatures",
+    "english_title": "Human Beings are Sacred Creatures: Dignity in Space",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/5Qi_Ry4wj6M",
+    "english_tags": [
+      "#SanctityOfTheHuman",
+      "#DignityInSpace",
+      "#AshrafAlMakhluqat",
+      "#HumanScale"
+    ],
+    "doors": [1, 3],
+    "atlas_nodes": ["medeniyet", "ev_felsefesi", "sehir_hukuku"]
+  },
+  {
+    "id": "xXzdvUCxQFw",
+    "type": "short",
+    "title": "the journey of modern architecture",
+    "english_title": "The Historical Journey of Modern Architecture",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/xXzdvUCxQFw",
+    "english_tags": [
+      "#ModernArchitectureJourney",
+      "#EvolutionOfForm",
+      "#HistoricalCritique",
+      "#LossOfOrnament"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["dogu_bati", "mimarlik_egitimi"]
+  },
+  {
+    "id": "bImoDGetZyE",
+    "type": "short",
+    "title": "why buildings that remind us of the future look so strange?",
+    "english_title": "Why Futuristic Buildings Look So Alienating",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/bImoDGetZyE",
+    "english_tags": [
+      "#FuturisticAlienation",
+      "#Deconstructivism",
+      "#ArchitecturalIdentity",
+      "#AnxietyOfForm"
+    ],
+    "doors": [1, 2],
+    "atlas_nodes": ["dogu_bati", "goruntu_hakikat"]
+  },
+  {
+    "id": "Qwpc_LmobB4",
+    "type": "short",
+    "title": "A Major Turning Point",
+    "english_title": "A Major Historical Turning Point in Space Construction",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/Qwpc_LmobB4",
+    "english_tags": [
+      "#ArchitecturalTurningPoint",
+      "#IndustrialDisruption",
+      "#HistoricalRupture",
+      "#LossOfSoul"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["dogu_bati", "medeniyet"]
+  },
+  {
+    "id": "R6LNTQJODqs",
+    "type": "short",
+    "title": "The peak of this was the Renaissance",
+    "english_title": "The Anthropocentric Peak: Renaissance Spatial Order",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/R6LNTQJODqs",
+    "english_tags": [
+      "#RenaissancePerspective",
+      "#Anthropocentrism",
+      "#SeparationOfManAndNature",
+      "#WesternGeometry"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["dogu_bati", "goruntu_hakikat"]
+  },
+  {
+    "id": "xEa07y2Q05M",
+    "type": "short",
+    "title": "This period also saw the golden age of science fiction",
+    "english_title": "The Machine Age & Golden Era of Sci-Fi Urbanism",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/xEa07y2Q05M",
+    "english_tags": [
+      "#SciFiUrbanism",
+      "#TechnologicalUtopianism",
+      "#MachineAge",
+      "#DystopianReality"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["dogu_bati", "felsefe_sanat"]
+  },
+  {
+    "id": "UQCXp0zV8mY",
+    "type": "short",
+    "title": "Three things that Prophet Muhammad loved",
+    "english_title": "Prophetic Aesthetics: Fragrance, Women, and Prayer",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/UQCXp0zV8mY",
+    "english_tags": [
+      "#PropheticAesthetics",
+      "#SpiritualSensoryOrder",
+      "#CosmicHarmony",
+      "#Ihsan"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "ev_felsefesi"]
+  },
+  {
+    "id": "OXZiB7uJkbw",
+    "type": "short",
+    "title": "Prophet Muhammad's meeting with God",
+    "english_title": "Miraj: Transcending Space-Time in Islamic Metaphysics",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/OXZiB7uJkbw",
+    "english_tags": [
+      "#MirajMetaphysics",
+      "#TranscendingSpaceTime",
+      "#DivineProximity",
+      "#IslamicCosmology"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["felsefe_sanat", "goruntu_hakikat"]
+  },
+  {
+    "id": "Fq8eUGx_Ino",
+    "type": "short",
+    "title": "When man and woman love each other,",
+    "english_title": "Sacred Union & The Sanctuary of the Domestic Home",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/Fq8eUGx_Ino",
+    "english_tags": [
+      "#MetaphysicsOfLove",
+      "#SacredUnion",
+      "#SanctuaryOfHome",
+      "#IslamicFamilyOntology"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["ev_felsefesi", "felsefe_sanat"]
+  },
+  {
+    "id": "jaF0ipohums",
+    "type": "short",
+    "title": "Tradition since the beginning of Islam",
+    "english_title": "Primordial Tradition: Perennial Wisdom & Continuous Form",
+    "duration": "Short",
+    "url": "https://www.youtube.com/shorts/jaF0ipohums",
+    "english_tags": [
+      "#PrimordialTradition",
+      "#PerennialWisdom",
+      "#ContinuityOfForm",
+      "#RitualSpace"
+    ],
+    "doors": [1],
+    "atlas_nodes": ["medeniyet", "dogu_bati"]
+  }
+]
