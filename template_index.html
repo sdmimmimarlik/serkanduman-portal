@@ -1,0 +1,566 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Mimar Serkan Duman | serkanduman.com</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    .monolith-door {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+      border: 2px solid rgba(255, 255, 255, 0.35);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6);
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .monolith-door:hover {
+      border-color: #ffffff;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+      transform: translateY(-3px);
+    }
+    .monolith-door.active {
+      border-color: #e08353;
+      background: rgba(224, 131, 83, 0.06);
+      box-shadow: 0 0 35px rgba(224, 131, 83, 0.25);
+    }
+    .content-card {
+      transition: all 0.2s ease;
+    }
+    .content-card:hover {
+      border-color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.06);
+      transform: translateY(-1px);
+    }
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body class="bg-[#08090b] text-[#ffffff] antialiased p-3 sm:p-6 m-0 font-sans min-h-[680px] flex flex-col justify-center select-none">
+
+  <div class="max-w-5xl mx-auto w-full">
+    
+    <!-- BaÅŸlÄ±k & Ã‡atÄ± Kimlik -->
+    <div class="flex flex-col sm:flex-row items-center justify-between pb-6 mb-8 border-b border-zinc-700 gap-4">
+      <div>
+        <h1 class="text-sm sm:text-base font-mono font-bold tracking-[0.3em] text-white uppercase">
+          Dr. Mimar Serkan Duman
+        </h1>
+        <p class="text-xs text-zinc-300 font-mono tracking-wider mt-1">
+          MimarlÄ±k Tarihi ve KuramÄ± &middot; DoÄŸal YapÄ± UstasÄ± &middot; MÃ¼ellif
+        </p>
+      </div>
+
+      <!-- Ã‡atÄ± Linkler / DoÄŸrudan GiriÅŸler -->
+      <div class="flex items-center gap-3 text-xs font-mono font-semibold">
+        <a href="makaleler.html" class="px-3.5 py-1.5 rounded border border-[#d97746]/60 bg-[#d97746]/15 text-[#f5d09b] hover:bg-[#d97746]/25 transition flex items-center gap-1.5">
+          <span>✦ Makaleler &amp; Metinler</span>
+        </a>
+        <a href="dusunce-atlasi.html" class="px-3.5 py-1.5 rounded border border-[#e6b87d] bg-[#e6b87d]/15 text-[#f5d09b] hover:bg-[#e6b87d]/25 transition flex items-center gap-1.5">
+          <span>âœ¦ DÃ¼ÅŸÃ¼nce AtlasÄ±</span>
+        </a>
+        <a href="https://www.sdmim.com" target="_blank" class="px-3.5 py-1.5 rounded border border-zinc-600 bg-zinc-900 text-zinc-200 hover:text-white hover:border-white transition">
+          SDMIM â†—
+        </a>
+        <a href="https://www.zisofa.com" target="_blank" class="px-3.5 py-1.5 rounded border border-zinc-600 bg-zinc-900 text-zinc-200 hover:text-white hover:border-white transition">
+          ZISOFA â†—
+        </a>
+      </div>
+    </div>
+
+    <!-- 3 DÄ°KEY UZAYAN KALIN KONTURLU KAPI -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <!-- KAPI 1: DÃœÅÃœNCE & KURAM -->
+      <div id="door-1" onclick="toggleDoor(1)" class="monolith-door cursor-pointer rounded-xl p-8 flex flex-col justify-between items-center text-center min-h-[380px] sm:min-h-[420px] group">
+        <div class="w-full flex items-center justify-between text-xs font-mono text-zinc-300 font-bold tracking-widest uppercase">
+          <span>01</span>
+          <span>ZÄ°HÄ°N</span>
+        </div>
+        
+        <div class="my-auto py-6">
+          <div class="text-zinc-400 text-xs mb-3 font-mono font-semibold tracking-widest">[ I ]</div>
+          <h2 class="text-lg sm:text-xl font-bold tracking-[0.2em] text-white uppercase leading-relaxed">
+            DÃœÅÃœNCE<br>&amp; KURAM
+          </h2>
+          <span class="text-xs text-zinc-300 tracking-wider block mt-3 font-medium">Kitap &middot; Cansever &middot; Teori</span>
+          <span class="inline-block mt-4 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-zinc-800 border border-zinc-600 text-zinc-200">
+            5 Eser &middot; 4 Blog &middot; 116 ğ• Not &middot; 77 Video
+          </span>
+        </div>
+
+        <div class="w-full pt-4 border-t border-zinc-700 flex items-center justify-center text-zinc-300 group-hover:text-white transition text-xs font-mono font-bold tracking-wider">
+          <span>ARÅÄ°VÄ° AÃ‡ &darr;</span>
+        </div>
+      </div>
+
+      <!-- KAPI 2: MÄ°MARLIK & SDMIM -->
+      <div id="door-2" onclick="toggleDoor(2)" class="monolith-door cursor-pointer rounded-xl p-8 flex flex-col justify-between items-center text-center min-h-[380px] sm:min-h-[420px] group">
+        <div class="w-full flex items-center justify-between text-xs font-mono text-zinc-300 font-bold tracking-widest uppercase">
+          <span>02</span>
+          <span>ESER</span>
+        </div>
+        
+        <div class="my-auto py-6">
+          <div class="text-zinc-400 text-xs mb-3 font-mono font-semibold tracking-widest">[ II ]</div>
+          <h2 class="text-lg sm:text-xl font-bold tracking-[0.2em] text-white uppercase leading-relaxed">
+            MÄ°MARLIK<br>&amp; SDMIM
+          </h2>
+          <span class="text-xs text-zinc-300 tracking-wider block mt-3 font-medium">Projeler &middot; Zisofa &middot; Toprak</span>
+          <span class="inline-block mt-4 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-zinc-800 border border-zinc-600 text-zinc-200">
+            2 Ofis &middot; 4 Proje &middot; 9 Blog &middot; 105 ğ• Not &middot; 27 Video
+          </span>
+        </div>
+
+        <div class="w-full pt-4 border-t border-zinc-700 flex items-center justify-center text-zinc-300 group-hover:text-white transition text-xs font-mono font-bold tracking-wider">
+          <span>PROJELERÄ° AÃ‡ &darr;</span>
+        </div>
+      </div>
+
+      <!-- KAPI 3: TOPLUM & SAHA -->
+      <div id="door-3" onclick="toggleDoor(3)" class="monolith-door cursor-pointer rounded-xl p-8 flex flex-col justify-between items-center text-center min-h-[380px] sm:min-h-[420px] group">
+        <div class="w-full flex items-center justify-between text-xs font-mono text-zinc-300 font-bold tracking-widest uppercase">
+          <span>03</span>
+          <span>VÄ°CDAN</span>
+        </div>
+        
+        <div class="my-auto py-6">
+          <div class="text-zinc-400 text-xs mb-3 font-mono font-semibold tracking-widest">[ III ]</div>
+          <h2 class="text-lg sm:text-xl font-bold tracking-[0.2em] text-white uppercase leading-relaxed">
+            TOPLUM<br>&amp; SAHA
+          </h2>
+          <span class="text-xs text-zinc-300 tracking-wider block mt-3 font-medium">Malavi &middot; Afet &middot; YayÄ±n</span>
+          <span class="inline-block mt-4 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-zinc-800 border border-zinc-600 text-zinc-200">
+            2 Saha &middot; 3 YayÄ±n &middot; 5 Blog &middot; 79 ğ• Not &middot; 31 Video
+          </span>
+        </div>
+
+        <div class="w-full pt-4 border-t border-zinc-700 flex items-center justify-center text-zinc-300 group-hover:text-white transition text-xs font-mono font-bold tracking-wider">
+          <span>SAHAYI AÃ‡ &darr;</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TIKLANINCA ALTTAN AÃ‡ILAN NET & PARLAK Ä°Ã‡ERÄ°K HAVUZU -->
+    <div id="detail-panel" class="hidden mt-8 p-6 sm:p-8 rounded-xl border-2 border-zinc-700 bg-[#14151a] relative shadow-2xl transition-all duration-300">
+      
+      <button onclick="closeDoor()" class="absolute top-5 right-5 text-zinc-300 hover:text-white text-xs font-mono font-bold px-2 py-1 bg-zinc-800 rounded border border-zinc-600">
+        âœ• KAPAT
+      </button>
+
+      <!-- 1. KAPI GERÃ‡EK Ä°Ã‡ERÄ°KLERÄ° -->
+      <div id="panel-1" class="hidden space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-zinc-700">
+          <div>
+            <span class="text-xs font-mono font-bold text-[#e6b87d]">KAPI I &middot; ZÄ°HÄ°N &middot; ARÅÄ°V</span>
+            <h3 class="text-base font-bold text-white mt-0.5">DÃ¼ÅŸÃ¼nce, Kuram ve YayÄ±n ArÅŸivi</h3>
+          </div>
+          <div class="text-xs font-mono italic text-zinc-300 text-right">
+            &ldquo;BatÄ±'nÄ±n gÃ¶rÃ¼ntÃ¼ Ã¼reticiliÄŸine karÅŸÄ± DoÄŸu'nun varoluÅŸsal mekÃ¢n kavrayÄ±ÅŸÄ±.&rdquo;
+            <span class="block text-[#e6b87d] font-bold not-italic mt-1">Dr. Mimar Serkan Duman</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs">
+          
+          <!-- Kitap -->
+          <div class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">YayÄ±mlanan Kitap</span>
+              <h4 class="text-sm font-bold text-white mt-1">DoÄŸu-BatÄ± AyrÄ±mÄ±nda; AslÄ±nda MimarlÄ±k Åehircilik ve Sanat</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;BatÄ± merkezli 'gÃ¶rÃ¼ntÃ¼ Ã¼reticiliÄŸi'ne karÅŸÄ± DoÄŸu'nun varoluÅŸsal mekÃ¢n kavrayÄ±ÅŸÄ± ve hakikati arayÄ±ÅŸÄ±.&rdquo;</p>
+            </div>
+            <span class="text-xs text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800 pt-2 mt-4">
+              <span>Temel Eser &middot; 2023</span>
+              <span class="text-[#e6b87d] font-bold">Ä°ncele &rarr;</span>
+            </span>
+          </div>
+
+          <!-- Cansever YazÄ±sÄ± -->
+          <a href="https://www.sdmim.com/haberler" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">Hece Dergisi</span>
+              <h4 class="text-sm font-bold text-white mt-1">&ldquo;Bir DamarÄ± CanlÄ± Tutmak&rdquo; &mdash; Turgut Cansever</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Åehri imar ederken gÃ¶nÃ¼lleri ihya etmeyi unutanlar, sonra o ÅŸehirde yaÅŸayacak insan bulamazlar.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#e6b87d] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">Hece Dergisi</span>
+              <span>Oku &rarr;</span>
+            </span>
+          </a>
+
+          <!-- Nail Ã‡akÄ±rhan -->
+          <a href="https://www.sdmim.com/blog" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">SDMIM Blog &middot; Portre</span>
+              <h4 class="text-sm font-bold text-white mt-1">Mimar Olmayan Bir Mimar: Nail Ã‡akÄ±rhan</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Yerel ustanÄ±n bilgeliÄŸini modern akademinin kibirli kalÄ±plarÄ±nÄ±n Ã¼zerine Ã§Ä±karan bir gelenek.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#e6b87d] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">SDMIM Blog</span>
+              <span>Oku &rarr;</span>
+            </span>
+          </a>
+
+          <!-- AÃ§Ä±k DÃ¼ÅŸÃ¼nce AtlasÄ± -->
+          <a href="makaleler.html" class="px-3.5 py-1.5 rounded border border-[#d97746]/60 bg-[#d97746]/15 text-[#f5d09b] hover:bg-[#d97746]/25 transition flex items-center gap-1.5">
+          <span>✦ Makaleler &amp; Metinler</span>
+        </a>
+        <a href="dusunce-atlasi.html" class="content-card p-4 rounded-lg border border-[#e6b87d] bg-[#e6b87d]/10 flex flex-col justify-between cursor-pointer no-underline" style="text-decoration:none;">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">Ä°nteraktif Semantik AÄŸ</span>
+              <h4 class="text-sm font-bold text-[#f5d09b] mt-1">Serkan Duman AÃ§Ä±k DÃ¼ÅŸÃ¼nce AtlasÄ±</h4>
+              <p class="text-zinc-100 text-xs mt-2 leading-relaxed italic">&ldquo;MekÃ¢n, bir medeniyetin ahlak nizamÄ±nÄ±n maddeye dÃ¶kÃ¼lmÃ¼ÅŸ nihai tecellisidir.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#f5d09b] font-mono font-bold mt-4 flex items-center justify-between border-t border-[#e6b87d]/30 pt-2">
+              <span class="text-zinc-300 font-normal">42 DÃ¼ÄŸÃ¼m &middot; 300+ Kaynak</span>
+              <span>AtlasÄ± BaÅŸlat &rarr;</span>
+            </span>
+          </a>
+
+        </div>
+
+        <!-- KapÄ± 1 Blog YazÄ±larÄ± BÃ¶lÃ¼mÃ¼ -->
+        __DOOR_1_BLOGS__
+
+        <!-- KapÄ± 1 ğ• DÃ¼ÅŸÃ¼nce NotlarÄ± BÃ¶lÃ¼mÃ¼ -->
+        __DOOR_1_TWEETS__
+
+        <!-- KapÄ± 1 Ä°lgili Video ArÅŸivi -->
+        <div class="mt-6 pt-5 border-t border-zinc-700/80">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase tracking-wider">KAPI I &middot; VÄ°DEO VE SÃ–YLEÅÄ° ARÅÄ°VÄ°</span>
+              <h4 class="text-sm font-bold text-white mt-0.5">DÃ¼ÅŸÃ¼nce, Kuram, Tarih ve Åehir SÃ¶yleÅŸileri</h4>
+            </div>
+            <span class="text-xs font-mono text-[#e6b87d] bg-[#e6b87d]/10 px-2.5 py-1 rounded border border-[#e6b87d]/30">77 Video</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
+            __DOOR_1_CARDS__
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. KAPI GERÃ‡EK Ä°Ã‡ERÄ°KLERÄ° -->
+      <div id="panel-2" class="hidden space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-zinc-700">
+          <div>
+            <span class="text-xs font-mono font-bold text-[#e08353]">KAPI II &middot; ESER &middot; UYGULAMA</span>
+            <h3 class="text-base font-bold text-white mt-0.5">Mimari StÃ¼dyolar ve DoÄŸal YapÄ± PratiÄŸi</h3>
+          </div>
+          <div class="text-xs font-mono italic text-zinc-300 text-right">
+            &ldquo;Toprak nefes alÄ±r; Ã¶mrÃ¼ bittiÄŸinde sÄ±fÄ±r atÄ±kla doÄŸaya dÃ¶ner.&rdquo;
+            <span class="block text-[#e08353] font-bold not-italic mt-1">Dr. Mimar Serkan Duman</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs">
+
+          <!-- SDMIM Ofis -->
+          <a href="https://www.sdmim.com" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e08353] uppercase">2010'dan Beri Ana Ofis</span>
+              <h4 class="text-sm font-bold text-white mt-1">SDMIM MimarlÄ±k &amp; Ä°nÅŸaat</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Geleneksel malzeme bilgisi ile modern mÃ¼hendisliÄŸin buluÅŸtuÄŸu fÄ±tri mimari.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#e08353] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">sdmim.com</span>
+              <span>Siteyi Ziyaret Et &rarr;</span>
+            </span>
+          </a>
+
+          <!-- ZISOFA -->
+          <a href="https://www.zisofa.com" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e08353] uppercase">Sessiz LÃ¼ks &middot; StÃ¼dyo</span>
+              <h4 class="text-sm font-bold text-white mt-1">ZISOFA &mdash; Monolitik Toprak Mimarisi</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;DoÄŸala dÃ¶nÃ¼ÅŸ bir feragat deÄŸil, monolitik ve zamansÄ±z bir sÃ¼kÃ»net sunan en hakiki lÃ¼kstÃ¼r.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#e08353] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">zisofa.com</span>
+              <span>KeÅŸfet &rarr;</span>
+            </span>
+          </a>
+
+          <!-- Avlu Evi -->
+          <div class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e08353] uppercase">Ã–zel Konut Projesi</span>
+              <h4 class="text-sm font-bold text-white mt-1">Avlu Evi &middot; Ã‡anakkale</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Ä°Ã§e dÃ¶nÃ¼k sÃ¼kÃ»net, dÄ±ÅŸa dÃ¶nÃ¼k tabiat: SÄ±kÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ toprak ve taÅŸ ile avlulu yaÅŸam.&rdquo;</p>
+            </div>
+            <span class="text-xs text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800 pt-2 mt-4">
+              <span>Ã–zel Konut &middot; Ã‡anakkale</span>
+              <span class="text-[#e08353] font-bold">Proje DetayÄ±</span>
+            </span>
+          </div>
+
+          <!-- DoÄŸal YapÄ± Rehberi -->
+          <a href="https://www.sdmim.com/dogal-yapilar" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e08353] uppercase">Teknik KÄ±lavuz</span>
+              <h4 class="text-sm font-bold text-white mt-1">DoÄŸal YapÄ± Rehberi &amp; Malzeme Bilgisi</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;UstasÄ±nÄ± kaybeden malzeme Ã¶lÃ¼r; kerpiÃ§, Alker ve sÄ±kÄ±ÅŸtÄ±rÄ±lmÄ±ÅŸ topraÄŸÄ±n kadim teknikleri.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#e08353] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">Teknik KÄ±lavuz</span>
+              <span>Rehberi Ä°ncele &rarr;</span>
+            </span>
+          </a>
+
+        </div>
+
+        <!-- KapÄ± 2 Blog YazÄ±larÄ± BÃ¶lÃ¼mÃ¼ -->
+        __DOOR_2_BLOGS__
+
+        <!-- KapÄ± 2 ğ• Saha & Malzeme NotlarÄ± BÃ¶lÃ¼mÃ¼ -->
+        __DOOR_2_TWEETS__
+
+        <!-- KapÄ± 2 Ä°lgili Video ArÅŸivi -->
+        <div class="mt-6 pt-5 border-t border-zinc-700/80">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#e08353] uppercase tracking-wider">KAPI II &middot; VÄ°DEO VE UYGULAMA ARÅÄ°VÄ°</span>
+              <h4 class="text-sm font-bold text-white mt-0.5">DoÄŸal MimarlÄ±k, KerpiÃ§ YapÄ±m Teknikleri ve Pasif Ä°klimlendirme</h4>
+            </div>
+            <span class="text-xs font-mono text-[#e08353] bg-[#e08353]/10 px-2.5 py-1 rounded border border-[#e08353]/30">27 Video</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
+            __DOOR_2_CARDS__
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. KAPI GERÃ‡EK Ä°Ã‡ERÄ°KLERÄ° -->
+      <div id="panel-3" class="hidden space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-zinc-700">
+          <div>
+            <span class="text-xs font-mono font-bold text-[#7ca98b]">KAPI III &middot; VÄ°CDAN &middot; SAHA</span>
+            <h3 class="text-base font-bold text-white mt-0.5">Ä°nsani BarÄ±nma, Afet Modelleri ve YayÄ±nlar</h3>
+          </div>
+          <div class="text-xs font-mono italic text-zinc-300 text-right">
+            &ldquo;Toprak sadece yapÄ± harcÄ± deÄŸil; yoksullukla onur arasÄ±ndaki dayanÄ±ÅŸma kÃ¶prÃ¼sÃ¼dÃ¼r.&rdquo;
+            <span class="block text-[#7ca98b] font-bold not-italic mt-1">Dr. Mimar Serkan Duman</span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs">
+
+          <!-- Malavi -->
+          <a href="https://www.sdmim.com/haberler" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#7ca98b] uppercase">Afrika &middot; Ä°nsani MimarlÄ±k</span>
+              <h4 class="text-sm font-bold text-white mt-1">Malavi KerpiÃ§ YardÄ±m KonutlarÄ±</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Afrika'da yerel toprak ve yerel halkla inÅŸa etmek, modern endÃ¼strinin yabancÄ±laÅŸmasÄ±nÄ± aÅŸmaktÄ±r.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#7ca98b] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">Malavi &middot; Afrika</span>
+              <span>Ä°zle &rarr;</span>
+            </span>
+          </a>
+
+          <!-- Deprem Mesken Modeli -->
+          <a href="https://www.sdmim.com/blog" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#7ca98b] uppercase">6 Åubat Depremi SonrasÄ±</span>
+              <h4 class="text-sm font-bold text-white mt-1">Afetzedeler Ä°Ã§in Alternatif Mesken Modeli</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Deprem Ã¶ldÃ¼rmez; insanÄ±n tabiatla inatlaÅŸan kibri ve kÃ¶tÃ¼ betonarmesi Ã¶ldÃ¼rÃ¼r.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#7ca98b] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">Deprem Raporu</span>
+              <span>Raporu Oku &rarr;</span>
+            </span>
+          </a>
+
+          <!-- YouTube Serisi -->
+          <a href="https://www.youtube.com/@drserkanduman" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#7ca98b] uppercase">YouTube Video Serisi</span>
+              <h4 class="text-sm font-bold text-white mt-1">&ldquo;Yeni Bir Hayat MÃ¼mkÃ¼n&rdquo; &amp; SÃ¶yleÅŸiler</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Ä°nsanÄ±n kendi barÄ±naÄŸÄ±nÄ± inÅŸa etmesi, en temel fÄ±tri hÃ¼rriyet arayÄ±ÅŸÄ±dÄ±r.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#7ca98b] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">@drserkanduman</span>
+              <span>KanalÄ± AÃ§ &rarr;</span>
+            </span>
+          </a>
+
+          <!-- Nihayet Dergisi RÃ¶portajÄ± -->
+          <a href="https://www.sdmim.com/haberler" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#7ca98b] uppercase">BasÄ±n &middot; Nihayet Dergisi</span>
+              <h4 class="text-sm font-bold text-white mt-1">KÄ±rsal Mimari ve YapÄ±laÅŸma Ãœzerine</h4>
+              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;KÃ¶y ÅŸehirden kaÃ§Ä±ÅŸÄ±n deÄŸil; toprakla, Ã¼retimle ve insan haysiyetiyle yeniden baÄŸ kurmanÄ±n zeminidir.&rdquo;</p>
+            </div>
+            <span class="text-xs text-[#7ca98b] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
+              <span class="text-zinc-400 font-normal">Nihayet Dergisi</span>
+              <span>Ä°ncele &rarr;</span>
+            </span>
+          </a>
+
+        </div>
+
+        <!-- KapÄ± 3 Blog YazÄ±larÄ± BÃ¶lÃ¼mÃ¼ -->
+        __DOOR_3_BLOGS__
+
+        <!-- KapÄ± 3 ğ• Toplum & Saha NotlarÄ± BÃ¶lÃ¼mÃ¼ -->
+        __DOOR_3_TWEETS__
+
+        <!-- KapÄ± 3 Ä°lgili Video ArÅŸivi -->
+        <div class="mt-6 pt-5 border-t border-zinc-700/80">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <span class="text-xs font-mono font-bold text-[#7ca98b] uppercase tracking-wider">KAPI III &middot; VÄ°DEO VE SAHA ARÅÄ°VÄ°</span>
+              <h4 class="text-sm font-bold text-white mt-0.5">Malavi KerpiÃ§ Ä°nÅŸaat Belgeselleri, Kendi Evini Yapmak & Afet Modelleri</h4>
+            </div>
+            <span class="text-xs font-mono text-[#7ca98b] bg-[#7ca98b]/10 px-2.5 py-1 rounded border border-[#7ca98b]/30">31 Video</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
+            __DOOR_3_CARDS__
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- YouTube Video BÃ¶lÃ¼mÃ¼ -->
+    <div class="mt-14 border-t border-zinc-700 pt-10">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+        <div>
+          <span class="text-xs font-mono font-bold text-[#e08353] tracking-widest uppercase">â–¶ Video KÃ¼lliyatÄ±</span>
+          <h2 class="text-base font-bold text-white mt-1 tracking-wide">YouTube KanalÄ± &mdash; @drserkanduman</h2>
+        </div>
+        
+        <!-- Kategori Filtresi -->
+        <div class="flex items-center gap-2 flex-wrap" id="yt-tabs">
+          <button onclick="filterYt('all', this)" class="yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-700 text-white border border-zinc-500 transition">TÃ¼mÃ¼ (124)</button>
+          <button onclick="filterYt('door1', this)" class="yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-900 text-zinc-300 border border-zinc-700 hover:text-white transition">Zihin &amp; Kuram (77)</button>
+          <button onclick="filterYt('door2', this)" class="yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-900 text-zinc-300 border border-zinc-700 hover:text-white transition">Eser &amp; MimarlÄ±k (27)</button>
+          <button onclick="filterYt('door3', this)" class="yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-900 text-zinc-300 border border-zinc-700 hover:text-white transition">Vicdan &amp; Saha (31)</button>
+        </div>
+      </div>
+
+      <div id="yt-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-h-[580px] overflow-y-auto pr-1">
+        <!-- JS ile doldurulur -->
+      </div>
+    </div>
+
+    <!-- Alt Ã‡izgi -->
+    <div class="text-center mt-12 text-xs font-mono text-zinc-400 tracking-widest uppercase font-semibold">
+      serkanduman.com &middot; TÃ¼m HaklarÄ± SaklÄ±dÄ±r &middot; 2026
+    </div>
+
+  </div>
+
+  <script>
+    let currentDoor = null;
+
+    function toggleDoor(num) {
+      const panel = document.getElementById('detail-panel');
+      const doors = [1, 2, 3];
+
+      if (currentDoor === num) {
+        closeDoor();
+        return;
+      }
+
+      currentDoor = num;
+
+      doors.forEach(i => {
+        const door = document.getElementById('door-' + i);
+        const p = document.getElementById('panel-' + i);
+        if (i === num) {
+          door.classList.add('active');
+          p.classList.remove('hidden');
+        } else {
+          door.classList.remove('active');
+          p.classList.add('hidden');
+        }
+      });
+
+      panel.classList.remove('hidden');
+      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function closeDoor() {
+      const panel = document.getElementById('detail-panel');
+      const doors = [1, 2, 3];
+
+      currentDoor = null;
+      doors.forEach(i => {
+        document.getElementById('door-' + i).classList.remove('active');
+        document.getElementById('panel-' + i).classList.add('hidden');
+      });
+
+      panel.classList.add('hidden');
+    }
+
+    // â”€â”€ TÃ¼m Videolar Verisi ve Alt Filtreleme â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    const ALL_VIDEOS = __ALL_VIDEOS_JSON__;
+
+    function renderGrid(videos) {
+      const grid = document.getElementById('yt-grid');
+      grid.innerHTML = '';
+
+      if (!videos || videos.length === 0) {
+        grid.innerHTML = '<div class="col-span-3 text-center text-zinc-500 text-xs py-8 font-mono">Bu kategoride video bulunamadÄ±.</div>';
+        return;
+      }
+
+      videos.forEach(v => {
+        const card = document.createElement('a');
+        card.href = 'https://www.youtube.com/watch?v=' + v.id;
+        card.target = '_blank';
+        card.className = 'content-card flex flex-col rounded-xl border border-zinc-700 bg-zinc-900/90 overflow-hidden text-decoration-none group';
+        card.style.textDecoration = 'none';
+
+        const thumbUrl = 'https://i.ytimg.com/vi/' + v.id + '/mqdefault.jpg';
+
+        card.innerHTML = 
+          '<div class="relative w-full aspect-video bg-zinc-950 overflow-hidden">' +
+            '<img src="' + thumbUrl + '" alt="' + v.title + '" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" loading="lazy" onerror="this.style.display=\'none\'">' +
+            '<span class="absolute bottom-1.5 right-1.5 bg-black/85 text-white text-[10px] font-mono font-semibold px-1.5 py-0.5 rounded">' + (v.duration || 'Video') + '</span>' +
+            '<span class="absolute top-1.5 left-1.5 bg-red-600/90 text-white text-[9px] font-mono font-bold px-1.5 py-0.5 rounded">â–¶ Ä°ZLE</span>' +
+          '</div>' +
+          '<div class="p-3 flex flex-col justify-between flex-1 gap-2">' +
+            '<h4 class="text-xs font-semibold text-white group-hover:text-amber-400 line-clamp-2 leading-snug">' + v.title + '</h4>' +
+            '<div class="flex items-center justify-between text-[10px] text-zinc-400 font-mono pt-2 border-t border-zinc-800">' +
+              '<span>' + (v.metadata || 'Video') + '</span>' +
+              '<span class="text-amber-400 group-hover:underline">YouTube â†—</span>' +
+            '</div>' +
+          '</div>';
+
+        grid.appendChild(card);
+      });
+    }
+
+    function filterYt(cat, btn) {
+      document.querySelectorAll('#yt-tabs .yt-tab').forEach(b => {
+        b.className = 'yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-900 text-zinc-300 border border-zinc-700 hover:text-white transition';
+      });
+      if (btn) {
+        btn.className = 'yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-700 text-white border border-zinc-500 transition';
+      }
+
+      if (cat === 'all') {
+        renderGrid(ALL_VIDEOS);
+      } else if (cat === 'door1') {
+        renderGrid(ALL_VIDEOS.filter(v => v.doors.includes(1)));
+      } else if (cat === 'door2') {
+        renderGrid(ALL_VIDEOS.filter(v => v.doors.includes(2)));
+      } else if (cat === 'door3') {
+        renderGrid(ALL_VIDEOS.filter(v => v.doors.includes(3)));
+      }
+    }
+
+    // Ä°lk aÃ§Ä±lÄ±ÅŸta videolarÄ± listele
+    window.addEventListener('load', () => {
+      renderGrid(ALL_VIDEOS);
+    });
+  </script>
+</body>
+</html>
