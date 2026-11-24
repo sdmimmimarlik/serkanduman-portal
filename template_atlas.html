@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Mimar Serkan Duman | AÃ§Ä±k DÃ¼ÅŸÃ¼nce & Ä°liÅŸkiler AtlasÄ±</title>
+  <title>Dr. Mimar Serkan Duman | Açık Düşünce & İlişkiler Atlası</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -225,7 +225,7 @@
       color: var(--text-muted);
     }
 
-    /* KÃ¼mÃ¼latif Kaynak & Video Listesi */
+    /* Kümülatif Kaynak & Video Listesi */
     .resources-container {
       margin-top: 10px;
       display: flex;
@@ -355,7 +355,7 @@
       transform: translateY(-1px);
     }
 
-    /* D3 Ã‡izgiler & DÃ¼ÄŸÃ¼mler */
+    /* D3 Çizgiler & Düğümler */
     .link {
       stroke: rgba(255, 255, 255, 0.09);
       stroke-width: 1.2px;
@@ -407,66 +407,66 @@
 </head>
 <body>
 
-  <!-- Tuval / Graf AlanÄ± -->
+  <!-- Tuval / Graf Alanı -->
   <div id="canvas-container">
     <div class="top-bar">
       <a href="index.html" style="text-decoration:none;"><div class="brand-title" style="cursor:pointer;">Dr. Mimar Serkan Duman</div></a>
       <div class="brand-sub">
         <span class="status-badge"></span>
-        <span>AÃ§Ä±k DÃ¼ÅŸÃ¼nce & Ä°liÅŸkiler AtlasÄ± (Semantik AÄŸ & Dijital ArÅŸiv)</span>
+        <span>Açık Düşünce & İlişkiler Atlası (Semantik Ağ & Dijital Arşiv)</span>
       </div>
       <div class="filter-bar">
-        <button class="filter-btn active" data-cat="all">TÃ¼m DÃ¼ÄŸÃ¼mler (42)</button>
+        <button class="filter-btn active" data-cat="all">Tüm Düğümler (42)</button>
         <button class="filter-btn" data-cat="kuram">Kuram &amp; Felsefe</button>
-        <button class="filter-btn" data-cat="proje">Mimari &amp; YaÅŸam</button>
+        <button class="filter-btn" data-cat="proje">Mimari &amp; Yaşam</button>
         <button class="filter-btn" data-cat="malzeme">Toprak &amp; Malzeme</button>
-        <button class="filter-btn" data-cat="cografya">CoÄŸrafya &amp; Saha</button>
+        <button class="filter-btn" data-cat="cografya">Coğrafya &amp; Saha</button>
       </div>
     </div>
 
     <svg id="graph-svg"></svg>
 
     <div class="hint-box">
-      âœ¦ DÃ¼ÄŸÃ¼mleri sÃ¼rÃ¼kleyebilir, Ã¼zerlerine tÄ±klayarak dÃ¼ÅŸÃ¼nsel baÄŸlantÄ±larÄ± ve ilgili video/yazÄ± arÅŸivini aÃ§abilirsiniz.
+      ✦ Düğümleri sürükleyebilir, üzerlerine tıklayarak düşünsel bağlantıları ve ilgili video/yazı arşivini açabilirsiniz.
     </div>
   </div>
 
-  <!-- SaÄŸ Detay Paneli -->
+  <!-- Sağ Detay Paneli -->
   <div id="detail-panel">
     <div class="panel-header">
-      <button class="close-btn" onclick="closePanel()">âœ•</button>
+      <button class="close-btn" onclick="closePanel()">✕</button>
       <span class="category-tag" id="panel-category">Kategori</span>
-      <h2 class="node-title" id="panel-title">DÃ¼ÄŸÃ¼m BaÅŸlÄ±ÄŸÄ±</h2>
+      <h2 class="node-title" id="panel-title">Düğüm Başlığı</h2>
     </div>
     <div class="panel-content">
-      <div class="section-title">Fikir &amp; DÃ¼ÅŸÃ¼nsel AlÄ±ntÄ±</div>
+      <div class="section-title">Fikir &amp; Düşünsel Alıntı</div>
       <div class="quote-box">
         <div id="panel-quote" style="font-style:italic; line-height:1.6; color:#d8d4cf; font-size:13.5px;">...</div>
         <div style="font-family:'Plus Jakarta Sans',sans-serif; font-size:11.5px; font-weight:700; color:var(--accent-gold); margin-top:8px; text-align:right;">Dr. Mimar Serkan Duman</div>
       </div>
 
-      <div class="section-title">Kaynak &amp; Metin BaÄŸlamÄ±</div>
+      <div class="section-title">Kaynak &amp; Metin Bağlamı</div>
       <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:8px; padding:12px;">
         <div id="panel-source" style="font-size:11px; font-family:monospace; color:var(--accent-terracotta); margin-bottom:6px; font-weight:600;">...</div>
         <div class="body-text" id="panel-body" style="font-style:italic;">...</div>
       </div>
 
       <div class="section-title">
-        <span>Ä°liÅŸkili Ä°Ã§erikler (YazÄ±lar &amp; Videolar)</span>
+        <span>İlişkili İçerikler (Yazılar &amp; Videolar)</span>
         <span id="panel-resource-count" style="font-family:monospace; color:#9e9ba7;"></span>
       </div>
       <div class="resources-container" id="panel-resources"></div>
 
-      <div class="section-title">Ä°liÅŸkili Fikirler &amp; DÃ¼ÄŸÃ¼mler</div>
+      <div class="section-title">İlişkili Fikirler &amp; Düğümler</div>
       <div class="connected-tags" id="panel-connections"></div>
     </div>
   </div>
 
   <script>
-    // VERÄ° HAVUZU: DÃ¼ÄŸÃ¼mler, Ä°liÅŸkiler ve KÃ¼mÃ¼latif Ä°Ã§erik ArÅŸivi
+    // VERİ HAVUZU: Düğümler, İlişkiler ve Kümülatif İçerik Arşivi
     const graphData = __GRAPH_JSON_DATA__;
 
-    // D3 GRAFÄ°K KURULUMU
+    // D3 GRAFİK KURULUMU
     function initGraph() {
       const svg = d3.select("#graph-svg");
       const container = document.getElementById("canvas-container");
@@ -476,7 +476,7 @@
 
       svg.attr("width", width).attr("height", height);
 
-      // YakÄ±nlaÅŸtÄ±rma (Zoom)
+      // Yakınlaştırma (Zoom)
       const g = svg.append("g");
       const zoom = d3.zoom()
         .scaleExtent([0.3, 3])
@@ -485,14 +485,14 @@
         });
       svg.call(zoom);
 
-      // SimÃ¼lasyon Kuvvetleri
+      // Simülasyon Kuvvetleri
       const simulation = d3.forceSimulation(graphData.nodes)
         .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(115))
         .force("charge", d3.forceManyBody().strength(-350))
         .force("center", d3.forceCenter(width / 2.2, height / 2))
         .force("collision", d3.forceCollide().radius(d => d.size + 18));
 
-      // BaÄŸlantÄ±lar (Links)
+      // Bağlantılar (Links)
       const link = g.append("g")
         .attr("class", "links")
         .selectAll("line")
@@ -500,7 +500,7 @@
         .enter().append("line")
         .attr("class", "link");
 
-      // DÃ¼ÄŸÃ¼mler (Nodes)
+      // Düğümler (Nodes)
       const node = g.append("g")
         .attr("class", "nodes")
         .selectAll(".node")
@@ -516,7 +516,7 @@
           selectNode(d);
         });
 
-      // DÃ¼ÄŸÃ¼m Ã‡emberleri
+      // Düğüm Çemberleri
       node.append("circle")
         .attr("r", d => d.size)
         .attr("fill", d => d.color)
@@ -528,13 +528,13 @@
         .attr("r", 4)
         .attr("fill", "#fff");
 
-      // DÃ¼ÄŸÃ¼m Etiketleri
+      // Düğüm Etiketleri
       node.append("text")
         .attr("dy", d => d.size + 16)
         .attr("text-anchor", "middle")
         .text(d => d.name);
 
-      // SimÃ¼lasyon Tick
+      // Simülasyon Tick
       simulation.on("tick", () => {
         link
           .attr("x1", d => d.source.x)
@@ -563,16 +563,16 @@
         d.fy = null;
       }
 
-      // DÃœÄÃœM SEÃ‡Ä°MÄ° VE DETAY PANELÄ°NÄ° DOLDURMA
+      // DÜĞÜM SEÇİMİ VE DETAY PANELİNİ DOLDURMA
       window.selectNode = function(selected) {
         document.getElementById('panel-title').innerText = selected.name;
-        document.getElementById('panel-quote').innerText = 'â€œ' + selected.quote + 'â€';
-        document.getElementById('panel-body').innerText = 'â€œ' + selected.body + 'â€';
+        document.getElementById('panel-quote').innerText = '“' + selected.quote + '”';
+        document.getElementById('panel-body').innerText = '“' + selected.body + '”';
         document.getElementById('panel-source').innerText = selected.source ? ('Kaynak: ' + selected.source) : '';
 
         const catMap = {
           kuram: { name: "Kuram & Felsefe", color: "var(--accent-gold)" },
-          cografya: { name: "CoÄŸrafya & Saha", color: "var(--accent-terracotta)" },
+          cografya: { name: "Coğrafya & Saha", color: "var(--accent-terracotta)" },
           malzeme: { name: "Toprak & Malzeme", color: "var(--accent-clay)" },
           proje: { name: "Mimari & Proje", color: "var(--accent-sage)" }
         };
@@ -583,7 +583,7 @@
         catBadge.style.background = selected.color + '25';
         catBadge.style.color = selected.color;
 
-        // Ä°liÅŸkili Ä°Ã§erikler (YazÄ±lar & Videolar)
+        // İlişkili İçerikler (Yazılar & Videolar)
         const resContainer = document.getElementById('panel-resources');
         const countSpan = document.getElementById('panel-resource-count');
         resContainer.innerHTML = '';
@@ -596,24 +596,24 @@
             card.target = '_blank';
             card.className = 'res-card';
             
-            let typeBadge = '<span class="res-badge res-badge-video">â–¶ Video</span>';
-            let actionText = "YouTube'da Ä°zle â†—";
+            let typeBadge = '<span class="res-badge res-badge-video">▶ Video</span>';
+            let actionText = "YouTube'da İzle ↗";
 
             if (res.type === 'makale') {
-              typeBadge = '<span class="res-badge res-badge-makale">✦ Makale</span>';
-              actionText = 'Makaleyi Oku ↗';
+              typeBadge = '<span class="res-badge res-badge-makale">? Makale</span>';
+              actionText = 'Makaleyi Oku ?';
             } else if (res.type === 'kitap') {
-              typeBadge = '<span class="res-badge res-badge-kitap">ğŸ“š Kitap</span>';
-              actionText = 'Ä°ncele â†—';
+              typeBadge = '<span class="res-badge res-badge-kitap">𝕏 Kitap</span>';
+              actionText = 'İncele ↗';
             } else if (res.type === 'yazi') {
-              typeBadge = '<span class="res-badge res-badge-yazi">ğŸ“„ Blog YazÄ±sÄ±</span>';
-              actionText = 'SDMIM\'de Oku â†—';
+              typeBadge = '<span class="res-badge res-badge-yazi">𝕏 Blog Yazısı</span>';
+              actionText = 'SDMIM\'de Oku ↗';
             } else if (res.type === 'tweet') {
-              typeBadge = '<span class="res-badge res-badge-tweet">ğ• Not &amp; DÃ¼ÅŸÃ¼nce</span>';
-              actionText = 'X\'te GÃ¶r â†—';
+              typeBadge = '<span class="res-badge res-badge-tweet">𝕏 Not &amp; Düşünce</span>';
+              actionText = 'X\'te Gör ↗';
             } else if (res.type === 'proje') {
-              typeBadge = '<span class="res-badge res-badge-proje">ğŸ› Mimari Proje</span>';
-              actionText = 'Projeyi AÃ§ â†—';
+              typeBadge = '<span class="res-badge res-badge-proje">𝕏 Mimari Proje</span>';
+              actionText = 'Projeyi Aç ↗';
             }
 
             const metaSpan = res.duration ? '<span class="res-meta">' + res.duration + '</span>' : '';
@@ -630,10 +630,10 @@
           });
         } else {
           countSpan.innerText = '(0)';
-          resContainer.innerHTML = '<div class="res-empty">Bu kavrama ait dijital kayÄ±tlar ve yeni makaleler sisteme iÅŸlenmektedir.</div>';
+          resContainer.innerHTML = '<div class="res-empty">Bu kavrama ait dijital kayıtlar ve yeni makaleler sisteme işlenmektedir.</div>';
         }
 
-        // Ä°liÅŸkili DÃ¼ÄŸÃ¼mleri Bul
+        // İlişkili Düğümleri Bul
         const connectedNodeIds = new Set();
         graphData.links.forEach(l => {
           const sId = l.source.id || l.source;
@@ -649,7 +649,7 @@
           if (targetNode) {
             const pill = document.createElement('div');
             pill.className = 'node-pill';
-            pill.innerText = 'âœ¦ ' + targetNode.name;
+            pill.innerText = '✦ ' + targetNode.name;
             pill.onclick = () => selectNode(targetNode);
             tagsContainer.appendChild(pill);
           }
@@ -667,7 +667,7 @@
           .attr("stroke-width", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 4 : 2)
           .attr("fill-opacity", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 0.6 : 0.15);
 
-        // Paneli AÃ§
+        // Paneli Aç
         document.getElementById('detail-panel').classList.remove('hidden');
       };
 
@@ -677,7 +677,7 @@
         node.selectAll("circle").attr("stroke-width", 2).attr("fill-opacity", 0.25);
       };
 
-      // FÄ°LTRELEME BUTONLARI
+      // FİLTRELEME BUTONLARI
       document.querySelectorAll('.filter-bar .filter-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
@@ -698,7 +698,7 @@
         });
       });
 
-      // BaÅŸlangÄ±Ã§ta ilk dÃ¼ÄŸÃ¼mÃ¼ (Ä°slam & Medeniyet) seÃ§ili getir
+      // Başlangıçta ilk düğümü (İslam & Medeniyet) seçili getir
       setTimeout(() => {
         selectNode(graphData.nodes[0]);
       }, 400);
@@ -708,3 +708,5 @@
   </script>
 </body>
 </html>
+
+
