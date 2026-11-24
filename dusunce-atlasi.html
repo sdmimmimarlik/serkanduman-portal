@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
@@ -11,8 +11,8 @@
   <style>
     :root {
       --bg-dark: #121316;
-      --panel-bg: rgba(22, 24, 29, 0.85);
-      --border-color: rgba(255, 255, 255, 0.08);
+      --panel-bg: rgba(22, 24, 29, 0.94);
+      --border-color: rgba(255, 255, 255, 0.09);
       --text-main: #f0ede6;
       --text-muted: #9e9ba7;
       --accent-terracotta: #d97746;
@@ -40,15 +40,13 @@
       display: flex;
     }
 
-    /* Arka Plan Izgara */
     #canvas-container {
       flex: 1;
       height: 100%;
       position: relative;
-      background: radial-gradient(circle at 50% 50%, #1a1c23 0%, #101114 100%);
+      background: radial-gradient(circle at 50% 50%, #1c1f26 0%, #0e0f12 100%);
     }
 
-    /* Üst Başlık & Kontroller */
     .top-bar {
       position: absolute;
       top: 24px;
@@ -67,6 +65,11 @@
       font-weight: 700;
       letter-spacing: -0.5px;
       color: #fff;
+      display: inline-block;
+      transition: color 0.2s;
+    }
+    .brand-title:hover {
+      color: var(--accent-gold);
     }
 
     .brand-sub {
@@ -87,7 +90,6 @@
       box-shadow: 0 0 10px #4ade80;
     }
 
-    /* Filtre Hapları */
     .filter-bar {
       display: flex;
       gap: 8px;
@@ -111,21 +113,20 @@
     .filter-btn:hover, .filter-btn.active {
       background: rgba(255, 255, 255, 0.15);
       color: #fff;
-      border-color: rgba(255, 255, 255, 0.25);
+      border-color: rgba(255, 255, 255, 0.3);
     }
 
-    /* Detay Yan Paneli */
     #detail-panel {
-      width: 440px;
+      width: 470px;
       height: 100%;
       background: var(--panel-bg);
-      backdrop-filter: blur(24px);
+      backdrop-filter: blur(28px);
       border-left: 1px solid var(--border-color);
-      z-index: 20;
       display: flex;
       flex-direction: column;
-      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+      z-index: 20;
       transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: -10px 0 40px rgba(0, 0, 0, 0.6);
     }
 
     #detail-panel.hidden {
@@ -133,86 +134,195 @@
     }
 
     .panel-header {
-      padding: 28px 28px 20px 28px;
+      padding: 24px 28px 18px 28px;
       border-bottom: 1px solid var(--border-color);
       position: relative;
-    }
-
-    .category-tag {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 1.2px;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 6px;
-      display: inline-block;
-      margin-bottom: 12px;
-    }
-
-    .node-title {
-      font-family: var(--font-serif);
-      font-size: 28px;
-      font-weight: 700;
-      line-height: 1.2;
-      color: #fff;
     }
 
     .close-btn {
       position: absolute;
       top: 24px;
       right: 24px;
-      background: rgba(255, 255, 255, 0.06);
-      border: none;
-      color: #aaa;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
       width: 32px;
       height: 32px;
       border-radius: 50%;
-      cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 16px;
+      cursor: pointer;
+      font-size: 14px;
       transition: all 0.2s;
     }
 
     .close-btn:hover {
-      background: rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.2);
       color: #fff;
     }
 
+    .category-tag {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 12px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .node-title {
+      font-family: var(--font-serif);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.3;
+      color: #fff;
+      padding-right: 32px;
+    }
+
     .panel-content {
-      padding: 28px;
+      padding: 24px 28px;
       overflow-y: auto;
       flex: 1;
     }
 
+    .panel-content::-webkit-scrollbar {
+      width: 5px;
+    }
+    .panel-content::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+
     .section-title {
-      font-size: 12px;
-      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 700;
       letter-spacing: 1px;
+      text-transform: uppercase;
       color: var(--text-muted);
-      margin-bottom: 10px;
-      font-weight: 600;
+      margin-bottom: 8px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .section-title:first-child {
+      margin-top: 0;
     }
 
     .quote-box {
       background: rgba(255, 255, 255, 0.03);
-      border-left: 3px solid var(--accent-terracotta);
-      padding: 14px 18px;
-      border-radius: 0 8px 8px 0;
-      font-family: var(--font-serif);
-      font-size: 15px;
+      border-left: 3px solid var(--accent-gold);
+      padding: 14px 16px;
       font-style: italic;
+      color: #d8d4cf;
+      font-size: 13.5px;
       line-height: 1.6;
-      color: #e5e0d8;
-      margin-bottom: 24px;
+      border-radius: 0 8px 8px 0;
     }
 
     .body-text {
-      font-size: 14px;
-      line-height: 1.7;
-      color: #c9c5be;
-      margin-bottom: 24px;
+      font-size: 13px;
+      line-height: 1.65;
+      color: var(--text-muted);
+    }
+
+    /* Kümülatif Kaynak & Video Listesi */
+    .resources-container {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .res-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 12px;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .res-card:hover {
+      background: rgba(217, 119, 70, 0.09);
+      border-color: rgba(217, 119, 70, 0.45);
+      transform: translateY(-1px);
+    }
+
+    .res-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .res-badge {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-family: var(--font-body);
+    }
+
+    .res-badge-video {
+      background: rgba(224, 83, 83, 0.2);
+      color: #ff7f7f;
+      border: 1px solid rgba(224, 83, 83, 0.4);
+    }
+
+    .res-badge-yazi {
+      background: rgba(200, 157, 92, 0.2);
+      color: #e6b87d;
+      border: 1px solid rgba(200, 157, 92, 0.4);
+    }
+
+    .res-badge-kitap {
+      background: rgba(94, 130, 107, 0.2);
+      color: #88c79f;
+      border: 1px solid rgba(94, 130, 107, 0.4);
+    }
+
+    .res-badge-proje {
+      background: rgba(140, 115, 101, 0.25);
+      color: #dfc8bb;
+      border: 1px solid rgba(140, 115, 101, 0.4);
+    }
+
+    .res-meta {
+      font-size: 11px;
+      color: var(--text-muted);
+      font-family: monospace;
+    }
+
+    .res-title {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #f0ede6;
+      line-height: 1.4;
+    }
+
+    .res-action {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent-gold);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .res-empty {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 10px 0;
     }
 
     .connected-tags {
@@ -223,42 +333,40 @@
     }
 
     .node-pill {
-      background: rgba(255, 255, 255, 0.06);
+      background: rgba(255, 255, 255, 0.05);
       border: 1px solid var(--border-color);
       padding: 6px 12px;
-      border-radius: 8px;
+      border-radius: 16px;
       font-size: 12px;
+      color: var(--text-main);
       cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
       transition: all 0.2s;
-      color: #ddd;
     }
 
     .node-pill:hover {
-      background: var(--accent-terracotta);
-      color: #fff;
-      border-color: var(--accent-terracotta);
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-1px);
     }
 
-    /* D3 SVG Grafı Stilleri */
-    svg {
-      width: 100%;
-      height: 100%;
-    }
-
+    /* D3 Çizgiler & Düğümler */
     .link {
-      stroke: rgba(255, 255, 255, 0.12);
-      stroke-width: 1.5px;
+      stroke: rgba(255, 255, 255, 0.09);
+      stroke-width: 1.2px;
       transition: stroke 0.3s, stroke-width 0.3s;
     }
 
     .link.highlighted {
       stroke: var(--accent-terracotta);
       stroke-width: 2.5px;
+      stroke-opacity: 0.85;
     }
 
     .node {
       cursor: pointer;
-      transition: transform 0.2s ease;
     }
 
     .node circle {
@@ -279,14 +387,13 @@
       text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
     }
 
-    /* İpucu Kutusu */
     .hint-box {
       position: absolute;
       bottom: 24px;
       left: 28px;
-      background: rgba(20, 22, 27, 0.7);
+      background: rgba(20, 22, 27, 0.75);
       border: 1px solid var(--border-color);
-      padding: 10px 16px;
+      padding: 10px 18px;
       border-radius: 20px;
       font-size: 12px;
       color: var(--text-muted);
@@ -300,24 +407,24 @@
   <!-- Tuval / Graf Alanı -->
   <div id="canvas-container">
     <div class="top-bar">
-      <a href="/" style="text-decoration:none;"><div class="brand-title" style="cursor:pointer;">Dr. Mimar Serkan Duman</div></a>
+      <a href="index.html" style="text-decoration:none;"><div class="brand-title" style="cursor:pointer;">Dr. Mimar Serkan Duman</div></a>
       <div class="brand-sub">
         <span class="status-badge"></span>
-        <span>Açık Düşünce & İlişkiler Atlası (Semantik Ağ)</span>
+        <span>Açık Düşünce & İlişkiler Atlası (Semantik Ağ & Dijital Arşiv)</span>
       </div>
       <div class="filter-bar">
         <button class="filter-btn active" data-cat="all">Tüm Düğümler</button>
         <button class="filter-btn" data-cat="kuram">Kuram & Medeniyet</button>
         <button class="filter-btn" data-cat="cografya">Coğrafya & Saha</button>
         <button class="filter-btn" data-cat="malzeme">Toprak & Zanaat</button>
-        <button class="filter-btn" data-cat="proje">Mimari & Zisofa</button>
+        <button class="filter-btn" data-cat="proje">Mimari & Proje</button>
       </div>
     </div>
 
     <svg id="graph-svg"></svg>
 
     <div class="hint-box">
-      ✦ Düğümleri sürükleyebilir, üzerlerine tıklayarak düşünsel bağlantıları açabilirsiniz.
+      ✦ Düğümleri sürükleyebilir, üzerlerine tıklayarak düşünsel bağlantıları ve ilgili video/yazı arşivini açabilirsiniz.
     </div>
   </div>
 
@@ -335,304 +442,1680 @@
       <div class="section-title">Açıklama & Saha Karşılığı</div>
       <div class="body-text" id="panel-body">...</div>
 
+      <div class="section-title">
+        <span>İlişkili İçerikler (Videolar & Arşiv)</span>
+        <span id="panel-resource-count" style="font-family:monospace; color:#9e9ba7;"></span>
+      </div>
+      <div class="resources-container" id="panel-resources"></div>
+
       <div class="section-title">İlişkili Fikirler & Düğümler</div>
       <div class="connected-tags" id="panel-connections"></div>
     </div>
   </div>
 
   <script>
-    // VERİ HAVUZU: Düğümler ve İlişkiler
+    // VERİ HAVUZU: Düğümler, İlişkiler ve Kümülatif İçerik Arşivi
     const graphData = {
-      nodes: [
-        {
-          id: "medeniyet",
-          name: "İslam & Medeniyet",
-          category: "kuram",
-          size: 30,
-          color: "#c89d5c",
-          quote: "Mekân, bir medeniyetin ahlak nizamının maddeye dökülmüş nihai tecellisidir.",
-          body: "Doğu-Batı ayrımında şehir, insanın sadece barındığı değil; Yaratıcı, tabiat ve toplumla ilişkisini inşa ettiği fıtri bir düzlemdir. Şehirlerimizin bugünkü buhranı estetik değil, bir varlık ve idrak buhranıdır."
-        },
-        {
-          id: "cansever",
-          name: "Turgut Cansever",
-          category: "kuram",
-          size: 26,
-          color: "#c89d5c",
-          quote: "Şehri imar ederken gönülleri ihya etmeyi unutanlar, sonra o şehirde yaşayacak insan bulamazlar.",
-          body: "Bilge mimar Turgut Cansever'in miras bıraktığı 'Ev ve Şehir' ahlakı; Osmanlı mahalle nizamındaki sükûnet, tevazu ve tektoniğin günümüzün kibirli betonarme dünyasına karşı yegâne panzehiridir."
-        },
-        {
-          id: "dogu_bati",
-          name: "Doğu-Batı Ayrımı (Kitap)",
-          category: "kuram",
-          size: 24,
-          color: "#c89d5c",
-          quote: "Batı'nın 'görüntü üreticiliği'ne karşı, Doğu'nun varoluşsal mekân kavrayışını yeniden hatırlamak.",
-          body: "Yayımlanan 'Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat' kitabının odağı: Modernizm ile birlikte maddenin tahakkümü altına giren insanın hakikati arayışı ve geleneksel mimari teorisi."
-        },
-        {
-          id: "malavi",
-          name: "Malavi (Afrika)",
-          category: "cografya",
-          size: 28,
-          color: "#d97746",
-          quote: "Toprak sadece bir yapı harcı değil; yoksullukla onur arasındaki en kadim dayanışma köprüsüdür.",
-          body: "Afrika'da yerinde kerpiç üretimi, yerel halkla birlikte inşa edilen insani yardım konutları ve usta yetiştirme programları. Malavi tecrübesi, modern endüstrinin dayattığı yabancılaşmanın sınırlarının aşıldığı canlı bir okuldur."
-        },
-        {
-          id: "bursa",
-          name: "Bursa & Mahalle",
-          category: "cografya",
-          size: 26,
-          color: "#d97746",
-          quote: "Bursa; ahşabın, taşın ve toprağın birbirine saygıyla dokunduğu fıtri şehirciliğin başkentidir.",
-          body: "Cumalıkızık ve Tarihi Yarımada aksındaki geleneksel sivil mimari doku. Sokağın mahremiyetle, avlunun gökyüzüyle kurduğu bağ; Malavi'deki sade barınakla aynı ahlaki ilkeden neşet eder."
-        },
-        {
-          id: "toprak_yapi",
-          name: "Monolitik Toprak (Kerpiç)",
-          category: "malzeme",
-          size: 32,
-          color: "#8c7365",
-          quote: "Toprak nefes alır. İçindeki insanı kimyasal zehirlerden korur, kışın ısıtır, yazın serinletir.",
-          body: "Rammed earth (sıkıştırılmış toprak), Alker ve geleneksel kerpiç teknikleri. Doğadan alınan ve ömrü bittiğinde sıfır atıkla tekrar doğaya dönen en yüksek segment, sağlıklı yapı malzemesi."
-        },
-        {
-          id: "zanaat_usta",
-          name: "Kadim Ustalık Hafızası",
-          category: "malzeme",
-          size: 22,
-          color: "#8c7365",
-          quote: "Ustasını kaybeden malzeme ölür; malzemesini kaybeden medeniyet dilsizleşir.",
-          body: "Fas, Hindistan, Gana ve Anadolu şantiyelerinde edinilen bedensel tecrübe. Toprak harcını elle karmak, kalıbı tokmaklamak; mimarın masadaki çizgiden çıkıp maddeyle doğrudan hemhal olması."
-        },
-        {
-          id: "zisofa",
-          name: "ZISOFA (Sessiz Lüks)",
-          category: "proje",
-          size: 28,
-          color: "#5e826b",
-          quote: "Zamansız mekânlar, yaşayan yüzeyler ve biyofilik sükûnet.",
-          body: "Modern dünyada doğala dönüşü bir taviz değil, en üst düzey 'Quiet Luxury' (Sessiz Lüks) olarak konumlandıran mimari stüdyo. Toksinsiz, bağımsız (off-grid) ve monolitik toprak rezidanslar."
-        },
-        {
-          id: "avlu_evi",
-          name: "Avlu Evi (Çanakkale)",
-          category: "proje",
-          size: 22,
-          color: "#5e826b",
-          quote: "İçe dönük sükûnet, dışa dönük tabiat: Avlu etrafında şekillenen monolitik yaşam.",
-          body: "Çanakkale'de taş, sıkıştırılmış toprak ve ahşap strüktür ile hayata geçirilen avlulu konut mimarisi. Geleneksel sofa ve hayat kurgusunun çağdaş bir villada yeniden vücut bulması."
-        },
-        {
-          id: "afet_deprem",
-          name: "Deprem & Afet Modelleri",
-          category: "proje",
-          size: 25,
-          color: "#5e826b",
-          quote: "Deprem öldürmez; insanın tabiatla inatlaşan hırsı ve kötü betonarmesı öldürür.",
-          body: "6 Şubat depremleri sonrası AFAD ve karar vericiler için hazırlanan alternatif kırsal toprak mesken ve mahalle modelleri. Toprağın sönümleyici gücü ve hafif ahşap karkas ile can güvenliği sağlayan yerel çözümler."
-        }
-      ],
-      links: [
-        { source: "medeniyet", target: "cansever" },
-        { source: "medeniyet", target: "dogu_bati" },
-        { source: "medeniyet", target: "bursa" },
-        { source: "cansever", target: "bursa" },
-        { source: "cansever", target: "dogu_bati" },
-        { source: "malavi", target: "toprak_yapi" },
-        { source: "malavi", target: "zanaat_usta" },
-        { source: "malavi", target: "medeniyet" },
-        { source: "bursa", target: "toprak_yapi" },
-        { source: "bursa", target: "zanaat_usta" },
-        { source: "toprak_yapi", target: "zanaat_usta" },
-        { source: "toprak_yapi", target: "zisofa" },
-        { source: "toprak_yapi", target: "avlu_evi" },
-        { source: "toprak_yapi", target: "afet_deprem" },
-        { source: "zisofa", target: "avlu_evi" },
-        { source: "afet_deprem", target: "malavi" },
-        { source: "afet_deprem", target: "bursa" },
-        { source: "dogu_bati", target: "toprak_yapi" }
-      ]
-    };
+    "nodes":  [
+                  {
+                      "id":  "medeniyet",
+                      "name":  "İslam \u0026 Medeniyet",
+                      "category":  "kuram",
+                      "size":  30,
+                      "color":  "#c89d5c",
+                      "quote":  "Mekân, bir medeniyetin ahlak nizamının maddeye dökülmüş nihai tecellisidir.",
+                      "body":  "Doğu-Batı ayrımında şehir, insanın sadece barındığı değil; Yaratıcı, tabiat ve toplumla ilişkisini inşa ettiği fıtri bir düzlemdir. Şehirlerimizin bugünkü buhranı estetik değil, bir varlık ve idrak buhranıdır.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "5 dakikada Türkiye\u0027nin şehirleşme sorununa çözüm.",
+                                            "url":  "https://www.youtube.com/watch?v=JRBLmuwsIo8",
+                                            "duration":  "5:38",
+                                            "meta":  "491 | 10 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni bir şehir! Peki nasıl?",
+                                            "url":  "https://www.youtube.com/watch?v=12LYnEOz31E",
+                                            "duration":  "26:29",
+                                            "meta":  "431 | 10 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirlerde Güzellik: Matematikten Öte, İnsan Hikayesi ve Şehir Hukuku 🏘️❤️",
+                                            "url":  "https://www.youtube.com/watch?v=ad6T30IpXsU",
+                                            "duration":  "5:05",
+                                            "meta":  "617 görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Doğal Şehirler Kurmak - Sonsuz Mekân - Medeniyet Notları 6",
+                                            "url":  "https://www.youtube.com/watch?v=732UTtp-I2Q",
+                                            "duration":  "9:50",
+                                            "meta":  "3,3 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Tipoloji İnsan ve Şehir",
+                                            "url":  "https://www.youtube.com/watch?v=AoaFdu84q-M",
+                                            "duration":  "13:34",
+                                            "meta":  "262 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirde düzen, tasarım ve denetim iyi midir? Şehrin ve insanın fizyolojisi.",
+                                            "url":  "https://www.youtube.com/watch?v=THn29fXGRqo",
+                                            "duration":  "9:57",
+                                            "meta":  "295 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirlerimizin Sorunları | Lütfi Bergen - Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=F_USOv_yb2A",
+                                            "duration":  "10:45",
+                                            "meta":  "255 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirler Nasıl Dönüşür? - Mimari Model - Medeniyet Notları 05",
+                                            "url":  "https://www.youtube.com/watch?v=n7GHvf-trdQ",
+                                            "duration":  "8:00",
+                                            "meta":  "1,3 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Yaşam Mümkün - Medeniyet Notları 04 - Hayat Estetiği",
+                                            "url":  "https://www.youtube.com/watch?v=Q4d3IirAeSE",
+                                            "duration":  "6:33",
+                                            "meta":  "3,5 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Ekonomik Model - Medeniyet Notları 03",
+                                            "url":  "https://www.youtube.com/watch?v=nxqfjrZM1EY",
+                                            "duration":  "11:36",
+                                            "meta":  "1,7 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Çocuk ve Şehir - Medeniyet Notları 02",
+                                            "url":  "https://www.youtube.com/watch?v=eudYONdfad4",
+                                            "duration":  "10:43",
+                                            "meta":  "2,4 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Sistem ve Şehir Mümkün mü? - Medeniyet Notları 01",
+                                            "url":  "https://www.youtube.com/watch?v=HQQNvKiImOM",
+                                            "duration":  "2:21",
+                                            "meta":  "1 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehir Dediğin Böyle Olur - Bizim Şehirlerimiz Neden Düzensiz?",
+                                            "url":  "https://www.youtube.com/watch?v=8ppOM4pUyd4",
+                                            "duration":  "26:17",
+                                            "meta":  "5,4 B görüntüleme | 6 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "cansever",
+                      "name":  "Turgut Cansever",
+                      "category":  "kuram",
+                      "size":  26,
+                      "color":  "#c89d5c",
+                      "quote":  "Şehri imar ederken gönülleri ihya etmeyi unutanlar, sonra o şehirde yaşayacak insan bulamazlar.",
+                      "body":  "Bilge mimar Turgut Cansever\u0027in miras bıraktığı \u0027Ev ve Şehir\u0027 ahlakı; Osmanlı mahalle nizamındaki sükûnet, tevazu ve tektoniğin günümüzün kibirli betonarme dünyasına karşı yegâne panzehiridir.",
+                      "resources":  [
+                                        {
+                                            "type":  "yazi",
+                                            "title":  "Bir Damarı Canlı Tutmak: Turgut Cansever Mirası",
+                                            "url":  "https://www.sdmim.com/haberler",
+                                            "duration":  "MAKALE",
+                                            "meta":  "sdmim.com · Kuramsal İnceleme"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "dogu_bati",
+                      "name":  "Doğu-Batı Ayrımı (Kitap)",
+                      "category":  "kuram",
+                      "size":  25,
+                      "color":  "#c89d5c",
+                      "quote":  "Batı\u0027nın \u0027görüntü üreticiliği\u0027ne karşı, Doğu\u0027nun varoluşsal mekân kavrayışını yeniden hatırlamak.",
+                      "body":  "Yayımlanan \u0027Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat\u0027 kitabının odağı: Modernizm ile birlikte maddenin tahakkümü altına giren insanın hakikati arayışı ve geleneksel mimari teorisi.",
+                      "resources":  [
+                                        {
+                                            "type":  "kitap",
+                                            "title":  "Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat",
+                                            "url":  "https://www.sdmim.com",
+                                            "duration":  "KİTAP",
+                                            "meta":  "Dr. Mimar Serkan Duman · Yayımlanmış Temel Eser"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Doğu, Batı, Görüntücülük ve Sinema",
+                                            "url":  "https://www.youtube.com/watch?v=StrE1L3KmYc",
+                                            "duration":  "38:34",
+                                            "meta":  "204 | 7 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Ah Evropa!",
+                                            "url":  "https://www.youtube.com/watch?v=CPMwBR2WvRk",
+                                            "duration":  "18:48",
+                                            "meta":  "1,1 B görüntüleme | 6 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Osmanlı - Kapitalizm ve Sanayi Devrimi",
+                                            "url":  "https://www.youtube.com/watch?v=rovPXy0kg9U",
+                                            "duration":  "5:32",
+                                            "meta":  "3,5 B görüntüleme | 9 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "sehir_hukuku",
+                      "name":  "Şehir Hukuku \u0026 Medeniyet Notları",
+                      "category":  "kuram",
+                      "size":  28,
+                      "color":  "#c89d5c",
+                      "quote":  "Şehirde güzellik matematikten ötedir; insanın hikayesi, komşuluk ahlakı ve şehir hukukunun cismidir.",
+                      "body":  "Medeniyet Notları serisi ve şehir modelleri: Şehirler nasıl dönüşür, çocuğun şehirdeki yeri nedir ve fıtri bir ekonomik-mimari model nasıl kurulabilir sorularının kuramsal ve pratik cevapları.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "5 dakikada Türkiye\u0027nin şehirleşme sorununa çözüm.",
+                                            "url":  "https://www.youtube.com/watch?v=JRBLmuwsIo8",
+                                            "duration":  "5:38",
+                                            "meta":  "491 | 10 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni bir şehir! Peki nasıl?",
+                                            "url":  "https://www.youtube.com/watch?v=12LYnEOz31E",
+                                            "duration":  "26:29",
+                                            "meta":  "431 | 10 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirlerde Güzellik: Matematikten Öte, İnsan Hikayesi ve Şehir Hukuku 🏘️❤️",
+                                            "url":  "https://www.youtube.com/watch?v=ad6T30IpXsU",
+                                            "duration":  "5:05",
+                                            "meta":  "617 görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Doğal Şehirler Kurmak - Sonsuz Mekân - Medeniyet Notları 6",
+                                            "url":  "https://www.youtube.com/watch?v=732UTtp-I2Q",
+                                            "duration":  "9:50",
+                                            "meta":  "3,3 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Tipoloji İnsan ve Şehir",
+                                            "url":  "https://www.youtube.com/watch?v=AoaFdu84q-M",
+                                            "duration":  "13:34",
+                                            "meta":  "262 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirde düzen, tasarım ve denetim iyi midir? Şehrin ve insanın fizyolojisi.",
+                                            "url":  "https://www.youtube.com/watch?v=THn29fXGRqo",
+                                            "duration":  "9:57",
+                                            "meta":  "295 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirlerimizin Sorunları | Lütfi Bergen - Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=F_USOv_yb2A",
+                                            "duration":  "10:45",
+                                            "meta":  "255 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehirler Nasıl Dönüşür? - Mimari Model - Medeniyet Notları 05",
+                                            "url":  "https://www.youtube.com/watch?v=n7GHvf-trdQ",
+                                            "duration":  "8:00",
+                                            "meta":  "1,3 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Yaşam Mümkün - Medeniyet Notları 04 - Hayat Estetiği",
+                                            "url":  "https://www.youtube.com/watch?v=Q4d3IirAeSE",
+                                            "duration":  "6:33",
+                                            "meta":  "3,5 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Ekonomik Model - Medeniyet Notları 03",
+                                            "url":  "https://www.youtube.com/watch?v=nxqfjrZM1EY",
+                                            "duration":  "11:36",
+                                            "meta":  "1,7 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Çocuk ve Şehir - Medeniyet Notları 02",
+                                            "url":  "https://www.youtube.com/watch?v=eudYONdfad4",
+                                            "duration":  "10:43",
+                                            "meta":  "2,4 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Sistem ve Şehir Mümkün mü? - Medeniyet Notları 01",
+                                            "url":  "https://www.youtube.com/watch?v=HQQNvKiImOM",
+                                            "duration":  "2:21",
+                                            "meta":  "1 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Şehir Dediğin Böyle Olur - Bizim Şehirlerimiz Neden Düzensiz?",
+                                            "url":  "https://www.youtube.com/watch?v=8ppOM4pUyd4",
+                                            "duration":  "26:17",
+                                            "meta":  "5,4 B görüntüleme | 6 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "apartman_elestirisi",
+                      "name":  "Apartman \u0026 Modern Kent Krizi",
+                      "category":  "kuram",
+                      "size":  24,
+                      "color":  "#c89d5c",
+                      "quote":  "Apartman bir yuva değil; modernizmin bireyi yalnızlaştıran dikey çekmeceleridir.",
+                      "body":  "Le Corbusier\u0027den bugüne apartman tipolojisi, modern kentin insan psikolojisi üzerindeki tahribatı ve kentsel yabancılaşmanın kökenleri.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Le Corbusier, Apartman ve Modern Kent",
+                                            "url":  "https://www.youtube.com/watch?v=xunL1-D_4OE",
+                                            "duration":  "4:31",
+                                            "meta":  "896 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Apartman - Apartmanın Tarihçesi",
+                                            "url":  "https://www.youtube.com/watch?v=WtNcqOADx00",
+                                            "duration":  "11:47",
+                                            "meta":  "1,4 B görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "nail_cakirhan",
+                      "name":  "Nail Çakırhan (Usta Bilgelik)",
+                      "category":  "kuram",
+                      "size":  24,
+                      "color":  "#c89d5c",
+                      "quote":  "Diplomasız ama hakikati elinde tutan bir mimar: Yerel bilginin modern akademiyi aşması.",
+                      "body":  "Geleneksel Ula mimarisini yeniden dirilterek Ağa Han Ödülü alan Nail Çakırhan\u0027ın mimarlık ortamına verdiği ders: Malzeme, yerlilik ve tevazu.",
+                      "resources":  [
+                                        {
+                                            "type":  "yazi",
+                                            "title":  "Mimar Olmayan Bir Mimar: Nail Çakırhan",
+                                            "url":  "https://www.sdmim.com/blog",
+                                            "duration":  "İNCELEME",
+                                            "meta":  "SDMIM Blog · Portre"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Dünyayı Değiştiren 4 Mimar: Corbusier\u0027den Nail Çakırhan\u0027a!",
+                                            "url":  "https://www.youtube.com/watch?v=QCvEmtBr0PE",
+                                            "duration":  "15:43",
+                                            "meta":  "624 | 1 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Nail Çakırhan - Mimar Olmayan Bir Mimar",
+                                            "url":  "https://www.youtube.com/watch?v=emU2Ni7497k",
+                                            "duration":  "2:53",
+                                            "meta":  "3 B görüntüleme | 2 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "mimarlik_egitimi",
+                      "name":  "Türkiye Mimarlık Ortamı \u0026 Eleştiri",
+                      "category":  "kuram",
+                      "size":  26,
+                      "color":  "#c89d5c",
+                      "quote":  "Türkiye\u0027de mimarlık diye ne konuşuyoruz? Dünyada neler oluyor?",
+                      "body":  "Müteahhitlik baskısı, tasarım yanılsamaları, akademi ile şantiye arasındaki kopuş ve tasarım teorisinin reel piyasa karşısındaki çelişkileri.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Dünyayı Değiştiren 4 Mimar: Corbusier\u0027den Nail Çakırhan\u0027a!",
+                                            "url":  "https://www.youtube.com/watch?v=QCvEmtBr0PE",
+                                            "duration":  "15:43",
+                                            "meta":  "624 | 1 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Türkiye\u0027de Mimarlık Diye Ne Konuşuyoruz? | Dünyada Neler Oluyor?",
+                                            "url":  "https://www.youtube.com/watch?v=9pFIMj0IKDk",
+                                            "duration":  "20:56",
+                                            "meta":  "1,1 B | 2 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Türkiye Mimarlık Ortamı",
+                                            "url":  "https://www.youtube.com/watch?v=RkAGCrGqFEI",
+                                            "duration":  "26:19",
+                                            "meta":  "645 | 10 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "MUTLAKA OKUMANIZ GEREKEN KİTAPLAR - Mimarlık, Şehircilik ve Emlak",
+                                            "url":  "https://www.youtube.com/watch?v=TFVNydzSVfk",
+                                            "duration":  "10:42",
+                                            "meta":  "2,2 B görüntüleme | 6 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Mimari Tasarım 2 - Tasarım nasıl yapılır?",
+                                            "url":  "https://www.youtube.com/watch?v=TPjQ9cKnawA",
+                                            "duration":  "14:19",
+                                            "meta":  "2 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "MİMARLIK HERKES İÇİN",
+                                            "url":  "https://www.youtube.com/watch?v=VsF523198_s",
+                                            "duration":  "33:55",
+                                            "meta":  "1 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Mimari Tasarım 1 - Mimarlar nasıl tasarlar?",
+                                            "url":  "https://www.youtube.com/watch?v=FCxGq8CD6Ds",
+                                            "duration":  "14:26",
+                                            "meta":  "5,8 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Mimarlık 2 - Yeni Bir Mimari Mümkün mü?",
+                                            "url":  "https://www.youtube.com/watch?v=SUHasT_Z-fs",
+                                            "duration":  "21:10",
+                                            "meta":  "1 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Mimarlık 1 - Mimari Nedir? Tercih Edilir mi? Mimarlar Nasıl İş Bulur?",
+                                            "url":  "https://www.youtube.com/watch?v=EduaiLbKImA",
+                                            "duration":  "21:08",
+                                            "meta":  "1,8 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Tasarım Komedisi - Çağdaş Sanat ve Mimarideki Komediler, Kandırmacalar",
+                                            "url":  "https://www.youtube.com/watch?v=aWIQbotTubc",
+                                            "duration":  "13:24",
+                                            "meta":  "1,9 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Dünyayı Değiştirmek - Dünyayı Değiştiren Mimarlar",
+                                            "url":  "https://www.youtube.com/watch?v=DDLJ1NwLbhc",
+                                            "duration":  "25:00",
+                                            "meta":  "4 B görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Mimarlık Eğitimi Üzerine Kendimle Söyleşi",
+                                            "url":  "https://www.youtube.com/watch?v=d-X4XfjLi4g",
+                                            "duration":  "3:28",
+                                            "meta":  "587 görüntüleme | 8 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "goruntu_hakikat",
+                      "name":  "Görüntücülük, Sinema \u0026 Görsel Kültür",
+                      "category":  "kuram",
+                      "size":  25,
+                      "color":  "#c89d5c",
+                      "quote":  "Görüntü mü? Hakikat mi? Modern insan görünmeyenin varlığına körleşti.",
+                      "body":  "Doğu-Batı ayrımında görüntücülük, sinema dili, resim tarihi, perspektifin doğuşu ve imgenin hakikatin yerini alması süreci.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Batı, resim ve sinema 2",
+                                            "url":  "https://www.youtube.com/watch?v=8GjXdz6pDJo",
+                                            "duration":  "32:32",
+                                            "meta":  "268 | 7 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Doğu, Batı, Görüntücülük ve Sinema",
+                                            "url":  "https://www.youtube.com/watch?v=StrE1L3KmYc",
+                                            "duration":  "38:34",
+                                            "meta":  "204 | 7 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Görüntü mü? Hakikat mi?",
+                                            "url":  "https://www.youtube.com/watch?v=38hvabedyuc",
+                                            "duration":  "16:36",
+                                            "meta":  "342 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "İsa\u0027yı Aramak - Sinema, Sanat ve Din",
+                                            "url":  "https://www.youtube.com/watch?v=V1-5yZsry88",
+                                            "duration":  "14:50",
+                                            "meta":  "1 B görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "felsefe_sanat",
+                      "name":  "Felsefe, Akıl \u0026 Teoman Duralı",
+                      "category":  "kuram",
+                      "size":  26,
+                      "color":  "#c89d5c",
+                      "quote":  "Akıl, duygu ve sanat: Varlığın bütüncül idrakine giden felsefi köprü.",
+                      "body":  "Prof. Dr. Teoman Duralı, Lütfi Bergen söyleşileri; sekülerlik, muhafazakarlık, kimlik bunalımı, modernite eleştirisi ve Wabi-Sabi estetiği.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Başkasının Dünyasında Yaşamak",
+                                            "url":  "https://www.youtube.com/watch?v=11S3YTeP0KE",
+                                            "duration":  "28:11",
+                                            "meta":  "367 | 9 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Sosyal sorunlarımız. Dr. Mimar Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=DFM-mZ6Y5Ok",
+                                            "duration":  "13:50",
+                                            "meta":  "708 görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "kaybolan kimliğimiz - Dr. Mimar Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=Fixlo5NtzzE",
+                                            "duration":  "17:42",
+                                            "meta":  "819 görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "maddi sıkıntılarımız - Dr. Mimar Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=OznZoQK-PPk",
+                                            "duration":  "21:49",
+                                            "meta":  "1,8 B görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Akıl, Duygu, Sanat - Teoman Duralı - Felsefe Söyleşileri",
+                                            "url":  "https://www.youtube.com/watch?v=183oEnVRuz8",
+                                            "duration":  "23:07",
+                                            "meta":  "508 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Sekülerlik, Muhafazakarlık - Lütfi Bergen / Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=ZC-p4zJAkEk",
+                                            "duration":  "57:05",
+                                            "meta":  "266 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Teknoloji-Medeniyet-Uygarlık- Lütfi Bergen, Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=7dlxZ1RzJuI",
+                                            "duration":  "43:46",
+                                            "meta":  "233 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Otağ\u0027dan Odaya - 2017",
+                                            "url":  "https://www.youtube.com/watch?v=hctfD7ZbTTU",
+                                            "duration":  "18:57",
+                                            "meta":  "395 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "MUHAFAZAKÂRLAR KÜLTÜRSÜZ MÜ?",
+                                            "url":  "https://www.youtube.com/watch?v=o8ghTLTAuJU",
+                                            "duration":  "8:35",
+                                            "meta":  "1,1 B görüntüleme | 4 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Erkan Oğur ve Kayıt",
+                                            "url":  "https://www.youtube.com/watch?v=nNNWhUGaZoY",
+                                            "duration":  "3:19",
+                                            "meta":  "32 B görüntüleme | 12 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "dijital_yapayzeka",
+                      "name":  "Teknoloji, Dijital Çağ \u0026 İroni",
+                      "category":  "kuram",
+                      "size":  22,
+                      "color":  "#7a889b",
+                      "quote":  "Yapay Yapay Zeka: İnsan kendi suretinde bir akıl üretirken sahici aklını mı yitiriyor?",
+                      "body":  "Sosyal medya illüzyonu, Minecraft mimarlığı, yapay zeka tartışmaları ve müteahhitlik kültürüne dair ironik sosyolojik skeçler.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Allah rızası için çalışan müteahhit.",
+                                            "url":  "https://www.youtube.com/watch?v=cbh79OJ-Ue8",
+                                            "duration":  "10:27",
+                                            "meta":  "708 | 9 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yapay Yapay Zeka!",
+                                            "url":  "https://www.youtube.com/watch?v=ma5IDAlrvxM",
+                                            "duration":  "4:37",
+                                            "meta":  "301 | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Teknoloji iyi mi, kötü mü?",
+                                            "url":  "https://www.youtube.com/watch?v=M21A4j1RjB0",
+                                            "duration":  "8:45",
+                                            "meta":  "238 | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "bizi ayran kurtaracak",
+                                            "url":  "https://www.youtube.com/watch?v=mK59TJI_dxM",
+                                            "duration":  "2:29",
+                                            "meta":  "1,6 B görüntüleme | 3 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Reklamcı Çelik Bey İle İş Görüşmesi",
+                                            "url":  "https://www.youtube.com/watch?v=5XgGJbqNusE",
+                                            "duration":  "33:03",
+                                            "meta":  "575 görüntüleme | 3 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Belediye Başkanı Bahtiyar Bey İle Sohbet",
+                                            "url":  "https://www.youtube.com/watch?v=qq7rpP35Zck",
+                                            "duration":  "20:31",
+                                            "meta":  "849 görüntüleme | 3 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "ŞizobabamaniA",
+                                            "url":  "https://www.youtube.com/watch?v=Pktn1IQiFkc",
+                                            "duration":  "10:32",
+                                            "meta":  "336 görüntüleme | 4 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Efsaneyi Yeniden Tasarlamak 1 - Top Gear\u0027den The Grand Tour\u0027a...",
+                                            "url":  "https://www.youtube.com/watch?v=V-Jx6JN_1ow",
+                                            "duration":  "5:09",
+                                            "meta":  "2,3 B görüntüleme | 5 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Minecraft ve Mimarlık - Minecraft Bilmecesi",
+                                            "url":  "https://www.youtube.com/watch?v=gdMELSd0yKk",
+                                            "duration":  "14:57",
+                                            "meta":  "708 görüntüleme | 7 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Adana mı? Tavuk Dürüm mü? Türk Mutfağı DİKKAT: Bilgi ve fikir içerir.",
+                                            "url":  "https://www.youtube.com/watch?v=OKCd4i9PmCA",
+                                            "duration":  "23:08",
+                                            "meta":  "1,1 B görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "malavi",
+                      "name":  "Malavi (Afrika Saha)",
+                      "category":  "cografya",
+                      "size":  28,
+                      "color":  "#d97746",
+                      "quote":  "Toprak sadece bir yapı harcı değil; yoksullukla onur arasındaki en kadim dayanışma köprüsüdür.",
+                      "body":  "Afrika\u0027da yerinde kerpiç üretimi, yerel halkla birlikte inşa edilen insani yardım konutları ve usta yetiştirme programları.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de inşa ettiğimiz kerpiç evler sahiplerine teslim edildi.",
+                                            "url":  "https://www.youtube.com/watch?v=_DzrW1zNjnk",
+                                            "duration":  "2:06",
+                                            "meta":  "946 | 2 gün önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de Kerpiç Ev İnşaatı - Mud House Construction In Malawi",
+                                            "url":  "https://www.youtube.com/watch?v=17-NCpGE1iI",
+                                            "duration":  "18:35",
+                                            "meta":  "1,2 B | 3 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 10",
+                                            "url":  "https://www.youtube.com/watch?v=YO_VGnTSu8Y",
+                                            "duration":  "9:29",
+                                            "meta":  "357 | 3 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 9",
+                                            "url":  "https://www.youtube.com/watch?v=aNNMLxED5Y4",
+                                            "duration":  "9:34",
+                                            "meta":  "478 | 3 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 8",
+                                            "url":  "https://www.youtube.com/watch?v=fxQNLOc9x6o",
+                                            "duration":  "7:59",
+                                            "meta":  "313 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 7 ",
+                                            "url":  "https://www.youtube.com/watch?v=vKRFmAzDy20",
+                                            "duration":  "6:36",
+                                            "meta":  "331 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 6 @sdmim ",
+                                            "url":  "https://www.youtube.com/watch?v=sd7qz8T9mIA",
+                                            "duration":  "6:35",
+                                            "meta":  "312 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de ne yapıyorum? 2 Anlatıyorum. Toprak evin durumu nedir?",
+                                            "url":  "https://www.youtube.com/watch?v=SVc2j6f4jsk",
+                                            "duration":  "9:29",
+                                            "meta":  "563 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 5",
+                                            "url":  "https://www.youtube.com/watch?v=gc4Vu2wR3Pg",
+                                            "duration":  "4:07",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 319 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de ne yapıyorum? Anlatıyorum. Toprak evin durumu nedir?",
+                                            "url":  "https://www.youtube.com/watch?v=TDN3x4-oKpI",
+                                            "duration":  "8:59",
+                                            "meta":  "685 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 4",
+                                            "url":  "https://www.youtube.com/watch?v=xn7c33HHTV8",
+                                            "duration":  "4:58",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 370 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 3",
+                                            "url":  "https://www.youtube.com/watch?v=M1nx0Onq_RM",
+                                            "duration":  "8:16",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 383 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 2",
+                                            "url":  "https://www.youtube.com/watch?v=nCqogRGfnSg",
+                                            "duration":  "10:46",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 477 | 5 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 1",
+                                            "url":  "https://www.youtube.com/watch?v=4MIJpN73LqA",
+                                            "duration":  "13:50",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 1,2 B | 5 ay önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "gana_afrika",
+                      "name":  "Gana \u0026 Batı Afrika",
+                      "category":  "cografya",
+                      "size":  22,
+                      "color":  "#d97746",
+                      "quote":  "Batı Afrika\u0027nın yerel mimari refleksleri ve toprak hafızası.",
+                      "body":  "Gana çalışmaları, tropikal iklimde toprak yapı deneyimi, Afrika yerel mimarisi ve saha izlenimleri.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "GANA ÇALIŞMALARI ve İZLENİMLERİ - GHANA WORKS and IMPRESSIONS SDMIM Mimarlık / Architecture",
+                                            "url":  "https://www.youtube.com/watch?v=hfK4kR0iybY",
+                                            "duration":  "5:06",
+                                            "meta":  "456 görüntüleme | 9 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "bursa",
+                      "name":  "Bursa \u0026 Mahalle Nizamı",
+                      "category":  "cografya",
+                      "size":  25,
+                      "color":  "#d97746",
+                      "quote":  "Bursa; ahşabın, taşın ve toprağın birbirine saygıyla dokunduğu fıtri şehirciliğin başkentidir.",
+                      "body":  "Cumalıkızık ve Tarihi Yarımada aksındaki geleneksel sivil mimari doku. Sokağın mahremiyetle, avlunun gökyüzüyle kurduğu bağ.",
+                      "resources":  [
+                                        {
+                                            "type":  "yazi",
+                                            "title":  "Cumalıkızık ve Tarihi Bursa Sivil Mimarisi",
+                                            "url":  "https://www.sdmim.com/haberler",
+                                            "duration":  "SAHA NOTU",
+                                            "meta":  "Mahalle Ahlakı ve Ahşap-Toprak Tektoniği"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "1890\u0027LARDA İSTANBUL\u0027DA İNSAN ÇEŞİTLİLİĞİ ve GALATA KÖPRÜSÜ",
+                                            "url":  "https://www.youtube.com/watch?v=CbOYfLmNRlo",
+                                            "duration":  "1:01",
+                                            "meta":  "680 görüntüleme | 4 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "toprak_yapi",
+                      "name":  "Monolitik Toprak (Kerpiç)",
+                      "category":  "malzeme",
+                      "size":  32,
+                      "color":  "#8c7365",
+                      "quote":  "Toprak nefes alır. İçindeki insanı kimyasal zehirlerden korur, kışın ısıtır, yazın serinletir.",
+                      "body":  "Rammed earth (sıkıştırılmış toprak), Alker ve geleneksel kerpiç teknikleri. Doğadan alınan ve ömrü bittiğinde sıfır atıkla doğaya dönen en sağlıklı yapı.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de inşa ettiğimiz kerpiç evler sahiplerine teslim edildi.",
+                                            "url":  "https://www.youtube.com/watch?v=_DzrW1zNjnk",
+                                            "duration":  "2:06",
+                                            "meta":  "946 | 2 gün önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de Kerpiç Ev İnşaatı - Mud House Construction In Malawi",
+                                            "url":  "https://www.youtube.com/watch?v=17-NCpGE1iI",
+                                            "duration":  "18:35",
+                                            "meta":  "1,2 B | 3 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 10",
+                                            "url":  "https://www.youtube.com/watch?v=YO_VGnTSu8Y",
+                                            "duration":  "9:29",
+                                            "meta":  "357 | 3 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 9",
+                                            "url":  "https://www.youtube.com/watch?v=aNNMLxED5Y4",
+                                            "duration":  "9:34",
+                                            "meta":  "478 | 3 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 8",
+                                            "url":  "https://www.youtube.com/watch?v=fxQNLOc9x6o",
+                                            "duration":  "7:59",
+                                            "meta":  "313 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 7 ",
+                                            "url":  "https://www.youtube.com/watch?v=vKRFmAzDy20",
+                                            "duration":  "6:36",
+                                            "meta":  "331 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 6 @sdmim ",
+                                            "url":  "https://www.youtube.com/watch?v=sd7qz8T9mIA",
+                                            "duration":  "6:35",
+                                            "meta":  "312 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de ne yapıyorum? 2 Anlatıyorum. Toprak evin durumu nedir?",
+                                            "url":  "https://www.youtube.com/watch?v=SVc2j6f4jsk",
+                                            "duration":  "9:29",
+                                            "meta":  "563 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 5",
+                                            "url":  "https://www.youtube.com/watch?v=gc4Vu2wR3Pg",
+                                            "duration":  "4:07",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 319 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Malavi\u0027de ne yapıyorum? Anlatıyorum. Toprak evin durumu nedir?",
+                                            "url":  "https://www.youtube.com/watch?v=TDN3x4-oKpI",
+                                            "duration":  "8:59",
+                                            "meta":  "685 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 4",
+                                            "url":  "https://www.youtube.com/watch?v=xn7c33HHTV8",
+                                            "duration":  "4:58",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 370 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 3",
+                                            "url":  "https://www.youtube.com/watch?v=M1nx0Onq_RM",
+                                            "duration":  "8:16",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 383 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 2",
+                                            "url":  "https://www.youtube.com/watch?v=nCqogRGfnSg",
+                                            "duration":  "10:46",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 477 | 5 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 1",
+                                            "url":  "https://www.youtube.com/watch?v=4MIJpN73LqA",
+                                            "duration":  "13:50",
+                                            "meta":  "Dr. Mimar Serkan Duman | ve SDMIM Mimarlık | Architecture | 1,2 B | 5 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç Üzerine Sorular ve Yorumlar",
+                                            "url":  "https://www.youtube.com/watch?v=q6fAottRSNk",
+                                            "duration":  "31:07",
+                                            "meta":  "697 | 7 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Doğal ve Sürdürülebilir Mimarlık - Kerpiç Yapılar Dr. Mimar Serkan Duman Podcast",
+                                            "url":  "https://www.youtube.com/watch?v=LbRZokcGjoY",
+                                            "duration":  "6:23",
+                                            "meta":  "757 görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç meselesine dair. Dr. Mimar Serkan Duman.",
+                                            "url":  "https://www.youtube.com/watch?v=1Vo992oDa5c",
+                                            "duration":  "23:21",
+                                            "meta":  "1,7 B görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "İnsanın Kendi Evini İnşa Etmesi Hakkında #doğalyaşam #müstakilev #kerpiç",
+                                            "url":  "https://www.youtube.com/watch?v=WbL7tMqxMto",
+                                            "duration":  "44:59",
+                                            "meta":  "1,2 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "KERPİÇ Yeni Bir Dünya İçin Yeni Bir Çözüm #kerpiç #doğalyaşam #mimari",
+                                            "url":  "https://www.youtube.com/watch?v=tyAMRS23cBg",
+                                            "duration":  "1:08:27",
+                                            "meta":  "2,2 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç Yapı İnşa Etmek - Doğal Evler - www.sdmim.com #kerpiç #doğalyaşam #mimari",
+                                            "url":  "https://www.youtube.com/watch?v=Qo_2IvKhipI",
+                                            "duration":  "4:12",
+                                            "meta":  "7,3 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç yapı maliyeti nedir?",
+                                            "url":  "https://www.youtube.com/watch?v=ajxAsaakJvc",
+                                            "duration":  "3:08",
+                                            "meta":  "2 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç yapı nasıl inşa edilir?",
+                                            "url":  "https://www.youtube.com/watch?v=Jn4PzJ-JAjs",
+                                            "duration":  "2:07",
+                                            "meta":  "1,4 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yapılarımızı Neden Toprak/Kerpiç Kullanarak İnşa Edelim?",
+                                            "url":  "https://www.youtube.com/watch?v=hNihpKuzra4",
+                                            "duration":  "4:10",
+                                            "meta":  "592 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Alternatif Bir Yapı Malzemesi Olarak Toprak / Kerpiç",
+                                            "url":  "https://www.youtube.com/watch?v=iFMuFg2zco4",
+                                            "duration":  "3:51",
+                                            "meta":  "1,1 B görüntüleme | 3 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "BETONA MAHKUM DEĞİLİZ - KERPİÇ HEM GEÇMİŞ HEM GELECEK",
+                                            "url":  "https://www.youtube.com/watch?v=zb_z94otEq0",
+                                            "duration":  "1:08:27",
+                                            "meta":  "20 B görüntüleme | 6 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "KERPİÇ YAPILAR - Doğal ve Sağlıklı Bina",
+                                            "url":  "https://www.youtube.com/watch?v=Rh-KzQydUPc",
+                                            "duration":  "4:12",
+                                            "meta":  "15 B görüntüleme | 6 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "SADIK YARİM KARA TOPRAK - Kerpiç Mimaride Nasıl Kullanılır?",
+                                            "url":  "https://www.youtube.com/watch?v=vuBxD-qe0Js",
+                                            "duration":  "3:37",
+                                            "meta":  "1,7 B görüntüleme | 8 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "zanaat_usta",
+                      "name":  "Kadim Ustalık Hafızası",
+                      "category":  "malzeme",
+                      "size":  24,
+                      "color":  "#8c7365",
+                      "quote":  "Ustasını kaybeden malzeme ölür; malzemesini kaybeden medeniyet dilsizleşir.",
+                      "body":  "Fas, Hindistan, Gana ve Anadolu şantiyelerinde edinilen bedensel tecrübe. Toprak harcını elle karmak, kalıbı tokmaklamak.",
+                      "resources":  [
+                                        {
+                                            "type":  "yazi",
+                                            "title":  "Kadim Ustalık Hafızası ve Şantiye Bilgeliği",
+                                            "url":  "https://www.sdmim.com/dogal-yapilar",
+                                            "duration":  "REHBER",
+                                            "meta":  "Usta-Çırak Geleneği ve Zanaat Onuru"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç yapı nasıl inşa edilir?",
+                                            "url":  "https://www.youtube.com/watch?v=Jn4PzJ-JAjs",
+                                            "duration":  "2:07",
+                                            "meta":  "1,4 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "SADIK YARİM KARA TOPRAK - Kerpiç Mimaride Nasıl Kullanılır?",
+                                            "url":  "https://www.youtube.com/watch?v=vuBxD-qe0Js",
+                                            "duration":  "3:37",
+                                            "meta":  "1,7 B görüntüleme | 8 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "ekoloji_beton",
+                      "name":  "Beton Eleştirisi \u0026 Ekoloji",
+                      "category":  "malzeme",
+                      "size":  24,
+                      "color":  "#8c7365",
+                      "quote":  "Beton: Dünyada sudan sonra en çok tüketilen malzeme ve ekolojik yıkımın mimarı.",
+                      "body":  "Betonarmenin kısa ömrü, karbon ayak izi, kimyasal gaz salımları ve buna alternatif olarak gerçek ekolojik ve çevreci bina inşa yöntemleri.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Bir bina nasıl çevreci veya ekolojik olur?",
+                                            "url":  "https://www.youtube.com/watch?v=o54fbqqZQd0",
+                                            "duration":  "11:18",
+                                            "meta":  "337 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Betondan Toprağa: Doğa Dostu Yapılarla Geleceğe Adım Atmak",
+                                            "url":  "https://www.youtube.com/watch?v=C97Q5TZyHWY",
+                                            "duration":  "3:51",
+                                            "meta":  "624 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "BETONA MAHKUM DEĞİLİZ - KERPİÇ HEM GEÇMİŞ HEM GELECEK",
+                                            "url":  "https://www.youtube.com/watch?v=zb_z94otEq0",
+                                            "duration":  "1:08:27",
+                                            "meta":  "20 B görüntüleme | 6 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Beton: Dünyada Sudan Sonra En Çok Kullanılan Malzeme",
+                                            "url":  "https://www.youtube.com/watch?v=sOXk1qvaoAs",
+                                            "duration":  "7:12",
+                                            "meta":  "1,9 B görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "pasif_iklim",
+                      "name":  "Pasif İklim, Güneş \u0026 Su Hasadı",
+                      "category":  "malzeme",
+                      "size":  24,
+                      "color":  "#8c7365",
+                      "quote":  "Klimasız, faturasız serinleme ve ısınma: Binayı tabiatın ritmine uydurmak.",
+                      "body":  "Binalarda pasif havalandırma, güneş yönlenmesi (Let The Sunshine In) ve yağmur suyu depolama (Yağdır Mevlam Su) stratejileri.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "BENİ BU GÜZEL HAVALAR MAHVETTİ -Binalarda Pasif Isıtma Soğutma ve Havalandırma",
+                                            "url":  "https://www.youtube.com/watch?v=64QwD2-faUA",
+                                            "duration":  "3:17",
+                                            "meta":  "2,3 B görüntüleme | 8 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "LET the SUNSHINE IN - Güneş Enerjisi",
+                                            "url":  "https://www.youtube.com/watch?v=75-NfXS0t9M",
+                                            "duration":  "2:50",
+                                            "meta":  "1 B görüntüleme | 8 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "YAĞDIR MEVLAM SU - Yağmur Suyu Toplama",
+                                            "url":  "https://www.youtube.com/watch?v=gBQnNKdUFBk",
+                                            "duration":  "2:54",
+                                            "meta":  "1,6 B görüntüleme | 8 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "zisofa",
+                      "name":  "ZISOFA (Sessiz Lüks)",
+                      "category":  "proje",
+                      "size":  28,
+                      "color":  "#5e826b",
+                      "quote":  "Zamansız mekânlar, yaşayan yüzeyler ve biyofilik sükûnet.",
+                      "body":  "Modern dünyada doğala dönüşü bir taviz değil, en üst düzey \u0027Quiet Luxury\u0027 (Sessiz Lüks) olarak konumlandıran mimari stüdyo. Toksinsiz, monolitik toprak rezidanslar.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Earth house project in Malawi | Part 6 @sdmim ",
+                                            "url":  "https://www.youtube.com/watch?v=sd7qz8T9mIA",
+                                            "duration":  "6:35",
+                                            "meta":  "312 | 4 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kerpiç Yapı İnşa Etmek - Doğal Evler - www.sdmim.com #kerpiç #doğalyaşam #mimari",
+                                            "url":  "https://www.youtube.com/watch?v=Qo_2IvKhipI",
+                                            "duration":  "4:12",
+                                            "meta":  "7,3 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Erman Bey\u0027in DOĞAL EV Talebi :)",
+                                            "url":  "https://www.youtube.com/watch?v=2WUu_huXAh4",
+                                            "duration":  "33:12",
+                                            "meta":  "1,2 B görüntüleme | 3 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "SDMIM Doğal Binalar Üretir",
+                                            "url":  "https://www.youtube.com/watch?v=Kw4SF9hQuJk",
+                                            "duration":  "0:43",
+                                            "meta":  "2,1 B görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "avlu_evi",
+                      "name":  "Avlu Evi (Çanakkale)",
+                      "category":  "proje",
+                      "size":  22,
+                      "color":  "#5e826b",
+                      "quote":  "İçe dönük sükûnet, dışa dönük tabiat: Avlu etrafında şekillenen monolitik yaşam.",
+                      "body":  "Çanakkale\u0027de taş, sıkıştırılmış toprak ve ahşap strüktür ile hayata geçirilen avlulu konut mimarisi. Geleneksel sofa ve hayat kurgusu.",
+                      "resources":  [
+                                        {
+                                            "type":  "proje",
+                                            "title":  "Avlu Evi · Çanakkale Monolitik Konut Projesi",
+                                            "url":  "https://www.sdmim.com/projeler",
+                                            "duration":  "MİMARİ PROJE",
+                                            "meta":  "Sıkıştırılmış Toprak \u0026 Taş Avlu Kurgusu"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "afet_deprem",
+                      "name":  "Deprem \u0026 Afet Modelleri",
+                      "category":  "proje",
+                      "size":  26,
+                      "color":  "#5e826b",
+                      "quote":  "Deprem öldürmez; insanın tabiatla inatlaşan hırsı ve kötü betonarmesi öldürür.",
+                      "body":  "6 Şubat sonrası hazırlanan alternatif kırsal toprak mesken modelleri. Toprağın sönümleyici gücü ve hafif ahşap karkas ile can güvenliği.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Savaş ve Mimari",
+                                            "url":  "https://www.youtube.com/watch?v=_HGqjTOpm0g",
+                                            "duration":  "30:18",
+                                            "meta":  "268 | 8 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Ne olacak bu deprem korkusu?",
+                                            "url":  "https://www.youtube.com/watch?v=98nwqkgqMxE",
+                                            "duration":  "9:48",
+                                            "meta":  "409 görüntüleme | 1 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "kendieviniyapmak",
+                      "name":  "Kendi Evini Yapmak \u0026 Müstakil Yaşam",
+                      "category":  "proje",
+                      "size":  27,
+                      "color":  "#5e826b",
+                      "quote":  "İnsanın kendi barınağını inşa etme hakkı ve fıtri hürriyet arayışı.",
+                      "body":  "Kendi Evini Yapmak serisi (Prof. Gültekin Çetiner ile), müstakil ev yaptıracaklara 6 altın tavsiye, şantiye rehberliği ve bütçe yönetimi.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Evimin Şeklini Kendi Keyfime Göre Seçebilir miyim?",
+                                            "url":  "https://www.youtube.com/watch?v=8WUBwfYGZVY",
+                                            "duration":  "17:08",
+                                            "meta":  "582 | 9 ay önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Müstakil ev, şehircilik, ben ne demek istiyorum?",
+                                            "url":  "https://www.youtube.com/watch?v=g5al7y59z7Y",
+                                            "duration":  "17:19",
+                                            "meta":  "1,1 B görüntüleme | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Müstakil Ev Nasıl Yaptırılır?",
+                                            "url":  "https://www.youtube.com/watch?v=WFER7FOcYZQ",
+                                            "duration":  "7:37",
+                                            "meta":  "1 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "İnsanın Kendi Evini İnşa Etmesi Hakkında #doğalyaşam #müstakilev #kerpiç",
+                                            "url":  "https://www.youtube.com/watch?v=WbL7tMqxMto",
+                                            "duration":  "44:59",
+                                            "meta":  "1,2 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kendi Evini Yapmak #3 - Gültekin Çetiner \u0026 Serkan Duman - Bölüm 3",
+                                            "url":  "https://www.youtube.com/watch?v=UGJ4ZtI_4QA",
+                                            "duration":  "44:59",
+                                            "meta":  "848 görüntüleme | 5 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kendi Evini Yapmak #2 - Gültekin Çetiner \u0026 Serkan Duman - Bölüm 2",
+                                            "url":  "https://www.youtube.com/watch?v=RcFT7AG8hlE",
+                                            "duration":  "44:59",
+                                            "meta":  "845 görüntüleme | 5 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Kendi Evini Yapmak #1 - Gültekin Çetiner \u0026 Serkan Duman - Bölüm 1",
+                                            "url":  "https://www.youtube.com/watch?v=Ggcq8AOl3IA",
+                                            "duration":  "44:59",
+                                            "meta":  "1,9 B görüntüleme | 5 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Başımı Sokacak Ev - Müstakil Ev Yaptırmak",
+                                            "url":  "https://www.youtube.com/watch?v=VEZygK7H89M",
+                                            "duration":  "30:47",
+                                            "meta":  "3,8 B görüntüleme | 6 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Doğal ve Müstakil Ev Yaptırmak İsteyenlere 6 Altın Tavsiye",
+                                            "url":  "https://www.youtube.com/watch?v=tWix4J5Rvzs",
+                                            "duration":  "5:45",
+                                            "meta":  "24 B görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  },
+                  {
+                      "id":  "kırsal_koy",
+                      "name":  "Kırsal Yaşam \u0026 Köy Sosyolojisi",
+                      "category":  "proje",
+                      "size":  23,
+                      "color":  "#5e826b",
+                      "quote":  "Yeni Bir Hayat Mümkün: Köy ne demek? Şehirden kaçış mı, yeni bir varoluş mu?",
+                      "body":  "İlber Ortaylı\u0027nın kırsala yerleşme önerisi, köy sosyolojisi, tarım-toprak ilişkisi ve yeni kırsal mimarlık modelleri.",
+                      "resources":  [
+                                        {
+                                            "type":  "video",
+                                            "title":  "Yeni Bir Hayat Mümkün / Dr. Mimar Serkan Duman",
+                                            "url":  "https://www.youtube.com/watch?v=xEdWFMrj9f8",
+                                            "duration":  "46:38",
+                                            "meta":  "3,7 B | 1 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "köy",
+                                            "url":  "https://www.youtube.com/watch?v=b5k8_7FgsjA",
+                                            "duration":  "4:58",
+                                            "meta":  "483 görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "Köy ne demek?",
+                                            "url":  "https://www.youtube.com/watch?v=XeV-DhY34p8",
+                                            "duration":  "4:28",
+                                            "meta":  "1,4 B görüntüleme | 2 yıl önce"
+                                        },
+                                        {
+                                            "type":  "video",
+                                            "title":  "İlber Ortaylı Kırsala Yerleşmeyi Önerdi",
+                                            "url":  "https://www.youtube.com/watch?v=KvRR_oecXPg",
+                                            "duration":  "1:29",
+                                            "meta":  "812 görüntüleme | 7 yıl önce"
+                                        }
+                                    ]
+                  }
+              ],
+    "links":  [
+                  {
+                      "target":  "cansever",
+                      "source":  "medeniyet"
+                  },
+                  {
+                      "target":  "dogu_bati",
+                      "source":  "medeniyet"
+                  },
+                  {
+                      "target":  "sehir_hukuku",
+                      "source":  "medeniyet"
+                  },
+                  {
+                      "target":  "bursa",
+                      "source":  "medeniyet"
+                  },
+                  {
+                      "target":  "sehir_hukuku",
+                      "source":  "cansever"
+                  },
+                  {
+                      "target":  "nail_cakirhan",
+                      "source":  "cansever"
+                  },
+                  {
+                      "target":  "apartman_elestirisi",
+                      "source":  "cansever"
+                  },
+                  {
+                      "target":  "goruntu_hakikat",
+                      "source":  "dogu_bati"
+                  },
+                  {
+                      "target":  "felsefe_sanat",
+                      "source":  "dogu_bati"
+                  },
+                  {
+                      "target":  "toprak_yapi",
+                      "source":  "dogu_bati"
+                  },
+                  {
+                      "target":  "apartman_elestirisi",
+                      "source":  "sehir_hukuku"
+                  },
+                  {
+                      "target":  "afet_deprem",
+                      "source":  "sehir_hukuku"
+                  },
+                  {
+                      "target":  "kırsal_koy",
+                      "source":  "sehir_hukuku"
+                  },
+                  {
+                      "target":  "kendieviniyapmak",
+                      "source":  "apartman_elestirisi"
+                  },
+                  {
+                      "target":  "ekoloji_beton",
+                      "source":  "apartman_elestirisi"
+                  },
+                  {
+                      "target":  "zanaat_usta",
+                      "source":  "nail_cakirhan"
+                  },
+                  {
+                      "target":  "mimarlik_egitimi",
+                      "source":  "nail_cakirhan"
+                  },
+                  {
+                      "target":  "dijital_yapayzeka",
+                      "source":  "mimarlik_egitimi"
+                  },
+                  {
+                      "target":  "toprak_yapi",
+                      "source":  "mimarlik_egitimi"
+                  },
+                  {
+                      "target":  "felsefe_sanat",
+                      "source":  "goruntu_hakikat"
+                  },
+                  {
+                      "target":  "dijital_yapayzeka",
+                      "source":  "felsefe_sanat"
+                  },
+                  {
+                      "target":  "gana_afrika",
+                      "source":  "malavi"
+                  },
+                  {
+                      "target":  "toprak_yapi",
+                      "source":  "malavi"
+                  },
+                  {
+                      "target":  "zanaat_usta",
+                      "source":  "malavi"
+                  },
+                  {
+                      "target":  "afet_deprem",
+                      "source":  "malavi"
+                  },
+                  {
+                      "target":  "toprak_yapi",
+                      "source":  "gana_afrika"
+                  },
+                  {
+                      "target":  "toprak_yapi",
+                      "source":  "bursa"
+                  },
+                  {
+                      "target":  "zanaat_usta",
+                      "source":  "bursa"
+                  },
+                  {
+                      "target":  "zanaat_usta",
+                      "source":  "toprak_yapi"
+                  },
+                  {
+                      "target":  "ekoloji_beton",
+                      "source":  "toprak_yapi"
+                  },
+                  {
+                      "target":  "pasif_iklim",
+                      "source":  "toprak_yapi"
+                  },
+                  {
+                      "target":  "zisofa",
+                      "source":  "toprak_yapi"
+                  },
+                  {
+                      "target":  "avlu_evi",
+                      "source":  "toprak_yapi"
+                  },
+                  {
+                      "target":  "kendieviniyapmak",
+                      "source":  "toprak_yapi"
+                  },
+                  {
+                      "target":  "avlu_evi",
+                      "source":  "zisofa"
+                  },
+                  {
+                      "target":  "pasif_iklim",
+                      "source":  "zisofa"
+                  },
+                  {
+                      "target":  "kendieviniyapmak",
+                      "source":  "afet_deprem"
+                  },
+                  {
+                      "target":  "kırsal_koy",
+                      "source":  "kendieviniyapmak"
+                  },
+                  {
+                      "target":  "pasif_iklim",
+                      "source":  "kendieviniyapmak"
+                  }
+              ]
+}
+;
 
-    // D3 GRAFİK KURULUMU — pencere yüklendikten sonra boyutları oku
+    // D3 GRAFİK KURULUMU
     function initGraph() {
-    const container = document.getElementById('canvas-container');
-    const width = container.clientWidth || window.innerWidth * 0.65;
-    const height = container.clientHeight || window.innerHeight;
+      const svg = d3.select("#graph-svg");
+      const container = document.getElementById("canvas-container");
+      
+      const width = container.clientWidth || window.innerWidth;
+      const height = container.clientHeight || window.innerHeight;
 
-    const svg = d3.select("#graph-svg")
-      .attr("width", width)
-      .attr("height", height)
-      .attr("viewBox", [0, 0, width, height]);
+      svg.attr("width", width).attr("height", height);
 
-    const g = svg.append("g");
+      // Yakınlaştırma (Zoom)
+      const g = svg.append("g");
+      const zoom = d3.zoom()
+        .scaleExtent([0.3, 3])
+        .on("zoom", (event) => {
+          g.attr("transform", event.transform);
+        });
+      svg.call(zoom);
 
-    // Zoom & Pan
-    svg.call(d3.zoom()
-      .extent([[0, 0], [width, height]])
-      .scaleExtent([0.4, 3])
-      .on("zoom", ({transform}) => {
-        g.attr("transform", transform);
-      }));
+      // Simülasyon Kuvvetleri
+      const simulation = d3.forceSimulation(graphData.nodes)
+        .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(140))
+        .force("charge", d3.forceManyBody().strength(-450))
+        .force("center", d3.forceCenter(width / 2.2, height / 2))
+        .force("collision", d3.forceCollide().radius(d => d.size + 30));
 
-    // Simülasyon Kuvvetleri
-    const simulation = d3.forceSimulation(graphData.nodes)
-      .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(140))
-      .force("charge", d3.forceManyBody().strength(-400))
-      .force("center", d3.forceCenter(width / 2.3, height / 2))
-      .force("collision", d3.forceCollide().radius(d => d.size + 25));
+      // Bağlantılar (Links)
+      const link = g.append("g")
+        .attr("class", "links")
+        .selectAll("line")
+        .data(graphData.links)
+        .enter().append("line")
+        .attr("class", "link");
 
-    // Bağlantılar (Çizgiler)
-    const link = g.append("g")
-      .selectAll("line")
-      .data(graphData.links)
-      .join("line")
-      .attr("class", "link");
+      // Düğümler (Nodes)
+      const node = g.append("g")
+        .attr("class", "nodes")
+        .selectAll(".node")
+        .data(graphData.nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended))
+        .on("click", (event, d) => {
+          event.stopPropagation();
+          selectNode(d);
+        });
 
-    // Düğümler (Gruplar)
-    const node = g.append("g")
-      .selectAll(".node")
-      .data(graphData.nodes)
-      .join("g")
-      .attr("class", "node")
-      .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended))
-      .on("click", (event, d) => selectNode(d));
+      // Düğüm Çemberleri
+      node.append("circle")
+        .attr("r", d => d.size)
+        .attr("fill", d => d.color)
+        .attr("fill-opacity", 0.25)
+        .attr("stroke", d => d.color);
 
-    // Düğüm Çemberleri
-    node.append("circle")
-      .attr("r", d => d.size)
-      .attr("fill", d => d.color)
-      .attr("fill-opacity", 0.25)
-      .attr("stroke", d => d.color);
+      // Merkez Nokta
+      node.append("circle")
+        .attr("r", 4)
+        .attr("fill", "#fff");
 
-    // Çekirdek Nokta
-    node.append("circle")
-      .attr("r", 5)
-      .attr("fill", d => d.color);
+      // Düğüm Etiketleri
+      node.append("text")
+        .attr("dy", d => d.size + 16)
+        .attr("text-anchor", "middle")
+        .text(d => d.name);
 
-    // Düğüm Yazıları
-    node.append("text")
-      .attr("dy", d => d.size + 16)
-      .attr("text-anchor", "middle")
-      .text(d => d.name);
+      // Simülasyon Tick
+      simulation.on("tick", () => {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
 
-    simulation.on("tick", () => {
-      link
-        .attr("x1", d => d.source.x)
-        .attr("y1", d => d.source.y)
-        .attr("x2", d => d.target.x)
-        .attr("y2", d => d.target.y);
+        node
+          .attr("transform", d => `translate(${d.x},${d.y})`);
+      });
 
-      node.attr("transform", d => `translate(${d.x},${d.y})`);
-    });
+      function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
 
-    // Sürükleme Fonksiyonları
-    function dragstarted(event, d) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
-      d.fx = d.x;
-      d.fy = d.y;
-    }
+      function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+      }
 
-    function dragged(event, d) {
-      d.fx = event.x;
-      d.fy = event.y;
-    }
+      function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      }
 
-    function dragended(event, d) {
-      if (!event.active) simulation.alphaTarget(0);
-      d.fx = null;
-      d.fy = null;
-    }
+      // DÜĞÜM SEÇİMİ VE DETAY PANELİNİ DOLDURMA
+      window.selectNode = function(selected) {
+        document.getElementById('panel-title').innerText = selected.name;
+        document.getElementById('panel-quote').innerText = '"' + selected.quote + '"';
+        document.getElementById('panel-body').innerText = selected.body;
 
-    // DÜĞÜM SEÇİMİ & PANELİ GÜNCELLEME
-    function selectNode(selected) {
-      // Paneli Doldur
-      document.getElementById('panel-title').innerText = selected.name;
-      document.getElementById('panel-quote').innerText = `"${selected.quote}"`;
-      document.getElementById('panel-body').innerText = selected.body;
+        const catMap = {
+          kuram: { name: "Kuram & Felsefe", color: "var(--accent-gold)" },
+          cografya: { name: "Coğrafya & Saha", color: "var(--accent-terracotta)" },
+          malzeme: { name: "Toprak & Malzeme", color: "var(--accent-clay)" },
+          proje: { name: "Mimari & Proje", color: "var(--accent-sage)" }
+        };
 
-      const catMap = {
-        kuram: { name: "Kuram & Felsefe", color: "var(--accent-gold)" },
-        cografya: { name: "Coğrafya & Saha", color: "var(--accent-terracotta)" },
-        malzeme: { name: "Malzeme & Zanaat", color: "var(--accent-clay)" },
-        proje: { name: "Mimari & Proje", color: "var(--accent-sage)" }
+        const catInfo = catMap[selected.category] || { name: selected.category, color: "#fff" };
+        const catBadge = document.getElementById('panel-category');
+        catBadge.innerText = catInfo.name;
+        catBadge.style.background = selected.color + '25';
+        catBadge.style.color = selected.color;
+
+        // İlişkili İçerikler (Videolar & Yazılar)
+        const resContainer = document.getElementById('panel-resources');
+        const countSpan = document.getElementById('panel-resource-count');
+        resContainer.innerHTML = '';
+
+        if (selected.resources && selected.resources.length > 0) {
+          countSpan.innerText = '(' + selected.resources.length + ' Kaynak)';
+          selected.resources.forEach(res => {
+            const card = document.createElement('a');
+            card.href = res.url;
+            card.target = '_blank';
+            card.className = 'res-card';
+            
+            let typeBadge = '<span class="res-badge res-badge-video">▶ Video</span>';
+            let actionText = "YouTube'da İzle ↗";
+
+            if (res.type === 'kitap') {
+              typeBadge = '<span class="res-badge res-badge-kitap">📚 Kitap</span>';
+              actionText = 'İncele ↗';
+            } else if (res.type === 'yazi') {
+              typeBadge = '<span class="res-badge res-badge-yazi">📄 Yazı / Makale</span>';
+              actionText = 'Oku ↗';
+            } else if (res.type === 'proje') {
+              typeBadge = '<span class="res-badge res-badge-proje">🏛 Mimari Proje</span>';
+              actionText = 'Projeyi Aç ↗';
+            }
+
+            const metaSpan = res.duration ? '<span class="res-meta">' + res.duration + '</span>' : '';
+
+            card.innerHTML = 
+              '<div class="res-header">' +
+                typeBadge +
+                metaSpan +
+              '</div>' +
+              '<div class="res-title">' + res.title + '</div>' +
+              '<div class="res-action">' + actionText + '</div>';
+
+            resContainer.appendChild(card);
+          });
+        } else {
+          countSpan.innerText = '(0)';
+          resContainer.innerHTML = '<div class="res-empty">Bu kavrama ait dijital kayıtlar ve yeni makaleler sisteme işlenmektedir.</div>';
+        }
+
+        // İlişkili Düğümleri Bul
+        const connectedNodeIds = new Set();
+        graphData.links.forEach(l => {
+          const sId = l.source.id || l.source;
+          const tId = l.target.id || l.target;
+          if (sId === selected.id) connectedNodeIds.add(tId);
+          if (tId === selected.id) connectedNodeIds.add(sId);
+        });
+
+        const tagsContainer = document.getElementById('panel-connections');
+        tagsContainer.innerHTML = '';
+        connectedNodeIds.forEach(id => {
+          const targetNode = graphData.nodes.find(n => n.id === id);
+          if (targetNode) {
+            const pill = document.createElement('div');
+            pill.className = 'node-pill';
+            pill.innerText = '✦ ' + targetNode.name;
+            pill.onclick = () => selectNode(targetNode);
+            tagsContainer.appendChild(pill);
+          }
+        });
+
+        // Grafikte Vurgulama
+        link.classed('highlighted', l => {
+          const sId = l.source.id || l.source;
+          const tId = l.target.id || l.target;
+          return sId === selected.id || tId === selected.id;
+        });
+
+        node.selectAll("circle")
+          .transition().duration(250)
+          .attr("stroke-width", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 4 : 2)
+          .attr("fill-opacity", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 0.6 : 0.15);
+
+        // Paneli Aç
+        document.getElementById('detail-panel').classList.remove('hidden');
       };
 
-      const catInfo = catMap[selected.category] || { name: selected.category, color: "#fff" };
-      const catBadge = document.getElementById('panel-category');
-      catBadge.innerText = catInfo.name;
-      catBadge.style.background = `${selected.color}25`;
-      catBadge.style.color = selected.color;
+      window.closePanel = function() {
+        document.getElementById('detail-panel').classList.add('hidden');
+        link.classed('highlighted', false);
+        node.selectAll("circle").attr("stroke-width", 2).attr("fill-opacity", 0.25);
+      };
 
-      // İlişkili Düğümleri Bul
-      const connectedNodeIds = new Set();
-      graphData.links.forEach(l => {
-        if (l.source.id === selected.id) connectedNodeIds.add(l.target.id);
-        if (l.target.id === selected.id) connectedNodeIds.add(l.source.id);
+      // FİLTRELEME BUTONLARI
+      document.querySelectorAll('.filter-bar .filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const cat = btn.dataset.cat;
+
+          if (cat === 'all') {
+            node.style("display", "block");
+            link.style("display", "block");
+          } else {
+            node.style("display", d => d.category === cat ? "block" : "none");
+            link.style("display", l => {
+              const sCat = l.source.category;
+              const tCat = l.target.category;
+              return (sCat === cat && tCat === cat) ? "block" : "none";
+            });
+          }
+        });
       });
 
-      const tagsContainer = document.getElementById('panel-connections');
-      tagsContainer.innerHTML = '';
-      connectedNodeIds.forEach(id => {
-        const targetNode = graphData.nodes.find(n => n.id === id);
-        if (targetNode) {
-          const pill = document.createElement('div');
-          pill.className = 'node-pill';
-          pill.innerText = `✦ ${targetNode.name}`;
-          pill.onclick = () => selectNode(targetNode);
-          tagsContainer.appendChild(pill);
-        }
-      });
-
-      // Grafikte Vurgulama
-      link.classed('highlighted', l => l.source.id === selected.id || l.target.id === selected.id);
-
-      node.selectAll("circle")
-        .transition().duration(250)
-        .attr("stroke-width", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 4 : 2)
-        .attr("fill-opacity", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 0.6 : 0.15);
-
-      // Paneli Aç
-      document.getElementById('detail-panel').classList.remove('hidden');
+      // Başlangıçta ilk düğümü (İslam & Medeniyet) seçili getir
+      setTimeout(() => {
+        selectNode(graphData.nodes[0]);
+      }, 400);
     }
 
-    function closePanel() {
-      document.getElementById('detail-panel').classList.add('hidden');
-      link.classed('highlighted', false);
-      node.selectAll("circle").attr("stroke-width", 2).attr("fill-opacity", 0.25);
-    }
-
-    // FİLTRELEME BUTONLARI
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const cat = btn.dataset.cat;
-
-        if (cat === 'all') {
-          node.style("display", "block");
-          link.style("display", "block");
-        } else {
-          node.style("display", d => d.category === cat ? "block" : "none");
-          link.style("display", l => (l.source.category === cat && l.target.category === cat) ? "block" : "none");
-        }
-      });
-    });
-
-    // Başlangıçta ilk düğümü seç
-    setTimeout(() => {
-      selectNode(graphData.nodes[0]);
-    }, 500);
-    } // initGraph sonu
-
-    // Pencere tamamen yüklenince grafiği başlat
     window.addEventListener('load', initGraph);
   </script>
 </body>
 </html>
+
