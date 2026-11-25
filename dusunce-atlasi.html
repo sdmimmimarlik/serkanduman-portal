@@ -1,19 +1,32 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Mimar Serkan Duman | Açık Düşünce & İlişkiler Atlası</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Açık Düşünce &amp; İlişkiler Atlası | Dr. Mimar Serkan Duman</title>
+  <meta name="description" content="Dr. Mimar Serkan Duman'ın mimarlık kuramı, Turgut Cansever mirası, İslam medeniyet tasavvuru, geleneksel toprak yapılar ve felsefi birikimini haritalandıran interaktif kavram ağı ve dijital atlas.">
+  <link rel="canonical" href="https://serkanduman.com/dusunce-atlasi.html">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://serkanduman.com/dusunce-atlasi.html">
+  <meta property="og:title" content="Açık Düşünce & İlişkiler Atlası | Dr. Mimar Serkan Duman">
+  <meta property="og:description" content="Mimarlık kuramı, felsefe, toprak yapılar ve medeniyet hafızası üzerine interaktif semantik kavram ağı.">
+  <meta property="og:site_name" content="Dr. Mimar Serkan Duman">
+  <meta name="twitter:card" content="summary_large_image">
+
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
   <style>
     :root {
-      --bg-dark: #121316;
-      --panel-bg: rgba(22, 24, 29, 0.94);
-      --border-color: rgba(255, 255, 255, 0.09);
-      --text-main: #f0ede6;
+      --bg-dark: #101114;
+      --panel-bg: rgba(18, 20, 25, 0.96);
+      --border-color: rgba(255, 255, 255, 0.10);
+      --border-color-hover: rgba(255, 255, 255, 0.28);
+      --text-main: #f2efe9;
       --text-muted: #9e9ba7;
       --accent-terracotta: #d97746;
       --accent-gold: #c89d5c;
@@ -21,6 +34,7 @@
       --accent-sage: #5e826b;
       --font-body: 'Plus Jakarta Sans', sans-serif;
       --font-serif: 'Playfair Display', serif;
+      --font-mono: 'JetBrains Mono', monospace;
     }
 
     * {
@@ -38,42 +52,83 @@
       width: 100vw;
       height: 100vh;
       display: flex;
+      position: relative;
     }
 
     #canvas-container {
       flex: 1;
       height: 100%;
       position: relative;
-      background: radial-gradient(circle at 50% 50%, #1c1f26 0%, #0e0f12 100%);
+      background: radial-gradient(circle at 50% 50%, #1a1c22 0%, #0c0d10 100%);
+      overflow: hidden;
     }
 
+    /* Üst Bar & Navigasyon */
     .top-bar {
       position: absolute;
-      top: 24px;
-      left: 28px;
-      z-index: 10;
+      top: 20px;
+      left: 24px;
+      z-index: 15;
       pointer-events: none;
+      max-width: calc(100vw - 48px);
     }
 
     .top-bar * {
       pointer-events: auto;
     }
 
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
     .brand-title {
       font-family: var(--font-serif);
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 700;
-      letter-spacing: -0.5px;
+      letter-spacing: -0.3px;
       color: #fff;
       display: inline-block;
       transition: color 0.2s;
+      text-decoration: none;
     }
     .brand-title:hover {
       color: var(--accent-gold);
     }
 
+    .nav-links {
+      display: flex;
+      gap: 8px;
+    }
+
+    .nav-pill {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.2s;
+      backdrop-filter: blur(8px);
+    }
+    .nav-pill:hover {
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.35);
+      background: rgba(255, 255, 255, 0.12);
+    }
+    .nav-pill.active {
+      color: #f5d09b;
+      border-color: var(--accent-terracotta);
+      background: rgba(217, 119, 70, 0.15);
+    }
+
     .brand-sub {
-      font-size: 13px;
+      font-size: 12.5px;
       color: var(--text-muted);
       margin-top: 4px;
       display: flex;
@@ -83,50 +138,213 @@
 
     .status-badge {
       display: inline-block;
-      width: 8px;
-      height: 8px;
+      width: 7px;
+      height: 7px;
       border-radius: 50%;
       background: #4ade80;
-      box-shadow: 0 0 10px #4ade80;
+      box-shadow: 0 0 8px #4ade80;
     }
 
+    /* Arama Kutusu */
+    .search-wrap {
+      position: relative;
+      margin-top: 14px;
+      max-width: 420px;
+      width: 100%;
+    }
+
+    .search-input-box {
+      width: 100%;
+      background: rgba(22, 24, 30, 0.88);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 9px 36px 9px 34px;
+      font-family: var(--font-body);
+      font-size: 12.5px;
+      color: #fff;
+      outline: none;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+      transition: all 0.2s ease;
+    }
+    .search-input-box:focus {
+      border-color: var(--accent-gold);
+      background: rgba(28, 31, 38, 0.98);
+      box-shadow: 0 8px 28px rgba(200, 157, 92, 0.2);
+    }
+    .search-input-box::placeholder {
+      color: #787582;
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 13px;
+      color: #8b8896;
+      pointer-events: none;
+    }
+
+    .search-clear {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #aaa;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .search-clear:hover {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+    .search-clear.hidden {
+      display: none;
+    }
+
+    .search-dropdown {
+      position: absolute;
+      top: calc(100% + 6px);
+      left: 0;
+      right: 0;
+      background: rgba(20, 22, 28, 0.98);
+      border: 1px solid var(--border-color-hover);
+      border-radius: 12px;
+      max-height: 280px;
+      overflow-y: auto;
+      z-index: 50;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(20px);
+    }
+    .search-dropdown.hidden {
+      display: none;
+    }
+
+    .search-item {
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background 0.15s;
+    }
+    .search-item:last-child {
+      border-bottom: none;
+    }
+    .search-item:hover, .search-item.selected {
+      background: rgba(217, 119, 70, 0.16);
+    }
+    .search-item-title {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .search-item-badge {
+      font-size: 10px;
+      font-family: var(--font-mono);
+      padding: 2px 7px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Kategori Filtre Butonları */
     .filter-bar {
       display: flex;
-      gap: 8px;
-      margin-top: 16px;
+      gap: 6px;
+      margin-top: 12px;
       flex-wrap: wrap;
+      max-width: 600px;
     }
 
     .filter-btn {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid var(--border-color);
       color: var(--text-muted);
-      padding: 6px 14px;
-      border-radius: 20px;
-      font-size: 12px;
+      padding: 5px 12px;
+      border-radius: 18px;
+      font-size: 11.5px;
       font-weight: 500;
       cursor: pointer;
       backdrop-filter: blur(8px);
       transition: all 0.2s ease;
+      white-space: nowrap;
     }
 
     .filter-btn:hover, .filter-btn.active {
-      background: rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.16);
       color: #fff;
-      border-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(255, 255, 255, 0.35);
     }
 
+    /* D3 SVG & Düğümler */
+    #graph-svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .link {
+      stroke: rgba(255, 255, 255, 0.10);
+      stroke-width: 1.2px;
+      transition: stroke 0.3s, stroke-width 0.3s, stroke-opacity 0.3s;
+    }
+
+    .link.highlighted {
+      stroke: var(--accent-terracotta);
+      stroke-width: 2.5px;
+      stroke-opacity: 0.9;
+    }
+
+    .node {
+      cursor: pointer;
+    }
+
+    .node circle {
+      stroke-width: 2px;
+      transition: all 0.3s ease;
+    }
+
+    .node:hover circle {
+      filter: drop-shadow(0 0 14px currentColor);
+    }
+
+    .node.dimmed circle, .node.dimmed text {
+      opacity: 0.2;
+    }
+
+    .node text {
+      font-family: var(--font-body);
+      font-size: 11.5px;
+      font-weight: 500;
+      fill: #e8e4de;
+      pointer-events: none;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.95);
+      transition: opacity 0.3s;
+    }
+
+    /* Sağ Detay Paneli */
     #detail-panel {
-      width: 470px;
+      width: 480px;
       height: 100%;
       background: var(--panel-bg);
       backdrop-filter: blur(28px);
       border-left: 1px solid var(--border-color);
       display: flex;
       flex-direction: column;
-      z-index: 20;
+      z-index: 30;
       transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-      box-shadow: -10px 0 40px rgba(0, 0, 0, 0.6);
+      box-shadow: -10px 0 45px rgba(0, 0, 0, 0.7);
     }
 
     #detail-panel.hidden {
@@ -141,9 +359,9 @@
 
     .close-btn {
       position: absolute;
-      top: 24px;
-      right: 24px;
-      background: rgba(255, 255, 255, 0.05);
+      top: 22px;
+      right: 22px;
+      background: rgba(255, 255, 255, 0.06);
       border: 1px solid var(--border-color);
       color: var(--text-muted);
       width: 32px;
@@ -156,14 +374,13 @@
       font-size: 14px;
       transition: all 0.2s;
     }
-
     .close-btn:hover {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.22);
       color: #fff;
     }
 
     .category-tag {
-      font-size: 11px;
+      font-size: 10.5px;
       font-weight: 700;
       letter-spacing: 0.5px;
       text-transform: uppercase;
@@ -171,6 +388,7 @@
       border-radius: 12px;
       display: inline-block;
       margin-bottom: 10px;
+      font-family: var(--font-mono);
     }
 
     .node-title {
@@ -183,7 +401,7 @@
     }
 
     .panel-content {
-      padding: 24px 28px;
+      padding: 22px 28px;
       overflow-y: auto;
       flex: 1;
     }
@@ -192,7 +410,7 @@
       width: 5px;
     }
     .panel-content::-webkit-scrollbar-thumb {
-      background: rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.18);
       border-radius: 4px;
     }
 
@@ -237,7 +455,7 @@
       background: rgba(255, 255, 255, 0.03);
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      padding: 10px 12px;
+      padding: 10px 14px;
       text-decoration: none;
       display: flex;
       flex-direction: column;
@@ -246,8 +464,8 @@
     }
 
     .res-card:hover {
-      background: rgba(217, 119, 70, 0.09);
-      border-color: rgba(217, 119, 70, 0.45);
+      background: rgba(217, 119, 70, 0.10);
+      border-color: rgba(217, 119, 70, 0.50);
       transform: translateY(-1px);
     }
 
@@ -263,14 +481,17 @@
       font-weight: 700;
       letter-spacing: 0.5px;
       text-transform: uppercase;
-      padding: 2px 7px;
+      padding: 2.5px 7px;
       border-radius: 4px;
       font-family: var(--font-body);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
 
     .res-badge-video {
       background: rgba(224, 83, 83, 0.2);
-      color: #ff7f7f;
+      color: #ff8585;
       border: 1px solid rgba(224, 83, 83, 0.4);
     }
 
@@ -280,7 +501,12 @@
       border: 1px solid rgba(200, 157, 92, 0.4);
     }
 
-    .res-badge-makale { background: rgba(217, 119, 70, 0.2); color: #f5d09b; border: 1px solid rgba(217, 119, 70, 0.6); }
+    .res-badge-makale {
+      background: rgba(217, 119, 70, 0.22);
+      color: #f5d09b;
+      border: 1px solid rgba(217, 119, 70, 0.6);
+    }
+
     .res-badge-kitap {
       background: rgba(94, 130, 107, 0.2);
       color: #88c79f;
@@ -302,14 +528,14 @@
     .res-meta {
       font-size: 11px;
       color: var(--text-muted);
-      font-family: monospace;
+      font-family: var(--font-mono);
     }
 
     .res-title {
       font-size: 12.5px;
       font-weight: 600;
       color: #f0ede6;
-      line-height: 1.4;
+      line-height: 1.45;
     }
 
     .res-action {
@@ -340,7 +566,7 @@
       border: 1px solid var(--border-color);
       padding: 6px 12px;
       border-radius: 16px;
-      font-size: 12px;
+      font-size: 11.5px;
       color: var(--text-main);
       cursor: pointer;
       display: flex;
@@ -351,57 +577,123 @@
 
     .node-pill:hover {
       background: rgba(255, 255, 255, 0.15);
-      border-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(255, 255, 255, 0.35);
       transform: translateY(-1px);
     }
 
-    /* D3 Çizgiler & Düğümler */
-    .link {
-      stroke: rgba(255, 255, 255, 0.09);
-      stroke-width: 1.2px;
-      transition: stroke 0.3s, stroke-width 0.3s;
+    /* Yüzen Kontroller (Zoom & Reset) */
+    .floating-controls {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 25;
     }
 
-    .link.highlighted {
-      stroke: var(--accent-terracotta);
-      stroke-width: 2.5px;
-      stroke-opacity: 0.85;
-    }
-
-    .node {
+    .control-btn {
+      width: 38px;
+      height: 38px;
+      background: rgba(22, 24, 30, 0.85);
+      border: 1px solid var(--border-color);
+      color: #fff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       cursor: pointer;
+      font-size: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      transition: all 0.2s;
     }
-
-    .node circle {
-      stroke-width: 2px;
-      transition: all 0.3s;
-    }
-
-    .node:hover circle {
-      filter: drop-shadow(0 0 12px currentColor);
-    }
-
-    .node text {
-      font-family: var(--font-body);
-      font-size: 12px;
-      font-weight: 500;
-      fill: #e8e4de;
-      pointer-events: none;
-      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+    .control-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.35);
+      transform: scale(1.05);
     }
 
     .hint-box {
       position: absolute;
       bottom: 24px;
-      left: 28px;
-      background: rgba(20, 22, 27, 0.75);
+      left: 24px;
+      background: rgba(20, 22, 27, 0.80);
       border: 1px solid var(--border-color);
-      padding: 10px 18px;
+      padding: 8px 16px;
       border-radius: 20px;
-      font-size: 12px;
+      font-size: 11.5px;
       color: var(--text-muted);
       pointer-events: none;
       backdrop-filter: blur(8px);
+      z-index: 10;
+    }
+
+    /* ── Mobil Uyum (Responsive Styles) ── */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      .top-bar {
+        top: 14px;
+        left: 14px;
+        max-width: calc(100vw - 28px);
+      }
+
+      .brand-title {
+        font-size: 18px;
+      }
+
+      .search-wrap {
+        max-width: 100%;
+        margin-top: 10px;
+      }
+
+      .filter-bar {
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        max-width: calc(100vw - 28px);
+        padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .hint-box {
+        display: none;
+      }
+
+      .floating-controls {
+        bottom: 16px;
+        right: 16px;
+      }
+
+      /* Mobilde panel alttan açılan Bottom Sheet'e dönüşür */
+      #detail-panel {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 75vh;
+        max-height: 80vh;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+        border-radius: 20px 20px 0 0;
+        transform: translateY(100%);
+      }
+
+      #detail-panel:not(.hidden) {
+        transform: translateY(0);
+      }
+
+      .panel-header {
+        padding: 18px 20px 14px 20px;
+      }
+
+      .panel-content {
+        padding: 16px 20px;
+      }
     }
   </style>
 </head>
@@ -410,29 +702,54 @@
   <!-- Tuval / Graf Alanı -->
   <div id="canvas-container">
     <div class="top-bar">
-      <a href="index.html" style="text-decoration:none;"><div class="brand-title" style="cursor:pointer;">Dr. Mimar Serkan Duman</div></a>
+      <div class="brand-row">
+        <a href="index.html" class="brand-title">Dr. Mimar Serkan Duman</a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-pill">&larr; Ana Sayfa</a>
+          <a href="makaleler.html" class="nav-pill">📄 Makaleler</a>
+          <a href="dusunce-atlasi.html" class="nav-pill active">✦ Düşünce Atlası</a>
+        </div>
+      </div>
       <div class="brand-sub">
         <span class="status-badge"></span>
-        <span>Açık Düşünce & İlişkiler Atlası (Semantik Ağ & Dijital Arşiv)</span>
+        <span>Açık Düşünce &amp; İlişkiler Atlası &middot; 42 Düğüm &middot; 101 Bağlantı</span>
       </div>
+
+      <!-- Arama Kutusu -->
+      <div class="search-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="atlas-search-input" class="search-input-box" placeholder="Kavram, düşünür veya konu ara... (örn: Cansever, Kerpiç, Medeniyet)" autocomplete="off">
+        <button id="search-clear-btn" class="search-clear hidden" onclick="clearSearch()">✕</button>
+        <div id="search-results-dropdown" class="search-dropdown hidden"></div>
+      </div>
+
+      <!-- Kategori Filtre Butonları -->
       <div class="filter-bar">
         <button class="filter-btn active" data-cat="all">Tüm Düğümler (42)</button>
-        <button class="filter-btn" data-cat="kuram">Kuram &amp; Felsefe</button>
-        <button class="filter-btn" data-cat="proje">Mimari &amp; Yaşam</button>
-        <button class="filter-btn" data-cat="malzeme">Toprak &amp; Malzeme</button>
-        <button class="filter-btn" data-cat="cografya">Coğrafya &amp; Saha</button>
+        <button class="filter-btn" data-cat="kuram">Kuram &amp; Felsefe (14)</button>
+        <button class="filter-btn" data-cat="proje">Mimari &amp; Yaşam (11)</button>
+        <button class="filter-btn" data-cat="malzeme">Toprak &amp; Malzeme (9)</button>
+        <button class="filter-btn" data-cat="cografya">Coğrafya &amp; Saha (8)</button>
       </div>
     </div>
 
+    <!-- D3 SVG -->
     <svg id="graph-svg"></svg>
 
+    <!-- Yüzen Kontroller -->
+    <div class="floating-controls">
+      <button class="control-btn" onclick="zoomIn()" title="Yakınlaştır">+</button>
+      <button class="control-btn" onclick="zoomOut()" title="Uzaklaştır">−</button>
+      <button class="control-btn" onclick="resetZoom()" title="Görünümü Sıfırla">⟲</button>
+    </div>
+
     <div class="hint-box">
-      ✦ Düğümleri sürükleyebilir, üzerlerine tıklayarak düşünsel bağlantıları ve ilgili video/yazı arşivini açabilirsiniz.
+      ✦ Düğümleri sürükleyebilir, üzerlerine tıklayarak kavramsal ilişkileri ve dijital arşivi açabilirsiniz.
     </div>
   </div>
 
-  <!-- Sağ Detay Paneli -->
-  <div id="detail-panel">
+  <!-- Sağ Detay Paneli (Masaüstü: Sağ Drawer, Mobil: Bottom Sheet) -->
+  <div id="detail-panel" class="hidden">
     <div class="panel-header">
       <button class="close-btn" onclick="closePanel()">✕</button>
       <span class="category-tag" id="panel-category">Kategori</span>
@@ -447,13 +764,13 @@
 
       <div class="section-title">Kaynak &amp; Metin Bağlamı</div>
       <div style="background:rgba(255,255,255,0.02); border:1px solid var(--border-color); border-radius:8px; padding:12px;">
-        <div id="panel-source" style="font-size:11px; font-family:monospace; color:var(--accent-terracotta); margin-bottom:6px; font-weight:600;">...</div>
+        <div id="panel-source" style="font-size:11px; font-family:var(--font-mono); color:var(--accent-terracotta); margin-bottom:6px; font-weight:600;">...</div>
         <div class="body-text" id="panel-body" style="font-style:italic;">...</div>
       </div>
 
       <div class="section-title">
         <span>İlişkili İçerikler (Yazılar &amp; Videolar)</span>
-        <span id="panel-resource-count" style="font-family:monospace; color:#9e9ba7;"></span>
+        <span id="panel-resource-count" style="font-family:var(--font-mono); color:#9e9ba7;"></span>
       </div>
       <div class="resources-container" id="panel-resources"></div>
 
@@ -8700,11 +9017,15 @@
                   }
               ]
 }
+
 ;
+
+    let svg, g, zoom, simulation, link, node;
+    let selectedNodeId = null;
 
     // D3 GRAFİK KURULUMU
     function initGraph() {
-      const svg = d3.select("#graph-svg");
+      svg = d3.select("#graph-svg");
       const container = document.getElementById("canvas-container");
       
       const width = container.clientWidth || window.innerWidth;
@@ -8713,23 +9034,27 @@
       svg.attr("width", width).attr("height", height);
 
       // Yakınlaştırma (Zoom)
-      const g = svg.append("g");
-      const zoom = d3.zoom()
-        .scaleExtent([0.3, 3])
+      g = svg.append("g");
+      zoom = d3.zoom()
+        .scaleExtent([0.25, 3.5])
         .on("zoom", (event) => {
           g.attr("transform", event.transform);
         });
       svg.call(zoom);
 
       // Simülasyon Kuvvetleri
-      const simulation = d3.forceSimulation(graphData.nodes)
+      const isMobile = window.innerWidth <= 768;
+      const centerOffsetX = isMobile ? width / 2 : width / 2.3;
+      const centerOffsetY = isMobile ? height / 2.3 : height / 2;
+
+      simulation = d3.forceSimulation(graphData.nodes)
         .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(115))
-        .force("charge", d3.forceManyBody().strength(-350))
-        .force("center", d3.forceCenter(width / 2.2, height / 2))
-        .force("collision", d3.forceCollide().radius(d => d.size + 18));
+        .force("charge", d3.forceManyBody().strength(-360))
+        .force("center", d3.forceCenter(centerOffsetX, centerOffsetY))
+        .force("collision", d3.forceCollide().radius(d => d.size + 20));
 
       // Bağlantılar (Links)
-      const link = g.append("g")
+      link = g.append("g")
         .attr("class", "links")
         .selectAll("line")
         .data(graphData.links)
@@ -8737,19 +9062,20 @@
         .attr("class", "link");
 
       // Düğümler (Nodes)
-      const node = g.append("g")
+      node = g.append("g")
         .attr("class", "nodes")
         .selectAll(".node")
         .data(graphData.nodes)
         .enter().append("g")
         .attr("class", "node")
+        .attr("id", d => "node-" + d.id)
         .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended))
         .on("click", (event, d) => {
           event.stopPropagation();
-          selectNode(d);
+          selectNode(d, true);
         });
 
       // Düğüm Çemberleri
@@ -8766,7 +9092,7 @@
 
       // Düğüm Etiketleri
       node.append("text")
-        .attr("dy", d => d.size + 16)
+        .attr("dy", d => d.size + 15)
         .attr("text-anchor", "middle")
         .text(d => d.name);
 
@@ -8799,121 +9125,274 @@
         d.fy = null;
       }
 
-      // DÜĞÜM SEÇİMİ VE DETAY PANELİNİ DOLDURMA
-      window.selectNode = function(selected) {
-        document.getElementById('panel-title').innerText = selected.name;
-        document.getElementById('panel-quote').innerText = '“' + selected.quote + '”';
-        document.getElementById('panel-body').innerText = '“' + selected.body + '”';
-        document.getElementById('panel-source').innerText = selected.source ? ('Kaynak: ' + selected.source) : '';
+      // Tuval boşluğuna tıklanınca panel kapanır
+      svg.on("click", () => {
+        closePanel();
+      });
 
-        const catMap = {
-          kuram: { name: "Kuram & Felsefe", color: "var(--accent-gold)" },
-          cografya: { name: "Coğrafya & Saha", color: "var(--accent-terracotta)" },
-          malzeme: { name: "Toprak & Malzeme", color: "var(--accent-clay)" },
-          proje: { name: "Mimari & Proje", color: "var(--accent-sage)" }
-        };
+      // Arama ve Filtreleme Dinleyicileri
+      setupSearch();
+      setupFilters();
 
-        const catInfo = catMap[selected.category] || { name: selected.category, color: "#fff" };
-        const catBadge = document.getElementById('panel-category');
-        catBadge.innerText = catInfo.name;
-        catBadge.style.background = selected.color + '25';
-        catBadge.style.color = selected.color;
-
-        // İlişkili İçerikler (Yazılar & Videolar)
-        const resContainer = document.getElementById('panel-resources');
-        const countSpan = document.getElementById('panel-resource-count');
-        resContainer.innerHTML = '';
-
-        if (selected.resources && selected.resources.length > 0) {
-          countSpan.innerText = '(' + selected.resources.length + ' Kaynak)';
-          selected.resources.forEach(res => {
-            const card = document.createElement('a');
-            card.href = res.url;
-            card.target = '_blank';
-            card.className = 'res-card';
-            
-            let typeBadge = '<span class="res-badge res-badge-video">▶ Video</span>';
-            let actionText = "YouTube'da İzle ↗";
-
-            if (res.type === 'makale') {
-              typeBadge = '<span class="res-badge res-badge-makale">? Makale</span>';
-              actionText = 'Makaleyi Oku ?';
-            } else if (res.type === 'kitap') {
-              typeBadge = '<span class="res-badge res-badge-kitap">𝕏 Kitap</span>';
-              actionText = 'İncele ↗';
-            } else if (res.type === 'yazi') {
-              typeBadge = '<span class="res-badge res-badge-yazi">𝕏 Blog Yazısı</span>';
-              actionText = 'SDMIM\'de Oku ↗';
-            } else if (res.type === 'tweet') {
-              typeBadge = '<span class="res-badge res-badge-tweet">𝕏 Not &amp; Düşünce</span>';
-              actionText = 'X\'te Gör ↗';
-            } else if (res.type === 'proje') {
-              typeBadge = '<span class="res-badge res-badge-proje">𝕏 Mimari Proje</span>';
-              actionText = 'Projeyi Aç ↗';
-            }
-
-            const metaSpan = res.duration ? '<span class="res-meta">' + res.duration + '</span>' : '';
-
-            card.innerHTML = 
-              '<div class="res-header">' +
-                typeBadge +
-                metaSpan +
-              '</div>' +
-              '<div class="res-title">' + res.title + '</div>' +
-              '<div class="res-action">' + actionText + '</div>';
-
-            resContainer.appendChild(card);
-          });
-        } else {
-          countSpan.innerText = '(0)';
-          resContainer.innerHTML = '<div class="res-empty">Bu kavrama ait dijital kayıtlar ve yeni makaleler sisteme işlenmektedir.</div>';
+      // Başlangıç düğümü kontrolü: URL parametresi (?node=...) veya hash (#...) veya varsayılan
+      setTimeout(() => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const requestedNodeId = urlParams.get('node') || window.location.hash.replace('#', '').replace('node=', '');
+        
+        let startNode = null;
+        if (requestedNodeId) {
+          startNode = graphData.nodes.find(n => n.id === requestedNodeId);
+        }
+        if (!startNode) {
+          startNode = graphData.nodes.find(n => n.id === 'medeniyet') || graphData.nodes[0];
         }
 
-        // İlişkili Düğümleri Bul
-        const connectedNodeIds = new Set();
-        graphData.links.forEach(l => {
-          const sId = l.source.id || l.source;
-          const tId = l.target.id || l.target;
-          if (sId === selected.id) connectedNodeIds.add(tId);
-          if (tId === selected.id) connectedNodeIds.add(sId);
-        });
+        if (startNode) {
+          selectNode(startNode, true);
+        }
+      }, 450);
+    }
 
-        const tagsContainer = document.getElementById('panel-connections');
-        tagsContainer.innerHTML = '';
-        connectedNodeIds.forEach(id => {
-          const targetNode = graphData.nodes.find(n => n.id === id);
-          if (targetNode) {
-            const pill = document.createElement('div');
-            pill.className = 'node-pill';
-            pill.innerText = '✦ ' + targetNode.name;
-            pill.onclick = () => selectNode(targetNode);
-            tagsContainer.appendChild(pill);
+    // DÜĞÜM SEÇİMİ VE DETAY GÖSTERİMİ
+    window.selectNode = function(selected, shouldFocus = false) {
+      if (!selected) return;
+      selectedNodeId = selected.id;
+
+      // URL Hash veya Query güncelleme
+      try {
+        const url = new URL(window.location);
+        url.searchParams.set('node', selected.id);
+        window.history.replaceState({}, '', url);
+      } catch (e) {}
+
+      // Başlık & Kategori
+      const catMap = {
+        'kuram': { name: 'Kuram & Felsefe', color: '#c89d5c', bg: 'rgba(200, 157, 92, 0.15)' },
+        'proje': { name: 'Mimari & Yaşam', color: '#5e826b', bg: 'rgba(94, 130, 107, 0.15)' },
+        'malzeme': { name: 'Toprak & Malzeme', color: '#d97746', bg: 'rgba(217, 119, 70, 0.15)' },
+        'cografya': { name: 'Coğrafya & Saha', color: '#8c7365', bg: 'rgba(140, 115, 101, 0.15)' }
+      };
+
+      const cInfo = catMap[selected.category] || { name: selected.category, color: selected.color, bg: 'rgba(255,255,255,0.1)' };
+      const catTag = document.getElementById('panel-category');
+      catTag.innerText = cInfo.name;
+      catTag.style.color = cInfo.color;
+      catTag.style.background = cInfo.bg;
+      catTag.style.border = `1px solid ${cInfo.color}55`;
+
+      document.getElementById('panel-title').innerText = selected.name;
+      document.getElementById('panel-quote').innerText = selected.quote || 'Fıtri olanı aramak, insanın hakikatle kurduğu en yalın ilişkidir.';
+      document.getElementById('panel-source').innerText = selected.source || 'Dr. Mimar Serkan Duman Arşivi';
+      document.getElementById('panel-body').innerText = selected.body || 'Bu kavram, mimarlık kuramı ve medeniyet inşasındaki temel sütunlardan birini teşkil eder.';
+
+      // Kaynaklar & Videolar
+      const resContainer = document.getElementById('panel-resources');
+      const countSpan = document.getElementById('panel-resource-count');
+      resContainer.innerHTML = '';
+
+      if (selected.resources && selected.resources.length > 0) {
+        countSpan.innerText = `(${selected.resources.length})`;
+
+        selected.resources.forEach(res => {
+          const card = document.createElement('a');
+          card.href = res.url || ('https://www.youtube.com/watch?v=' + res.id);
+          card.target = '_blank';
+          card.className = 'res-card';
+
+          let typeBadge = '<span class="res-badge res-badge-video">🎬 Video</span>';
+          let actionText = 'YouTube\'da İzle ↗';
+
+          if (res.type === 'makale') {
+            typeBadge = '<span class="res-badge res-badge-makale">📄 Makale</span>';
+            actionText = 'Makaleyi Oku →';
+          } else if (res.type === 'kitap') {
+            typeBadge = '<span class="res-badge res-badge-kitap">📖 Kitap</span>';
+            actionText = 'Kitabı İncele ↗';
+          } else if (res.type === 'yazi') {
+            typeBadge = '<span class="res-badge res-badge-yazi">✍️ Blog Yazısı</span>';
+            actionText = 'SDMIM\'de Oku ↗';
+          } else if (res.type === 'tweet') {
+            typeBadge = '<span class="res-badge res-badge-tweet">💡 Not &amp; Düşünce</span>';
+            actionText = 'İncele ↗';
+          } else if (res.type === 'proje') {
+            typeBadge = '<span class="res-badge res-badge-proje">📐 Mimari Proje</span>';
+            actionText = 'Projeyi Aç ↗';
           }
+
+          const metaSpan = res.duration ? `<span class="res-meta">${res.duration}</span>` : '';
+
+          card.innerHTML = 
+            '<div class="res-header">' +
+              typeBadge +
+              metaSpan +
+            '</div>' +
+            '<div class="res-title">' + res.title + '</div>' +
+            '<div class="res-action">' + actionText + '</div>';
+
+          resContainer.appendChild(card);
+        });
+      } else {
+        countSpan.innerText = '(0)';
+        resContainer.innerHTML = '<div class="res-empty">Bu kavrama ait dijital kayıtlar ve yeni makaleler sisteme işlenmektedir.</div>';
+      }
+
+      // İlişkili Düğümleri Bul
+      const connectedNodeIds = new Set();
+      graphData.links.forEach(l => {
+        const sId = l.source.id || l.source;
+        const tId = l.target.id || l.target;
+        if (sId === selected.id) connectedNodeIds.add(tId);
+        if (tId === selected.id) connectedNodeIds.add(sId);
+      });
+
+      const tagsContainer = document.getElementById('panel-connections');
+      tagsContainer.innerHTML = '';
+      connectedNodeIds.forEach(id => {
+        const targetNode = graphData.nodes.find(n => n.id === id);
+        if (targetNode) {
+          const pill = document.createElement('div');
+          pill.className = 'node-pill';
+          pill.innerText = '✦ ' + targetNode.name;
+          pill.onclick = () => selectNode(targetNode, true);
+          tagsContainer.appendChild(pill);
+        }
+      });
+
+      // Grafikte Vurgulama
+      link.classed('highlighted', l => {
+        const sId = l.source.id || l.source;
+        const tId = l.target.id || l.target;
+        return sId === selected.id || tId === selected.id;
+      });
+
+      node.selectAll("circle")
+        .transition().duration(250)
+        .attr("stroke-width", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 4 : 2)
+        .attr("fill-opacity", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 0.65 : 0.15);
+
+      // Paneli Aç
+      document.getElementById('detail-panel').classList.remove('hidden');
+
+      // Kamera Odağı (Smooth Zoom Centering)
+      if (shouldFocus && selected.x && selected.y) {
+        focusOnCoordinates(selected.x, selected.y);
+      }
+    };
+
+    function focusOnCoordinates(x, y) {
+      const container = document.getElementById("canvas-container");
+      const width = container.clientWidth || window.innerWidth;
+      const height = container.clientHeight || window.innerHeight;
+      const isMobile = window.innerWidth <= 768;
+
+      const targetScale = isMobile ? 1.15 : 1.45;
+      const targetX = (isMobile ? width / 2 : width / 2.3) - x * targetScale;
+      const targetY = (isMobile ? height / 2.4 : height / 2) - y * targetScale;
+
+      svg.transition().duration(600).ease(d3.easeCubicOut).call(
+        zoom.transform,
+        d3.zoomIdentity.translate(targetX, targetY).scale(targetScale)
+      );
+    }
+
+    window.closePanel = function() {
+      document.getElementById('detail-panel').classList.add('hidden');
+      link.classed('highlighted', false);
+      node.selectAll("circle").attr("stroke-width", 2).attr("fill-opacity", 0.25);
+      selectedNodeId = null;
+    };
+
+    // ARAMA SİSTEMİ
+    function setupSearch() {
+      const input = document.getElementById('atlas-search-input');
+      const clearBtn = document.getElementById('search-clear-btn');
+      const dropdown = document.getElementById('search-results-dropdown');
+
+      input.addEventListener('input', () => {
+        const query = input.value.trim().toLowerCase();
+        
+        if (query.length > 0) {
+          clearBtn.classList.remove('hidden');
+        } else {
+          clearBtn.classList.add('hidden');
+          dropdown.classList.add('hidden');
+          node.classed('dimmed', false);
+          return;
+        }
+
+        // Arama eşleştirmesi
+        const matches = graphData.nodes.filter(n => {
+          const matchName = n.name.toLowerCase().includes(query);
+          const matchQuote = (n.quote || '').toLowerCase().includes(query);
+          const matchSource = (n.source || '').toLowerCase().includes(query);
+          return matchName || matchQuote || matchSource;
         });
 
-        // Grafikte Vurgulama
-        link.classed('highlighted', l => {
-          const sId = l.source.id || l.source;
-          const tId = l.target.id || l.target;
-          return sId === selected.id || tId === selected.id;
-        });
+        // Tuvaldeki düğümleri loşlaştır/öne çıkar
+        node.classed('dimmed', d => !matches.some(m => m.id === d.id));
 
-        node.selectAll("circle")
-          .transition().duration(250)
-          .attr("stroke-width", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 4 : 2)
-          .attr("fill-opacity", d => (d.id === selected.id || connectedNodeIds.has(d.id)) ? 0.6 : 0.15);
+        // Açılır listeyi doldur
+        dropdown.innerHTML = '';
+        if (matches.length === 0) {
+          dropdown.innerHTML = '<div style="padding:12px; font-size:12px; color:#888; text-align:center;">Eşleşen kavram bulunamadı.</div>';
+        } else {
+          matches.slice(0, 8).forEach(m => {
+            const item = document.createElement('div');
+            item.className = 'search-item';
+            item.innerHTML = `
+              <div>
+                <div class="search-item-title">${m.name}</div>
+                <div style="font-size:11px; color:#999; margin-top:2px;">${(m.quote || '').substring(0, 48)}...</div>
+              </div>
+              <span class="search-item-badge" style="background:${m.color}33; color:${m.color}; border:1px solid ${m.color}66;">
+                ${m.category}
+              </span>
+            `;
+            item.onclick = () => {
+              input.value = m.name;
+              dropdown.classList.add('hidden');
+              node.classed('dimmed', false);
+              selectNode(m, true);
+            };
+            dropdown.appendChild(item);
+          });
+        }
+        dropdown.classList.remove('hidden');
+      });
 
-        // Paneli Aç
-        document.getElementById('detail-panel').classList.remove('hidden');
-      };
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const query = input.value.trim().toLowerCase();
+          const firstMatch = graphData.nodes.find(n => n.name.toLowerCase().includes(query));
+          if (firstMatch) {
+            dropdown.classList.add('hidden');
+            node.classed('dimmed', false);
+            selectNode(firstMatch, true);
+          }
+        } else if (e.key === 'Escape') {
+          clearSearch();
+        }
+      });
 
-      window.closePanel = function() {
-        document.getElementById('detail-panel').classList.add('hidden');
-        link.classed('highlighted', false);
-        node.selectAll("circle").attr("stroke-width", 2).attr("fill-opacity", 0.25);
-      };
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.search-wrap')) {
+          dropdown.classList.add('hidden');
+        }
+      });
+    }
 
-      // FİLTRELEME BUTONLARI
+    window.clearSearch = function() {
+      const input = document.getElementById('atlas-search-input');
+      const clearBtn = document.getElementById('search-clear-btn');
+      const dropdown = document.getElementById('search-results-dropdown');
+      input.value = '';
+      clearBtn.classList.add('hidden');
+      dropdown.classList.add('hidden');
+      node.classed('dimmed', false);
+    };
+
+    // FİLTRELEME BUTONLARI
+    function setupFilters() {
       document.querySelectorAll('.filter-bar .filter-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
@@ -8933,16 +9412,38 @@
           }
         });
       });
-
-      // Başlangıçta ilk düğümü (İslam & Medeniyet) seçili getir
-      setTimeout(() => {
-        selectNode(graphData.nodes[0]);
-      }, 400);
     }
+
+    // YAKINLAŞTIRMA KONTROLLERİ
+    window.zoomIn = function() {
+      svg.transition().duration(300).call(zoom.scaleBy, 1.3);
+    };
+
+    window.zoomOut = function() {
+      svg.transition().duration(300).call(zoom.scaleBy, 0.75);
+    };
+
+    window.resetZoom = function() {
+      const container = document.getElementById("canvas-container");
+      const width = container.clientWidth || window.innerWidth;
+      const height = container.clientHeight || window.innerHeight;
+      const isMobile = window.innerWidth <= 768;
+
+      svg.transition().duration(500).call(
+        zoom.transform,
+        d3.zoomIdentity.translate(isMobile ? width / 2 : width / 2.3, isMobile ? height / 2.3 : height / 2).scale(isMobile ? 0.85 : 1)
+      );
+    };
+
+    // Pencere yeniden boyutlandırıldığında SVG güncelleme
+    window.addEventListener('resize', () => {
+      const container = document.getElementById("canvas-container");
+      if (svg && container) {
+        svg.attr("width", container.clientWidth).attr("height", container.clientHeight);
+      }
+    });
 
     window.addEventListener('load', initGraph);
   </script>
 </body>
 </html>
-
-
