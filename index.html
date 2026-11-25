@@ -99,6 +99,26 @@
           "@type": "CollegeOrUniversity",
           "name": "Yıldız Teknik Üniversitesi"
         },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Telif Kitaplar",
+          "itemListElement": [
+            {
+              "@type": "Book",
+              "name": "Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat",
+              "isbn": "9789755486024",
+              "author": "Dr. Mimar Serkan Duman",
+              "publisher": "Kaknüs Yayınları"
+            },
+            {
+              "@type": "Book",
+              "name": "Elvan",
+              "author": "Dr. Mimar Serkan Duman",
+              "publisher": "Kitapyurdu Doğrudan Yayıncılık (KDY)",
+              "datePublished": "2021"
+            }
+          ]
+        },
         "knowsAbout": [
           "Mimarlık Tarihi ve Kuramı",
           "Geleneksel ve Monolitik Toprak Yapılar",
@@ -158,6 +178,9 @@
         <a href="dusunce-atlasi.html" class="px-3.5 py-1.5 rounded border border-[#e6b87d] bg-[#e6b87d]/15 text-[#f5d09b] hover:bg-[#e6b87d]/25 transition flex items-center gap-1.5">
           <span>✦ Düşünce Atlası</span>
         </a>
+        <a href="#telif-kitaplar" onclick="if(currentDoor!==1)toggleDoor(1)" class="px-3.5 py-1.5 rounded border border-amber-500/50 bg-amber-500/10 text-[#f5d09b] hover:bg-amber-500/20 transition flex items-center gap-1.5">
+          <span>📖 Elvan &amp; Kitaplar</span>
+        </a>
         <a href="https://www.sdmim.com" target="_blank" class="px-3.5 py-1.5 rounded border border-zinc-600 bg-zinc-900 text-zinc-200 hover:text-white hover:border-white transition">
           SDMIM ↗
         </a>
@@ -167,11 +190,70 @@
       </div>
     </div>
 
+        <!-- KÜLLİYAT & TEFEKKÜR ARAMA MERKEZİ -->
+    <div class="mb-8 relative z-30" id="portal-search-section">
+      <div class="relative bg-zinc-900/95 border-2 border-zinc-700 hover:border-[#e6b87d]/70 focus-within:border-[#e6b87d] rounded-xl p-3 sm:p-3.5 transition-all duration-200 shadow-xl">
+        <div class="flex items-center gap-3 px-2">
+          <span class="text-[#e6b87d] text-base sm:text-lg select-none flex-shrink-0">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"></path>
+            </svg>
+          </span>
+          <input 
+            type="text" 
+            id="portal-search-input" 
+            placeholder="Külliyatta, makalelerde, kitaplarda veya mefhumlarda arayınız... (Örn: Cansever, Kerpiç, Şehir Hukuku, Elvan, ZISOFA...)" 
+            class="w-full bg-transparent border-none outline-none text-white placeholder-zinc-400 text-xs sm:text-sm font-sans"
+            autocomplete="off"
+            oninput="handlePortalSearch(this.value)"
+            onkeydown="handleSearchKeyDown(event)"
+          />
+          <button 
+            id="portal-search-clear" 
+            onclick="clearPortalSearch()" 
+            class="hidden text-zinc-400 hover:text-white text-xs font-mono px-2 py-1 rounded bg-zinc-800 hover:bg-zinc-700 transition flex-shrink-0"
+            title="Aramayı Temizle (Esc)"
+          >
+            ✕
+          </button>
+        </div>
+
+        <!-- Hızlı Arama Mefhumları (Pills) -->
+        <div class="flex flex-wrap items-center gap-1.5 pt-2.5 mt-2.5 border-t border-zinc-800 px-1 text-[11px] font-mono">
+          <span class="text-zinc-400 font-semibold mr-1 select-none">Öne Çıkan Mefhumlar:</span>
+          <button type="button" onclick="setSearchQuery('Turgut Cansever')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Turgut Cansever</button>
+          <button type="button" onclick="setSearchQuery('Kerpiç')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Monolitik Toprak &amp; Kerpiç</button>
+          <button type="button" onclick="setSearchQuery('Şehir Hukuku')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Şehir Hukuku</button>
+          <button type="button" onclick="setSearchQuery('Deprem Raporu')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Deprem Raporları</button>
+          <button type="button" onclick="setSearchQuery('Elvan')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Elvan (Kitap)</button>
+          <button type="button" onclick="setSearchQuery('Nihayet Dergisi')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Nihayet &amp; GZT</button>
+          <button type="button" onclick="setSearchQuery('ZISOFA')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ ZISOFA</button>
+          <button type="button" onclick="setSearchQuery('Köy Modeli')" class="px-2.5 py-0.5 rounded bg-zinc-800/90 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d]/50 text-zinc-300 hover:text-[#f5d09b] transition">✦ Köy &amp; Müstakil Hayat</button>
+        </div>
+      </div>
+
+      <!-- Arama Neticeleri Paneli (Canlı Açılır / Kapanır) -->
+      <div id="portal-search-results" class="hidden mt-3 p-4 sm:p-6 rounded-xl border-2 border-[#e6b87d]/50 bg-[#121318] shadow-2xl space-y-4 max-h-[580px] overflow-y-auto">
+        <div class="flex items-center justify-between pb-3 border-b border-zinc-800 text-xs font-mono">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-[#e6b87d] animate-pulse"></span>
+            <span id="search-results-count" class="text-white font-bold">0 netice listelendi</span>
+          </div>
+          <button type="button" onclick="clearPortalSearch()" class="text-zinc-400 hover:text-white transition font-mono">Kapat ✕</button>
+        </div>
+
+        <!-- Netice Kartları Listesi -->
+        <div id="search-results-list" class="space-y-2.5">
+          <!-- JS ile doldurulacak -->
+        </div>
+      </div>
+    </div>
+
     <!-- 3 DİKEY UZAYAN KALIN KONTURLU KAPI -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
       <!-- KAPI 1: DÜŞÜNCE & KURAM -->
-      <div id="door-1" onclick="toggleDoor(1)" class="monolith-door cursor-pointer rounded-xl p-8 flex flex-col justify-between items-center text-center min-h-[380px] sm:min-h-[420px] group">
+      <div id="door-1" onclick="toggleDoor(1)" class="monolith-door active cursor-pointer rounded-xl p-8 flex flex-col justify-between items-center text-center min-h-[380px] sm:min-h-[420px] group">
         <div class="w-full flex items-center justify-between text-xs font-mono text-zinc-300 font-bold tracking-widest uppercase">
           <span>01</span>
           <span>ZİHİN</span>
@@ -182,9 +264,9 @@
           <h2 class="text-lg sm:text-xl font-bold tracking-[0.2em] text-white uppercase leading-relaxed">
             DÜŞÜNCE<br>&amp; KURAM
           </h2>
-          <span class="text-xs text-zinc-300 tracking-wider block mt-3 font-medium">Kitap &middot; Cansever &middot; Teori</span>
-          <span class="inline-block mt-4 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-zinc-800 border border-zinc-600 text-zinc-200">
-            5 Eser &middot; 4 Blog &middot; 116 𝕏 Not &middot; 77 Video
+          <span class="text-xs text-[#f5d09b] tracking-wider block mt-3 font-semibold">Elvan &middot; Doğu-Batı &middot; Nihayet &middot; GZT &middot; Cansever</span>
+          <span class="inline-block mt-4 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-zinc-800 border border-[#e6b87d]/50 text-amber-200">
+            2 Telif Kitap &middot; 9 Matbuat &middot; 4 Makale &middot; 77 Video
           </span>
         </div>
 
@@ -242,14 +324,14 @@
     </div>
 
     <!-- TIKLANINCA ALTTAN AÇILAN NET & PARLAK MUHTEVA HAVUZU -->
-    <div id="detail-panel" class="hidden mt-8 p-6 sm:p-8 rounded-xl border-2 border-zinc-700 bg-[#14151a] relative shadow-2xl transition-all duration-300">
+    <div id="detail-panel" class="mt-8 p-6 sm:p-8 rounded-xl border-2 border-zinc-700 bg-[#14151a] relative shadow-2xl transition-all duration-300">
       
       <button onclick="closeDoor()" class="absolute top-5 right-5 text-zinc-300 hover:text-white text-xs font-mono font-bold px-2 py-1 bg-zinc-800 rounded border border-zinc-600">
         ✕ KAPAT
       </button>
 
       <!-- 1. KAPI GERÇEK İÇERİKLERİ -->
-      <div id="panel-1" class="hidden space-y-6">
+      <div id="panel-1" class="space-y-6">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-zinc-700">
           <div>
             <span class="text-xs font-mono font-bold text-[#e6b87d]">KAPI I &middot; ZİHİN &middot; ARŞİV</span>
@@ -261,63 +343,178 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs">
-          
-          <!-- Kitap -->
-          <div class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
+        <!-- Telif Kitaplar Bölümü (Doğu-Batı & Elvan) -->
+        <div class="mb-4">
+          <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase tracking-wider block mb-2">Müstakil Telif Kitaplar</span>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs">
+            
+            <!-- Kitap 1: Doğu-Batı Ayrımında -->
+            <a href="https://www.kitapyurdu.com/kitap/dogubati-ayriminda-aslinda-mimarlik-sehircilik-ve-sanat/635835.html" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/90 hover:border-[#e6b87d] transition flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between">
+                  <span class="text-[11px] font-mono font-bold text-[#e6b87d] uppercase">Telif Kitap &middot; Nazariyat</span>
+                  <span class="text-[10px] font-mono text-zinc-400">Kaknüs Yayınları</span>
+                </div>
+                <h4 class="text-sm font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat</h4>
+                <p class="text-zinc-300 text-xs mt-2 leading-relaxed italic">&ldquo;Batı merkezli 'görüntü üreticiliği'ne karşı Doğu'nun vücudî mekân idraki ve hakikati arayışı.&rdquo;</p>
+              </div>
+              <span class="text-xs text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800 pt-2.5 mt-4">
+                <span>Temel Nazariyat Eseri &middot; 2023</span>
+                <span class="text-[#e6b87d] font-bold group-hover:underline">Kitabı İncele &rarr;</span>
+              </span>
+            </a>
+
+            <!-- Kitap 2: Elvan -->
+            <a href="https://www.kitapyurdu.com/kitap/elvan/597371.html" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/90 hover:border-[#e6b87d] transition flex flex-col justify-between group">
+              <div>
+                <div class="flex items-center justify-between">
+                  <span class="text-[11px] font-mono font-bold text-[#e6b87d] uppercase">Telif Kitap &middot; Fikrî Anlatı</span>
+                  <span class="text-[10px] font-mono text-zinc-400">KDY Yayınları</span>
+                </div>
+                <h4 class="text-sm font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Elvan</h4>
+                <p class="text-zinc-300 text-xs mt-2 leading-relaxed italic">&ldquo;Ben, Sen, O ve Biz... Çöllere, kutuplara ve uzak şehirlere uzanan ontolojik bir arayış; mekânın, zamanın ve insanın kendi hakikatine hicreti.&rdquo;</p>
+              </div>
+              <span class="text-xs text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800 pt-2.5 mt-4">
+                <span>Edebî &amp; Fikrî Roman &middot; 2021</span>
+                <span class="text-[#e6b87d] font-bold group-hover:underline">Kitabı İncele &rarr;</span>
+              </span>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- Milli Matbuat, GZT & Nihayet Dergisi Külliyatı -->
+        <div class="mt-6 pt-5 border-t border-zinc-700/80">
+          <div class="flex items-center justify-between mb-3.5">
             <div>
-              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">Yayımlanan Kitap</span>
-              <h4 class="text-sm font-bold text-white mt-1">Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat</h4>
-              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Batı merkezli 'görüntü üreticiliği'ne karşı Doğu'nun vücudî mekân idraki ve hakikati arayışı.&rdquo;</p>
+              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase tracking-wider block">Milli Matbuat, GZT &amp; Nihayet Dergisi Külliyatı</span>
+              <p class="text-[11px] text-zinc-400 mt-0.5">Ulusal basında, düşünce mecmualarında yayımlanan telif makaleler, mülakatlar ve mütalaalar</p>
             </div>
-            <span class="text-xs text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800 pt-2 mt-4">
-              <span>Temel Eser &middot; 2023</span>
-              <span class="text-[#e6b87d] font-bold">İncele &rarr;</span>
-            </span>
+            <a href="makaleler.html" class="text-xs font-mono text-[#e6b87d] hover:underline flex items-center gap-1 font-bold">
+              <span>Tüm Külliyat &rarr;</span>
+            </a>
           </div>
 
-          <!-- Cansever Yazısı -->
-          <a href="https://www.sdmim.com/haberler" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
-            <div>
-              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">Hece Dergisi</span>
-              <h4 class="text-sm font-bold text-white mt-1">&ldquo;Bir Damarı Canlı Tutmak&rdquo; &mdash; Turgut Cansever</h4>
-              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Şehri imar ederken gönülleri ihya etmeyi unutanlar, sonra o şehirde yaşayacak insan bulamazlar.&rdquo;</p>
-            </div>
-            <span class="text-xs text-[#e6b87d] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
-              <span class="text-zinc-400 font-normal">Hece Dergisi</span>
-              <span>Oku &rarr;</span>
-            </span>
-          </a>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-xs">
+            
+            <!-- 1. Nihayet: Köy Evini Yeniden Düşünmek -->
+            <a href="makaleler.html#koy-evini-yeniden-dusunmek-kafa-yok-govde-var" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Nihayet Dergisi &middot; Sayı 140</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Köy Evini Yeniden Düşünmek: Kafa Yok, Gövde Var</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Köyde betonarme villa yapmak, toprağa yapılmış en büyük haksızlıktır. Köy evi kenti taklit edemez.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Söyleşi: Aleyna Ayan</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
 
-          <!-- Nail Çakırhan -->
-          <a href="https://www.sdmim.com/blog" target="_blank" class="content-card p-4 rounded-lg border border-zinc-700 bg-zinc-900/80 flex flex-col justify-between">
-            <div>
-              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">SDMIM Blog &middot; Portre</span>
-              <h4 class="text-sm font-bold text-white mt-1">Mimar Olmayan Bir Mimar: Nail Çakırhan</h4>
-              <p class="text-zinc-200 text-xs mt-2 leading-relaxed italic">&ldquo;Mahallî ustanın vukufiyetini modern akademinin kibirli kalıplarının fevkine çıkaran kadim gelenek.&rdquo;</p>
-            </div>
-            <span class="text-xs text-[#e6b87d] font-mono font-bold mt-4 flex items-center justify-between border-t border-zinc-800 pt-2">
-              <span class="text-zinc-400 font-normal">SDMIM Blog</span>
-              <span>Oku &rarr;</span>
-            </span>
-          </a>
+            <!-- 2. GZT & Nihayet: Nail Çakırhan -->
+            <a href="makaleler.html#mimar-olmayan-bir-mimar-nail-cakirhan" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">GZT &middot; Nihayet Dergi</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Mimar Olmayan Bir Mimar: Nail Çakırhan</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Diploması olmayan ama fıtratın sesini dinleyen bir usta... Mimarlığı akademik kibrin fevkine çıkaran kadim gelenek.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Telif Makale &middot; Portre</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
 
-          <!-- Açık Tefekkür Atlası -->
-          <a href="makaleler.html?v=20261125" class="px-3.5 py-1.5 rounded border border-[#d97746]/60 bg-[#d97746]/15 text-[#f5d09b] hover:bg-[#d97746]/25 transition flex items-center gap-1.5">
-          <span>📄 Makaleler &amp; Raporlar</span>
-        </a>
-        <a href="dusunce-atlasi.html" class="content-card p-4 rounded-lg border border-[#e6b87d] bg-[#e6b87d]/10 flex flex-col justify-between cursor-pointer no-underline" style="text-decoration:none;">
-            <div>
-              <span class="text-xs font-mono font-bold text-[#e6b87d] uppercase">İnteraktif Mefhumlar Şebekesi</span>
-              <h4 class="text-sm font-bold text-[#f5d09b] mt-1">Serkan Duman Açık Tefekkür Atlası</h4>
-              <p class="text-zinc-100 text-xs mt-2 leading-relaxed italic">&ldquo;Mekân, bir medeniyetin ahlak nizamının maddeye dökülmüş nihai tecellisidir.&rdquo;</p>
-            </div>
-            <span class="text-xs text-[#f5d09b] font-mono font-bold mt-4 flex items-center justify-between border-t border-[#e6b87d]/30 pt-2">
-              <span class="text-zinc-300 font-normal">42 Düğüm &middot; 300+ Kaynak</span>
-              <span>Atlası Başlat &rarr;</span>
-            </span>
-          </a>
+            <!-- 3. Litros Sanat: Toprağa Dönüş -->
+            <a href="makaleler.html#topraga-donus-yapmaliyiz-litros-sanat" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Litros Sanat Dergisi</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Toprağa Dönüş Yapmalıyız</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Betonarme bizi tabiatla kavgalı kıldı. Toprakla barışmak sadece malzeme değil, medeniyet tasavvuru meselesidir.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Söyleşi: Merve Akbaş</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
 
+            <!-- 4. Türkiye Gazetesi: Modern Dünyada Toprak Mimari -->
+            <a href="makaleler.html#modern-dunyada-toprak-mimari-turkiye-gazetesi" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Türkiye Gazetesi</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Modern Dünyada Toprak Mimari</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Dünya enerji krizindeyken; sıfır karbonlu ve asırlarca yaşayan sıkıştırılmış toprak artık bir hayatta kalma stratejisidir.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Telif Makale &middot; 12 Mart 2023</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
+
+            <!-- 5. Nihayet & GZT: Cami Bir Bina Değil Bir Süreçtir -->
+            <a href="makaleler.html#cami-bir-bina-degil-bir-surectir" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Nihayet Dergisi &middot; GZT</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Cami Bir Bina Değil, Bir Süreçtir</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;İç dünyayı güzelleştirip dış dünyayla buluşturmak... Mabet kütle değil, ahlak ve vahdet merkezidir.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Telif Makale &middot; Şehir Hukuku</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
+
+            <!-- 6. Nihayet & GZT: Emek Vermediğimiz Kutular -->
+            <a href="makaleler.html#emek-vermedigimiz-soz-hakkimizin-olmadigi-kutular" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Nihayet Dergisi &middot; GZT</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Emek Vermediğimiz Kutularda Oturmak</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;İnsan kendi evinin harcına emek vermediğinde o mekâna aidiyet hissedemez. Apartman ruhu hapseden bir kutudur.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Telif Makale &middot; Ev Felsefesi</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
+
+            <!-- 7. Dünyabizim & Arkitera: Doğal Mimari Tekniği -->
+            <a href="makaleler.html#dogal-mimari-tekniginin-sahibi-biziz-hacer-yegin" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Dünyabizim &middot; Arkitera</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Doğal Mimari Tekniğinin Sahibi Biziz</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Batı'nın 'yeni lüks' diye sunduğu toprak mimari, bizim unuttuğumuz fıtrî ve kadim mirasımızdır.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Söyleşi: Hacer Yeğin</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
+
+            <!-- 8. Nihayet: Suriye'de Bacası Tüten Toprak Evler -->
+            <a href="makaleler.html#suriyede-bacasi-tuten-toprak-evler" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Nihayet Dergisi</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">Suriye'de Bacası Tüten Toprak Evler</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Mülteciyi teneke konteynerlere hapsetmek insan onurunu incitir. Toprak ev, insanın yeniden yuva kurma haysiyetidir.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Söyleşi: Merve Akbaş</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
+
+            <!-- 9. Hece Dergisi: Cansever Mirası -->
+            <a href="makaleler.html#turgut-cansever-mirasi-hece-dergisi" class="content-card p-3.5 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900 hover:border-[#e6b87d]/60 transition flex flex-col justify-between group">
+              <div>
+                <span class="text-[10px] font-mono font-bold text-[#e6b87d] uppercase">Hece Dergisi &middot; Özel Sayı</span>
+                <h5 class="text-xs font-bold text-white mt-1 group-hover:text-[#f5d09b] transition">&ldquo;Bir Damarı Canlı Tutmak&rdquo; &mdash; Turgut Cansever</h5>
+                <p class="text-zinc-300 text-[11px] mt-1.5 leading-relaxed italic">&ldquo;Şehri imar ederken gönülleri ihya etmeyi unutanlar, sonra o şehirde yaşayacak insan bulamazlar.&rdquo;</p>
+              </div>
+              <div class="text-[10px] text-zinc-400 font-mono flex items-center justify-between border-t border-zinc-800/80 pt-2 mt-3">
+                <span>Telif Makale &middot; Cansever Mirası</span>
+                <span class="text-[#e6b87d] font-bold">Külliyatta Oku &rarr;</span>
+              </div>
+            </a>
+
+          </div>
         </div>
 
         <!-- Kapı 1 Blog Yazıları Bölümü -->
@@ -7721,7 +7918,7 @@ Değişen d&#252;nya g&#246;zardı edildi.&rdquo;</p>
   </div>
 
   <script>
-    let currentDoor = null;
+    let currentDoor = 1;
 
     function toggleDoor(num) {
       const panel = document.getElementById('detail-panel');
@@ -7831,6 +8028,417 @@ Değişen d&#252;nya g&#246;zardı edildi.&rdquo;</p>
         renderGrid(ALL_VIDEOS.filter(v => v.channel === 'iaselam'));
       }
     }
+
+
+    
+    // ==========================================
+    // KÜLLİYAT & TEFEKKÜR ARAMA MOTORU SİSTEMİ
+    // ==========================================
+    const SEARCH_INDEX = [
+      {
+        title: "Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+        category: "Telif Makale",
+        badge: "MAKALE",
+        badgeColor: "bg-orange-500/20 text-orange-300 border-orange-500/40",
+        url: "makaleler.html#kerpic-meselesine-dair",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Kerpiç benim için sadece bir bina malzemesi değil; kapitalist ve ahlaksız düzene karşı fıtrî bir çıkış bileti ve medeniyet tasavvurudur.",
+        keywords: "kerpic toprak medeniyet tasarim monolitik rammed earth hassan fathy barinak ev konut mimar umran"
+      },
+      {
+        title: "Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
+        category: "Felsefe & Tefekkür",
+        badge: "TEFEKKÜR",
+        badgeColor: "bg-purple-500/20 text-purple-300 border-purple-500/40",
+        url: "makaleler.html#akil-duygu-sanat-teoman-durali",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Aklın ve duyguların dizginleri, Eflatun'un arabacı benzetmesi ve mimarlıkta kaostan kozmosa ulaşma gayesi.",
+        keywords: "teoman durali akil duygu sanat felsefe geometri dekonstruktivizm kozmos ahenk tenasup eflatun"
+      },
+      {
+        title: "Şehirlerde Güzellik: Matematikten Öte İnsan Hikayesi ve Şehir Hukuku",
+        category: "Şehir Nazariyesi",
+        badge: "ŞEHİR HUKUKU",
+        badgeColor: "bg-emerald-500/20 text-emerald-300 border-emerald-500/40",
+        url: "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Şehir tek bir mimarın cetvelle çizebileceği kadar basit bir olgu değildir. Kadim şehirler yaşayanların geliştirdiği komşuluk hukukuyla teşekkül etmiştir.",
+        keywords: "sehir hukuku komsu guzellik bagdat peygamber ahlak mahalle sokak cetvel planlama cemiyet"
+      },
+      {
+        title: "Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
+        category: "Telif Makale / Külliyat",
+        badge: "KÜLLİYAT",
+        badgeColor: "bg-amber-500/20 text-amber-300 border-amber-500/40",
+        url: "makaleler.html#yeni-bir-hayat-mumkun",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Yıllardır üzerimize uymayan bir libası taşıdık. Şehirlerin köyleşmesi, çocuk merkezli mekân, yer kültürü, sofa ve teknoloji köyü çağrısı.",
+        keywords: "yeni bir hayat mumkun koy cocuk medeniyet yer kulturu sofa burk teknoloji koyu baykar icazet usta fraktal"
+      },
+      {
+        title: "Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+        category: "Resmi Teknik Rapor",
+        badge: "AFAD RAPORU",
+        badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
+        url: "deprem-raporu-1.html",
+        actionText: "Teknik Raporu & Çizimleri Aç &rarr;",
+        excerpt: "18 Şubat 2023 AFAD resmi teknik raporu: 49 adet teknik çizimle monolitik toprak ve kerpiçle depreme dayanıklı acil ve kalıcı mesken projesi.",
+        keywords: "deprem afet mesken konut afad cadir konteyner teknik cizim plan kesit toprak kerpic sdmim"
+      },
+      {
+        title: "Afetzedeler İçin Alternatif Bir Mesken Modeli - 2 (Rapor II)",
+        category: "Resmi Teknik Rapor",
+        badge: "BAKANLIK RAPORU",
+        badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
+        url: "deprem-raporu-2.html",
+        actionText: "Teknik Raporu & Çizimleri Aç &rarr;",
+        excerpt: "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı ve AFAD genişletilmiş raporu: Konteyner-kerpiç hibrit konut, kırsal kalkınma ve 112 teknik detay.",
+        keywords: "deprem afet rapor 2 bakanlik konteyner kerpic kirsal koy mustakil yerlesim katilimci imar donusum"
+      },
+      {
+        title: "Elvan: Ben, Sen, O, Biz",
+        category: "Telif Eser / Kitap",
+        badge: "KİTAP",
+        badgeColor: "bg-amber-500/20 text-amber-300 border-amber-500/40",
+        url: "makaleler.html#kitap-elvan",
+        actionText: "Eser İncelemesini Oku &rarr;",
+        excerpt: "Dr. Mimar Serkan Duman'ın 2021'de yayımlanan romanı: Ferdin varoluş arayışı, mekânın derunu, yalnızlık ve 'Biz' şuuruna varış tefekkürü.",
+        keywords: "elvan kitap roman ben sen o biz kdy varlik sehir sahsiyet metafizik edebiyat"
+      },
+      {
+        title: "Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat",
+        category: "Telif Eser / Doktora Külliyatı",
+        badge: "BAŞ ESER",
+        badgeColor: "bg-amber-500/20 text-amber-300 border-amber-500/40",
+        url: "https://www.kitapyurdu.com/kitap/dogubati-ayriminda-aslinda-mimarlik-sehircilik-ve-sanat/480838.html",
+        isExternal: true,
+        actionText: "Kitapyurdu'nda İncele ↗",
+        excerpt: "Kaknüs Yayınları: Batı'nın görüntü ve perspektif tahakkümüne karşı Doğu'nun vücudî, ontolojik ve ahlakî mekân anlayışı.",
+        keywords: "dogu bati ayriminda aslinda mimarlik sehircilik sanat kaknus doktora tez ytu zihin kuram cansever"
+      },
+      {
+        title: "Köy Evini Yeniden Düşünmek: Kafa Yok, Gövde Var",
+        category: "Milli Matbuat & Nihayet",
+        badge: "NİHAYET / GZT",
+        badgeColor: "bg-blue-500/20 text-blue-300 border-blue-500/40",
+        url: "makaleler.html#koy-evini-yeniden-dusunmek-kafa-yok-govde-var",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Nihayet Dergisi Sayı 140 söyleşisi: Köy evinin gövdesi topraktır; şehirden apartman taşımak köye yabancılaşmadır.",
+        keywords: "nihayet dergisi gzt koy evi kafa yok govde var aleyna ayan toprak yerel malzeme imece"
+      },
+      {
+        title: "Mimar Olmayan Bir Mimar: Nail Çakırhan",
+        category: "Milli Matbuat & Nihayet",
+        badge: "NİHAYET / GZT",
+        badgeColor: "bg-blue-500/20 text-blue-300 border-blue-500/40",
+        url: "makaleler.html#mimar-olmayan-bir-mimar-nail-cakirhan",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Diploması olmaksızın Ağa Han Mimarlık Ödülü alan Nail Çakırhan'ın gelenekli Ula mimarisinden süzülen fıtrî yapı ustalığı.",
+        keywords: "nail cakirhan aga han ula akyaka dulger usta cirak nihayet gzt gelenek mimar"
+      },
+      {
+        title: "Cami Bir Bina Değil, Bir Süreçtir",
+        category: "Milli Matbuat & Nihayet",
+        badge: "NİHAYET / GZT",
+        badgeColor: "bg-blue-500/20 text-blue-300 border-blue-500/40",
+        url: "makaleler.html#cami-bir-bina-degil-bir-surectir",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Nihayet Dergisi & GZT telif makale: Mabet taklit kütle değil; ahlak, tevhîd ve mahalleyle nefes alan bir vahdet merkezidir.",
+        keywords: "cami mabet taklit kubbe sinan nihayet gzt surec vahdet cemaat mahalle sehir"
+      },
+      {
+        title: "Emek Vermediğimiz, Söz Hakkımızın Olmadığı Kutularda Oturmak",
+        category: "Milli Matbuat & Nihayet",
+        badge: "NİHAYET / GZT",
+        badgeColor: "bg-blue-500/20 text-blue-300 border-blue-500/40",
+        url: "makaleler.html#emek-vermedigimiz-soz-hakkimizin-olmadigi-kutular",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Nihayet & GZT makale: Harcında emeğimiz olmayan apartman daireleri insanı finansal bir borç kölesi kılar; fıtrî imece ihyası şarttır.",
+        keywords: "emek kutular apartman konut borc banka fathy nihayet gzt yabancilasma imece"
+      },
+      {
+        title: "Toprağa Dönüş Yapmalıyız: Modern Dünyada Fıtrî Mimarlık Arayışı",
+        category: "Milli Matbuat & Litros Sanat",
+        badge: "LİTROS SANAT",
+        badgeColor: "bg-cyan-500/20 text-cyan-300 border-cyan-500/40",
+        url: "makaleler.html#topraga-donus-yapmaliyiz-litros-sanat",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Litros Sanat Dergisi (Merve Akbaş söyleşisi): Beton tabiatla kavgadır. Sıkıştırılmış toprak monolitik yapılar geleceğin en çağdaş mimarisidir.",
+        keywords: "topraga donus litros sanat merve akbas rammed earth karbon nefes alan sifali mimari"
+      },
+      {
+        title: "Modern Dünyada Toprak Mimari",
+        category: "Milli Matbuat & Türkiye Gazetesi",
+        badge: "TÜRKİYE GAZETESİ",
+        badgeColor: "bg-indigo-500/20 text-indigo-300 border-indigo-500/40",
+        url: "makaleler.html#modern-dunyada-toprak-mimari-turkiye-gazetesi",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Türkiye Gazetesi (12 Mart 2023): Monolitik sıkıştırılmış toprak binaların zelzele ve yangın güvenliği, hafifliği ve uzun ömürlülüğü.",
+        keywords: "turkiye gazetesi modern dunyada toprak mimari deprem 6 subat mukavemet sifir karbon yangin"
+      },
+      {
+        title: "Doğal Mimari Tekniğinin Sahibi Biziz: Unuttuğumuzu Hatırlamamız Gerekiyor",
+        category: "Milli Matbuat & Arkitera / Dünyabizim",
+        badge: "DÜNYABİZİM / ARKİTERA",
+        badgeColor: "bg-teal-500/20 text-teal-300 border-teal-500/40",
+        url: "makaleler.html#dogal-mimari-tekniginin-sahibi-biziz-hacer-yegin",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Hacer Yeğin söyleşisi: Batı'nın yeni keşif diye pazarladığı toprak mimarisi, bizim unuttuğumuz kadim Anadolu ve İslam mirasıdır.",
+        keywords: "dunyabizim arkitera dogal mimari sahibi biziz hacer yegin usta cirak kerpic anadolu miras"
+      },
+      {
+        title: "Suriye'de Bacası Tüten Toprak Evler Yapıyoruz",
+        category: "Milli Matbuat & Nihayet",
+        badge: "NİHAYET / GZT",
+        badgeColor: "bg-blue-500/20 text-blue-300 border-blue-500/40",
+        url: "makaleler.html#suriyede-bacasi-tuten-toprak-evler",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Kriz bölgesinde naylon çadır yerine doğrudan oranın toprağıyla halkın el birliğiyle yapılan sıcak, kalıcı ve haysiyetli meskenler.",
+        keywords: "suriye idlib toprak ev cadir multeci siginak insani yardim merve akbas nihayet gzt"
+      },
+      {
+        title: "Bir Damarı Canlı Tutmak: Turgut Cansever Mirası ve Bilge Mimarlık",
+        category: "Milli Matbuat & Hece Dergisi",
+        badge: "HECE DERGİSİ",
+        badgeColor: "bg-violet-500/20 text-violet-300 border-violet-500/40",
+        url: "makaleler.html#turgut-cansever-mirasi-hece-dergisi",
+        actionText: "Külliyatta Oku &rarr;",
+        excerpt: "Hece Dergisi Cansever Özel Sayısı: Cansever'in bilge mimarlık anlayışı, komşuluk hukuku ve kuru anma yerine sahada fıtrî yapı üretme cehdi.",
+        keywords: "turgut cansever hece dergisi bilge mimarlik komsu sehir hukuku ahlak dunya tezyin"
+      },
+      {
+        title: "Turgut Cansever & Bilge Mimarlık Atlası",
+        category: "Tefekkür Atlası Düğümü",
+        badge: "DÜŞÜNCE ATLASI",
+        badgeColor: "bg-[#e6b87d]/20 text-[#f5d09b] border-[#e6b87d]/40",
+        url: "dusunce-atlasi.html?node=cansever",
+        actionText: "Atlas Düğümünü Aç ↗",
+        excerpt: "Ağa Han ödüllü bilge mimar Turgut Cansever'in ontolojik mimarlık anlayışı ve Osmanlı şehir ahlakı rabıtaları.",
+        keywords: "cansever turgut bilge mimarlik sehir ahlaki tevhid ontoloji kubbe aga han"
+      },
+      {
+        title: "Monolitik Sıkıştırılmış Toprak (Rammed Earth)",
+        category: "Tefekkür Atlası Düğümü",
+        badge: "DÜŞÜNCE ATLASI",
+        badgeColor: "bg-[#e6b87d]/20 text-[#f5d09b] border-[#e6b87d]/40",
+        url: "dusunce-atlasi.html?node=rammed_earth",
+        actionText: "Atlas Düğümünü Aç ↗",
+        excerpt: "Katman katman tokmaklanan monolitik toprak duvarların çağdaş strüktürel mühendisliği ve estetik tektoniği.",
+        keywords: "rammed earth sikistirilmis toprak monolitik tektonik yuk tasiyici duvar ekolojik nefes"
+      },
+      {
+        title: "Hassan Fathy & Fakirler İçin Mimarlık",
+        category: "Tefekkür Atlası Düğümü",
+        badge: "DÜŞÜNCE ATLASI",
+        badgeColor: "bg-[#e6b87d]/20 text-[#f5d09b] border-[#e6b87d]/40",
+        url: "dusunce-atlasi.html?node=hassan_fathy",
+        actionText: "Atlas Düğümünü Aç ↗",
+        excerpt: "Mısırlı büyük mimar Hassan Fathy'nin kerpiç tonozlar, kubbe teknikleri ve halkın kendi evini yapma hürriyeti felsefesi.",
+        keywords: "hassan fathy fakirler icin mimarlik yeni gurna kerpic kubbe tonoz halk mimarligi"
+      },
+      {
+        title: "İslam Şehir Hukuku & Komşuluk Nizamı",
+        category: "Tefekkür Atlası Düğümü",
+        badge: "DÜŞÜNCE ATLASI",
+        badgeColor: "bg-[#e6b87d]/20 text-[#f5d09b] border-[#e6b87d]/40",
+        url: "dusunce-atlasi.html?node=sehir_hukuku",
+        actionText: "Atlas Düğümünü Aç ↗",
+        excerpt: "Merkezi planlama tahakkümüne karşı sokağın, komşunun ve cemaatin hakkaniyet ve fıtrat esasıyla kurduğu organik şehir hukuku.",
+        keywords: "sehir hukuku komsu hakki cikmaz sokak harim bina yuksekligi golge ruzgar adalet"
+      },
+      {
+        title: "ZISOFA: Sessiz Lüks & Monolitik Toprak Villalar",
+        category: "Mimari Girişim & Marka",
+        badge: "ZISOFA",
+        badgeColor: "bg-amber-600/20 text-amber-200 border-amber-600/40",
+        url: "https://www.zisofa.com",
+        isExternal: true,
+        actionText: "ZISOFA Resmi Sitesi ↗",
+        excerpt: "Dr. Mimar Serkan Duman'ın kurucusu olduğu, yüksek segment sürdürülebilir monolitik toprak ve biyofilik mimari markası.",
+        keywords: "zisofa sessiz luks rammed earth villa toprak malikane biyofilik luxury earth architecture"
+      },
+      {
+        title: "SDMIM Mimarlık: Doğal ve Gelenekli Yapılar",
+        category: "Mimari Ofis & Uygulama",
+        badge: "SDMIM",
+        badgeColor: "bg-zinc-700/40 text-zinc-200 border-zinc-600",
+        url: "https://www.sdmim.com",
+        isExternal: true,
+        actionText: "SDMIM Resmi Sitesi ↗",
+        excerpt: "Dr. Mimar Serkan Duman tarafından 2010'da kurulan, betonun reddiyle toprak, taş ve ahşap yapıların saha tatbikatını yürüten mimarlık ofisi.",
+        keywords: "sdmim dogal yapi kerpic toprak ahsap tasarim uygulama restorasyon istanbul"
+      },
+      {
+        title: "Malavi Kerpiç Evler Projesi",
+        category: "Cemiyet & İnsani Mimarlık",
+        badge: "SAHA & CEMİYET",
+        badgeColor: "bg-emerald-600/20 text-emerald-200 border-emerald-600/40",
+        url: "https://www.youtube.com/watch?v=_DzrW1zNjnk",
+        isExternal: true,
+        actionText: "Saha Kaydını İzle ↗",
+        excerpt: "Afrika Malavi'de ihtiyaç sahibi aileler için yerinde toprak ve kerpiçle inşa edilip teslim edilen fıtrî evler projesi.",
+        keywords: "malavi afrika kerpic ev mud house insani mimarlik cemiyet saha kapi 3"
+      }
+    ];
+
+    // Türkçe harf duyarsızlaştırma yardımcısı
+    function normTr(str) {
+      if (!str) return '';
+      return str.toLowerCase()
+        .replace(/İ/g, 'i').replace(/I/g, 'ı').replace(/ı/g, 'i')
+        .replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's')
+        .replace(/ö/g, 'o').replace(/ç/g, 'c')
+        .trim();
+    }
+
+    // Arama neticesinde eşleşen kelimeleri sarıyla vurgulama
+    function highlightQuery(text, queryWords) {
+      if (!text) return '';
+      if (!queryWords || queryWords.length === 0) return text;
+      
+      let res = text;
+      queryWords.forEach(w => {
+        if (w.length < 2) return;
+        const regex = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+        res = res.replace(regex, '<mark class="bg-[#e6b87d]/35 text-[#f5d09b] px-0.5 rounded font-semibold">$1</mark>');
+      });
+      return res;
+    }
+
+    // Portal arama yürütücüsü
+    function handlePortalSearch(rawQuery) {
+      const q = rawQuery.trim();
+      const clearBtn = document.getElementById('portal-search-clear');
+      const resultsContainer = document.getElementById('portal-search-results');
+      const resultsList = document.getElementById('search-results-list');
+      const countEl = document.getElementById('search-results-count');
+
+      if (q.length > 0) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+
+      if (q.length < 2) {
+        resultsContainer.classList.add('hidden');
+        resultsList.innerHTML = '';
+        return;
+      }
+
+      const qNorm = normTr(q);
+      const queryWords = qNorm.split(/\s+/).filter(w => w.length > 0);
+
+      // 1. SEARCH_INDEX içinde filtreleme
+      let matchedItems = SEARCH_INDEX.filter(item => {
+        const itemNorm = normTr(item.title + ' ' + (item.category || '') + ' ' + (item.excerpt || '') + ' ' + (item.keywords || ''));
+        return queryWords.every(word => itemNorm.indexOf(word) !== -1);
+      });
+
+      // 2. Video arşivi (ALL_VIDEOS) içinde filtreleme (En fazla 5 video dahil edilir)
+      let matchedVideos = [];
+      if (typeof ALL_VIDEOS !== 'undefined' && Array.isArray(ALL_VIDEOS)) {
+        matchedVideos = ALL_VIDEOS.filter(v => {
+          const vNorm = normTr(v.title + ' ' + (v.metadata || '') + ' ' + (v.english_tags ? v.english_tags.join(' ') : ''));
+          return queryWords.every(word => vNorm.indexOf(word) !== -1);
+        }).slice(0, 5).map(v => ({
+          title: v.title,
+          category: "Tefekkür Video Kaydı",
+          badge: v.channel === 'iaselam' ? "@İASELAM" : "YOUTUBE",
+          badgeColor: "bg-red-500/20 text-red-300 border-red-500/40",
+          url: v.url,
+          isExternal: true,
+          actionText: "Kaydı İzle ↗",
+          excerpt: (v.duration ? '[' + v.duration + '] ' : '') + (v.metadata || "Dr. Mimar Serkan Duman video kaydı."),
+          keywords: ""
+        }));
+      }
+
+      const allMatches = matchedItems.concat(matchedVideos);
+
+      // Neticeleri göster
+      resultsContainer.classList.remove('hidden');
+      resultsList.innerHTML = '';
+
+      if (allMatches.length === 0) {
+        countEl.textContent = '0 netice bulundu';
+        resultsList.innerHTML = `
+          <div class="p-6 text-center text-zinc-400 font-mono text-xs border border-zinc-800 rounded-lg bg-zinc-950/60">
+            <span class="block text-[#e6b87d] text-sm mb-1.5 font-bold">Uygun Kayıt Bulunamadı</span>
+            Aradığınız mefhum veya kelimeyle doğrudan örtüşen bir kayıt çıkmadı. Lütfen <strong class="text-white">"Cansever", "Kerpiç", "Köy", "Şehir Hukuku", "Elvan"</strong> gibi mefhumlarla tekrar deneyiniz.
+          </div>
+        `;
+        return;
+      }
+
+      countEl.textContent = allMatches.length + ' netice listelendi';
+
+      allMatches.forEach(item => {
+        const itemCard = document.createElement('a');
+        itemCard.href = item.url;
+        if (item.isExternal) {
+          itemCard.target = "_blank";
+          itemCard.rel = "noopener noreferrer";
+        }
+        itemCard.className = "block p-3.5 sm:p-4 rounded-lg border border-zinc-800 bg-zinc-950/80 hover:bg-zinc-900/90 hover:border-[#e6b87d]/60 transition group no-underline";
+
+        const titleHtml = highlightQuery(item.title, queryWords);
+        const excerptHtml = highlightQuery(item.excerpt, queryWords);
+
+        itemCard.innerHTML = `
+          <div class="flex items-center justify-between gap-2 mb-1.5 text-[11px] font-mono">
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded border text-[10px] font-bold uppercase tracking-wider ${item.badgeColor}">${item.badge}</span>
+              <span class="text-zinc-400">${item.category}</span>
+            </div>
+            <span class="text-[#e6b87d] font-bold group-hover:underline flex items-center gap-1">${item.actionText}</span>
+          </div>
+          <h4 class="text-xs sm:text-sm font-bold text-white group-hover:text-[#f5d09b] transition leading-snug">
+            ${titleHtml}
+          </h4>
+          <p class="text-[11px] sm:text-xs text-zinc-300 mt-1 leading-relaxed line-clamp-2">
+            ${excerptHtml}
+          </p>
+        `;
+
+        resultsList.appendChild(itemCard);
+      });
+    }
+
+    // Arama kutusuna hızlı mefhum aktarma
+    function setSearchQuery(term) {
+      const input = document.getElementById('portal-search-input');
+      if (!input) return;
+      input.value = term;
+      input.focus();
+      handlePortalSearch(term);
+    }
+
+    // Aramayı temizleme
+    function clearPortalSearch() {
+      const input = document.getElementById('portal-search-input');
+      const clearBtn = document.getElementById('portal-search-clear');
+      const resultsContainer = document.getElementById('portal-search-results');
+      if (input) input.value = '';
+      if (clearBtn) clearBtn.classList.add('hidden');
+      if (resultsContainer) resultsContainer.classList.add('hidden');
+    }
+
+    // Klavye kontrolleri (Esc ile kapatma)
+    function handleSearchKeyDown(e) {
+      if (e.key === 'Escape') {
+        clearPortalSearch();
+      }
+    }
+
+    // Arama alanı dışına tıklandığında neticeleri gizleme
+    document.addEventListener('click', function(e) {
+      const section = document.getElementById('portal-search-section');
+      const resultsContainer = document.getElementById('portal-search-results');
+      if (!section || !resultsContainer) return;
+      if (!section.contains(e.target)) {
+        resultsContainer.classList.add('hidden');
+      }
+    });
 
     // İlk açılışta videoları listele
     window.addEventListener('load', () => {
