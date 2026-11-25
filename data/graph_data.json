@@ -12,39 +12,39 @@
                       "source":  "Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat (Kitap)",
                       "resources":  [
                                         {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+                                            "url":  "makaleler.html#kerpic-meselesine-dair",
+                                            "duration":  "23:21 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 İnceleme"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
+                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
+                                            "duration":  "23:07 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 Felsefî Tefekkür"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Şehirlerde Güzellik: Matematikten Öte İnsan Hikayesi ve Şehir Hukuku",
+                                            "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
+                                            "duration":  "05:05 · 4 dk okuma",
+                                            "meta":  "Telif Makale \u0026 Şehir Nazariyesi"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
+                                            "url":  "makaleler.html#yeni-bir-hayat-mumkun",
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
+                                        },
+                                        {
                                             "type":  "kitap",
                                             "title":  "Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat",
                                             "url":  "https://www.sdmim.com",
                                             "duration":  "KİTAP",
                                             "meta":  "Yayımlanmış Temel Eser"
-                                        },
-                                        {
-                                            "type":  "makale",
-                                            "title":  "Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
-                                            "url":  "makaleler.html#kerpic-meselesine-dair",
-                                            "duration":  "23:21 · 8 dk okuma",
-                                            "meta":  "Özgün Video Deşifre Makalesi"
-                                        },
-                                        {
-                                            "type":  "makale",
-                                            "title":  "Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
-                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
-                                            "duration":  "23:07 · 8 dk okuma",
-                                            "meta":  "Özgün Söyleşi Deşifre Makalesi"
-                                        },
-                                        {
-                                            "type":  "makale",
-                                            "title":  "Makale: Şehirlerde Güzellik: Matematikten Öte Şehir Hukuku",
-                                            "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
-                                            "duration":  "05:05 · 4 dk okuma",
-                                            "meta":  "Özgün Şehir Kuramı Makalesi"
-                                        },
-                                        {
-                                            "type":  "makale",
-                                            "title":  "Makale: Yeni Bir Hayat Mümkün: Yer Kültürü ve Köy Modeli",
-                                            "url":  "makaleler.html#yeni-bir-hayat-mumkun",
-                                            "duration":  "46:38 · 14 dk okuma",
-                                            "meta":  "Özgün Manifest Deşifre Makalesi"
                                         },
                                         {
                                             "type":  "yazi",
@@ -411,17 +411,17 @@
                       "resources":  [
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
+                                            "title":  "Telif Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
                                             "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
                                             "duration":  "23:07 · 8 dk okuma",
-                                            "meta":  "Özgün Söyleşi Deşifre Makalesi"
+                                            "meta":  "Telif Makale \u0026 Felsefî Tefekkür"
                                         },
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Şehirlerde Güzellik: Matematikten Öte Şehir Hukuku",
+                                            "title":  "Telif Makale: Şehirlerde Güzellik: Matematikten Öte İnsan Hikayesi ve Şehir Hukuku",
                                             "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
                                             "duration":  "05:05 · 4 dk okuma",
-                                            "meta":  "Özgün Şehir Kuramı Makalesi"
+                                            "meta":  "Telif Makale \u0026 Şehir Nazariyesi"
                                         },
                                         {
                                             "type":  "yazi",
@@ -529,10 +529,10 @@
                       "resources":  [
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+                                            "title":  "Telif Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
                                             "url":  "makaleler.html#kerpic-meselesine-dair",
                                             "duration":  "23:21 · 8 dk okuma",
-                                            "meta":  "Özgün Video Deşifre Makalesi"
+                                            "meta":  "Telif Makale \u0026 İnceleme"
                                         },
                                         {
                                             "type":  "yazi",
@@ -1016,18 +1016,25 @@
                       "source":  "Video Serisi: Şehirlerde Güzellik \u0026 Medeniyet Notları",
                       "resources":  [
                                         {
-                                            "type":  "makale",
-                                            "title":  "Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
-                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
-                                            "duration":  "23:07 · 8 dk okuma",
-                                            "meta":  "Özgün Söyleşi Deşifre Makalesi"
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Mesken Modeli 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "url":  "deprem-raporu-2.html",
+                                            "duration":  "112 Saha Görseli \u0026 Detay",
+                                            "meta":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu"
                                         },
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Şehirlerde Güzellik: Matematikten Öte Şehir Hukuku",
+                                            "title":  "Telif Makale: Şehirlerde Güzellik: Matematikten Öte İnsan Hikayesi ve Şehir Hukuku",
                                             "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
                                             "duration":  "05:05 · 4 dk okuma",
-                                            "meta":  "Özgün Şehir Kuramı Makalesi"
+                                            "meta":  "Telif Makale \u0026 Şehir Nazariyesi"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
+                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
+                                            "duration":  "23:07 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 Felsefî Tefekkür"
                                         },
                                         {
                                             "type":  "yazi",
@@ -2376,18 +2383,18 @@
                       "source":  "Video \u0026 X Paylaşımı: Teoman Duralı \u0026 Akıl Duygu Sanat",
                       "resources":  [
                                         {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
+                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
+                                            "duration":  "23:07 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 Felsefî Tefekkür"
+                                        },
+                                        {
                                             "type":  "kitap",
                                             "title":  "Doğu-Batı Ayrımında; Aslında Mimarlık Şehircilik ve Sanat",
                                             "url":  "https://www.sdmim.com",
                                             "duration":  "KİTAP",
                                             "meta":  "Yayımlanmış Temel Eser"
-                                        },
-                                        {
-                                            "type":  "makale",
-                                            "title":  "Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
-                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
-                                            "duration":  "23:07 · 8 dk okuma",
-                                            "meta":  "Özgün Söyleşi Deşifre Makalesi"
                                         },
                                         {
                                             "type":  "video",
@@ -2900,10 +2907,17 @@
                       "resources":  [
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Şehirlerde Güzellik: Matematikten Öte Şehir Hukuku",
+                                            "title":  "Telif Makale: Şehirlerde Güzellik: Matematikten Öte İnsan Hikayesi ve Şehir Hukuku",
                                             "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
                                             "duration":  "05:05 · 4 dk okuma",
-                                            "meta":  "Özgün Şehir Kuramı Makalesi"
+                                            "meta":  "Telif Makale \u0026 Şehir Nazariyesi"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
+                                            "url":  "makaleler.html#akil-duygu-sanat-teoman-durali",
+                                            "duration":  "23:07 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 Felsefî Tefekkür"
                                         },
                                         {
                                             "type":  "yazi",
@@ -3058,6 +3072,13 @@
                       "author":  "Dr. Mimar Serkan Duman",
                       "source":  "Video: Çocuğun Şehirdeki Yeri \u0026 X Notları",
                       "resources":  [
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
+                                            "url":  "makaleler.html#yeni-bir-hayat-mumkun",
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
+                                        },
                                         {
                                             "type":  "video",
                                             "title":  "Çocuk ve Şehir - Medeniyet Notları 02",
@@ -3267,18 +3288,25 @@
                       "source":  "sdmim.com / Blog: Ev ve Mimari",
                       "resources":  [
                                         {
-                                            "type":  "makale",
-                                            "title":  "Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
-                                            "url":  "makaleler.html#kerpic-meselesine-dair",
-                                            "duration":  "23:21 · 8 dk okuma",
-                                            "meta":  "Özgün Video Deşifre Makalesi"
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+                                            "url":  "deprem-raporu-1.html",
+                                            "duration":  "49 Teknik Çizim",
+                                            "meta":  "AFAD Resmi Raporu \u0026 Çizim Külliyatı"
                                         },
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Yeni Bir Hayat Mümkün: Yer Kültürü ve Köy Modeli",
+                                            "title":  "Telif Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+                                            "url":  "makaleler.html#kerpic-meselesine-dair",
+                                            "duration":  "23:21 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 İnceleme"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
                                             "url":  "makaleler.html#yeni-bir-hayat-mumkun",
-                                            "duration":  "46:38 · 14 dk okuma",
-                                            "meta":  "Özgün Manifest Deşifre Makalesi"
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
                                         },
                                         {
                                             "type":  "yazi",
@@ -3644,11 +3672,18 @@
                       "source":  "Video Serisi: Müstakil Ev Yapmak \u0026 X Notları",
                       "resources":  [
                                         {
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Mesken Modeli 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "url":  "deprem-raporu-2.html",
+                                            "duration":  "112 Saha Görseli \u0026 Detay",
+                                            "meta":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu"
+                                        },
+                                        {
                                             "type":  "makale",
-                                            "title":  "Makale: Yeni Bir Hayat Mümkün: Yer Kültürü ve Köy Modeli",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
                                             "url":  "makaleler.html#yeni-bir-hayat-mumkun",
-                                            "duration":  "46:38 · 14 dk okuma",
-                                            "meta":  "Özgün Manifest Deşifre Makalesi"
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
                                         },
                                         {
                                             "type":  "yazi",
@@ -3859,13 +3894,6 @@
                       "author":  "Dr. Mimar Serkan Duman",
                       "source":  "sdmim.com / Blog: 10 Adımda Toprak Ev Rehberi",
                       "resources":  [
-                                        {
-                                            "type":  "makale",
-                                            "title":  "Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
-                                            "url":  "makaleler.html#kerpic-meselesine-dair",
-                                            "duration":  "23:21 · 8 dk okuma",
-                                            "meta":  "Özgün Video Deşifre Makalesi"
-                                        },
                                         {
                                             "type":  "yazi",
                                             "title":  "Ev ve Mimari: İnsanın Fıtri Barınağı",
@@ -4251,18 +4279,32 @@
                       "source":  "sdmim.com / Blog: Katılımcı Belediye İçin Katılımcı Bir Halk Gerek",
                       "resources":  [
                                         {
-                                            "type":  "makale",
-                                            "title":  "Makale: Şehirlerde Güzellik: Matematikten Öte Şehir Hukuku",
-                                            "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
-                                            "duration":  "05:05 · 4 dk okuma",
-                                            "meta":  "Özgün Şehir Kuramı Makalesi"
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+                                            "url":  "deprem-raporu-1.html",
+                                            "duration":  "49 Teknik Çizim",
+                                            "meta":  "AFAD Resmi Raporu \u0026 Çizim Külliyatı"
                                         },
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Yeni Bir Hayat Mümkün: Yer Kültürü ve Köy Modeli",
+                                            "title":  "Telif Makale: Şehirlerde Güzellik: Matematikten Öte İnsan Hikayesi ve Şehir Hukuku",
+                                            "url":  "makaleler.html#sehirlerde-guzellik-ve-sehir-hukuku",
+                                            "duration":  "05:05 · 4 dk okuma",
+                                            "meta":  "Telif Makale \u0026 Şehir Nazariyesi"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
                                             "url":  "makaleler.html#yeni-bir-hayat-mumkun",
-                                            "duration":  "46:38 · 14 dk okuma",
-                                            "meta":  "Özgün Manifest Deşifre Makalesi"
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+                                            "url":  "makaleler.html#kerpic-meselesine-dair",
+                                            "duration":  "23:21 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 İnceleme"
                                         },
                                         {
                                             "type":  "yazi",
@@ -5349,18 +5391,32 @@
                       "source":  "sdmim.com / Blog: Kerpiç: Yapı Malzemelerinin Atası",
                       "resources":  [
                                         {
-                                            "type":  "makale",
-                                            "title":  "Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
-                                            "url":  "makaleler.html#kerpic-meselesine-dair",
-                                            "duration":  "23:21 · 8 dk okuma",
-                                            "meta":  "Özgün Video Deşifre Makalesi"
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+                                            "url":  "deprem-raporu-1.html",
+                                            "duration":  "49 Teknik Çizim",
+                                            "meta":  "AFAD Resmi Raporu \u0026 Çizim Külliyatı"
+                                        },
+                                        {
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Mesken Modeli 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "url":  "deprem-raporu-2.html",
+                                            "duration":  "112 Saha Görseli \u0026 Detay",
+                                            "meta":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu"
                                         },
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Yeni Bir Hayat Mümkün: Yer Kültürü ve Köy Modeli",
+                                            "title":  "Telif Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+                                            "url":  "makaleler.html#kerpic-meselesine-dair",
+                                            "duration":  "23:21 · 8 dk okuma",
+                                            "meta":  "Telif Makale \u0026 İnceleme"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
                                             "url":  "makaleler.html#yeni-bir-hayat-mumkun",
-                                            "duration":  "46:38 · 14 dk okuma",
-                                            "meta":  "Özgün Manifest Deşifre Makalesi"
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
                                         },
                                         {
                                             "type":  "yazi",
@@ -6266,17 +6322,17 @@
                       "resources":  [
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
+                                            "title":  "Telif Makale: Kerpiç Meselesine Dair: Bir Medeniyet Tasavvuru",
                                             "url":  "makaleler.html#kerpic-meselesine-dair",
                                             "duration":  "23:21 · 8 dk okuma",
-                                            "meta":  "Özgün Video Deşifre Makalesi"
+                                            "meta":  "Telif Makale \u0026 İnceleme"
                                         },
                                         {
                                             "type":  "makale",
-                                            "title":  "Makale: Yeni Bir Hayat Mümkün: Yer Kültürü ve Köy Modeli",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
                                             "url":  "makaleler.html#yeni-bir-hayat-mumkun",
-                                            "duration":  "46:38 · 14 dk okuma",
-                                            "meta":  "Özgün Manifest Deşifre Makalesi"
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
                                         },
                                         {
                                             "type":  "yazi",
@@ -7255,6 +7311,20 @@
                       "source":  "sdmim.com / Blog: Afetzedeler İçin Alternatif Mesken Modeli",
                       "resources":  [
                                         {
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+                                            "url":  "deprem-raporu-1.html",
+                                            "duration":  "49 Teknik Çizim",
+                                            "meta":  "AFAD Resmi Raporu \u0026 Çizim Külliyatı"
+                                        },
+                                        {
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Mesken Modeli 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "url":  "deprem-raporu-2.html",
+                                            "duration":  "112 Saha Görseli \u0026 Detay",
+                                            "meta":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu"
+                                        },
+                                        {
                                             "type":  "yazi",
                                             "title":  "Afetzedeler İçin Alternatif Bir Mesken Modeli",
                                             "url":  "https://www.sdmim.com/post/afetzedeler-i-çi-n-alternati-f-bi-rmesken-modeli-1",
@@ -7407,6 +7477,20 @@
                       "author":  "Dr. Mimar Serkan Duman",
                       "source":  "Video Serisi: Yeni Bir Hayat Mümkün \u0026 Köy Ne Demek?",
                       "resources":  [
+                                        {
+                                            "type":  "rapor",
+                                            "title":  "Teknik Rapor: Afetzedeler İçin Mesken Modeli 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "url":  "deprem-raporu-2.html",
+                                            "duration":  "112 Saha Görseli \u0026 Detay",
+                                            "meta":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu"
+                                        },
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
+                                            "url":  "makaleler.html#yeni-bir-hayat-mumkun",
+                                            "duration":  "46:38 · 18 Kapsamlı Bölüm",
+                                            "meta":  "Telif Makale \u0026 Külliyat"
+                                        },
                                         {
                                             "type":  "yazi",
                                             "title":  "10 Adımda Doğal ve Güzel Bir Ev Sahibi Olmak",
@@ -8234,5 +8318,3 @@
                   }
               ]
 }
-
-
