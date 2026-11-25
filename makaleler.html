@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Makaleler &amp; Tefekkür Yazıları | Dr. Mimar Serkan Duman</title>
+  <title>Makaleler, Raporlar &amp; Tefekkür Külliyatı | Dr. Mimar Serkan Duman</title>
   <meta name="description" content="Dr. Mimar Serkan Duman: Mimarlık nazariyesi, toprak yapı sanatı, İslam medeniyet tasavvuru, Turgut Cansever mirası ve şehir hukuku üzerine telif makaleler.">
   <link rel="canonical" href="https://serkanduman.com/makaleler.html">
   <meta property="og:type" content="website">
@@ -110,9 +110,7 @@
           <span class="w-1.5 h-1.5 rounded-full bg-[#d97746]"></span>
           <span>Telif Makaleler &middot; Fikrî ve Nazarî Külliyat</span>
         </div>
-        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white serif-title">
-          Makaleler &amp; Tefekkür Yazıları
-        </h2>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-white serif-title">Makaleler, Raporlar &amp; Tefekkür Külliyatı</h2>
         <p class="text-sm text-zinc-300 max-w-3xl mt-3 leading-relaxed font-sans">
           Bu külliyat; Dr. Mimar Serkan Duman'ın mimarlık nazariyesi, gelenekli toprak yapılar, İslam medeniyet tasavvuru, Turgut Cansever mirası ve şehir hukuku üzerine kaleme aldığı telif makale ve denemelerinden müteşekkildir.
         </p>
@@ -120,7 +118,10 @@
         <!-- Tematik Filtreler -->
         <div class="flex flex-wrap gap-2 mt-6 text-xs font-mono">
           <button onclick="filterByTag('all')" class="filter-tab active px-3 py-1.5 rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-300 transition">
-            Tümü (4)
+            Tümü (6)
+          </button>
+          <button onclick="filterByTag('deprem_raporu')" class="filter-tab px-3 py-1.5 rounded-lg border border-[#d97746]/50 bg-[#d97746]/15 text-[#f5d09b] font-semibold transition">
+            Deprem &amp; Afet Raporları (2)
           </button>
           <button onclick="filterByTag('toprak_yapi')" class="filter-tab px-3 py-1.5 rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-300 transition">
             Toprak Mimarîsi &amp; Kerpiç
@@ -197,6 +198,46 @@
 
   <script>
     const articlesData = [
+  {
+    "id": "deprem-raporu-1",
+    "slug": "deprem-raporu-1",
+    "title": "Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+    "format": "Resmi Teknik Rapor",
+    "tags": ["deprem_raporu", "toprak_yapi", "afad", "katilimci_mimarlik"],
+    "tag_names": ["AFAD Raporu", "Toprak Konut", "Acil & Kalıcı Mesken", "SDMIM"],
+    "signature": "Y. Mim. Serkan Duman & SDMIM Çalışma Grubu",
+    "read_time": "49 Görsel & Mimari Çizim",
+    "author": "Y. Mim. Serkan Duman & SDMIM",
+    "excerpt": "18 Şubat 2023 tarihinde AFAD'a sunulan resmi teknik rapor: Deprem bölgesinde çadır ve konteynerlere alternatif; toprak ve fıtrî yapı malzemeleriyle acil ve kalıcı mesken üretimi, mimari proje ve mahalle yerleşimi kurgusu.",
+    "is_report": true,
+    "report_url": "deprem-raporu-1.html",
+    "sections": [
+      {
+        "heading": "AFAD Teknik Raporu (18.02.2023)",
+        "text": "Bu çalışma; 6 Şubat depremleri sonrasında AFAD'a doğrudan sunulmuş resmi teknik rapordur. 49 adet teknik çizim, arazi planı, kesit ve üretim detayını içermektedir. Raporun tamamını çizimleriyle incelemek için lütfen rapor bağlantısını açınız."
+      }
+    ]
+  },
+  {
+    "id": "deprem-raporu-2",
+    "slug": "deprem-raporu-2",
+    "title": "Afetzedeler İçin Alternatif Bir Mesken Modeli - 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+    "format": "Genişletilmiş Rapor",
+    "tags": ["deprem_raporu", "sehir_hukuku", "mustakil_yasam", "toprak_yapi"],
+    "tag_names": ["Bakanlık & AFAD", "Kentleşme Raporu", "Hibrit Konut", "Müstakil Yerleşim"],
+    "signature": "Y. Mim. Serkan Duman & SDMIM Çalışma Grubu",
+    "read_time": "112 Saha Görseli & Teknik Detay",
+    "author": "Y. Mim. Serkan Duman & SDMIM",
+    "excerpt": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı ile AFAD'a sunulan genişletilmiş ikinci rapor: Konteyner-kerpiç hibrit acil konut, apartmanların müstakil yerleşime dönüşümü, kırsal kalkınma ve katılımcı şehircilik modeli.",
+    "is_report": true,
+    "report_url": "deprem-raporu-2.html",
+    "sections": [
+      {
+        "heading": "Bakanlık & AFAD Genişletilmiş Raporu (25.02.2023)",
+        "text": "İlk raporun ardından hazırlanan bu genişletilmiş çalışma; konteyner-kerpiç hibrit acil konut modelini, Türkiye çapında müstakil yerleşim planlamasını ve dünyadaki katılımcı mimari modelleri 112 görsel ve teknik detayla sunmaktadır."
+      }
+    ]
+  },
     {
         
         "id":  "kerpic-meselesine-dair",
@@ -439,7 +480,11 @@
       filtered.forEach(art => {
         const card = document.createElement('div');
         card.className = 'article-card rounded-xl p-6 flex flex-col justify-between cursor-pointer group';
-        card.onclick = () => openArticle(art.slug || art.id);
+        if (art.is_report && art.report_url) {
+          card.onclick = () => { window.location.href = art.report_url; };
+        } else {
+          card.onclick = () => openArticle(art.slug || art.id);
+        }
 
         const tagsHtml = (art.tag_names || []).map((t, idx) => {
           const tagKey = art.tags[idx] || '';
@@ -470,7 +515,7 @@
             </div>
 
             <div class="pt-3 border-t border-zinc-800 flex items-center justify-between text-xs font-mono font-semibold text-zinc-300 group-hover:text-white transition">
-              <span>Makaleyi Oku &rarr;</span>
+              ${art.is_report ? '<span class="text-[#f5d09b] font-bold">Raporu &amp; Çizimleri İncele &rarr;</span>' : '<span>Makaleyi Oku &rarr;</span>'}
               <span class="text-zinc-500">Dr. Mimar Serkan Duman</span>
             </div>
           </div>
