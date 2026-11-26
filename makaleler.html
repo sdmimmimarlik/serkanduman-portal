@@ -38,7 +38,7 @@
   <meta name="twitter:description" content="Toprak mimarîsi, medeniyet tasavvuru, Turgut Cansever mirası ve şehir hukuku üzerine telif makale ve raporlar.">
   <meta name="twitter:image" content="https://serkanduman.com/images/og-preview.jpg">
   
-  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -205,6 +205,9 @@
     ]
   }
   </script>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/favicon.png">
 </head>
 <body class="min-h-screen flex flex-col justify-between antialiased selection:bg-[#d97746]/30 selection:text-white">
   <!-- Google Tag Manager (noscript) -->
@@ -1070,7 +1073,12 @@
         const refBtnText = document.getElementById('reader-ref-btn-text');
 
         if (refBox && refLink) {
-          if (art.youtube_url) {
+          if (art.report_url) {
+            refLink.href = art.report_url;
+            if (refLabel) refLabel.textContent = "Resmi Teknik Rapor, Çizim Külliyatı ve Saha Detayları:";
+            if (refBtnText) refBtnText.textContent = "Tam Ekran Teknik Raporu Aç ↗";
+            refBox.classList.remove('hidden');
+          } else if (art.youtube_url) {
             refLink.href = art.youtube_url;
             if (refLabel) refLabel.textContent = "Bu bahse dair görsel kayıt ve izahatlar:";
             if (refBtnText) refBtnText.textContent = "İlgili Kaydı İzle";
@@ -1156,3 +1164,4 @@
   </script>
 </body>
 </html>
+
