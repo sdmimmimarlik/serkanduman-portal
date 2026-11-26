@@ -586,6 +586,7 @@
       renderArticles();
     }
 
+    window.filterByTag = filterByTag;
     function filterByTag(tag) {
       const input = document.getElementById('archive-search');
       input.value = tag;
@@ -622,6 +623,7 @@
     }
 
     // Modal Okuyucu Fonksiyonları
+    window.openReader = openReader;
     function openReader(id) {
       const article = sdmimArticles.find(a => a.id === id);
       if (!article) return;
@@ -641,6 +643,8 @@
       document.getElementById('modal-citation').textContent = citeText;
 
       document.getElementById('modal-body').innerHTML = article.content_html;
+      const rModal = document.getElementById('reader-modal');
+      if (rModal) rModal.scrollTop = 0;
 
       // Etiketleri doldur
       const tagBox = document.getElementById('modal-tags-container');
@@ -696,7 +700,7 @@
     // Sayfa yüklendiğinde hash ve sorgu parametresi kontrolü
     window.addEventListener('DOMContentLoaded', () => {
       const urlParams = new URLSearchParams(window.location.search);
-      const tagParam = urlParams.get('tag') || urlParams.get('search');
+      const tagParam = urlParams.get('tag') || urlParams.get('search') || urlParams.get('filter');
       if (tagParam) {
         document.getElementById('archive-search').value = tagParam;
         currentSearch = tagParam.trim();
