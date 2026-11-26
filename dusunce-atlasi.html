@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
     <!-- Google tag (gtag.js) -->
@@ -9345,7 +9345,10 @@
           let typeBadge = '<span class="res-badge res-badge-video">🎬 Video</span>';
           let actionText = 'YouTube\'da İzle ↗';
 
-          if (res.type === 'makale') {
+                    if (res.type === 'sdmimproje') {
+            typeBadge = '<span class="res-badge" style="background:rgba(217,119,70,0.25);border:1px solid #d97746;color:#fce4b8;">🏛️ SDMİM Proje Müzesi</span>';
+            actionText = 'Vesikayı Oku →';
+          } else if (res.type === 'makale') {
             typeBadge = '<span class="res-badge res-badge-makale">📄 Makale</span>';
             actionText = 'Makaleyi Oku →';
           } else if (res.type === 'kitap') {
