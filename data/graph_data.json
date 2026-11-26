@@ -7311,15 +7311,29 @@
                       "source":  "sdmim.com / Blog: Afetzedeler İçin Alternatif Mesken Modeli",
                       "resources":  [
                                         {
+                                            "type":  "makale",
+                                            "title":  "Telif Rapor \u0026 Makale: Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+                                            "url":  "makaleler.html#deprem-raporu-1",
+                                            "duration":  "15 dk okuma",
+                                            "meta":  "Makaleler \u0026 Mütalaa Arşivi"
+                                        },
+                                        {
                                             "type":  "rapor",
-                                            "title":  "Teknik Rapor: Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
+                                            "title":  "Teknik Rapor I: Afetzedeler İçin Alternatif Bir Mesken Modeli (49 Teknik Çizim)",
                                             "url":  "deprem-raporu-1.html",
                                             "duration":  "49 Teknik Çizim",
                                             "meta":  "AFAD Resmi Raporu \u0026 Çizim Külliyatı"
                                         },
                                         {
+                                            "type":  "makale",
+                                            "title":  "Telif Rapor \u0026 Makale: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "url":  "makaleler.html#deprem-raporu-2",
+                                            "duration":  "20 dk okuma",
+                                            "meta":  "Makaleler \u0026 Mütalaa Arşivi"
+                                        },
+                                        {
                                             "type":  "rapor",
-                                            "title":  "Teknik Rapor: Afetzedeler İçin Mesken Modeli 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
+                                            "title":  "Teknik Rapor II: Türkiye Kentleşmesine Yeni Bir Bakış (112 Saha Görseli \u0026 Detay)",
                                             "url":  "deprem-raporu-2.html",
                                             "duration":  "112 Saha Görseli \u0026 Detay",
                                             "meta":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu"
