@@ -268,6 +268,7 @@
           <button onclick="filterByTag('all')" class="filter-tab active px-3 py-1.5 rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-300 transition">
             Tümü (16)
           </button>
+          <button onclick="filterByTag('akademik_tez')" class="filter-tab px-3 py-1.5 rounded-lg border border-[#c89d5c]/60 bg-[#c89d5c]/15 text-[#f5d09b] font-semibold transition">Akademik Tezler &amp; Lisansüstü (2)</button>
           <button onclick="filterByTag('milli_matbuat')" class="filter-tab px-3 py-1.5 rounded-lg border border-[#e6b87d]/50 bg-[#e6b87d]/15 text-[#f5d09b] font-semibold transition">
             Milli Matbuat, GZT &amp; Nihayet (8)
           </button>
@@ -377,66 +378,84 @@
   <script>
     const articlesData = [
     {
-        "id":  "deprem-raporu-1",
-        "slug":  "deprem-raporu-1",
-        "title":  "Afetzedeler İçin Alternatif Bir Mesken Modeli (Rapor I)",
-        "format":  "Resmi Teknik Rapor",
+        "id":  "doktora-tezi-konut-politikalari",
+        "slug":  "doktora-tezi-konut-politikalari",
+        "title":  "Doktora Tezi: Türkiye\u0027de Konut Politikaları ve Devlet Eliyle Üretilen Konutların İdeoloji – Ekonomi Ekseninde İncelenmesi",
+        "format":  "Doktora Tezi (YTÜ)",
+        "read_time":  "Akademik İnceleme \u0026 Tez Fihristi",
         "tags":  [
-                     "afet_deprem",
-                     "toprak_yapi",
-                     "katilimci_mimarlik",
-                     "ev_felsefesi"
+                     "akademik_tez",
+                     "sehir_hukuku",
+                     "medeniyet"
                  ],
         "tag_names":  [
-                          "Deprem \u0026 Afet Meskenleri",
-                          "Monolitik Toprak (Kerpiç)",
-                          "Katılımcı Mimarlık \u0026 İmece",
-                          "Ev \u0026 Fıtrî Barınak"
+                          "Akademik Lisansüstü Tezler",
+                          "Şehir Hukuku \u0026 İmar",
+                          "Medeniyet Tasavvuru"
                       ],
-        "signature":  "Y. Mim. Serkan Duman \u0026 SDMIM Çalışma Grubu",
-        "read_time":  "49 Görsel \u0026 Mimari Çizim",
-        "author":  "Y. Mim. Serkan Duman \u0026 SDMIM",
-        "excerpt":  "18 Şubat 2023 tarihinde AFAD\u0027a sunulan resmi teknik rapor: Deprem bölgesinde çadır ve konteynerlere alternatif; toprak ve fıtrî yapı malzemeleriyle acil ve kalıcı mesken üretimi, mimari proje ve mahalle yerleşimi kurgusu.",
-        "is_report":  true,
-        "report_url":  "deprem-raporu-1.html",
+        "excerpt":  "Yıldız Teknik Üniversitesi Mimarlık Tarihi ve Kuramı kürsüsünde tamamlanan doktora tezi: 1923\u0027ten günümüze Türkiye\u0027de konut politikalarının, devlet eliyle inşa edilen imar modellerinin ve TOKİ pratiklerinin ideolojik ve iktisadî arka planının arşiv belgeleri, mevzuat ve sosyolojik verilerle tahlili.",
         "sections":  [
                          {
-                             "heading":  "AFAD Teknik Raporu (18.02.2023)",
-                             "text":  "Bu çalışma; 6 Şubat depremleri sonrasında AFAD\u0027a doğrudan sunulmuş resmi teknik rapordur. 49 adet teknik çizim, arazi planı, kesit ve üretim detayını içermektedir. Raporun tamamını çizimleriyle incelemek için lütfen rapor bağlantısını açınız."
+                             "heading":  "Tezin Nazarî Çerçevesi ve Temel Problematik",
+                             "text":  "Konut meselesi, yalnızca teknik veya mimari bir barınak ihtiyacından ibaret olmayıp; bir toplumun iktisadî düzeninin, sınıfsal yapısının ve siyasal iktidarların inşa etmek istediği insan tipolojisinin mekâna yansıyan en somut vesikasıdır. Bu doktora araştırması; Türkiye\u0027de Erken Cumhuriyet döneminden günümüze kadar geçen süreçte devlet eliyle yürütülen konut politikalarını, ideolojik yönelimler ve iktisadî modeller ekseninde tahlil etmeyi gaye edinmiştir. Şehirlerimizin bugünkü betonlaşma ve kimlik buhranı, rastlantısal bir gelişme değil; devlet politikaları, sermaye birikim modelleri ve kanunî mevzuatların doğrudan bir neticesidir."
+                         },
+                         {
+                             "heading":  "1923–1950: Erken Cumhuriyet Devrinde İmar ve Yeni Rejimin Konut Tasavvuru",
+                             "text":  "Cumhuriyet\u0027in ilk yıllarında başkent Ankara başta olmak üzere şehirlerde yürütülen imar hareketleri; yeni rejimin modernleşme ideolojisini tecessüm ettirme gayreti gütmüştür. Bu devirde kamu eliyle üretilen konutlar, bürokrasi ve yönetici seçkinler için çağdaş bir \u0027Batılı yaşam tarzı\u0027 prototipi vazifesi görmüştür. Ancak sanayileşmenin yetersizliği ve sermaye darlığı sebebiyle devlet konut üretiminde doğrudan ve yaygın bir rol üstlenememiş; konut açığı daha ziyade memur lojmanları ve münferit kooperatif girişimleriyle sınırlandırılmıştır."
+                         },
+                         {
+                             "heading":  "1950 Sonrası Hızlı Şehirleşme, Gecekondu ve \u0027Yap-Sat\u0027 Apartman Düzeni",
+                             "text":  "1950\u0027li yıllarla birlikte tarımda makineleşme ve köyden kente kitlesel göç dalgası, Türkiye\u0027nin şehirlerini hazırlıksız yakalamıştır. Devletin geniş halk kitlelerine ucuz ve sağlıklı konut sunamaması; bir yandan enformel konut üretimi olan \u0027gecekondu\u0027 olgusunu doğurmuş, diğer yandan 1965 Kat Mülkiyeti Kanunu ile parsel bazında \u0027yap-satçı\u0027 apartman tipolojisini şehirlerin yegâne dokusu haline getirmiştir. Böylece geleneksel Türk mahallesinin komşuluk hukuku, bahçe kültürü ve fıtrî dokusu parçalanarak rant odaklı dikey bir sıkışmışlığa terk edilmiştir."
+                         },
+                         {
+                             "heading":  "Toplu Konut İdaresi (TOKİ) ve Neoliberal Çağda Konutun Metalaşması",
+                             "text":  "1984 senesinde kurulan ve 2000\u0027li yıllardan itibaren olağanüstü yetkilerle donatılan Toplu Konut İdaresi (TOKİ); devletin konut politikalarında merkezi bir aktör haline gelmiştir. Bu merhalede inşaat sektörü, Türkiye ekonomisinin temel büyüme motoru olarak kurgulanmış; konut hakkı bir insanî barınma gayesinden ziyade spekülatif bir finans ve yatırım aracına dönüştürülmüştür. Monoton tünel kalıp sistemleriyle inşa edilen yüz binlerce blok, Türkiye coğrafyasının fıtrî ve kültürel çeşitliliğini tek tip bir beton kütlesiyle ikame etmiştir."
+                         },
+                         {
+                             "heading":  "Netice ve Çıkış Yolu: Fıtrî, Müstakil ve İnsani Ölçekte Konut Mimarisi",
+                             "text":  "Doktora tezi nihayetinde şu köklü hakikate işaret etmektedir: Türkiye\u0027nin konut ve şehir meselesi, daha fazla kat çıkmak veya betonarme tünel kalıp binalar yığmakla çözülemez. Aksine; toprağa temas eden, az katlı, yerel malzeme (kerpiç, taş, ahşap) imkânlarını seferber eden, komşuluk hukukunu yaşatan ve fertleri banka borç köleliğine mahkûm etmeyen yeni ve fıtrî bir imar hukukuna ihtiyaç vardır. Konut, piyasa spekülasyonunun bir metası değil; ailenin ve cemiyetin emniyetli sığınağı olmalıdır."
                          }
-                     ]
+                     ],
+        "author":  "Dr. Mimar Serkan Duman",
+        "signature":  "Yıldız Teknik Üniversitesi Fen Bilimleri Enstitüsü Mimarlık Tarihi ve Kuramı Doktora Tezi · 2024 (Danışman: Prof. Dr. Nuran Kara Pilehvarian)"
     },
     {
-        "id":  "deprem-raporu-2",
-        "slug":  "deprem-raporu-2",
-        "title":  "Afetzedeler İçin Alternatif Bir Mesken Modeli - 2: Türkiye Kentleşmesine Yeni Bir Bakış (Rapor II)",
-        "format":  "Genişletilmiş Rapor",
+        "id":  "yuksek-lisans-postmodern-mimar",
+        "slug":  "yuksek-lisans-postmodern-mimar",
+        "title":  "Yüksek Lisans Tezi: Postmodern Dünyada Birey Olarak Mimar",
+        "format":  "Yüksek Lisans Tezi (YTÜ)",
+        "read_time":  "Nazarî Felsefe \u0026 Tez Fihristi",
         "tags":  [
-                     "afet_deprem",
-                     "sehir_hukuku",
-                     "mustakil_yasam",
-                     "toprak_yapi",
-                     "kirsal_koy"
+                     "akademik_tez",
+                     "felsefe_sanat",
+                     "medeniyet"
                  ],
         "tag_names":  [
-                          "Deprem \u0026 Afet Meskenleri",
-                          "Şehir Hukuku",
-                          "Müstakil Yaşam \u0026 Hürriyet",
-                          "Monolitik Toprak (Kerpiç)",
-                          "Kırsal Mimari \u0026 Köy"
+                          "Akademik Lisansüstü Tezler",
+                          "Felsefe \u0026 Tefekkür",
+                          "Medeniyet Tasavvuru"
                       ],
-        "signature":  "Y. Mim. Serkan Duman \u0026 SDMIM Çalışma Grubu",
-        "read_time":  "112 Saha Görseli \u0026 Teknik Detay",
-        "author":  "Y. Mim. Serkan Duman \u0026 SDMIM",
-        "excerpt":  "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı ile AFAD\u0027a sunulan genişletilmiş ikinci rapor: Konteyner-kerpiç hibrit acil konut, apartmanların müstakil yerleşime dönüşümü, kırsal kalkınma ve katılımcı şehircilik modeli.",
-        "is_report":  true,
-        "report_url":  "deprem-raporu-2.html",
+        "excerpt":  "Yıldız Teknik Üniversitesi Mimarlık Tarihi ve Kuramı programında tamamlanan yüksek lisans tezi: Modernizm sonrası küresel kapitalizm ve tüketim kültürü kıskacında mimarın şahsiyeti, meslek ahlakı ve fert/özne olarak mimarın varoluşsal krizi üzerine kuramsal ve felsefî bir araştırma.",
         "sections":  [
                          {
-                             "heading":  "Bakanlık \u0026 AFAD Genişletilmiş Raporu (25.02.2023)",
-                             "text":  "İlk raporun ardından hazırlanan bu genişletilmiş çalışma; konteyner-kerpiç hibrit acil konut modelini, Türkiye çapında müstakil yerleşim planlamasını ve dünyadaki katılımcı mimari modelleri 112 görsel ve teknik detayla sunmaktadır."
+                             "heading":  "Araştırmanın Gayesi: Postmodern Çağda Mimarın Özne Olarak Buhranı",
+                             "text":  "Bu yüksek lisans tezi; modernizmden postmodernizme geçiş sürecinde mimarın toplumsal statüsü, meslekî rolü ve ontolojik konumu üzerinde yoğunlaşmaktadır. Modern çağın \u0027dünyayı akılla biçimlendiren kahraman mimar\u0027 mitinin çöküşünün ardından, postmodern piyasa düzeninde mimarın bir \u0027yıldız tasarımcı\u0027 (starchitect) veya küresel sermayenin \u0027görüntü üreticisi\u0027 teknisyenine indirgenmesi meselesi felsefî bir eleştiriye tabi tutulmuştur."
+                         },
+                         {
+                             "heading":  "Modernizm Kırılması ve Postmodernizmin İkircikli Tabiatı",
+                             "text":  "Modernizmin tek tipçi, soğuk ve mekanik rasyonalizmi; 20. yüzyılın son çeyreğinde yerini postmodernizmin tarihsel biçimleri serbestçe kolajlayan, ironik ve eklektik diline bırakmıştır. Ancak postmodernizm, vaat ettiği çoğulculuk ve özgürlüğü mimara kazandıramamış; aksine tarihi ve mekânı içi boşaltılmış bir tüketim gösterisine dönüştürerek mimarlık eylemini derinliksiz bir tabela ve cephe oyununa indirgemiştir."
+                         },
+                         {
+                             "heading":  "Piyasa Mekanizmaları, Tüketim Kültürü ve Mimarın Şahsiyeti",
+                             "text":  "Kapitalist üretim ilişkilerinin küreselleşmesi, mimarın öznelliğini ve fikrî bağımsızlığını doğrudan tehdit etmektedir. Mimar, çoğu zaman gayrimenkul yatırım ortaklıklarının kâr maksimizasyonuna hizmet eden, hukuki ve teknik riskleri yüklenen ama mekânın ahlakî sorumluluğundan yalıtılan bir icracı konumuna geriletilmiştir. Mimarın bir \u0027birey\u0027 ve \u0027şahsiyet\u0027 olarak kendi vicdanıyla sistemin talepleri arasında yaşadığı yarılma, modern mimarlık pratiğinin en temel varoluşsal buhranıdır."
+                         },
+                         {
+                             "heading":  "Görüntü Üreticiliğine Karşı Hakikati Arayan Mimar",
+                             "text":  "Postmodern dünyada mimar; yalnızca iki boyutlu dijital render görselleri ve pazarlama illüstrasyonları üreten bir \u0027imaj tüccarı\u0027 olmaktan kurtulmalıdır. Mimarın hakiki vazifesi; mekânı fizikî ve manevî boyutlarıyla bir bütün olarak idrak etmek, insanın Yaratıcı ve tabiatla münasebetini gözeten fıtrî bir çevre kurmaktır. Mimarlık, bir kibri doyurma aracı değil; bir ahlak ve sorumluluk nizamıdır."
                          }
-                     ]
+                     ],
+        "author":  "Dr. Mimar Serkan Duman",
+        "signature":  "Yıldız Teknik Üniversitesi Fen Bilimleri Enstitüsü Mimarlık Tarihi ve Kuramı Yüksek Lisans Tezi · 2014 (Danışman: Prof. Dr. Nuran Kara Pilehvarian)"
     },
     {
         "id":  "kerpic-meselesine-dair",
@@ -476,8 +495,8 @@
                      "toprak_yapi",
                      "medeniyet",
                      "ev_felsefesi",
-                     "rammed_earth",
                      "hassan_fathy",
+                     "rammed_earth",
                      "katilimci_mimarlik"
                  ],
         "format":  "Telif Makale",
@@ -488,11 +507,11 @@
         "author":  "Dr. Mimar Serkan Duman",
         "excerpt":  "Kerpiç dediğim zaman insanların aklına sadece topraktan yapılmış bir bina geliyor. Oysa benim için bu bir medeniyet tasavvuru... Kerpiç, içinde yaşadığımız kapitalist ve ahlaksız düzende bir çıkış biletidir; fıtri bir özgürlüktür.",
         "tag_names":  [
-                          "Monolitik Toprak (Kerpiç)",
-                          "İslam \u0026 Medeniyet Tasavvuru",
-                          "Ev \u0026 Fıtrî Barınak",
-                          "Sıkıştırılmış Toprak (Rammed Earth)",
-                          "Hassan Fathy \u0026 Fakirler İçin Mimarlık",
+                          "Toprak Yapı \u0026 Kerpiç",
+                          "Medeniyet Tasavvuru",
+                          "Ev Felsefesi",
+                          "Hassan Fathy \u0026 Fıtri Barınak",
+                          "Sıkıştırılmış Toprak",
                           "Katılımcı Mimarlık"
                       ],
         "youtube_id":  "1Vo992oDa5c"
@@ -532,7 +551,7 @@
                      ],
         "title":  "Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
         "tags":  [
-                     "felsefe_sanat",
+                     "felsefe_soylesi",
                      "medeniyet",
                      "cansever",
                      "sehir_hukuku",
@@ -546,9 +565,9 @@
         "author":  "Dr. Mimar Serkan Duman",
         "excerpt":  "İyi film insanın ayakkabısındaki çakıl taşı gibidir derler; insanı rahatsız eder. Teoman Duralı Hoca\u0027nın söyledikleri de beni zihnen sarstı... Mimarinin asıl varoluş gayesi kaostan kozmosa ulaşmaktır; dağınık ve kırışık olanı derleyip toparlayarak ahenk kurmaktır.",
         "tag_names":  [
-                          "Felsefe, Akıl, Duygu \u0026 Sanat",
-                          "İslam \u0026 Medeniyet Tasavvuru",
-                          "Turgut Cansever \u0026 Bilge Mimarlık",
+                          "Felsefe \u0026 Söyleşiler",
+                          "Medeniyet Tasavvuru",
+                          "Turgut Cansever \u0026 Bilge Mimar",
                           "Şehir Hukuku",
                           "Mahalle \u0026 Sokak Dokusu"
                       ],
@@ -584,8 +603,8 @@
                      "sehir_hukuku",
                      "mahalle_sokak",
                      "katilimci_mimarlik",
-                     "cansever",
-                     "medeniyet"
+                     "medeniyet",
+                     "cansever"
                  ],
         "format":  "Şehir Nazariyesi \u0026 Medeniyet",
         "signature":  "Dr. Mimar Serkan Duman",
@@ -596,10 +615,10 @@
         "excerpt":  "Görüntü adı üstünde sadece görüntüdür; basit matematik hesapları ise şehir gibi girift bir nizam için sathî kalır. Önemli olan ahlaktır; şehir toplumun bir aynasıdır.",
         "tag_names":  [
                           "Şehir Hukuku",
-                          "Osmanlı Mahalle Nizamı \u0026 Komşuluk",
-                          "Katılımcı Mimarlık \u0026 İmece",
-                          "Turgut Cansever \u0026 Bilge Mimarlık",
-                          "İslam \u0026 Medeniyet Tasavvuru"
+                          "Mahalle \u0026 Sokak Dokusu",
+                          "Katılımcı Mimarlık",
+                          "Medeniyet Tasavvuru",
+                          "Turgut Cansever \u0026 Bilge Mimar"
                       ],
         "youtube_id":  "ad6T30IpXsU"
     },
@@ -683,13 +702,12 @@
         "title":  "Yeni Bir Hayat Mümkün: Medeniyet Tasavvuru, Yer Kültürü ve Köy Modeli",
         "tags":  [
                      "mustakil_yasam",
-                     "kirsal_koy",
-                     "cocuk_sehir",
                      "ev_felsefesi",
-                     "medeniyet",
                      "toprak_yapi",
-                     "rammed_earth",
-                     "katilimci_mimarlik"
+                     "medeniyet",
+                     "katilimci_mimarlik",
+                     "cansever",
+                     "rammed_earth"
                  ],
         "format":  "Telif Makale",
         "signature":  "Dr. Mimar Serkan Duman",
@@ -699,288 +717,18 @@
         "author":  "Dr. Mimar Serkan Duman",
         "excerpt":  "Yıllardır üzerimize uymayan bir kıyafet giydik. Bu kıyafet bir başkası tarafından kendi ihtiyaçları için dikilmişti... İnsani olmayan şehirlerde yaşayıp insan kalmak zor. Teknoloji kampüsü değil, teknoloji köyü kurmalıyız. Yeni bir hayat mümkündür.",
         "tag_names":  [
-                          "Müstakil Yaşam \u0026 Hürriyet",
-                          "Kırsal Mimari, Köy \u0026 Yeni Bir Hayat",
-                          "Çocuk \u0026 Şehir Hafızası",
-                          "Ev \u0026 Fıtrî Barınak",
-                          "İslam \u0026 Medeniyet Tasavvuru",
-                          "Monolitik Toprak (Kerpiç)",
-                          "Sıkıştırılmış Toprak (Rammed Earth)",
-                          "Katılımcı Mimarlık"
+                          "Müstakil Yaşam \u0026 İnsan Ölçeği",
+                          "Ev Felsefesi",
+                          "Toprak Yapı \u0026 Kerpiç",
+                          "Medeniyet Tasavvuru",
+                          "Katılımcı Mimarlık",
+                          "Turgut Cansever \u0026 Bilge Mimar",
+                          "Sıkıştırılmış Toprak"
                       ],
         "youtube_id":  "xEdWFMrj9f8"
-    },
-{
-    "id": "kitap-elvan",
-    "slug": "kitap-elvan",
-    "title": "Elvan: Ben, Sen, O, Biz",
-    "format": "Telif Eser / Fikrî Roman",
-    "tags": ["kitaplar", "felsefe_sanat", "medeniyet", "mustakil_yasam"],
-    "tag_names": ["Telif Eserler & Kitap", "Felsefe & Tefekkür", "İslam & Medeniyet Tasavvuru", "Varlık & Şahsiyet"],
-    "signature": "Dr. Mimar Serkan Duman · KDY Yayınları",
-    "read_time": "104 Sayfa · KDY (2021)",
-    "author": "Dr. Mimar Serkan Duman",
-    "external_url": "https://www.kitapyurdu.com/kitap/elvan/597371.html",
-    "excerpt": "Ferdin kendi varoluş çölünde 'Ben, Sen, O ve Biz' basamaklarından geçerek kendini, ötekini ve mutlak hakikati arayışının felsefî ve edebî bir tefekkürü.",
-    "sections": [
-      {
-        "heading": "Varlık Mertebeleri ve Dörtlü Arayış: Ben, Sen, O, Biz",
-        "text": "Bir insanın kendisiyle karşılaşması, yeryüzündeki en çetin imtihandır. 'Ben' idrakinden yola çıkan arayış, önce karşısındaki 'Sen'i keşfeder. Ancak cemiyet ve varlık dairesi genişledikçe 'O'nun mesafesi hissedilir; nihayetinde müşterek bir medeniyet ve hakikat idrakinde 'Biz' basamağına vasıl olunur.\n\nElvan, mekanik ve sun'îleşmiş çağın gürültüsü içinde insanın kendi iç sesini dinleme cehdidir. Varlığın sadece görünen maddi kabuktan ibaret olmadığını, her bir zerrenin derununda metafizik bir ahenk taşıdığını felsefî bir dil ve edebî bir duyuşla serdeder."
-      },
-      {
-        "heading": "Şehir, Yalnızlık ve İnsanın İç Dünyası",
-        "text": "Modern metropoller insanı kalabalıklar içinde yapayalnız bırakan tecrit merkezleridir. Binalar yükseldikçe ruhlar alçalmakta, sokaklar genişledikçe kalpler daralmaktadır. İnsan, kendi elleriyle inşa ettiği bu sun'î labirentin içinde hakiki özünü kaybetmiştir.\n\nRomanda yer alan mekân tasvirleri, mimarlık ve felsefe arakesitinde bir tefekkür vadisidir. Mekân, sadece taş ve harçtan örülmüş bir duvar değildir; insanın ahlakını, yalnızlığını ve varoluş sancısını yansıtan bir aynadır. Mekânı fıtrata uygun kılmayan bir cemiyetin insanı da fıtrata yabancılaşmaya mahkûmdur."
-      },
-      {
-        "heading": "Kitap Hakkında & Temin",
-        "text": "2021 senesinde Kitapyurdu Doğrudan Yayıncılık (KDY) bünyesinde neşredilen 'Elvan' (104 Sayfa, Roman/Fikir), Dr. Mimar Serkan Duman'ın edebî ve felsefî tefekkür dünyasını müşahhas kılan müstakil bir telif eserdir. Eser, Kitapyurdu üzerinden temin edilebilmektedir."
-      }
-    ]
-  },
-  {
-    "id": "koy-evini-yeniden-dusunmek-kafa-yok-govde-var",
-    "slug": "koy-evini-yeniden-dusunmek-kafa-yok-govde-var",
-    "title": "Köy Evini Yeniden Düşünmek: Kafa Yok, Gövde Var",
-    "format": "Nihayet Dergisi Söyleşisi (Sayı 140)",
-    "tags": ["milli_matbuat", "kirsal_koy", "toprak_yapi", "mustakil_yasam", "ev_felsefesi"],
-    "tag_names": ["Milli Matbuat & Dergi", "Kırsal Mimari & Köy", "Monolitik Toprak (Kerpiç)", "Müstakil Yaşam & Hürriyet", "Ev & Fıtrî Barınak"],
-    "signature": "Dr. Mimar Serkan Duman · Nihayet Dergisi",
-    "read_time": "Nihayet & GZT · 7 dk okuma",
-    "author": "Dr. Mimar Serkan Duman (Söyleşi: Aleyna Ayan Aydın)",
-    "external_url": "https://gzt.com/nihayet",
-    "excerpt": "Köy evi dediğimiz yapı, tabiatın ve iklimin bir uzantısıdır. Şehirdeki apartman dairesini köye taşımak, köye yabancılaşmanın en bariz tezahürüdür.",
-    "sections": [
-      {
-        "heading": "Köy Evi Bir İhtiyaç ve Fıtrat Mimarisidir",
-        "text": "Bugün köylere gidip baktığımızda şehirdeki apartmanın bir katını alıp köyün ortasına konduran bir garabetle karşılaşıyoruz. Kafa yok, gövde var! Kökü olmayan, toprağa basmayan, iklimi ve fıtratı hesaba katmayan bir yapılaşma köyün bütün fıtrî ahengini katlediyor.\n\nOysa gelenekli köy evi; gövdesini arazinin meyline uyduran, taş temel üzerine oturan, toprağın sıcağını ve nefesini içeri alan fıtrî bir varlıktır. Köy evi lüks bir tüketim nesnesi değil; ahırıyla, kileriyle, samanlığıyla, fırınıyla üretimin kalbidir."
-      },
-      {
-        "heading": "Gelenekli Köy Mimarisi Neden Unutuldu?",
-        "text": "Modernizm insanımıza 'kerpiç fakirliktir, beton medeniyettir' yalanını aşıladı. Köylü kendi tarlasındaki toprağı, bahçesindeki taşı bırakıp şehirden kamyon kamyon çimento satın almaya mecbur edildi. Neticede yazın fırın gibi yanan, kışın buz kesen, depremde ise tabut haline gelen beton kutular köyleri istila etti.\n\nKöyde inşa etmek yalnızca tek başına bir barınak kurmak değildir; imecedir, komşuluk hukukudur. Bütün köylünün bir araya gelip sırayla komşusunun evini çatmasıdır. Bu rabıta koptuğunda köy köy olmaktan çıkar, şekilsiz bir banliyöye dönüşür."
-      },
-      {
-        "heading": "Fıtrî Çözüm: Toprak ve Yerel Malzeme",
-        "text": "Biz SDMIM ve ZISOFA olarak sahada şunu gösterdik: Toprak malzeme ilkel değil; en çağdaş, en sağlıklı ve en dayanıklı yapı malzemesidir. Kendi toprağından inşa edilen köy evi, sıfır karbon ayak iziyle hem tabiatı korur hem de sahibine iktisadî bir hürriyet sunar. Köye dönmek isteyen insanın önündeki en büyük engel yüksek inşaat masraflarıdır; toprak ise ayaklarımızın altında bedava yatan bir nimettir."
-      }
-    ]
-  },
-  {
-    "id": "mimar-olmayan-bir-mimar-nail-cakirhan",
-    "slug": "mimar-olmayan-bir-mimar-nail-cakirhan",
-    "title": "Mimar Olmayan Bir Mimarın Öyküsü: Nail Çakırhan'ın Hayatından İlhamlar",
-    "format": "Nihayet Dergisi & GZT Telif Makale",
-    "tags": ["milli_matbuat", "medeniyet", "katilimci_mimarlik", "cansever"],
-    "tag_names": ["Milli Matbuat & Dergi", "İslam & Medeniyet Tasavvuru", "Katılımcı Mimarlık & Ustalık", "Ağa Han Mimarlık Ödülü"],
-    "signature": "Dr. Mimar Serkan Duman · Nihayet Dergisi / GZT",
-    "read_time": "Nihayet Dergi · 6 dk okuma",
-    "author": "Dr. Mimar Serkan Duman",
-    "external_url": "https://gzt.com/nihayet",
-    "excerpt": "Resmi mimarlık diploması olmaksızın Ağa Han Mimarlık Ödülü'ne layık görülen Nail Çakırhan'ın gelenekli Ula evlerinden süzülen fıtrî ve sahici mimarlık dersi.",
-    "sections": [
-      {
-        "heading": "Diplomanın Ötesinde Bir Yapı Ustalığı",
-        "text": "Nail Çakırhan bir mimarlık fakültesi bitirmedi; mimarlık diploması yoktu. Fakat Ağa Han Mimarlık Ödülü'nü kazanan dünyadaki nâdir şahsiyetlerden biri oldu. Bu hadise, modern dünyanın kâğıt üzerindeki bürokratik unvanlarla hakiki ustalık ve idrak arasındaki mesafeyi göstermesi bakımından son derece ibretliktir.\n\nMimar, fildişi kulesinde oturup sadece cetvelle çizgi çeken bir teknokrat değildir. Mimar; malzemenin dilinden anlayan, coğrafyanın ruhunu okuyan ve insan fıtratına hürmet gösteren bir bilgedir."
-      },
-      {
-        "heading": "Ula Evleri ve Gelenekten Neşet Eden Zarafet",
-        "text": "Çakırhan, Muğla'nın Ula kasabasındaki gelenekli ahşap ve taş ustalığını Akyaka'da yeniden ihya etti. Köyün yaşlı dülger ve yapı ustalarıyla yan yana çalışarak, yörenin iklimine, rüzgârına ve ışığına mükemmel cevap veren evler inşa etti.\n\nBu yapılar kibrin değil tevazuun zaferidir. Hiçbir bina yanındakinin güneşini kesmez, hiçbir saçak diğerini rahatsız etmez. Her pencere fıtrî bir manzaraya açılır; ahşap tavanlar geometrik bir şiir gibi mekânı kucaklar."
-      },
-      {
-        "heading": "Bugünün Mimarlarına Düşen Düşünce",
-        "text": "Bugün üniversitelerde yetişen binlerce genç mimar, bilgisayar ekranlarında parıltılı üç boyutlu kütleler tasarlıyor; ancak bir kerpicin nasıl yoğrulduğunu, bir ahşabın elyaflarına göre nasıl yontulduğunu bilmiyor. Çakırhan'ın mirası, bizi sahaya, ustalığa ve kendi kadim köklerimize dönmeye davet etmektedir."
-      }
-    ]
-  },
-  {
-    "id": "cami-bir-bina-degil-bir-surectir",
-    "slug": "cami-bir-bina-degil-bir-surectir",
-    "title": "Cami Bir Bina Değil, Bir Süreçtir: İç Dünyayı Güzelleştirip Dış Dünyayla Buluşturmak",
-    "format": "Nihayet Dergisi & GZT Telif Makale",
-    "tags": ["milli_matbuat", "medeniyet", "sehir_hukuku", "felsefe_sanat"],
-    "tag_names": ["Milli Matbuat & Dergi", "İslam & Medeniyet Tasavvuru", "Mabet & Şehir Hukuku", "Felsefe & Tefekkür"],
-    "signature": "Dr. Mimar Serkan Duman · Nihayet Dergisi / GZT",
-    "read_time": "Nihayet Dergi · 6 dk okuma",
-    "author": "Dr. Mimar Serkan Duman",
-    "external_url": "https://gzt.com/nihayet",
-    "excerpt": "Cami, sadece kubbesi ve minaresi olan statik bir kütle değildir; ferdin iç dünyası ile cemiyetin müşterek ahlakını bir araya getiren canlı bir hayat merkezidir.",
-    "sections": [
-      {
-        "heading": "Mabet ve İbadet Alanının Ruhaniyeti",
-        "text": "Cami kelimesi 'cem' kökünden gelir; toplayan, birleştiren, bir araya getiren demektir. Bu toplanma yalnızca bedenlerin yan yana saf tutması değildir; dağınık zihinlerin, kırılmış kalplerin ve ferdî ihtirasların vahdet potasında erimesidir.\n\nBir mabet inşa etmek, şehrin ortasına devasa bir kütle fırlatmak anlamına gelmez. Cami bir süreçtir; niyetten temele, malzemeden ustalığa kadar her anı tefekkürle örülen bir ibadettir."
-      },
-      {
-        "heading": "Taklit Kubbeler ve Ruhsuz Kopyalar Eleştirisi",
-        "text": "Bugün Türkiye'nin dört bir yanında Mimar Sinan'ın şaheserlerinin kaba betonarme taklitleri yükseliyor. Kubbeler beton, kemerler boya, sütunlar sahte... Bu taklitçilik Sinan'a hürmet değil, onun dehasına yapılan bir haksızlıktır. Sinan kendi çağının en ileri mühendislik aklını ve fıtrî malzemesini kullandı.\n\nBiz bugün Sinan'ın biçimini değil, onun arkasındaki tevhîd idrakini ve malzeme samimiyetini kuşanmalıyız. Taklit, canlı düşüncenin öldüğü yerde başlar."
-      },
-      {
-        "heading": "Şehir Dokusuyla Bütünleşen Cami",
-        "text": "İslam şehrinde cami tek başına yalıtılmış bir anıt değildir. Etrafında medresesi, şifahanesi, sebili, imareti ve çarşısıyla mahallenin nabzının attığı bir hayat merkezidir. Camiye giren insan dünyadan kaçmaz; dünyayı nasıl güzelleştireceğinin ahlakî şuurunu kuşanarak yeniden şehre döner."
-      }
-    ]
-  },
-  {
-    "id": "emek-vermedigimiz-soz-hakkimizin-olmadigi-kutular",
-    "slug": "emek-vermedigimiz-soz-hakkimizin-olmadigi-kutular",
-    "title": "Emek Vermediğimiz, Söz Hakkımızın Olmadığı Kutularda Oturmak",
-    "format": "Nihayet Dergisi & GZT Telif Makale",
-    "tags": ["milli_matbuat", "mustakil_yasam", "ev_felsefesi", "katilimci_mimarlik"],
-    "tag_names": ["Milli Matbuat & Dergi", "Müstakil Yaşam & Hürriyet", "Ev & Fıtrî Barınak", "Katılımcı Mimarlık"],
-    "signature": "Dr. Mimar Serkan Duman · Nihayet Dergisi / GZT",
-    "read_time": "Nihayet Dergi · 5 dk okuma",
-    "author": "Dr. Mimar Serkan Duman",
-    "external_url": "https://gzt.com/nihayet",
-    "excerpt": "İnsan kendi evinin harcına, taşına, planına emek vermediğinde o mekâna aidiyet hissedemez. Apartman dairesi, ferdin iradesini teslim aldığı bir finansal kutudur.",
-    "sections": [
-      {
-        "heading": "Kendi Meskenine Yabancılaşan İnsan",
-        "text": "Bugün modern insan otuz yıl boyunca bir bankaya borçlanarak satın aldığı dairenin kapısını anahtarla açtığında, o duvara çivi dahi çakarken tedirgin olur. Çünkü o evin inşasında kendi teri, emeği ve iradesi yoktur. Bir müteahhidin kâr hırsıyla belirlediği oda ölçülerine, pencere boyutlarına ve malzeme kalitesine mahkûmdur.\n\nEmek verilmeyen yerde sevgi ve aidiyet yeşermez. Apartman hayatı insanı kendi evinde bir kiracı ruh haline hapseder."
-      },
-      {
-        "heading": "İmece ve Katılımcı İnşaatın Kaybı",
-        "text": "Anadolu insanı eskiden evini yaparken bütün köy seferber olurdu. Biri taş taşır, diğeri saman getirir, öteki çamuru yoğururdu. O evin her köşesinde bir dostun hatırası, bir komşunun duası bulunurdu. Dolayısıyla ev yalnızca bir barınak değil, içtimaî bir tesanüd abidesiydi.\n\nBugün ise komşunun adını dahi bilmeyen, asansörde göz göze gelmekten kaçınan fertlerin istiflendiği dikey mezarlıklar inşa ediyoruz."
-      },
-      {
-        "heading": "Fıtrî Çıkış: Kendi Evini Kendi Yapabilme İmkânı",
-        "text": "Hassan Fathy'nin 'Fakirler İçin Mimarlık' kitabında ortaya koyduğu en temel hakikat şudur: İnsan kendi fıtrî barınağını inşa edebilme kabiliyetiyle yaratılmıştır. Toprak yapı bu imkânı insana iade eder. Pahalı makineler, dev vinçler ve sermaye baronları olmadan; ailenin ve dostların el birliğiyle sıcacık bir yuva kurmak dün olduğu gibi bugün de mümkündür."
-      }
-    ]
-  },
-  {
-    "id": "topraga-donus-yapmaliyiz-litros-sanat",
-    "slug": "topraga-donus-yapmaliyiz-litros-sanat",
-    "title": "Toprağa Dönüş Yapmalıyız: Modern Dünyada Fıtrî Mimarlık Arayışı",
-    "format": "Litros Sanat Dergisi Söyleşisi",
-    "tags": ["milli_matbuat", "toprak_yapi", "rammed_earth", "medeniyet"],
-    "tag_names": ["Milli Matbuat & Litros", "Monolitik Toprak (Kerpiç)", "Sıkıştırılmış Toprak", "Medeniyet Tasavvuru"],
-    "signature": "Dr. Mimar Serkan Duman · Litros Sanat Dergisi",
-    "read_time": "Litros Sanat · Söyleşi: Merve Akbaş",
-    "author": "Dr. Mimar Serkan Duman (Söyleşi: Merve Akbaş)",
-    "external_url": "https://litrossanat.com",
-    "excerpt": "Beton bizi hem tabiattan hem de kendi insanî hakikatimizden kopardı. Toprak, geçmişin nostaljisi değil, geleceğin en çağdaş ve asil yapı malzemesidir.",
-    "sections": [
-      {
-        "heading": "Neden Toprak Mimari?",
-        "text": "Toprak; insanın yaratıldığı maddedir. İnsan eliyle üretilen hiçbir sentetik kimyasal, toprağın sunduğu hava kalitesini, nefes alma kabiliyetini ve nem dengeleme vasfını taklit edemez. Toprak bir odada uyandığınızda dinç kalkarsınız; çünkü duvarlar yaşayan bir organizma gibi içerideki havayı temizler.\n\nBugün betonarme binalar toksik gazlar salgılıyor, elektromanyetik radyasyonu hapsediyor ve insan sağlığını kronik hastalıklara açık hale getiriyor. Toprağa dönüş bir lüks değil, biyolojik bir hayatta kalma meselesidir."
-      },
-      {
-        "heading": "Sıkıştırılmış Toprak (Rammed Earth) ve Çağdaş Standartlar",
-        "text": "Biz SDMIM ve ZISOFA'da sıkıştırılmış monolitik toprak tekniğini çağdaş mühendislikle birleştiriyoruz. Katman katman sıkıştırılan toprak duvarlar, asırlarca ayakta kalan taştan bir anıt gibi mukavemet kazanır. Ahşap tavanlar ve geniş saçaklarla birleştiğinde, yağmur ve iklim şartlarına tam mukavemet gösterir.\n\nBu yapılar dışarıdan hiçbir yapay boya ya da sıva talep etmez; toprağın kendi tabiî rengi ve katmanları cephede eşsiz bir estetik tablo meydana getirir."
-      },
-      {
-        "heading": "Geleceğin Şehirleri Toprakla Yeşerecek",
-        "text": "Dünyadaki karbon emisyonunun neredeyse üçte biri çimento ve çelik sanayiinden kaynaklanıyor. Şayet tabiatı ve gezegeni kurtarmak istiyorsak, beton oburluğuna son vermek mecburiyetindeyiz. Geleceğin mimarlığı, toprağı yerinde kullanan, atık bırakmayan ve topraktan gelip toprağa dönen döngüsel yapılarda tecelli edecektir."
-      }
-    ]
-  },
-  {
-    "id": "modern-dunyada-toprak-mimari-turkiye-gazetesi",
-    "slug": "modern-dunyada-toprak-mimari-turkiye-gazetesi",
-    "title": "Modern Dünyada Toprak Mimari: Depreme Mukavim ve Sıhhatli Yapılar",
-    "format": "Türkiye Gazetesi Telif Makale",
-    "tags": ["milli_matbuat", "toprak_yapi", "afet_deprem", "mustakil_yasam"],
-    "tag_names": ["Milli Matbuat & Basın", "Monolitik Toprak (Kerpiç)", "Deprem & Afet Güvenliği", "Müstakil Yaşam"],
-    "signature": "Dr. Mimar Serkan Duman · Türkiye Gazetesi",
-    "read_time": "Türkiye Gazetesi · 5 dk okuma",
-    "author": "Dr. Mimar Serkan Duman",
-    "external_url": "https://www.turkiyegazetesi.com.tr",
-    "excerpt": "Toprak yapılar doğru mühendislik ve monolitik sıkıştırma teknikleriyle inşa edildiğinde zelzeleye karşı en emniyetli ve en uzun ömürlü sığınaklardır.",
-    "sections": [
-      {
-        "heading": "6 Şubat Sonrası Acil Muhasebe",
-        "text": "6 Şubat 2023 felaketi, Türkiye'nin şehirleşme ve inşaat politikalarını kökten sorgulamayı zorunlu kılmıştır. Yıkılan yüz binlerce betonarme apartman enkazı altında canlarımız kaldı. Ağır beton tablolar çöktüğünde yaşam üçgeni bırakmıyor; insanı havasız ve ezici bir ağırlık altında yok ediyor.\n\nOysa tek ya da iki katlı, esnek ahşap hatıllarla donatılmış monolitik toprak yapılar deprem enerjisini yutar; göçse dahi toz haline gelerek insanı ezmez ve kurtarma faaliyetine fırsat tanır."
-      },
-      {
-        "heading": "Toprak Yapı Depremde Neden Güvenlidir?",
-        "text": "Halk arasında 'kerpiç çürüktür' şeklinde yanlış bir algı vardır. Bu algının sebebi, harçsız gelişi güzel üst üste konulmuş derenin yuvarlak taşlarından yapılan niteliksiz köy yapılarıdır. Hakiki toprak yapı ise sıkıştırılmış, tane boyu dağılımı hesaplanmış, kireç ya da fıtrî bağlayıcılarla stabilize edilmiş bir mühendislik harikasıdır.\n\nBinlerce yıldır ayakta kalan Yemen Şibam gökdelenleri, İran ve Anadolu kervansarayları toprağın asırlık mukavemetinin yaşayan delilleridir."
-      },
-      {
-        "heading": "Sıhhatli Yaşam Alanı Olarak Toprak",
-        "text": "Toprak yapılar yangına tam mukavimdir; alev almaz, zehirli duman çıkarmaz. Yaz aylarında klima ihtiyacını, kış aylarında ise yakıt masrafını asgariye indirir. Türkiye'nin hem afet güvenliği hem de enerji bağımsızlığı için toprak mimarlık stratejik bir devlet politikası haline getirilmelidir."
-      }
-    ]
-  },
-  {
-    "id": "dogal-mimari-tekniginin-sahibi-biziz-hacer-yegin",
-    "slug": "dogal-mimari-tekniginin-sahibi-biziz-hacer-yegin",
-    "title": "Doğal Mimari Tekniğinin Sahibi Biziz: Unuttuğumuzu Hatırlamamız Gerekiyor",
-    "format": "Kültür & Mimarlık Söyleşisi",
-    "tags": ["milli_matbuat", "toprak_yapi", "medeniyet", "katilimci_mimarlik"],
-    "tag_names": ["Milli Matbuat & Arkitera", "Monolitik Toprak (Kerpiç)", "Gelenekli Yapı Sanatı", "Medeniyet Tasavvuru"],
-    "signature": "Dr. Mimar Serkan Duman · Dünyabizim / Arkitera",
-    "read_time": "Dünyabizim / Arkitera · 6 dk okuma",
-    "author": "Dr. Mimar Serkan Duman (Söyleşi: Hacer Yeğin)",
-    "external_url": "https://www.dunyabizim.com",
-    "excerpt": "Toprak ve ahşap yapı tekniği Batı'nın yeni keşfettiği bir lüks değil; bizim asırlardır sahibi olduğumuz, fakat modernleşme kompleksiyle unuttuğumuz fıtrî mirasımızdır.",
-    "sections": [
-      {
-        "heading": "Mirasımızı Batı'dan Yeniden Öğrenme Garabeti",
-        "text": "Batı dünyası bugün 'sürdürülebilir mimari' ve 'yeşil binalar' diyerek toprağı, ahşabı ve samanı yeniden keşfediyor; buna cafcaflı sertifikalar verip fahiş fiyatlara satıyor. Biz ise kendi ecdadımızın bin yıldır uyguladığı bu sanatı 'köylülük' sayıp terk ettik.\n\nBiz bu toprakların yapı dilini unuttuk. Oysa Anadolu ve Mezopotamya, yeryüzünde kerpiç ve toprak mimarinin doğduğu ana beşikti. Kendi hazinemize sırt dönüp başkalarının kırıntılarına talip olamayız."
-      },
-      {
-        "heading": "Zanaatkar ve Usta Yetiştirme İhtiyacı",
-        "text": "Mesele sadece mimarlık bürolarında proje çizmek değildir. Sahada harcı karacak, kalıbı çakacak, tokmakla toprağı sıkıştıracak kalifiye ustalara ihtiyacımız var. Eskiden her köyde, her kasabada bir dülger, bir taş ustası, bir kerpiççi vardı.\n\nBu zanaat zinciri koparıldı. Şimdi bu bilgi hafızasını yeniden derlemek, usta-çırak mektepleri açmak ve genç nesillere bu fıtrî sanatı öğretmek zorundayız."
-      },
-      {
-        "heading": "Geleceğe Taşınacak Hakikat",
-        "text": "Biz SDMIM çatısı altında yıllardır sadece binalar yapmıyoruz; atölyeler düzenliyor, gönüllülere çamur kardırıyor, toprağa dokunmalarını sağlıyoruz. Toprağa dokunan insanın bakışı değişir, kibri kırılır, fıtratına döner. Unuttuğumuz hakikati hatırladığımız an, geleceğimizi de kendi ellerimizle kurmuş olacağız."
-      }
-    ]
-  },
-  {
-    "id": "suriyede-bacasi-tuten-toprak-evler",
-    "slug": "suriyede-bacasi-tuten-toprak-evler",
-    "title": "Suriye'de Bacası Tüten Toprak Evler Yapıyoruz: Çadıra Karşı İnsanî Sığınak",
-    "format": "Nihayet Dergisi Söyleşisi",
-    "tags": ["milli_matbuat", "toprak_yapi", "afet_deprem", "katilimci_mimarlik"],
-    "tag_names": ["Milli Matbuat & Nihayet", "Monolitik Toprak (Kerpiç)", "İnsani Yardım & Barınak", "Katılımcı Mimarlık"],
-    "signature": "Dr. Mimar Serkan Duman · Nihayet Dergisi",
-    "read_time": "Nihayet Dergi · 6 dk okuma",
-    "author": "Dr. Mimar Serkan Duman (Söyleşi: Merve Akbaş)",
-    "external_url": "https://gzt.com/nihayet",
-    "excerpt": "Savaş mağduru aileler için plastik çadırlar yerine doğrudan o toprakların çamuruyla sıcacık, bacası tüten fıtrî ve kalıcı yuvalar inşa ettik.",
-    "sections": [
-      {
-        "heading": "Plastik Çadırlardan İnsanî Meskene",
-        "text": "Suriye sınırında ve kriz bölgelerinde kurulan naylon ve branda çadırlar, insan onuruna aykırı şartlar doğuruyor. Kışın çamur deryası ve donma tehlikesi, yazın ise nefes aldırmayan bir boğuntu... Milyonlarca dolar yardım toplanıp plastik çadırlara yatırılıyor ve birkaç ay sonra o çadırlar çöp haline geliyor.\n\nBiz ise o çadırların kurulduğu arazinin kendi toprağını aldık; sıkıştırarak sağlam, yangına dayanıklı, kışın sobayla sıcacık olan ve bacası tüten gerçek evler inşa ettik."
-      },
-      {
-        "heading": "Halkın Bizzat İnşaya Katılımı",
-        "text": "Bu projenin en mühim boyutu, oradaki muhacir kardeşlerimizin bizzat işin içine katılmasıydı. Sabah erkenden kalkıp kalıpları kurdular, toprağı tokmakladılar. Kendi yuvasını kendi elleriyle yükselten bir insanın gözlerindeki onuru ve sevinci hiçbir yardım paketi veremez.\n\nİnsan edilgen bir sığınmacı olmaktan çıkıp, kendi hayatını yeniden kuran bir fert haline geldi."
-      },
-      {
-        "heading": "Kalıcı ve Onurlu Barınma Modeli",
-        "text": "Bir toprak evin maliyeti, plastik çadır kamplarının lojistik ve bakım masraflarından çok daha düşüktür. Üstelik savaş bittiğinde bu evler terk edilse dahi tabiata hiçbir toksik atık bırakmaz, yeniden toprağa karışır. İnsana ve toprağa hürmet eden bu model, küresel insani yardım paradigmasını kökten değiştirecek bir numunedir."
-      }
-    ]
-  },
-  {
-    "id": "turgut-cansever-mirasi-hece-dergisi",
-    "slug": "turgut-cansever-mirasi-hece-dergisi",
-    "title": "Bir Damarı Canlı Tutmak: Turgut Cansever Mirası ve Bilge Mimarlık",
-    "format": "Hece Dergisi Özel Sayı Telif Makale",
-    "tags": ["milli_matbuat", "cansever", "medeniyet", "sehir_hukuku", "felsefe_sanat"],
-    "tag_names": ["Milli Matbuat & Hece", "Turgut Cansever & Bilge Mimarlık", "İslam & Medeniyet Tasavvuru", "Şehir Hukuku"],
-    "signature": "Dr. Mimar Serkan Duman · Hece Dergisi",
-    "read_time": "Hece Dergisi · 8 dk okuma",
-    "author": "Dr. Mimar Serkan Duman",
-    "external_url": "https://www.hece.com.tr",
-    "excerpt": "Turgut Cansever yalnızca binalar tasarlayan bir mimar değil; varlığı, insanı ve şehri ilahî ahlak nizamı içinde idrak eden bir medeniyet bilgesiydi.",
-    "sections": [
-      {
-        "heading": "Turgut Cansever'in Fikrî Çatısı",
-        "text": "Merhum Turgut Cansever Hoca'nın mimarlık anlayışı, teknik bir meslek icrasının fersah fersah ötesindedir. Onun için mimarlık; yeryüzünü güzelleştirme emrine muhatap olan insanın varoluşsal mesuliyetidir. 'Dünyayı tezyin etmek' olarak tarif ettiği bu vazife, tek bir taşa dahi hürmet göstermeyi icap ettirir.\n\nCansever, Doğu-Batı yarılmasını derinden kavramış, modern Batı'nın mekanik ve nobran şehirleşmesine karşı İslam medeniyetinin insani, organik ve ahlakî şehir nizamını bir manifesto gibi savunmuştur."
-      },
-      {
-        "heading": "Şehir ve Hukuk: Komşuya Saygı",
-        "text": "Osmanlı mahallesinin temelinde 'komşuluk hukuku' yatar. Hiçbir ev yanındakinin rüzgârını ve manzarasını kesemez; hiçbir pencere komşunun mahrem avlusuna doğrudan bakamazdı. Bu nizam kanun maddeleriyle değil, cemiyetin sinesine yerleşmiş fıtrî bir haya ve adalet duygusuyla yürütülürdü.\n\nBugünün imar mevzuatı ise parseli en fazla nasıl ranta çeviririm hesabıyla yazılmıştır. Hak ve komşuluk hukuku ortadan kalktığında geriye sadece beton oburluğu kalır."
-      },
-      {
-        "heading": "Bugünün Türkiyesinde Cansever Mirasını Yaşatmak",
-        "text": "Cansever'i anmak, onun hakkında sempozyumlar düzenleyip kuru övgüler düzmek değildir. Onun mirasını yaşatmak; bugün şantiyelerde betona meydan okumak, fıtrî toprak ve ahşap yapıları ayağa kaldırmak ve yeni nesillere bu şuuru aşılamaktır. Bizim vazifemiz bu damarı canlı tutmaktır."
-      }
-    ]
-  }
+    }
 ];
+
     let currentTag = 'all';
 
     function renderArticlesList() {
@@ -1164,4 +912,5 @@
   </script>
 </body>
 </html>
+
 
