@@ -1,7 +1,7 @@
 ﻿# Encounters at the End of the World
 
 **Tarih:** 2015-01-26T17:28:21+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/encounters-at-the-end-of-the-world/  
+**Orijinal Kaynak:** /sdmimproje/encounters-at-the-end-of-the-world.html  
 **Arşiv Zaman Damgası:** 20150206043934  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

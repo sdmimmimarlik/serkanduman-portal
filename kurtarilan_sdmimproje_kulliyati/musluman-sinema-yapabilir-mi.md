@@ -1,7 +1,7 @@
 ﻿# Müslüman sinema yapabilir mi?
 
 **Tarih:** 12/01/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/musluman-sinema-yapabilir-mi/  
+**Orijinal Kaynak:** /sdmimproje/musluman-sinema-yapabilir-mi.html  
 **Arşiv Zaman Damgası:** 20190327054532  
 **Etiketler:** Cemil Meriç, Fas & Mağrip, Atina, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, dogu_bati, medeniyet, goruntu_hakikat  

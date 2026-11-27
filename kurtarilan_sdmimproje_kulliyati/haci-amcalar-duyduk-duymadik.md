@@ -1,7 +1,7 @@
 ﻿# Hacı Amcalar Duyduk Duymadık
 
 **Tarih:** 23/05/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/haci-amcalar-duyduk-duymadik/  
+**Orijinal Kaynak:** /sdmimproje/haci-amcalar-duyduk-duymadik.html  
 **Arşiv Zaman Damgası:** 20190101235140  
 **Etiketler:** İstanbul, Tarihi Yarımada, Fatih, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi  
 **Atlas Düğümleri:** sehir_hukuku, mustakil_yasam, apartman_elestirisi, medeniyet, goruntu_hakikat  

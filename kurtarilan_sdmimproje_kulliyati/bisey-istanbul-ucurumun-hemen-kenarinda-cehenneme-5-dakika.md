@@ -1,7 +1,7 @@
 ﻿# bişey istanbul: uçurumun hemen kenarında, cehenneme 5 dakika
 
 **Tarih:** 30/05/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/bisey-istanbul-ucurumun-hemen-kenarinda-cehenneme-5-dakika/  
+**Orijinal Kaynak:** /sdmimproje/bisey-istanbul-ucurumun-hemen-kenarinda-cehenneme-5-dakika.html  
 **Arşiv Zaman Damgası:** 20190419123018  
 **Etiketler:** Turgut Cansever, İstanbul, Çamlıca, Meksika, Şehir Hukuku & Şehircilik, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** cansever, sehir_hukuku, medeniyet, dogu_bati, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet, kirsal_koy  

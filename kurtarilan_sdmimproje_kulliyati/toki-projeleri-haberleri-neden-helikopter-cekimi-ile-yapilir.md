@@ -1,7 +1,7 @@
 ﻿# Toki Projeleri Haberleri Neden Helikopter Çekimi İle Yapılır?
 
 **Tarih:** 2012-06-15T18:15:20+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/toki-projeleri-haberleri-neden-helikopter-cekimi-ile-yapilir/  
+**Orijinal Kaynak:** /sdmimproje/toki-projeleri-haberleri-neden-helikopter-cekimi-ile-yapilir.html  
 **Arşiv Zaman Damgası:** 20120618025847  
 **Etiketler:** Apartman & Dikey Şehirleşme Eleştirisi, Şehir Hukuku & Şehircilik  
 **Atlas Düğümleri:** apartman_elestirisi, sehir_hukuku  

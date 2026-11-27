@@ -1,7 +1,7 @@
 ﻿# “Postmodernlik” durumu ve bir “kişi” olarak mimar.
 
 **Tarih:** 2012-02-01T21:32:33+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/postmodernlik-durumu-ve-bir-kisi-olarak-mimar/  
+**Orijinal Kaynak:** /sdmimproje/postmodernlik-durumu-ve-bir-kisi-olarak-mimar.html  
 **Arşiv Zaman Damgası:** 20120614122051  
 **Etiketler:** Le Corbusier, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** apartman_elestirisi, mustakil_yasam, goruntu_hakikat, mimarlik_egitimi  

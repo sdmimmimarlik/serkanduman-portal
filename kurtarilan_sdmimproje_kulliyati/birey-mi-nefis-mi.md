@@ -1,7 +1,7 @@
 ﻿# birey mi nefis mi
 
 **Tarih:** 24/06/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/birey-mi-nefis-mi/  
+**Orijinal Kaynak:** /sdmimproje/birey-mi-nefis-mi.html  
 **Arşiv Zaman Damgası:** 20190102012443  
 **Etiketler:** Postmodernizm & Tüketim Eleştirisi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** goruntu_hakikat, dogu_bati, medeniyet  

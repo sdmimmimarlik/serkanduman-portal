@@ -1,7 +1,7 @@
 ﻿# “halden hale” girerken
 
 **Tarih:** 2019  
-**Orijinal Kaynak:** http://sdmimproje.com/halden-hale-girerken/  
+**Orijinal Kaynak:** /sdmimproje/halden-hale-girerken.html  
 **Arşiv Zaman Damgası:** 20190000000000  
 **Etiketler:** Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** afet_deprem, medeniyet, goruntu_hakikat, mimarlik_egitimi  

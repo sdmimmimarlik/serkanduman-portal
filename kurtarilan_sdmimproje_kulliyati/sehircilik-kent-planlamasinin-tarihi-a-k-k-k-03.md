@@ -1,7 +1,7 @@
 ﻿# ŞEHİRCİLİK – Kent Planlamasının Tarihi – A.K.K.K. 03
 
 **Tarih:** 12/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/sehircilik-kent-planlamasinin-tarihi-a-k-k-k-03/  
+**Orijinal Kaynak:** /sdmimproje/sehircilik-kent-planlamasinin-tarihi-a-k-k-k-03.html  
 **Arşiv Zaman Damgası:** 20191218023406  
 **Etiketler:** Mimar Sinan, Le Corbusier, İstanbul, Fas & Mağrip, Paris, Şehir Hukuku & Şehircilik, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, apartman_elestirisi, sehir_hukuku, dogu_bati, cansever, kapitalizm_mulkiyet, kirsal_koy  

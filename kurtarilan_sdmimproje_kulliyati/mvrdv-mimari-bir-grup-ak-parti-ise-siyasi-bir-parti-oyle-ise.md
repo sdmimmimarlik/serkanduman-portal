@@ -1,7 +1,7 @@
 ﻿# MVRDV mimari bir grup, AK Parti ise siyasi bir parti. Öyle ise…
 
 **Tarih:** 2014-03-19T12:56:48+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/mvrdv-mimari-bir-grup-ak-parti-ise-siyasi-bir-parti-oyle-ise/  
+**Orijinal Kaynak:** /sdmimproje/mvrdv-mimari-bir-grup-ak-parti-ise-siyasi-bir-parti-oyle-ise.html  
 **Arşiv Zaman Damgası:** 20140424070554  
 **Etiketler:** Turgut Cansever, Dücane Cündioğlu, Datça & Ege, Paris, İslam & Medeniyet Tasavvuru, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** cansever, felsefe_sanat, kirsal_koy, medeniyet, goruntu_hakikat  

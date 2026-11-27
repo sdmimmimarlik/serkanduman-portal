@@ -1,7 +1,7 @@
 ﻿# Mistik bir eko-köy Auroville’e yolculuk
 
 **Tarih:** 23/12/2020  
-**Orijinal Kaynak:** http://sdmimproje.com/mistik-bir-eko-koy-aurovillee-yolculuk/  
+**Orijinal Kaynak:** /sdmimproje/mistik-bir-eko-koy-aurovillee-yolculuk.html  
 **Arşiv Zaman Damgası:** 20210731160202  
 **Etiketler:** Kerpiç, İstanbul, Auroville (Hindistan), Fas & Mağrip, Mısır & Kahire, Paris, İslam & Medeniyet Tasavvuru, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** toprak_yapi, sehir_hukuku, auroville_ornegi, dogu_bati, hassan_fathy, cansever, medeniyet, kirsal_koy, mimarlik_egitimi  

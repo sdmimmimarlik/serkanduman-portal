@@ -1,7 +1,7 @@
 ﻿# corbusier? oh no!
 
 **Tarih:** 05/10/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/corbusier-oh-no/  
+**Orijinal Kaynak:** /sdmimproje/corbusier-oh-no.html  
 **Arşiv Zaman Damgası:** 20190101071809  
 **Etiketler:** Le Corbusier, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** apartman_elestirisi, dogu_bati, medeniyet  

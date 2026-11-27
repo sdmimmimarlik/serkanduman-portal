@@ -1,7 +1,7 @@
 ﻿# Fatih Belediye Başkanı Nerenin Başkanı
 
 **Tarih:** 2014-01-21T14:09:01+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/fatih-belediye-baskani-nerenin-baskani/  
+**Orijinal Kaynak:** /sdmimproje/fatih-belediye-baskani-nerenin-baskani.html  
 **Arşiv Zaman Damgası:** 20140312170745  
 **Etiketler:** İstanbul, Fatih  
 **Atlas Düğümleri:** sehir_hukuku  

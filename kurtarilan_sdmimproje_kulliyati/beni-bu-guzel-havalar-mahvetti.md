@@ -1,7 +1,7 @@
 ﻿# BENİ BU GÜZEL HAVALAR MAHVETTİ
 
 **Tarih:** 2019  
-**Orijinal Kaynak:** http://sdmimproje.com/beni-bu-guzel-havalar-mahvetti/  
+**Orijinal Kaynak:** /sdmimproje/beni-bu-guzel-havalar-mahvetti.html  
 **Arşiv Zaman Damgası:** 20190000000000  
 **Etiketler:** Mimarlık Ortamı & Akademi Tenkidi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mimarlik_egitimi, dogu_bati, medeniyet  

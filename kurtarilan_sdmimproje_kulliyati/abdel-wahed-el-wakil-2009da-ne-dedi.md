@@ -1,7 +1,7 @@
 ﻿# Abdel-Wahed El-Wakil 2009’da ne dedi?
 
 **Tarih:** 11/09/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/abdel-wahed-el-wakil-2009da-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/abdel-wahed-el-wakil-2009da-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20220408235526  
 **Etiketler:** Abdel-Wahed El-Wakil, Kerpiç, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** cansever, toprak_yapi, medeniyet  

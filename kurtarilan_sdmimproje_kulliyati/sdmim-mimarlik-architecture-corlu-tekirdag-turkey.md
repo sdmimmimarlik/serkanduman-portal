@@ -1,7 +1,7 @@
 ﻿# SDMIM Mimarlık | Architecture Çorlu – Tekirdağ – Turkey
 
 **Tarih:** 03/01/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmim-mimarlik-architecture-corlu-tekirdag-turkey/  
+**Orijinal Kaynak:** /sdmimproje/sdmim-mimarlik-architecture-corlu-tekirdag-turkey.html  
 **Arşiv Zaman Damgası:** 20190101131024  
 **Etiketler:** Mimar Sinan, Doğal Yapı Rehberi, Çorlu & Trakya, Fas & Mağrip, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, dogal_yapi_rehberi, yerel_yonetimler, dogu_bati, kirsal_koy  

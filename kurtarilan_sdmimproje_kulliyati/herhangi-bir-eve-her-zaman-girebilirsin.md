@@ -1,7 +1,7 @@
 ﻿# Herhangi bir eve her zaman girebilirsin.
 
 **Tarih:** 18/02/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/herhangi-bir-eve-her-zaman-girebilirsin/  
+**Orijinal Kaynak:** /sdmimproje/herhangi-bir-eve-her-zaman-girebilirsin.html  
 **Arşiv Zaman Damgası:** 20190102060435  
 **Etiketler:** Cemil Meriç, Walter Benjamin, Fas & Mağrip, Paris, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, apartman_elestirisi, dogu_bati, cansever, medeniyet, goruntu_hakikat  

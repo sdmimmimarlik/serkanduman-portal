@@ -1,7 +1,7 @@
 ﻿# 20 bin TL’ye 200 metrekare ev istemez misiniz?
 
 **Tarih:** 28/11/2016  
-**Orijinal Kaynak:** http://sdmimproje.com/20-bin-tlye-200-metrekare-ev-istemez-misiniz/  
+**Orijinal Kaynak:** /sdmimproje/20-bin-tlye-200-metrekare-ev-istemez-misiniz.html  
 **Arşiv Zaman Damgası:** 20190419131820  
 **Etiketler:** Ruhi Kafesçioğlu, Matthieu Pedergnana, Toprak Yapı, Kerpiç, Alker (Alçılı Toprak), Saman Balyası, Geleneksel Ahşap & Hımış, Pasif İklimlendirme, Kendi Evini Yapmak, Depreme Dayanıklı Yapı, Doğal Yapı Rehberi, İstanbul, Datça & Ege, Fas & Mağrip, Mısır & Kahire, Kütahya & Domaniç, Fıtrî Mesken & Ev Felsefesi, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Postmodernizm & Tüketim Eleştirisi, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** alker_teknigi, dogal_yapi_rehberi, toprak_yapi, geleneksel_ahsap, pasif_iklim, kendieviniyapmak, afet_deprem, sehir_hukuku, kirsal_koy, dogu_bati, hassan_fathy, ev_felsefesi, mustakil_yasam, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet, mimarlik_egitimi  

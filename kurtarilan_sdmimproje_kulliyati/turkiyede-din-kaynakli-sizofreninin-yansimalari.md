@@ -1,7 +1,7 @@
 ﻿# Türkiye’de din kaynaklı şizofreninin yansımaları
 
 **Tarih:** 23/09/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/turkiyede-din-kaynakli-sizofreninin-yansimalari/  
+**Orijinal Kaynak:** /sdmimproje/turkiyede-din-kaynakli-sizofreninin-yansimalari.html  
 **Arşiv Zaman Damgası:** 20190302175338  
 **Etiketler:** Cemil Meriç, Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, afet_deprem, medeniyet, goruntu_hakikat  

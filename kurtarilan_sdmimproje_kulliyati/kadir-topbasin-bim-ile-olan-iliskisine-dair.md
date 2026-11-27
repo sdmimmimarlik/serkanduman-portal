@@ -1,7 +1,7 @@
 ﻿# Kadir Topbaş’ın BİM ile olan ilişkisine dair
 
 **Tarih:** 2013-01-26T15:32:13+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kadir-topbasin-bim-ile-olan-iliskisine-dair/  
+**Orijinal Kaynak:** /sdmimproje/kadir-topbasin-bim-ile-olan-iliskisine-dair.html  
 **Arşiv Zaman Damgası:** 20140220055258  
 **Etiketler:** Kadir Topbaş, İstanbul, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** sehir_hukuku, medeniyet  

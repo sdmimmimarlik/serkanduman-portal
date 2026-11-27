@@ -1,7 +1,7 @@
 ﻿# Ahmet Hamdi Tanpınar 1949’da ne dedi?
 
 **Tarih:** 30/06/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/ahmet-hamdi-tanpinar-1949da-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/ahmet-hamdi-tanpinar-1949da-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190102045208  
 **Etiketler:** Ahmet Hamdi Tanpınar, Dücane Cündioğlu, Erkan Oğur, Fas & Mağrip, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** felsefe_sanat, dogu_bati, medeniyet  

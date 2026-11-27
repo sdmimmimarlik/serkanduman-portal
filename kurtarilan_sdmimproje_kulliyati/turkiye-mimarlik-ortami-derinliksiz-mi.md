@@ -1,7 +1,7 @@
 ﻿# TÜRKİYE MİMARLIK ORTAMI DERİNLİKSİZ Mİ?
 
 **Tarih:** 02/01/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/turkiye-mimarlik-ortami-derinliksiz-mi/  
+**Orijinal Kaynak:** /sdmimproje/turkiye-mimarlik-ortami-derinliksiz-mi.html  
 **Arşiv Zaman Damgası:** 20190102055617  
 **Etiketler:** Turgut Cansever, Ahmet Hamdi Tanpınar, Akira Kurosawa, Mısır & Kahire, İslam & Medeniyet Tasavvuru, Sinema & Mekân İdrakı, Kapitalizm & Çevre, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, felsefe_sanat, goruntu_hakikat, hassan_fathy, medeniyet, kapitalizm_mulkiyet, mimarlik_egitimi  

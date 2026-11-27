@@ -1,7 +1,7 @@
 ﻿# Cemil Meriç 1974’te ne dedi?
 
 **Tarih:** 30/07/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/cemil-meric-1974te-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/cemil-meric-1974te-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190325094831  
 **Etiketler:** Cemil Meriç, İslam & Medeniyet Tasavvuru, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, medeniyet, goruntu_hakikat  

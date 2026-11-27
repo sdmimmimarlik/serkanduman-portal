@@ -1,7 +1,7 @@
 ﻿# Cengiz Bektaş 2007’de ne dedi?
 
 **Tarih:** 17/03/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/cengiz-bektas-2007de-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/cengiz-bektas-2007de-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190101131209  
 **Etiketler:** Cengiz Bektaş, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mimarlik_egitimi, dogu_bati, medeniyet  

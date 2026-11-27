@@ -1,7 +1,7 @@
 ﻿# Türkiye’de İnsanlar Neden Eve Ayakkabı İle Girmez?
 
 **Tarih:** 28/03/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/turkiyede-insanlar-neden-eve-ayakkabi-ile-girmez/  
+**Orijinal Kaynak:** /sdmimproje/turkiyede-insanlar-neden-eve-ayakkabi-ile-girmez.html  
 **Arşiv Zaman Damgası:** 20190419144639  
 **Etiketler:** Cami Mimarisi & Kubbe, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** medeniyet, dogu_bati, medeniyet  

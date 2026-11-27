@@ -1,7 +1,7 @@
 ﻿# Dücane Cündioğlu Bir Söz Dedi
 
 **Tarih:** 2013-07-03T16:33:19+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/ducane-cundioglu-bir-soz-dedi/  
+**Orijinal Kaynak:** /sdmimproje/ducane-cundioglu-bir-soz-dedi.html  
 **Arşiv Zaman Damgası:** 20140101062452  
 **Etiketler:** Dücane Cündioğlu, Datça & Ege, İslam & Medeniyet Tasavvuru, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, kirsal_koy, medeniyet, goruntu_hakikat  

@@ -1,7 +1,7 @@
 ﻿# El-Wakil ve Projeleri Üzerine -1 Evler
 
 **Tarih:** 26/11/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/el-wakil-ve-projeleri-uzerine-1-evler/  
+**Orijinal Kaynak:** /sdmimproje/el-wakil-ve-projeleri-uzerine-1-evler.html  
 **Arşiv Zaman Damgası:** 20190101230716  
 **Etiketler:** Hasan Fethi, Abdel-Wahed El-Wakil, Mısır & Kahire, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Katılımcı Mimarlık & İmece, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** hassan_fathy, cansever, apartman_elestirisi, medeniyet, katilimci_mimarlik, kapitalizm_mulkiyet, kirsal_koy, mimarlik_egitimi  

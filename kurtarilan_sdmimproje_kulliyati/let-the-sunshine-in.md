@@ -1,7 +1,7 @@
 ﻿# LET the SUNSHINE IN
 
 **Tarih:** 12/07/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/let-the-sunshine-in/  
+**Orijinal Kaynak:** /sdmimproje/let-the-sunshine-in.html  
 **Arşiv Zaman Damgası:** 20190825022916  
 **Etiketler:** Güneş Enerjisi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** pasif_iklim, dogu_bati, medeniyet  

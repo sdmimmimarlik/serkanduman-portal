@@ -1,7 +1,7 @@
 ﻿# Sucker Punch, Buz Gibi Biraderler, Tam Akbil ve Mimarlar Bağlamayı Neden Üfleyerek Çalamazlar?
 
 **Tarih:** 2012-02-22T14:15:43+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/sucker-punch-buz-gibi-biraderler-tam-akbil-ve-mimarlar-baglamayi-neden-ufleyerek-calamazlar/  
+**Orijinal Kaynak:** /sdmimproje/sucker-punch-buz-gibi-biraderler-tam-akbil-ve-mimarlar-baglamayi-neden-ufleyerek-calamazlar.html  
 **Arşiv Zaman Damgası:** 20120614121652  
 **Etiketler:** Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Apartman & Dikey Şehirleşme Eleştirisi, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı, Kapitalizm & Çevre, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** afet_deprem, medeniyet, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet, mimarlik_egitimi  

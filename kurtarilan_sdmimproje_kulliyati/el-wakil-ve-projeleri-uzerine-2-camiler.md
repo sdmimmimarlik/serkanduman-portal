@@ -1,7 +1,7 @@
 ﻿# El-Wakil ve Projeleri Üzerine -2 Camiler
 
 **Tarih:** 2014-12-10T03:34:34+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/el-wakil-ve-projeleri-uzerine-2-camiler/  
+**Orijinal Kaynak:** /sdmimproje/el-wakil-ve-projeleri-uzerine-2-camiler.html  
 **Arşiv Zaman Damgası:** 20150220102307  
 **Etiketler:** Abdel-Wahed El-Wakil, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** cansever, medeniyet  

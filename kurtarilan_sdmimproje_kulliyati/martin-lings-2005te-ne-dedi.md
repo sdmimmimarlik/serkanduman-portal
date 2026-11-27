@@ -1,7 +1,7 @@
 ﻿# Martin Lings 2005′te ne dedi?
 
 **Tarih:** 2014-12-01T17:51:25+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/martin-lings-2005te-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/martin-lings-2005te-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20150220113612  
 **Etiketler:** Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** afet_deprem, medeniyet  

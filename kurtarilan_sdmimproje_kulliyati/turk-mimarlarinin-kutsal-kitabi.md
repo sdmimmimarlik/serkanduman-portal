@@ -1,7 +1,7 @@
 ﻿# Türk Mimarlarının Kutsal Kitabı
 
 **Tarih:** 2014-01-16T14:38:44+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/turk-mimarlarinin-kutsal-kitabi/  
+**Orijinal Kaynak:** /sdmimproje/turk-mimarlarinin-kutsal-kitabi.html  
 **Arşiv Zaman Damgası:** 20140312170207  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** medeniyet, mimarlik_egitimi  

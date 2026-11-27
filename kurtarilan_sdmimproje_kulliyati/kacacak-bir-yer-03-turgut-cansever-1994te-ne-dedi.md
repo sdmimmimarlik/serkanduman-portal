@@ -1,7 +1,7 @@
 ﻿# kaçacak bir yer – 03: Turgut Cansever 1994′te ne dedi?
 
 **Tarih:** 2012-07-12T10:50:02+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kacacak-bir-yer-03-turgut-cansever-1994te-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/kacacak-bir-yer-03-turgut-cansever-1994te-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20140309101933  
 **Etiketler:** Turgut Cansever, Cami Mimarisi & Kubbe, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, medeniyet, kirsal_koy, mimarlik_egitimi  

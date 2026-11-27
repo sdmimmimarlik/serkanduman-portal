@@ -1,7 +1,7 @@
 ﻿# Başbakanı elinde kazmayla hayal etmek.
 
 **Tarih:** 2012-11-24T17:58:41+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/basbakani-elinde-kazmayla-hayal-etmek/  
+**Orijinal Kaynak:** /sdmimproje/basbakani-elinde-kazmayla-hayal-etmek.html  
 **Arşiv Zaman Damgası:** 20121231223912  
 **Etiketler:** Mimar Sinan, İstanbul, Tarihi Yarımada, Çamlıca, Gezi Parkı & Taksim, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** medeniyet, sehir_hukuku  

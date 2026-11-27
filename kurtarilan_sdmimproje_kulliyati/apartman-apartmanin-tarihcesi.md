@@ -1,7 +1,7 @@
 ﻿# Apartman – Apartmanın Tarihçesi
 
 **Tarih:** 11/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/apartman-apartmanin-tarihcesi/  
+**Orijinal Kaynak:** /sdmimproje/apartman-apartmanin-tarihcesi.html  
 **Arşiv Zaman Damgası:** 20210731152829  
 **Etiketler:** Le Corbusier, Kerpiç, Mısır & Kahire, Paris, Müstakil Yaşam & Hürriyet, Şehir Hukuku & Şehircilik, Apartman & Dikey Şehirleşme Eleştirisi, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** apartman_elestirisi, toprak_yapi, hassan_fathy, cansever, mustakil_yasam, sehir_hukuku, goruntu_hakikat  

@@ -1,7 +1,7 @@
 ﻿# SADIK YARİM KARA TOPRAK
 
 **Tarih:** 16/07/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/sadik-yarim-kara-toprak/  
+**Orijinal Kaynak:** /sdmimproje/sadik-yarim-kara-toprak.html  
 **Arşiv Zaman Damgası:** 20190825024731  
 **Etiketler:** Toprak Yapı, Pasif İklimlendirme, Doğal Yapı Rehberi, Auroville (Hindistan), Meksika, Apartman & Dikey Şehirleşme Eleştirisi, Kapitalizm & Çevre  
 **Atlas Düğümleri:** toprak_yapi, pasif_iklim, dogal_yapi_rehberi, auroville_ornegi, dogu_bati, apartman_elestirisi, kapitalizm_mulkiyet  

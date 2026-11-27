@@ -1,7 +1,7 @@
 ﻿# kaçacak bir yer – 01: Yeni Bir Umut
 
 **Tarih:** 2012-03-29T15:28:19+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kacacak-bir-yer-01/  
+**Orijinal Kaynak:** /sdmimproje/kacacak-bir-yer-01.html  
 **Arşiv Zaman Damgası:** 20120610235311  
 **Etiketler:** Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Sinema & Mekân İdrakı, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** mustakil_yasam, apartman_elestirisi, goruntu_hakikat, kirsal_koy  

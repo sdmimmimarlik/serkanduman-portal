@@ -1,7 +1,7 @@
 ﻿# Bu da o tipik çevreci yazılardan biri.
 
 **Tarih:** 23/10/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/bu-da-o-tipik-cevreci-yazilardan-biri/  
+**Orijinal Kaynak:** /sdmimproje/bu-da-o-tipik-cevreci-yazilardan-biri.html  
 **Arşiv Zaman Damgası:** 20190107120735  
 **Etiketler:** Datça & Ege, İslam & Medeniyet Tasavvuru, Postmodernizm & Tüketim Eleştirisi, Kapitalizm & Çevre  
 **Atlas Düğümleri:** kirsal_koy, medeniyet, goruntu_hakikat, kapitalizm_mulkiyet  

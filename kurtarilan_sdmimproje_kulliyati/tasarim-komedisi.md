@@ -1,7 +1,7 @@
 ﻿# Tasarım Komedisi
 
 **Tarih:** 13/09/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/tasarim-komedisi/  
+**Orijinal Kaynak:** /sdmimproje/tasarim-komedisi.html  
 **Arşiv Zaman Damgası:** 20191018052327  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

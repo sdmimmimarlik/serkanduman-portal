@@ -1,7 +1,7 @@
 ﻿# Modern dünyada ezan, şehir için bir tasarım öğesi olabilir mi?
 
 **Tarih:** 2012-11-30T16:11:17+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/modern-dunyada-ezan-sehir-icin-bir-tasarim-ogesi-olabilir-mi/  
+**Orijinal Kaynak:** /sdmimproje/modern-dunyada-ezan-sehir-icin-bir-tasarim-ogesi-olabilir-mi.html  
 **Arşiv Zaman Damgası:** 20121231223943  
 **Etiketler:** Müstakil Yaşam & Hürriyet, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** mustakil_yasam, medeniyet  

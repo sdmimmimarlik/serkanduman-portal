@@ -1,7 +1,7 @@
 ﻿# Denemeler
 
 **Tarih:** 24/04/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/denemeler/  
+**Orijinal Kaynak:** /sdmimproje/denemeler.html  
 **Arşiv Zaman Damgası:** 20190101164604  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

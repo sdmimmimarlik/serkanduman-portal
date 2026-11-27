@@ -1,7 +1,7 @@
 ﻿# “Başarının İlk Kuralı Evde Mutlu Olmaktır.” Peki Sonra?
 
 **Tarih:** 2012-01-31T16:30:20+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/basarinin-ilk-kurali-evde-mutlu-olmaktir-peki-sonra/  
+**Orijinal Kaynak:** /sdmimproje/basarinin-ilk-kurali-evde-mutlu-olmaktir-peki-sonra.html  
 **Arşiv Zaman Damgası:** 20120610043052  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Sinema & Mekân İdrakı, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** medeniyet, goruntu_hakikat, mimarlik_egitimi  

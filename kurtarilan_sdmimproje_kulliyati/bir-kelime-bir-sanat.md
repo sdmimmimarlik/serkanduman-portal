@@ -2,7 +2,7 @@
 
 - **Tarih:** 15/05/2014
 - **Kategori:** Sanat, Sinema ve Postmodernizm
-- **Orijinal URL:** http://sdmimproje.com/1794/
+- **Orijinal URL:** /sdmimproje/1794.html
 - **Etiketler:** Enstalasyon & Mekân Sanatı, İslam & Medeniyet Tasavvuru
 
 ---

@@ -1,7 +1,7 @@
 ﻿# HAKKINDA
 
 **Tarih:**   
-**Orijinal Kaynak:** http://sdmimproje.com/hakkinda/  
+**Orijinal Kaynak:** /sdmimproje/hakkinda.html  
 **Arşiv Zaman Damgası:** 20190123030111  
 **Etiketler:** Şehir Hukuku & Şehircilik, Kapitalizm & Çevre  
 **Atlas Düğümleri:** sehir_hukuku, kapitalizm_mulkiyet  

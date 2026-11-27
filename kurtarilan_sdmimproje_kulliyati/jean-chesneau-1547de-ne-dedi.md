@@ -1,7 +1,7 @@
 ﻿# Jean Chesneau 1547’de ne dedi?
 
 **Tarih:** 13/09/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/jean-chesneau-1547de-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/jean-chesneau-1547de-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190102040536  
 **Etiketler:** Geleneksel Ahşap & Hımış, Taş Mimari, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** geleneksel_ahsap, tas_mimari, medeniyet  

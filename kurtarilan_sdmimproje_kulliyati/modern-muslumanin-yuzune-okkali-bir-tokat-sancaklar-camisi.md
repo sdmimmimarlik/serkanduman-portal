@@ -1,7 +1,7 @@
 ﻿# Modern Müslümanın Yüzüne Okkalı Bir Tokat: Sancaklar Camisi
 
 **Tarih:** 2014-01-10T14:11:54+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/modern-muslumanin-yuzune-okkali-bir-tokat-sancaklar-camisi/  
+**Orijinal Kaynak:** /sdmimproje/modern-muslumanin-yuzune-okkali-bir-tokat-sancaklar-camisi.html  
 **Arşiv Zaman Damgası:** 20140312170955  
 **Etiketler:** Mimar Sinan, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** medeniyet  

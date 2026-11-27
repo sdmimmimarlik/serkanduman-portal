@@ -1,7 +1,7 @@
 ﻿# matrix’te ölürsem kabrime gelme
 
 **Tarih:** 10/01/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/matrixte-olursem-kabrime-gelme/  
+**Orijinal Kaynak:** /sdmimproje/matrixte-olursem-kabrime-gelme.html  
 **Arşiv Zaman Damgası:** 20190102005821  
 **Etiketler:** Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** afet_deprem, medeniyet, apartman_elestirisi, goruntu_hakikat  

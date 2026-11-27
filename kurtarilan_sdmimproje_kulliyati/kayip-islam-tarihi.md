@@ -1,7 +1,7 @@
 ﻿# Kayıp İslam Tarihi
 
 **Tarih:** 04/11/2016  
-**Orijinal Kaynak:** http://sdmimproje.com/kayip-islam-tarihi/  
+**Orijinal Kaynak:** /sdmimproje/kayip-islam-tarihi.html  
 **Arşiv Zaman Damgası:** 20190101190945  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

@@ -1,7 +1,7 @@
 ﻿# SDMIM Mimarlık | Architecture DOĞAL YAPILAR
 
 **Tarih:** 03/01/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmim-mimarlik-architecture-dogal-yapilar/  
+**Orijinal Kaynak:** /sdmimproje/sdmim-mimarlik-architecture-dogal-yapilar.html  
 **Arşiv Zaman Damgası:** 20190101065902  
 **Etiketler:** Mimar Sinan, Kerpiç, Geleneksel Ahşap & Hımış, Doğal Yapı Rehberi, Çorlu & Trakya, Fas & Mağrip  
 **Atlas Düğümleri:** medeniyet, toprak_yapi, geleneksel_ahsap, dogal_yapi_rehberi, yerel_yonetimler, dogu_bati  

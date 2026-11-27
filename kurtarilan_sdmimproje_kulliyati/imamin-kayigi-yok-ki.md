@@ -1,7 +1,7 @@
 ﻿# İmamın Kayığı Yok ki…
 
 **Tarih:** 18/04/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/imamin-kayigi-yok-ki/  
+**Orijinal Kaynak:** /sdmimproje/imamin-kayigi-yok-ki.html  
 **Arşiv Zaman Damgası:** 20190101201811  
 **Etiketler:** Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Şehir Hukuku & Şehircilik, Cami Mimarisi & Kubbe, Kapitalizm & Çevre  
 **Atlas Düğümleri:** afet_deprem, medeniyet, sehir_hukuku, kapitalizm_mulkiyet  

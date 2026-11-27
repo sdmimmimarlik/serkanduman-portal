@@ -1,7 +1,7 @@
 ﻿# bakış açını genişlet – 02: heykelde yaşayamamak
 
 **Tarih:** 2012-06-04T10:23:02+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/bakis-acini-genislet-02-heykelde-yasayamamak/  
+**Orijinal Kaynak:** /sdmimproje/bakis-acini-genislet-02-heykelde-yasayamamak.html  
 **Arşiv Zaman Damgası:** 20120619221529  
 **Etiketler:** Depreme Dayanıklı Yapı, İstanbul, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Kapitalizm & Çevre  
 **Atlas Düğümleri:** afet_deprem, sehir_hukuku, mustakil_yasam, apartman_elestirisi, kapitalizm_mulkiyet  

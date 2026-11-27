@@ -1,7 +1,7 @@
 ﻿# serkan duman mimarlık’ın Selçuklu yapıları ve de tarihselcilik üzerine bir videosu : “Selçuklu Yapıları ve Mana”
 
 **Tarih:** 2012-07-01T12:42:08+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/serkan-duman-mimarlikin-selcuklu-yapilari-ve-de-tarihselcilik-uzerine-bir-videosu-selcuklular-ve-mana/  
+**Orijinal Kaynak:** /sdmimproje/serkan-duman-mimarlikin-selcuklu-yapilari-ve-de-tarihselcilik-uzerine-bir-videosu-selcuklular-ve-mana.html  
 **Arşiv Zaman Damgası:** 20121231224810  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

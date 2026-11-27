@@ -1,7 +1,7 @@
 ﻿# Mimar Sinan modern anlamda çizim yapacak kadar “gerici” değildi.
 
 **Tarih:** 22/02/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/mimar-sinan-modern-anlamda-cizim-yapacak-kadar-gerici-degildi/  
+**Orijinal Kaynak:** /sdmimproje/mimar-sinan-modern-anlamda-cizim-yapacak-kadar-gerici-degildi.html  
 **Arşiv Zaman Damgası:** 20190419123421  
 **Etiketler:** Hasan Fethi, Abdel-Wahed El-Wakil, Mimar Sinan, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** hassan_fathy, cansever, medeniyet, goruntu_hakikat  

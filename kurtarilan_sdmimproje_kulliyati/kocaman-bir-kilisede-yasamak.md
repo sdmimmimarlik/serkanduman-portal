@@ -1,7 +1,7 @@
 ﻿# kocaman bir kilisede yaşamak
 
 **Tarih:** 24/11/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/kocaman-bir-kilisede-yasamak/  
+**Orijinal Kaynak:** /sdmimproje/kocaman-bir-kilisede-yasamak.html  
 **Arşiv Zaman Damgası:** 20190704010407  
 **Etiketler:** Cami Mimarisi & Kubbe, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** medeniyet, medeniyet  

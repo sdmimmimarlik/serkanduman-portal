@@ -1,7 +1,7 @@
 ﻿# Hilmi Yavuz 1991’de ne dedi?
 
 **Tarih:** 02/05/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/hilmi-yavuz-1991de-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/hilmi-yavuz-1991de-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190101120834  
 **Etiketler:** İstanbul, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** sehir_hukuku, medeniyet  

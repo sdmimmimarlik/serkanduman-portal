@@ -1,7 +1,7 @@
 ﻿# Il fiore delle mille e una notte filmindeki mekanlar
 
 **Tarih:** 04/10/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/il-fiore-delle-mille-e-una-notte-filmindeki-mekanlar/  
+**Orijinal Kaynak:** /sdmimproje/il-fiore-delle-mille-e-una-notte-filmindeki-mekanlar.html  
 **Arşiv Zaman Damgası:** 20190716205744  
 **Etiketler:** Auroville (Hindistan), Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** auroville_ornegi, goruntu_hakikat  

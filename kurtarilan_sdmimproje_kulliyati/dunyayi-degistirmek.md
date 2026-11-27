@@ -1,7 +1,7 @@
 ﻿# Dünyayı Değiştirmek
 
 **Tarih:** 13/09/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/dunyayi-degistirmek/  
+**Orijinal Kaynak:** /sdmimproje/dunyayi-degistirmek.html  
 **Arşiv Zaman Damgası:** 20191018052115  
 **Etiketler:** Mimarlık Ortamı & Akademi Tenkidi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mimarlik_egitimi, dogu_bati, medeniyet  

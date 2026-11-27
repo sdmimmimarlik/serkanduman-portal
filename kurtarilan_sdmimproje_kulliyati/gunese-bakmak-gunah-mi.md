@@ -1,7 +1,7 @@
 ﻿# Güneşe Bakmak Günah mı?
 
 **Tarih:** 2014-05-01T13:01:42+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/gunese-bakmak-gunah-mi/  
+**Orijinal Kaynak:** /sdmimproje/gunese-bakmak-gunah-mi.html  
 **Arşiv Zaman Damgası:** 20140504052603  
 **Etiketler:** Atina, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, medeniyet, mustakil_yasam, goruntu_hakikat  

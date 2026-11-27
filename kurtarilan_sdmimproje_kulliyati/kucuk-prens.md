@@ -1,7 +1,7 @@
 ﻿# Küçük Prens
 
 **Tarih:** 22/12/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/kucuk-prens/  
+**Orijinal Kaynak:** /sdmimproje/kucuk-prens.html  
 **Arşiv Zaman Damgası:** 20190102012332  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

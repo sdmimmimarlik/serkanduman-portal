@@ -1,7 +1,7 @@
 ﻿# Fazla Batı Batı Diye İnlememeli Adamı Hadım Ederler Maazallah (+18)
 
 **Tarih:** 2013-10-10T12:20:39+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/fazla-bati-bati-dememeli-adami-hadim-ederler-maazallah-18/  
+**Orijinal Kaynak:** /sdmimproje/fazla-bati-bati-dememeli-adami-hadim-ederler-maazallah-18.html  
 **Arşiv Zaman Damgası:** 20140506004848  
 **Etiketler:** Dücane Cündioğlu, Geleneksel Ahşap & Hımış, İstanbul, Auroville (Hindistan), Bursa & Cumalıkızık, Doğu-Batı Ayrımı, Katılımcı Mimarlık & İmece, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** felsefe_sanat, geleneksel_ahsap, sehir_hukuku, auroville_ornegi, bursa_cumalikizik, dogu_bati, katilimci_mimarlik, kirsal_koy  

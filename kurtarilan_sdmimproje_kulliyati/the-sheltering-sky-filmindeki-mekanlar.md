@@ -1,7 +1,7 @@
 ﻿# The Sheltering Sky Filmindeki Mekanlar
 
 **Tarih:** 26/11/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/the-sheltering-sky-filmindeki-mekanlar/  
+**Orijinal Kaynak:** /sdmimproje/the-sheltering-sky-filmindeki-mekanlar.html  
 **Arşiv Zaman Damgası:** 20190302175333  
 **Etiketler:** Fas & Mağrip, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** dogu_bati, goruntu_hakikat  

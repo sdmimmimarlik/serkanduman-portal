@@ -1,7 +1,7 @@
 ﻿# Elvan – Serkan Duman
 
 **Tarih:** 09/02/2022  
-**Orijinal Kaynak:** http://sdmimproje.com/elvan-serkan-duman/  
+**Orijinal Kaynak:** /sdmimproje/elvan-serkan-duman.html  
 **Arşiv Zaman Damgası:** 20220814071441  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

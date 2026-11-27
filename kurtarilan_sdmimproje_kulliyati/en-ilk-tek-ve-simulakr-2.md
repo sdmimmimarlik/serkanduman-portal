@@ -1,7 +1,7 @@
 ﻿# En, İlk, Tek ve Simulakr.
 
 **Tarih:** 2012-01-31T16:59:53+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/en-ilk-tek-ve-simulakr-2/  
+**Orijinal Kaynak:** /sdmimproje/en-ilk-tek-ve-simulakr-2.html  
 **Arşiv Zaman Damgası:** 20120614122548  
 **Etiketler:** Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** goruntu_hakikat  

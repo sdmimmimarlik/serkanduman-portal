@@ -1,7 +1,7 @@
 ﻿# Dövüş Kulübü ve Meşk Ayini; Yaşama, Mimariye ya da Şehirciliğe Dair Neler Anlatır?
 
 **Tarih:** 2012-03-21T20:44:49+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/dovus-kulubu-ve-mesk-ayini-yasama-mimariye-ya-da-sehircilige-dair-neler-anlatir/  
+**Orijinal Kaynak:** /sdmimproje/dovus-kulubu-ve-mesk-ayini-yasama-mimariye-ya-da-sehircilige-dair-neler-anlatir.html  
 **Arşiv Zaman Damgası:** 20120614122543  
 **Etiketler:** Turgut Cansever, Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Sinema & Mekân İdrakı, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, afet_deprem, medeniyet, goruntu_hakikat, mimarlik_egitimi  

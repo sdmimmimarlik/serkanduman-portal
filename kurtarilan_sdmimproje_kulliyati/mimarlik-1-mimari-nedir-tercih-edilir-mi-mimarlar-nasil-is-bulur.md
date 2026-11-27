@@ -1,7 +1,7 @@
 ﻿# Mimarlık 1 – Mimari Nedir? Tercih Edilir mi? Mimarlar Nasıl İş Bulur?
 
 **Tarih:** 12/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/mimarlik-1-mimari-nedir-tercih-edilir-mi-mimarlar-nasil-is-bulur/  
+**Orijinal Kaynak:** /sdmimproje/mimarlik-1-mimari-nedir-tercih-edilir-mi-mimarlar-nasil-is-bulur.html  
 **Arşiv Zaman Damgası:** 20191218023436  
 **Etiketler:** Mimarlık Ortamı & Akademi Tenkidi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mimarlik_egitimi, dogu_bati, medeniyet  

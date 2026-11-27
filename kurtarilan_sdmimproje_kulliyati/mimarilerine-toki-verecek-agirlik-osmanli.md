@@ -1,7 +1,7 @@
 ﻿# mimarilerine Toki verecek ağırlık Osmanlı
 
 **Tarih:** 2012-11-24T13:43:50+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/mimarilerine-toki-verecek-agirlik-osmanli/  
+**Orijinal Kaynak:** /sdmimproje/mimarilerine-toki-verecek-agirlik-osmanli.html  
 **Arşiv Zaman Damgası:** 20121231223938  
 **Etiketler:** Çamlıca, Şehir Hukuku & Şehircilik, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi, Kapitalizm & Çevre  
 **Atlas Düğümleri:** medeniyet, sehir_hukuku, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet  

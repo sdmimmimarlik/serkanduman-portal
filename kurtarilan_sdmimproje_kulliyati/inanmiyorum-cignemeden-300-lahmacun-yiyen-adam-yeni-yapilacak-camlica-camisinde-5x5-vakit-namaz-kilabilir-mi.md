@@ -1,7 +1,7 @@
 ﻿# inanmıyorum! çiğnemeden 300 lahmacun yiyen adam yeni yapılacak Çamlıca Camisi’nde 5×5 vakit namaz kılabilir mi?
 
 **Tarih:** 2012-07-05T19:33:46+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/inanmiyorum-cignemeden-300-lahmacun-yiyen-adam-yeni-yapilacak-camlica-camisinde-5x5-vakit-namaz-kilabilir-mi/  
+**Orijinal Kaynak:** /sdmimproje/inanmiyorum-cignemeden-300-lahmacun-yiyen-adam-yeni-yapilacak-camlica-camisinde-5x5-vakit-namaz-kilabilir-mi.html  
 **Arşiv Zaman Damgası:** 20121231223933  
 **Etiketler:** Mimar Sinan, İstanbul, Çamlıca, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi  
 **Atlas Düğümleri:** medeniyet, sehir_hukuku, goruntu_hakikat  

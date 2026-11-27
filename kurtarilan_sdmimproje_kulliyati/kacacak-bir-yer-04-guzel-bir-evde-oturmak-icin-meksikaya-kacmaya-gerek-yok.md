@@ -1,7 +1,7 @@
 ﻿# kaçacak bir yer 04: güzel bir evde oturmak için meksika’ya kaçmaya gerek yok
 
 **Tarih:** 22/10/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/kacacak-bir-yer-04-guzel-bir-evde-oturmak-icin-meksikaya-kacmaya-gerek-yok/  
+**Orijinal Kaynak:** /sdmimproje/kacacak-bir-yer-04-guzel-bir-evde-oturmak-icin-meksikaya-kacmaya-gerek-yok.html  
 **Arşiv Zaman Damgası:** 20190102011128  
 **Etiketler:** Depreme Dayanıklı Yapı, Meksika, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** afet_deprem, dogu_bati, medeniyet, mustakil_yasam, apartman_elestirisi, kirsal_koy  

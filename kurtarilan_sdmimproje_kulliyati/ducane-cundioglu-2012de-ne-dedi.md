@@ -1,7 +1,7 @@
 ﻿# Dücane Cündioğlu 2012’de ne dedi?
 
 **Tarih:** 21/01/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/ducane-cundioglu-2012de-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/ducane-cundioglu-2012de-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190704074009  
 **Etiketler:** Turgut Cansever, Dücane Cündioğlu, İstanbul, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** cansever, felsefe_sanat, sehir_hukuku, medeniyet, mustakil_yasam, apartman_elestirisi  

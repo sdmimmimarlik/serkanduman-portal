@@ -1,7 +1,7 @@
 ﻿# Rüya, İnşa, İtiraz
 
 **Tarih:** 18/03/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/ruya-insa-itiraz/  
+**Orijinal Kaynak:** /sdmimproje/ruya-insa-itiraz.html  
 **Arşiv Zaman Damgası:** 20190419122652  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

@@ -1,7 +1,7 @@
 ﻿# Mimaride Dört Element
 
 **Tarih:** 01/08/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/mimaride-dort-element/  
+**Orijinal Kaynak:** /sdmimproje/mimaride-dort-element.html  
 **Arşiv Zaman Damgası:** 20190825023910  
 **Etiketler:** Depreme Dayanıklı Yapı, Kapitalizm & Çevre, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** afet_deprem, kapitalizm_mulkiyet, mimarlik_egitimi  

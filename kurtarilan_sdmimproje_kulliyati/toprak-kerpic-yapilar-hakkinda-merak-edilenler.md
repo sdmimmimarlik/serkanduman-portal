@@ -1,7 +1,7 @@
 ﻿# Toprak (Kerpiç) Yapılar Hakkında Merak Edilenler
 
 **Tarih:** 03/01/2021  
-**Orijinal Kaynak:** http://sdmimproje.com/toprak-kerpic-yapilar-hakkinda-merak-edilenler/  
+**Orijinal Kaynak:** /sdmimproje/toprak-kerpic-yapilar-hakkinda-merak-edilenler.html  
 **Arşiv Zaman Damgası:** 20210731145413  
 **Etiketler:** Toprak Yapı, Kerpiç  
 **Atlas Düğümleri:** toprak_yapi  

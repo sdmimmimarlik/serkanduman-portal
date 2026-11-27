@@ -1,7 +1,7 @@
 ﻿# Atina’da Patina ile Sanatın Tozunu Attırmak üzerinden…
 
 **Tarih:** 23/01/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/atinada-patina-ile-sanatin-tozunu-attirmak-uzerinden/  
+**Orijinal Kaynak:** /sdmimproje/atinada-patina-ile-sanatin-tozunu-attirmak-uzerinden.html  
 **Arşiv Zaman Damgası:** 20190419144400  
 **Etiketler:** Mimar Sinan, Dücane Cündioğlu, Gezi Parkı & Taksim, Paris, Atina, Cami Mimarisi & Kubbe, Kapitalizm & Çevre  
 **Atlas Düğümleri:** medeniyet, felsefe_sanat, sehir_hukuku, cansever, kapitalizm_mulkiyet  

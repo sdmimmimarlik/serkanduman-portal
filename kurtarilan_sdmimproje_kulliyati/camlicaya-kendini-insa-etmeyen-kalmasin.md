@@ -1,7 +1,7 @@
 ﻿# Çamlıca’ya kendini inşa etmeyen kalmasın!
 
 **Tarih:** 22/11/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/camlicaya-kendini-insa-etmeyen-kalmasin/  
+**Orijinal Kaynak:** /sdmimproje/camlicaya-kendini-insa-etmeyen-kalmasin.html  
 **Arşiv Zaman Damgası:** 20190716203712  
 **Etiketler:** İstanbul, Çamlıca, Fatih, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** sehir_hukuku, medeniyet, kirsal_koy, mimarlik_egitimi  

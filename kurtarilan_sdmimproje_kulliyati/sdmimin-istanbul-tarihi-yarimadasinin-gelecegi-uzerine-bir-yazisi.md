@@ -1,7 +1,7 @@
 ﻿# sdmim’in İstanbul Tarihi Yarımadası’nın geleceği üzerine bir yazısı:
 
 **Tarih:** 2012-08-04T15:32:00+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmimin-istanbul-tarihi-yarimadasinin-gelecegi-uzerine-bir-yazisi/  
+**Orijinal Kaynak:** /sdmimproje/sdmimin-istanbul-tarihi-yarimadasinin-gelecegi-uzerine-bir-yazisi.html  
 **Arşiv Zaman Damgası:** 20140307075644  
 **Etiketler:** Turgut Cansever, Geleneksel Ahşap & Hımış, Depreme Dayanıklı Yapı, İstanbul, Tarihi Yarımada, Fatih, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** cansever, geleneksel_ahsap, afet_deprem, sehir_hukuku, medeniyet, mustakil_yasam, apartman_elestirisi, kapitalizm_mulkiyet, kirsal_koy  

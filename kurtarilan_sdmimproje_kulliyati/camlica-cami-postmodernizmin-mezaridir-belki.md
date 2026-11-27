@@ -1,7 +1,7 @@
 ﻿# çamlıca cami postmodernizmin mezarıdır belki :) (postmodernizmindibinevurmak.com)
 
 **Tarih:** 16/11/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/camlica-cami-postmodernizmin-mezaridir-belki/  
+**Orijinal Kaynak:** /sdmimproje/camlica-cami-postmodernizmin-mezaridir-belki.html  
 **Arşiv Zaman Damgası:** 20190101202118  
 **Etiketler:** Çamlıca, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi  
 **Atlas Düğümleri:** medeniyet, goruntu_hakikat  

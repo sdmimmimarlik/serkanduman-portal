@@ -2,7 +2,7 @@
 
 - **Tarih:** 28/12/2014
 - **Kategori:** Tefekkür ve Mimarlık
-- **Orijinal URL:** http://sdmimproje.com/2240/
+- **Orijinal URL:** /sdmimproje/2240.html
 - **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru
 
 ---

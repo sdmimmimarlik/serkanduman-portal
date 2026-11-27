@@ -1,7 +1,7 @@
 ﻿# SU BAĞIMSIZLIĞI
 
 **Tarih:** 09/07/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/su-bagimsizligi/  
+**Orijinal Kaynak:** /sdmimproje/su-bagimsizligi.html  
 **Arşiv Zaman Damgası:** 20190825033757  
 **Etiketler:** Su Bağımsızlığı & Yağmur Hasadı, Güneş Enerjisi, İstanbul, Datça & Ege, Bursa & Cumalıkızık, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Postmodernizm & Tüketim Eleştirisi, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** su_hasadi, pasif_iklim, sehir_hukuku, kirsal_koy, bursa_cumalikizik, mustakil_yasam, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet  

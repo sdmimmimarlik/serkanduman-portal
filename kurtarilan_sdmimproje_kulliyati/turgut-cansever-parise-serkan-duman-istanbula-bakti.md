@@ -1,7 +1,7 @@
 ﻿# Turgut Cansever Paris’e, Serkan Duman İstanbul’a baktı.
 
 **Tarih:** 19/03/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/turgut-cansever-parise-serkan-duman-istanbula-bakti/  
+**Orijinal Kaynak:** /sdmimproje/turgut-cansever-parise-serkan-duman-istanbula-bakti.html  
 **Arşiv Zaman Damgası:** 20190302175248  
 **Etiketler:** Turgut Cansever, İstanbul, Paris  
 **Atlas Düğümleri:** cansever, sehir_hukuku  

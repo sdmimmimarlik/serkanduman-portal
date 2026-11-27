@@ -1,7 +1,7 @@
 ﻿# put etme her şeyi diyenlere gelsin: aklını put etme
 
 **Tarih:** 2014-12-07T17:55:08+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/put-etme-her-seyi-diyenlere-gelsin-aklini-put-etme/  
+**Orijinal Kaynak:** /sdmimproje/put-etme-her-seyi-diyenlere-gelsin-aklini-put-etme.html  
 **Arşiv Zaman Damgası:** 20150220105933  
 **Etiketler:** Ahmet Hamdi Tanpınar, Erkan Oğur, İslam & Medeniyet Tasavvuru, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, medeniyet, goruntu_hakikat  

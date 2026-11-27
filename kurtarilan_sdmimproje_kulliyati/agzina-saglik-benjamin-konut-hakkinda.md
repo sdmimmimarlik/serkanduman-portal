@@ -1,7 +1,7 @@
 ﻿# Ağzına sağlık Benjamin (Konut Hakkında)
 
 **Tarih:** 24/09/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/agzina-saglik-benjamin-konut-hakkinda/  
+**Orijinal Kaynak:** /sdmimproje/agzina-saglik-benjamin-konut-hakkinda.html  
 **Arşiv Zaman Damgası:** 20190102052514  
 **Etiketler:** Walter Benjamin, Le Corbusier, Datça & Ege, Fıtrî Mesken & Ev Felsefesi, Müstakil Yaşam & Hürriyet  
 **Atlas Düğümleri:** apartman_elestirisi, kirsal_koy, ev_felsefesi, mustakil_yasam  

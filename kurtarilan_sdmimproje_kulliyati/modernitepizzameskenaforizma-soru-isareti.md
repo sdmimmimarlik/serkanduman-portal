@@ -1,7 +1,7 @@
 ﻿# modernitepizzameskenaforizma + soru işareti
 
 **Tarih:** 14/11/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/modernitepizzameskenaforizma-soru-isareti/  
+**Orijinal Kaynak:** /sdmimproje/modernitepizzameskenaforizma-soru-isareti.html  
 **Arşiv Zaman Damgası:** 20190101211554  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Fıtrî Mesken & Ev Felsefesi  
 **Atlas Düğümleri:** medeniyet, ev_felsefesi  

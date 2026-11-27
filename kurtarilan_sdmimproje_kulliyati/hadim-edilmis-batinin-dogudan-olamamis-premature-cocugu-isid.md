@@ -1,7 +1,7 @@
 ﻿# Hadım Edilmiş Batı’nın Doğu’dan Olamamış Prematüre Çocuğu: İşid
 
 **Tarih:** 12/03/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/hadim-edilmis-batinin-dogudan-olamamis-premature-cocugu-isid/  
+**Orijinal Kaynak:** /sdmimproje/hadim-edilmis-batinin-dogudan-olamamis-premature-cocugu-isid.html  
 **Arşiv Zaman Damgası:** 20190101202829  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Sinema & Mekân İdrakı, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, goruntu_hakikat, kirsal_koy  

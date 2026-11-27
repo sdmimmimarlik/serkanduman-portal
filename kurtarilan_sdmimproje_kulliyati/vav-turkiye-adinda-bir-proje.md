@@ -1,7 +1,7 @@
 ﻿# Vav Türkiye Adında Bir Proje
 
 **Tarih:** 2012-03-06T11:38:26+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/vav-turkiye-adinda-bir-proje/  
+**Orijinal Kaynak:** /sdmimproje/vav-turkiye-adinda-bir-proje.html  
 **Arşiv Zaman Damgası:** 20120526153213  
 **Etiketler:** İstanbul, Datça & Ege, Sinema & Mekân İdrakı, Kapitalizm & Çevre, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** sehir_hukuku, kirsal_koy, goruntu_hakikat, kapitalizm_mulkiyet, mimarlik_egitimi  

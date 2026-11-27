@@ -1,7 +1,7 @@
 ﻿# fenerbahçeliler sitesi, cemaatçiler konakları, ulusalcılar blokları, entellektüeller plazası, manas destanı sitesi, vur patlasın çal oynasın evleri
 
 **Tarih:** 2012-06-14T11:17:37+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/fenerbahceliler-sitesi-cemaatciler-konaklari-ulusalcilar-bloklari-entellektueller-plazasi-manas-destani-sitesi-vur-patlasin-cal-oynasin-evleri/  
+**Orijinal Kaynak:** /sdmimproje/fenerbahceliler-sitesi-cemaatciler-konaklari-ulusalcilar-bloklari-entellektueller-plazasi-manas-destani-sitesi-vur-patlasin-cal-oynasin-evleri.html  
 **Arşiv Zaman Damgası:** 20120619193132  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

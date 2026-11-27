@@ -1,7 +1,7 @@
 ﻿# İslami Üretim
 
 **Tarih:** 22/09/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/islamiuretim/  
+**Orijinal Kaynak:** /sdmimproje/islamiuretim.html  
 **Arşiv Zaman Damgası:** 20190101210943  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

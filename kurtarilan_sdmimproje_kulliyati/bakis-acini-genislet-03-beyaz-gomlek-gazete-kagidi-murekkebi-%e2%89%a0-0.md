@@ -1,7 +1,7 @@
 ﻿# bakış açını genişlet – 03: beyaz gömlek + gazete kağıdı mürekkebi ≠ 0
 
 **Tarih:** 2012-09-19T17:52:45+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/bakis-acini-genislet-03-beyaz-gomlek-gazete-kagidi-murekkebi-%e2%89%a0-0/  
+**Orijinal Kaynak:** /sdmimproje/bakis-acini-genislet-03-beyaz-gomlek-gazete-kagidi-murekkebi-%e2%89%a0-0.html  
 **Arşiv Zaman Damgası:** 20140106161333  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

@@ -1,7 +1,7 @@
 ﻿# Ayhan Sicimoğlu Doğru Yaptı
 
 **Tarih:** 09/05/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/ayhan-sicimoglu-dogru-yapti/  
+**Orijinal Kaynak:** /sdmimproje/ayhan-sicimoglu-dogru-yapti.html  
 **Arşiv Zaman Damgası:** 20190207074503  
 **Etiketler:** Ayhan Sicimoğlu, Depreme Dayanıklı Yapı, Şehir Hukuku & Şehircilik, Cami Mimarisi & Kubbe, Kapitalizm & Çevre  
 **Atlas Düğümleri:** felsefe_sanat, afet_deprem, sehir_hukuku, medeniyet, kapitalizm_mulkiyet  

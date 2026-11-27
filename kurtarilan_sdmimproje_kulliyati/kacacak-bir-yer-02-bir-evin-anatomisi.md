@@ -1,7 +1,7 @@
 ﻿# kaçacak bir yer – 02: Bir Evin Anatomisi
 
 **Tarih:** 2012-05-04T21:56:44+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kacacak-bir-yer-02-bir-evin-anatomisi/  
+**Orijinal Kaynak:** /sdmimproje/kacacak-bir-yer-02-bir-evin-anatomisi.html  
 **Arşiv Zaman Damgası:** 20120610235316  
 **Etiketler:** Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** kirsal_koy, mimarlik_egitimi  

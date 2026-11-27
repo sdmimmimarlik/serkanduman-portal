@@ -1,7 +1,7 @@
 ﻿# Kubbeyi Yere Koymamak
 
 **Tarih:** 2015-01-26T11:35:18+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kubbeyi-yere-koymamak/  
+**Orijinal Kaynak:** /sdmimproje/kubbeyi-yere-koymamak.html  
 **Arşiv Zaman Damgası:** 20150206043950  
 **Etiketler:** Turgut Cansever, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** cansever, medeniyet  

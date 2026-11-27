@@ -1,7 +1,7 @@
 ﻿# SDMIM Mimarlık – İç Dekorasyon, Çorlu
 
 **Tarih:** 03/01/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmim-mimarlik-ic-dekorasyon-corlu/  
+**Orijinal Kaynak:** /sdmimproje/sdmim-mimarlik-ic-dekorasyon-corlu.html  
 **Arşiv Zaman Damgası:** 20190101170328  
 **Etiketler:** Mimar Sinan, İstanbul, Çorlu & Trakya, Fas & Mağrip, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, sehir_hukuku, yerel_yonetimler, dogu_bati, kirsal_koy  

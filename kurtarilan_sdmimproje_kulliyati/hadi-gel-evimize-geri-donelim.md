@@ -1,7 +1,7 @@
 ﻿# Hadi Gel Evimize Geri Dönelim
 
 **Tarih:** 29/03/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/hadi-gel-evimize-geri-donelim/  
+**Orijinal Kaynak:** /sdmimproje/hadi-gel-evimize-geri-donelim.html  
 **Arşiv Zaman Damgası:** 20190101092739  
 **Etiketler:** Turgut Cansever, Le Corbusier, Kerpiç, Geleneksel Ahşap & Hımış, Pasif İklimlendirme, Depreme Dayanıklı Yapı, Çorlu & Trakya, Auroville (Hindistan), Mısır & Kahire, Paris, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı, Katılımcı Mimarlık & İmece, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** cansever, apartman_elestirisi, toprak_yapi, geleneksel_ahsap, pasif_iklim, afet_deprem, yerel_yonetimler, auroville_ornegi, hassan_fathy, medeniyet, mustakil_yasam, goruntu_hakikat, katilimci_mimarlik, kapitalizm_mulkiyet, kirsal_koy  

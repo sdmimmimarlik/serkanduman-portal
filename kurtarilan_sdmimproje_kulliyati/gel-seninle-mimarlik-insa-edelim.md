@@ -1,7 +1,7 @@
 ﻿# gel seninle mimarlık inşa edelim (sorna yıkarız)
 
 **Tarih:** 2012-04-13T21:53:45+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/gel-seninle-mimarlik-insa-edelim/  
+**Orijinal Kaynak:** /sdmimproje/gel-seninle-mimarlik-insa-edelim.html  
 **Arşiv Zaman Damgası:** 20120614122025  
 **Etiketler:** Postmodernizm & Tüketim Eleştirisi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** goruntu_hakikat, dogu_bati, medeniyet  

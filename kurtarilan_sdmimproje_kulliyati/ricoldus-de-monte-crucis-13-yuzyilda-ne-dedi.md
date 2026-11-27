@@ -1,7 +1,7 @@
 ﻿# Ricoldus De Monte Crucis 13. Yüzyılda Ne Dedi?
 
 **Tarih:** 30/07/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/ricoldus-de-monte-crucis-13-yuzyilda-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/ricoldus-de-monte-crucis-13-yuzyilda-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190825021528  
 **Etiketler:** Ricoldus de Monte Crucis, Datça & Ege, Fas & Mağrip, Mısır & Kahire, İslam & Medeniyet Tasavvuru, Doğu-Batı Ayrımı, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** dogu_bati, kirsal_koy, hassan_fathy, medeniyet  

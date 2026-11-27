@@ -1,7 +1,7 @@
 ﻿# kâbe bir yapıdır
 
 **Tarih:** 16/05/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/kabe-bir-yapidir/  
+**Orijinal Kaynak:** /sdmimproje/kabe-bir-yapidir.html  
 **Arşiv Zaman Damgası:** 20190101200748  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

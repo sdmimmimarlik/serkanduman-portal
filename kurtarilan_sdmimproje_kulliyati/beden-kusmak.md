@@ -1,7 +1,7 @@
 ﻿# beden kusmak
 
 **Tarih:** 2014-04-29T12:19:37+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/beden-kusmak/  
+**Orijinal Kaynak:** /sdmimproje/beden-kusmak.html  
 **Arşiv Zaman Damgası:** 20140505112500  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** medeniyet, goruntu_hakikat  

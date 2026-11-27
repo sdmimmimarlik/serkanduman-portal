@@ -1,7 +1,7 @@
 ﻿# Uyanın, İsa Çarmıha Gerilmedi!
 
 **Tarih:** 2014-02-16T13:23:17+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/uyanin-isa-carmiha-gerilmedi/  
+**Orijinal Kaynak:** /sdmimproje/uyanin-isa-carmiha-gerilmedi.html  
 **Arşiv Zaman Damgası:** 20140312170757  
 **Etiketler:** Dücane Cündioğlu, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, medeniyet, goruntu_hakikat  

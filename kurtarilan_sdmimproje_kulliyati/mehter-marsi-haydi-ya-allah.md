@@ -1,7 +1,7 @@
 ﻿# mehter marşı haydi ya allah
 
 **Tarih:** 2012-09-20T12:57:05+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/mehter-marsi-haydi-ya-allah/  
+**Orijinal Kaynak:** /sdmimproje/mehter-marsi-haydi-ya-allah.html  
 **Arşiv Zaman Damgası:** 20121231203203  
 **Etiketler:** Mimar Sinan, Depreme Dayanıklı Yapı, İstanbul, Fas & Mağrip, İslam & Medeniyet Tasavvuru, Şehir Hukuku & Şehircilik  
 **Atlas Düğümleri:** medeniyet, afet_deprem, sehir_hukuku, dogu_bati  
@@ -73,6 +73,6 @@ Son söz:
 
 Konuşmalarında sürekli Mimar Sinan’a  atıfta bulunanlara: “Mimar Sinan sizden bıktı siz Mimar Sinan’dan bıkmadınız.” dediğimiz gibi. “Osmanlı bizden bıktı, biz Osmanlı’dan bıkmadık.” diyoruz.
 
-[http://sdmimproje.com/fenerbahceliler-sitesi-cemaatciler-konaklari-ulusalcilar-bloklari-entellektueller-plazasi-manas-destani-sitesi-vur-patlasin-cal-oynasin-evleri/](/sdmimproje/fenerbahceliler-sitesi-cemaatciler-konaklari-ulusalcilar-bloklari-entellektueller-plazasi-manas-destani-sitesi-vur-patlasin-cal-oynasin-evleri.html)
+[/sdmimproje/fenerbahceliler-sitesi-cemaatciler-konaklari-ulusalcilar-bloklari-entellektueller-plazasi-manas-destani-sitesi-vur-patlasin-cal-oynasin-evleri.html](/sdmimproje/fenerbahceliler-sitesi-cemaatciler-konaklari-ulusalcilar-bloklari-entellektueller-plazasi-manas-destani-sitesi-vur-patlasin-cal-oynasin-evleri.html)
 
 **sdmimproje**

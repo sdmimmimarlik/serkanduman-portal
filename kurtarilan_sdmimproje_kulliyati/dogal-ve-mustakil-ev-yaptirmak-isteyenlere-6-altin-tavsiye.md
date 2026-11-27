@@ -1,7 +1,7 @@
 ﻿# Doğal ve Müstakil Ev Yaptırmak İsteyenlere 6 Altın Tavsiye
 
 **Tarih:** 08/10/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/dogal-ve-mustakil-ev-yaptirmak-isteyenlere-6-altin-tavsiye/  
+**Orijinal Kaynak:** /sdmimproje/dogal-ve-mustakil-ev-yaptirmak-isteyenlere-6-altin-tavsiye.html  
 **Arşiv Zaman Damgası:** 20191018052102  
 **Etiketler:** Kerpiç, Saman Balyası, Geleneksel Ahşap & Hımış, Doğal Yapı Rehberi, Müstakil Yaşam & Hürriyet, Katılımcı Mimarlık & İmece, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** toprak_yapi, dogal_yapi_rehberi, geleneksel_ahsap, mustakil_yasam, katilimci_mimarlik, kirsal_koy  

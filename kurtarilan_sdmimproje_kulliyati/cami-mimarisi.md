@@ -1,7 +1,7 @@
 ﻿# Cami Mimarisi
 
 **Tarih:** 26/11/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/cami-mimarisi/  
+**Orijinal Kaynak:** /sdmimproje/cami-mimarisi.html  
 **Arşiv Zaman Damgası:** 20190302175539  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Şehir Hukuku & Şehircilik, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, mustakil_yasam, sehir_hukuku, goruntu_hakikat, kirsal_koy  

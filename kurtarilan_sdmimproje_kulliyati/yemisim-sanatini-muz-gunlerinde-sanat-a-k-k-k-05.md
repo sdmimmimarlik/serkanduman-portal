@@ -1,7 +1,7 @@
 ﻿# Yemişim Sanatını – Muz Günlerinde Sanat – A.K.K.K. 05
 
 **Tarih:** 11/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/yemisim-sanatini-muz-gunlerinde-sanat-a-k-k-k-05/  
+**Orijinal Kaynak:** /sdmimproje/yemisim-sanatini-muz-gunlerinde-sanat-a-k-k-k-05.html  
 **Arşiv Zaman Damgası:** 20191218023536  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

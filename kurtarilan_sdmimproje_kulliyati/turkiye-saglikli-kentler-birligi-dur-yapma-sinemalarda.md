@@ -1,7 +1,7 @@
 ﻿# Türkiye Sağlıklı Kentler Birliği – DUR YAPMA Sinemalarda
 
 **Tarih:** 16/02/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/turkiye-saglikli-kentler-birligi-dur-yapma-sinemalarda/  
+**Orijinal Kaynak:** /sdmimproje/turkiye-saglikli-kentler-birligi-dur-yapma-sinemalarda.html  
 **Arşiv Zaman Damgası:** 20190102054718  
 **Etiketler:** İstanbul, Şehir Hukuku & Şehircilik, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** sehir_hukuku, goruntu_hakikat  

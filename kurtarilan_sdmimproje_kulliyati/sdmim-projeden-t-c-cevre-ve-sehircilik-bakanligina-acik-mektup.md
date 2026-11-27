@@ -1,7 +1,7 @@
 ﻿# sdmim proje’den T.C. Çevre Ve Şehircilik Bakanlığı’na açık mektup
 
 **Tarih:** 2012-10-15T12:12:14+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmim-projeden-t-c-cevre-ve-sehircilik-bakanligina-acik-mektup/  
+**Orijinal Kaynak:** /sdmimproje/sdmim-projeden-t-c-cevre-ve-sehircilik-bakanligina-acik-mektup.html  
 **Arşiv Zaman Damgası:** 20121231205806  
 **Etiketler:** Turgut Cansever, Geleneksel Ahşap & Hımış, Depreme Dayanıklı Yapı, İstanbul, Fıtrî Mesken & Ev Felsefesi, Müstakil Yaşam & Hürriyet, Şehir Hukuku & Şehircilik, Apartman & Dikey Şehirleşme Eleştirisi, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, geleneksel_ahsap, afet_deprem, sehir_hukuku, ev_felsefesi, mustakil_yasam, apartman_elestirisi, kapitalizm_mulkiyet, kirsal_koy, mimarlik_egitimi  

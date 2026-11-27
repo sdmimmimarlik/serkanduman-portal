@@ -1,7 +1,7 @@
 ﻿# kurban bayramlarımızda bir eksiklik mi var?
 
 **Tarih:** 11/10/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/kurban-bayramlarimizda-bir-eksiklik-mi-var/  
+**Orijinal Kaynak:** /sdmimproje/kurban-bayramlarimizda-bir-eksiklik-mi-var.html  
 **Arşiv Zaman Damgası:** 20190101212457  
 **Etiketler:** Turgut Cansever, İstanbul, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** cansever, sehir_hukuku, medeniyet, goruntu_hakikat, kirsal_koy  

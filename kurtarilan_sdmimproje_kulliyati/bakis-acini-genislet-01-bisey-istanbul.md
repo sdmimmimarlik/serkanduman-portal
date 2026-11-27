@@ -1,7 +1,7 @@
 ﻿# bakış açını genişlet – 01: biŞey iStanbul
 
 **Tarih:** 2012-05-07T11:12:15+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/bakis-acini-genislet-01-bisey-istanbul/  
+**Orijinal Kaynak:** /sdmimproje/bakis-acini-genislet-01-bisey-istanbul.html  
 **Arşiv Zaman Damgası:** 20120707013601  
 **Etiketler:** İstanbul, Postmodernizm & Tüketim Eleştirisi  
 **Atlas Düğümleri:** sehir_hukuku, goruntu_hakikat  

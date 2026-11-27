@@ -1,7 +1,7 @@
 ﻿# Türk Evi
 
 **Tarih:** 18/03/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/turk-evi/  
+**Orijinal Kaynak:** /sdmimproje/turk-evi.html  
 **Arşiv Zaman Damgası:** 20190704092721  
 **Etiketler:** Cengiz Bektaş, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mimarlik_egitimi, dogu_bati, medeniyet  

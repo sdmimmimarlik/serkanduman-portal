@@ -1,7 +1,7 @@
 ﻿# Hakan Şükür Gökdelenden Ev Almış
 
 **Tarih:** 2013-04-20T21:40:24+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/hakan-sukur-gokdelenden-ev-almis/  
+**Orijinal Kaynak:** /sdmimproje/hakan-sukur-gokdelenden-ev-almis.html  
 **Arşiv Zaman Damgası:** 20140101072245  
 **Etiketler:** Apartman & Dikey Şehirleşme Eleştirisi, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** apartman_elestirisi, dogu_bati, medeniyet  

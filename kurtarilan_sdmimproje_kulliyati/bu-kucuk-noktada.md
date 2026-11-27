@@ -1,7 +1,7 @@
 ﻿# Bu Küçük Noktada
 
 **Tarih:** 03/11/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/bu-kucuk-noktada/  
+**Orijinal Kaynak:** /sdmimproje/bu-kucuk-noktada.html  
 **Arşiv Zaman Damgası:** 20190419105204  
 **Etiketler:** Erkan Oğur, İstanbul, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** felsefe_sanat, sehir_hukuku, goruntu_hakikat  

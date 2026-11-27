@@ -1,7 +1,7 @@
 ﻿# Turgut Cansever
 
 **Tarih:** 2015-01-25T14:54:25+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/turgut-cansever/  
+**Orijinal Kaynak:** /sdmimproje/turgut-cansever.html  
 **Arşiv Zaman Damgası:** 20150206044028  
 **Etiketler:** Turgut Cansever, Mimar Sinan, Ahmet Ertegün, Depreme Dayanıklı Yapı, İstanbul, Bursa & Cumalıkızık, İslam & Medeniyet Tasavvuru, Şehir Hukuku & Şehircilik, Cami Mimarisi & Kubbe, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, medeniyet, felsefe_sanat, afet_deprem, sehir_hukuku, bursa_cumalikizik, kapitalizm_mulkiyet, kirsal_koy, mimarlik_egitimi  

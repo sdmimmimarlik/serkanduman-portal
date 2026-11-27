@@ -1,7 +1,7 @@
 ﻿# Tanrım youtube’da bir klip izleyelim.
 
 **Tarih:** 28/03/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/tanrim-youtubeda-bir-klip-izleyelim/  
+**Orijinal Kaynak:** /sdmimproje/tanrim-youtubeda-bir-klip-izleyelim.html  
 **Arşiv Zaman Damgası:** 20190101192332  
 **Etiketler:** Walter Benjamin, Müstakil Yaşam & Hürriyet, Postmodernizm & Tüketim Eleştirisi  
 **Atlas Düğümleri:** apartman_elestirisi, mustakil_yasam, goruntu_hakikat  

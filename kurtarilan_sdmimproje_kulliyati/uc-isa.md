@@ -1,7 +1,7 @@
 ﻿# Üç İsa
 
 **Tarih:** 09/11/2016  
-**Orijinal Kaynak:** http://sdmimproje.com/uc-isa/  
+**Orijinal Kaynak:** /sdmimproje/uc-isa.html  
 **Arşiv Zaman Damgası:** 20190101233906  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

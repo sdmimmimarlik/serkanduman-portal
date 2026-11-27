@@ -1,7 +1,7 @@
 ﻿# Frithjof Schuon 1969′da ne dedi?
 
 **Tarih:** 2014-12-05T17:41:34+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/frithjof-schuon-1969da-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/frithjof-schuon-1969da-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20150220131229  
 **Etiketler:** Frithjof Schuon, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** medeniyet, dogu_bati, medeniyet  

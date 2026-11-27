@@ -1,7 +1,7 @@
 ﻿# İmanın ve İktidarın Hizmetinde İslam Mimarisi
 
 **Tarih:** 10/02/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/imanin-ve-iktidarin-hizmetinde-islam-mimarisi/  
+**Orijinal Kaynak:** /sdmimproje/imanin-ve-iktidarin-hizmetinde-islam-mimarisi.html  
 **Arşiv Zaman Damgası:** 20190703223926  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** medeniyet, dogu_bati, medeniyet  

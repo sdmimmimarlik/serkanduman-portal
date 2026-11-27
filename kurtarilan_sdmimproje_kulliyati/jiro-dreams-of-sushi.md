@@ -1,7 +1,7 @@
 ﻿# Jiro Dreams of Sushi
 
 **Tarih:** 19/03/2016  
-**Orijinal Kaynak:** http://sdmimproje.com/jiro-dreams-of-sushi/  
+**Orijinal Kaynak:** /sdmimproje/jiro-dreams-of-sushi.html  
 **Arşiv Zaman Damgası:** 20190102102253  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

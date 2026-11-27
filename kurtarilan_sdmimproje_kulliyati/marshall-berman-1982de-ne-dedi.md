@@ -1,7 +1,7 @@
 ﻿# Marshall Berman 1982’de ne dedi?
 
 **Tarih:** 30/04/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/marshall-berman-1982de-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/marshall-berman-1982de-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190101145509  
 **Etiketler:** Marshall Berman, Kapitalizm & Çevre  
 **Atlas Düğümleri:** apartman_elestirisi, kapitalizm_mulkiyet  

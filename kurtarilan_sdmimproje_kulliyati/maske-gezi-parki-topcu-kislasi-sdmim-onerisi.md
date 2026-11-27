@@ -1,7 +1,7 @@
 ﻿# Maske, Gezi Parkı, Topçu Kışlası, SDMIM Önerisi
 
 **Tarih:** 2013-06-12T11:17:02+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/maske-gezi-parki-topcu-kislasi-sdmim-onerisi/  
+**Orijinal Kaynak:** /sdmimproje/maske-gezi-parki-topcu-kislasi-sdmim-onerisi.html  
 **Arşiv Zaman Damgası:** 20140101061039  
 **Etiketler:** Gezi Parkı & Taksim, Kapitalizm & Çevre  
 **Atlas Düğümleri:** sehir_hukuku, kapitalizm_mulkiyet  

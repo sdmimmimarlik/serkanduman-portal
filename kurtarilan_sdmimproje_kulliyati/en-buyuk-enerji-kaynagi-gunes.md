@@ -1,7 +1,7 @@
 ﻿# EN BÜYÜK ENERJİ KAYNAĞI: GÜNEŞ
 
 **Tarih:** 09/07/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/en-buyuk-enerji-kaynagi-gunes/  
+**Orijinal Kaynak:** /sdmimproje/en-buyuk-enerji-kaynagi-gunes.html  
 **Arşiv Zaman Damgası:** 20190825024201  
 **Etiketler:** Güneş Enerjisi, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** pasif_iklim, kapitalizm_mulkiyet, kirsal_koy  

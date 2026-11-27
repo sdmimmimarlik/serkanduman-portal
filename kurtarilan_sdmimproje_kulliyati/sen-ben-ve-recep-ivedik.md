@@ -1,7 +1,7 @@
 ﻿# Sen, Ben ve Recep İvedik
 
 **Tarih:** 2014-04-18T12:30:16+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/sen-ben-ve-recep-ivedik/  
+**Orijinal Kaynak:** /sdmimproje/sen-ben-ve-recep-ivedik.html  
 **Arşiv Zaman Damgası:** 20140424070206  
 **Etiketler:** Fas & Mağrip, Sinema & Mekân İdrakı, Kapitalizm & Çevre  
 **Atlas Düğümleri:** dogu_bati, goruntu_hakikat, kapitalizm_mulkiyet  

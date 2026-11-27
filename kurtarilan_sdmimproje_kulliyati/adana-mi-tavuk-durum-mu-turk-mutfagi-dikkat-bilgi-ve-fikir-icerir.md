@@ -1,7 +1,7 @@
 ﻿# Adana mı? Tavuk Dürüm mü? Türk Mutfağı DİKKAT: Bilgi ve fikir içerir.
 
 **Tarih:** 12/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/adana-mi-tavuk-durum-mu-turk-mutfagi-dikkat-bilgi-ve-fikir-icerir/  
+**Orijinal Kaynak:** /sdmimproje/adana-mi-tavuk-durum-mu-turk-mutfagi-dikkat-bilgi-ve-fikir-icerir.html  
 **Arşiv Zaman Damgası:** 20191218023501  
 **Etiketler:** İstanbul, Fas & Mağrip, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı, Kapitalizm & Çevre  
 **Atlas Düğümleri:** sehir_hukuku, dogu_bati, goruntu_hakikat, kapitalizm_mulkiyet  

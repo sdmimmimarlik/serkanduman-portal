@@ -1,7 +1,7 @@
 ﻿# İstanbul’da bir banka 7 kişi neden oturur?
 
 **Tarih:** 2013-04-04T19:07:43+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/istanbulda-bir-banka-7-kisi-neden-oturur/  
+**Orijinal Kaynak:** /sdmimproje/istanbulda-bir-banka-7-kisi-neden-oturur.html  
 **Arşiv Zaman Damgası:** 20140101055311  
 **Etiketler:** İstanbul, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** sehir_hukuku, goruntu_hakikat  

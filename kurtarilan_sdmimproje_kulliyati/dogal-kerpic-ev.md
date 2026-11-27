@@ -1,7 +1,7 @@
 ﻿# Doğal Kerpiç Evler
 
 **Tarih:**   
-**Orijinal Kaynak:** http://sdmimproje.com/dogal-kerpic-ev/  
+**Orijinal Kaynak:** /sdmimproje/dogal-kerpic-ev.html  
 **Arşiv Zaman Damgası:** 20190119135257  
 **Etiketler:** Yahya Kemal Beyatlı, Kerpiç, Geleneksel Ahşap & Hımış, Kendi Evini Yapmak, Doğal Yapı Rehberi, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Katılımcı Mimarlık & İmece  
 **Atlas Düğümleri:** felsefe_sanat, toprak_yapi, geleneksel_ahsap, kendieviniyapmak, dogal_yapi_rehberi, mustakil_yasam, apartman_elestirisi, katilimci_mimarlik  

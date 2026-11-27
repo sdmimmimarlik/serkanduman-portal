@@ -1,7 +1,7 @@
 ﻿# Radiohead, BMW değil. Kafanızı karıştırmayın.
 
 **Tarih:** 2012-06-28T13:11:04+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/radiohead-bmw-degil-kafanizi-karistirmayin/  
+**Orijinal Kaynak:** /sdmimproje/radiohead-bmw-degil-kafanizi-karistirmayin.html  
 **Arşiv Zaman Damgası:** 20120630232028  
 **Etiketler:** Sinema & Mekân İdrakı, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** goruntu_hakikat, dogu_bati, medeniyet  

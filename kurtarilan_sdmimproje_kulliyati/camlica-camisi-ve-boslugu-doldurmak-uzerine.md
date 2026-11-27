@@ -1,7 +1,7 @@
 ﻿# Çamlıca Camisi ve Boşluğu Doldurmak Üzerine
 
 **Tarih:** 13/12/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/camlica-camisi-ve-boslugu-doldurmak-uzerine/  
+**Orijinal Kaynak:** /sdmimproje/camlica-camisi-ve-boslugu-doldurmak-uzerine.html  
 **Arşiv Zaman Damgası:** 20190101211506  
 **Etiketler:** Çamlıca, Cami Mimarisi & Kubbe, Postmodernizm & Tüketim Eleştirisi, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** medeniyet, goruntu_hakikat, mimarlik_egitimi  

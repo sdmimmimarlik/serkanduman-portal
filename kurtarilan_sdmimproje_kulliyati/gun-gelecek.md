@@ -1,7 +1,7 @@
 ﻿# Gün Gelecek
 
 **Tarih:** 25/07/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/gun-gelecek/  
+**Orijinal Kaynak:** /sdmimproje/gun-gelecek.html  
 **Arşiv Zaman Damgası:** 20210120193633  
 **Etiketler:** Fas & Mağrip, İslam & Medeniyet Tasavvuru, Fıtrî Mesken & Ev Felsefesi, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi  
 **Atlas Düğümleri:** dogu_bati, medeniyet, ev_felsefesi, mustakil_yasam, apartman_elestirisi  

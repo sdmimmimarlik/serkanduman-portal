@@ -1,7 +1,7 @@
 ﻿# Amerika’da Bir Türk
 
 **Tarih:** 04/08/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/amerikada-bir-turk/  
+**Orijinal Kaynak:** /sdmimproje/amerikada-bir-turk.html  
 **Arşiv Zaman Damgası:** 20190327054522  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

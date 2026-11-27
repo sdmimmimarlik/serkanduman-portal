@@ -1,7 +1,7 @@
 ﻿# Ahmet Hamdi Tanpınar 1962’de ne dedi?
 
 **Tarih:** 20/01/2017  
-**Orijinal Kaynak:** http://sdmimproje.com/ahmet-hamdi-tanpinar-1962de-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/ahmet-hamdi-tanpinar-1962de-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190101080125  
 **Etiketler:** Ahmet Hamdi Tanpınar, İslam & Medeniyet Tasavvuru, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** felsefe_sanat, medeniyet, kirsal_koy  

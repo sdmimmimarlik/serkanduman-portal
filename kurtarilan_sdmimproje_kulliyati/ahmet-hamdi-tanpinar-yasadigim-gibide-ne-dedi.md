@@ -1,7 +1,7 @@
 ﻿# Ahmet Hamdi Tanpınar “Yaşadığım Gibi”de ne dedi?
 
 **Tarih:** 17/12/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/ahmet-hamdi-tanpinar-yasadigim-gibide-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/ahmet-hamdi-tanpinar-yasadigim-gibide-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190302175403  
 **Etiketler:** Ahmet Hamdi Tanpınar, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** felsefe_sanat, dogu_bati, medeniyet  

@@ -1,7 +1,7 @@
 ﻿# Yazara göre, mimari ikili bir kodlama sistemi içermelidir
 
 **Tarih:** 2012-12-20T20:29:21+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/yazara-gore-mimari-ikili-bir-kodlama-sistemi-icermelidir/  
+**Orijinal Kaynak:** /sdmimproje/yazara-gore-mimari-ikili-bir-kodlama-sistemi-icermelidir.html  
 **Arşiv Zaman Damgası:** 20121231224820  
 **Etiketler:** Paris, Apartman & Dikey Şehirleşme Eleştirisi, Postmodernizm & Tüketim Eleştirisi, Kapitalizm & Çevre, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet, mimarlik_egitimi  

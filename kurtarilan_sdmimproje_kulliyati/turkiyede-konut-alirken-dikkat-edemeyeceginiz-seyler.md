@@ -1,7 +1,7 @@
 ﻿# Türkiye’de Konut Alırken Dikkat Edemeyeceğiniz Şeyler
 
 **Tarih:** 04/01/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/turkiyede-konut-alirken-dikkat-edemeyeceginiz-seyler/  
+**Orijinal Kaynak:** /sdmimproje/turkiyede-konut-alirken-dikkat-edemeyeceginiz-seyler.html  
 **Arşiv Zaman Damgası:** 20191018052333  
 **Etiketler:** İstanbul, Şehir Hukuku & Şehircilik, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** sehir_hukuku, kapitalizm_mulkiyet, kirsal_koy  

@@ -1,7 +1,7 @@
 ﻿# Doğrudur, Türkiye’de Mimarlar Toplu Halde Gülerler
 
 **Tarih:** 27/09/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/dogru-turkiyede-mimarlar-toplu-halde-guler/  
+**Orijinal Kaynak:** /sdmimproje/dogru-turkiyede-mimarlar-toplu-halde-guler.html  
 **Arşiv Zaman Damgası:** 20190419120704  
 **Etiketler:** Le Corbusier, Paris, İslam & Medeniyet Tasavvuru, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** apartman_elestirisi, cansever, medeniyet, mimarlik_egitimi  

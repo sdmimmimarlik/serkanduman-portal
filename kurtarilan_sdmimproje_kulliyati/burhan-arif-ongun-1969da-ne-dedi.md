@@ -1,7 +1,7 @@
 ﻿# Burhan Arif Ongun 1969’da ne dedi?
 
 **Tarih:** 07/01/2014  
-**Orijinal Kaynak:** http://sdmimproje.com/burhan-arif-ongun-1969da-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/burhan-arif-ongun-1969da-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20210119173925  
 **Etiketler:** Le Corbusier, İstanbul, Bursa & Cumalıkızık, Şehir Hukuku & Şehircilik, Cami Mimarisi & Kubbe, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** apartman_elestirisi, sehir_hukuku, bursa_cumalikizik, medeniyet, mimarlik_egitimi  

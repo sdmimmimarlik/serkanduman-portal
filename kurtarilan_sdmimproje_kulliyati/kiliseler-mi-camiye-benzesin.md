@@ -1,7 +1,7 @@
 ﻿# Kiliseler mi camiye benzesin?
 
 **Tarih:** 2013-03-30T12:57:42+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kiliseler-mi-camiye-benzesin/  
+**Orijinal Kaynak:** /sdmimproje/kiliseler-mi-camiye-benzesin.html  
 **Arşiv Zaman Damgası:** 20140101052142  
 **Etiketler:** Cami Mimarisi & Kubbe, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** medeniyet, medeniyet  

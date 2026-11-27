@@ -1,7 +1,7 @@
 ﻿# Peter Zumthor Türkiye’de olsa bu görüntüyü ölmeden veremezdi
 
 **Tarih:** 06/10/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/peter-zumthor-turkiyede-olsa-bu-goruntuyu-olmeden-veremezdi/  
+**Orijinal Kaynak:** /sdmimproje/peter-zumthor-turkiyede-olsa-bu-goruntuyu-olmeden-veremezdi.html  
 **Arşiv Zaman Damgası:** 20190102090903  
 **Etiketler:** Peter Zumthor, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mimarlik_egitimi, dogu_bati, medeniyet  

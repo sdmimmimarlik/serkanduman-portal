@@ -1,7 +1,7 @@
 ﻿# İhsan Bilgin’in Millenium Park İle İmtihanı
 
 **Tarih:** 05/04/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/ihsan-bilginin-millenium-parkl-imtihani/  
+**Orijinal Kaynak:** /sdmimproje/ihsan-bilginin-millenium-parkl-imtihani.html  
 **Arşiv Zaman Damgası:** 20190419115854  
 **Etiketler:** Turgut Cansever, Cengiz Bektaş, İhsan Bilgin, Enstalasyon & Mekân Sanatı, İslam & Medeniyet Tasavvuru, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı, Kapitalizm & Çevre, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** cansever, mimarlik_egitimi, felsefe_sanat, medeniyet, apartman_elestirisi, goruntu_hakikat, kapitalizm_mulkiyet  

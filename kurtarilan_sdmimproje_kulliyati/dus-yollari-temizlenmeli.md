@@ -1,7 +1,7 @@
 ﻿# Düş yolları temizlenmeli.
 
 **Tarih:** 28/02/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/dus-yollari-temizlenmeli/  
+**Orijinal Kaynak:** /sdmimproje/dus-yollari-temizlenmeli.html  
 **Arşiv Zaman Damgası:** 20190102042341  
 **Etiketler:** Abdel-Wahed El-Wakil, Mimar Sinan, Walter Benjamin, İslam & Medeniyet Tasavvuru, Fıtrî Mesken & Ev Felsefesi, Cami Mimarisi & Kubbe, Sinema & Mekân İdrakı, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** cansever, medeniyet, apartman_elestirisi, ev_felsefesi, goruntu_hakikat, kirsal_koy  

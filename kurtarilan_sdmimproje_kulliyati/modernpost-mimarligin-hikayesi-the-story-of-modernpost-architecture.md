@@ -1,7 +1,7 @@
 ﻿# modernpost mimarlığın hikayesi | the story of modernpost architecture
 
 **Tarih:** 2013-04-27T14:52:44+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/modernpost-mimarligin-hikayesi-the-story-of-modernpost-architecture/  
+**Orijinal Kaynak:** /sdmimproje/modernpost-mimarligin-hikayesi-the-story-of-modernpost-architecture.html  
 **Arşiv Zaman Damgası:** 20140101044826  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

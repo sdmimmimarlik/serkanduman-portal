@@ -1,7 +1,7 @@
 ﻿# YAĞDIR MEVLAM SU
 
 **Tarih:** 09/07/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/yagdir-mevlam-su/  
+**Orijinal Kaynak:** /sdmimproje/yagdir-mevlam-su.html  
 **Arşiv Zaman Damgası:** 20190825031840  
 **Etiketler:** Su Bağımsızlığı & Yağmur Hasadı, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** su_hasadi, dogu_bati, medeniyet  

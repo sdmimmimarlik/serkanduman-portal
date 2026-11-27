@@ -1,7 +1,7 @@
 ﻿# sdmimproje kitap öneriyor
 
 **Tarih:** 2014-04-23T11:49:41+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmimproje-kitap-oneriyor/  
+**Orijinal Kaynak:** /sdmimproje/sdmimproje-kitap-oneriyor.html  
 **Arşiv Zaman Damgası:** 20140506004853  
 **Etiketler:** Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

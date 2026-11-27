@@ -1,7 +1,7 @@
 ﻿# Kubbeyi Yere Koymamak ile Tesettür Modasının Ne Âlâkası Var Demeyin.
 
 **Tarih:** 2012-06-15T18:19:04+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/kubbeyi-yere-koymamak-ile-tesettur-modasinin-ne-alakasi-var-demeyin/  
+**Orijinal Kaynak:** /sdmimproje/kubbeyi-yere-koymamak-ile-tesettur-modasinin-ne-alakasi-var-demeyin.html  
 **Arşiv Zaman Damgası:** 20120618025844  
 **Etiketler:** Fas & Mağrip, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** dogu_bati, medeniyet  

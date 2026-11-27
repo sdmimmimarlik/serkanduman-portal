@@ -1,7 +1,7 @@
 ﻿# Muhammed Esed 1954’te ne dedi?
 
 **Tarih:** 15/08/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/muhammed-esed-1954te-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/muhammed-esed-1954te-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190101073939  
 **Etiketler:** Muhammed Esed, Fıtrî Mesken & Ev Felsefesi  
 **Atlas Düğümleri:** medeniyet, ev_felsefesi  

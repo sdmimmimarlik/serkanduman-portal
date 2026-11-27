@@ -741,6 +741,40 @@
       document.body.style.overflow = 'hidden';
     }
 
+    // Modal icindeki ic link tiklamalarini yakala (muze icinde kesintisiz gecis)
+    document.addEventListener('DOMContentLoaded', () => {
+      const modalBody = document.getElementById('modal-body');
+      if (modalBody) {
+        modalBody.addEventListener('click', (e) => {
+          const link = e.target.closest('a');
+          if (!link) return;
+          const href = link.getAttribute('href');
+          if (!href) return;
+
+          let targetId = null;
+          const m1 = href.match(/^\/sdmimproje\/([^\.\#\?]+)(?:\.html)?$/i);
+          const m2 = href.match(/^https?:\/\/(?:www\.)?serkanduman\.com\/sdmimproje\/([^\.\#\?]+)(?:\.html)?$/i);
+          const m3 = href.match(/^\/sdmimproje\.html#([^\?]+)$/i);
+          const m4 = href.match(/^#([^\?]+)$/i);
+
+          if (m1) targetId = m1[1];
+          else if (m2) targetId = m2[1];
+          else if (m3) targetId = m3[1];
+          else if (m4 && !m4[1].startsWith('cat=')) targetId = m4[1];
+
+          if (targetId) {
+            const found = sdmimArticles.find(a => a.id.toLowerCase() === targetId.toLowerCase());
+            if (found) {
+              e.preventDefault();
+              openReader(found.id);
+              const rModal = document.getElementById('reader-modal');
+              if (rModal) rModal.scrollTop = 0;
+            }
+          }
+        });
+      }
+    });
+
     function closeReader() {
       document.getElementById('reader-modal').classList.add('hidden');
       document.body.style.overflow = 'auto';

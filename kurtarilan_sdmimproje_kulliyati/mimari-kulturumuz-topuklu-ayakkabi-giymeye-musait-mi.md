@@ -1,7 +1,7 @@
 ﻿# Mimari kültürümüz topuklu ayakkabı giymeye müsait mi?
 
 **Tarih:** 28/08/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/mimari-kulturumuz-topuklu-ayakkabi-giymeye-musait-mi/  
+**Orijinal Kaynak:** /sdmimproje/mimari-kulturumuz-topuklu-ayakkabi-giymeye-musait-mi.html  
 **Arşiv Zaman Damgası:** 20190419162124  
 **Etiketler:** Dücane Cündioğlu, Depreme Dayanıklı Yapı, İstanbul, Tarihi Yarımada, Fatih, Bursa & Cumalıkızık  
 **Atlas Düğümleri:** felsefe_sanat, afet_deprem, sehir_hukuku, bursa_cumalikizik  

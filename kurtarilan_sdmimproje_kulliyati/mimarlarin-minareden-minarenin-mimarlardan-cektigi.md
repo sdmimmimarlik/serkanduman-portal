@@ -1,7 +1,7 @@
 ﻿# Mimarların minareden, minarenin mimarlardan çektiği…
 
 **Tarih:** 2012-08-24T19:20:08+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/mimarlarin-minareden-minarenin-mimarlardan-cektigi/  
+**Orijinal Kaynak:** /sdmimproje/mimarlarin-minareden-minarenin-mimarlardan-cektigi.html  
 **Arşiv Zaman Damgası:** 20140106155109  
 **Etiketler:** Cami Mimarisi & Kubbe, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** medeniyet, mimarlik_egitimi  

@@ -1,7 +1,7 @@
 ﻿# Akira Kurosawa 1990′da ne çekti?
 
 **Tarih:** 2015-01-15T03:39:12+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/akira-kurosawa-1990da-ne-cekti/  
+**Orijinal Kaynak:** /sdmimproje/akira-kurosawa-1990da-ne-cekti.html  
 **Arşiv Zaman Damgası:** 20150206043919  
 **Etiketler:** Akira Kurosawa, Sinema & Mekân İdrakı, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** goruntu_hakikat, kirsal_koy  

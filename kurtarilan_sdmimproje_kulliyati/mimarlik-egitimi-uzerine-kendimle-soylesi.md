@@ -1,7 +1,7 @@
 ﻿# Mimarlık Eğitimi Üzerine Kendimle Söyleşi
 
 **Tarih:** 2019  
-**Orijinal Kaynak:** http://sdmimproje.com/mimarlik-egitimi-uzerine-kendimle-soylesi/  
+**Orijinal Kaynak:** /sdmimproje/mimarlik-egitimi-uzerine-kendimle-soylesi.html  
 **Arşiv Zaman Damgası:** 20190000000000  
 **Etiketler:** İhsan Bilgin, Müstakil Yaşam & Hürriyet, Şehir Hukuku & Şehircilik, Apartman & Dikey Şehirleşme Eleştirisi, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** mimarlik_egitimi, mustakil_yasam, sehir_hukuku, apartman_elestirisi  

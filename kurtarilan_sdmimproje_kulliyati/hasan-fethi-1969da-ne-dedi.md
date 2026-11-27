@@ -1,7 +1,7 @@
 ﻿# Hasan Fethi 1969’da ne dedi?
 
 **Tarih:** 02/12/2015  
-**Orijinal Kaynak:** http://sdmimproje.com/hasan-fethi-1969da-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/hasan-fethi-1969da-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190101122654  
 **Etiketler:** Hasan Fethi, Kendi Evini Yapmak, Fas & Mağrip, Mısır & Kahire, Paris, Atina, İslam & Medeniyet Tasavvuru, Fıtrî Mesken & Ev Felsefesi, Cami Mimarisi & Kubbe, Katılımcı Mimarlık & İmece, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
 **Atlas Düğümleri:** hassan_fathy, kendieviniyapmak, dogu_bati, cansever, felsefe_sanat, medeniyet, ev_felsefesi, katilimci_mimarlik, kapitalizm_mulkiyet, kirsal_koy, mimarlik_egitimi  

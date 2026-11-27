@@ -1,7 +1,7 @@
 ﻿# Serhan Tayşi 2009’da İzmir için ne dedi?
 
 **Tarih:** 02/06/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/serhan-taysi-2009da-izmir-icin-ne-dedi/  
+**Orijinal Kaynak:** /sdmimproje/serhan-taysi-2009da-izmir-icin-ne-dedi.html  
 **Arşiv Zaman Damgası:** 20190825030938  
 **Etiketler:** Serhan Taysi, Geleneksel Ahşap & Hımış, Su Bağımsızlığı & Yağmur Hasadı, Depreme Dayanıklı Yapı, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** sehir_hukuku, geleneksel_ahsap, su_hasadi, afet_deprem, medeniyet, mustakil_yasam, apartman_elestirisi  

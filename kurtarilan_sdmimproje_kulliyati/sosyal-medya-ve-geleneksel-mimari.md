@@ -1,7 +1,7 @@
 ﻿# Sosyal Medya ve Geleneksel Mimari
 
 **Tarih:** 01/12/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/sosyal-medya-ve-geleneksel-mimari/  
+**Orijinal Kaynak:** /sdmimproje/sosyal-medya-ve-geleneksel-mimari.html  
 **Arşiv Zaman Damgası:** 20190302175418  
 **Etiketler:** Marshall Berman, İstanbul, Şehir Hukuku & Şehircilik  
 **Atlas Düğümleri:** apartman_elestirisi, sehir_hukuku  

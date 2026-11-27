@@ -1,7 +1,7 @@
 ﻿# KAPİTALİZM ve ÇEVRE – Her Çevrecinin Kapitalizm Hakkında Bilmesi Gerekenler
 
 **Tarih:** 11/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/kapitalizm-ve-cevre-her-cevrecinin-kapitalizm-hakkinda-bilmesi-gerekenler/  
+**Orijinal Kaynak:** /sdmimproje/kapitalizm-ve-cevre-her-cevrecinin-kapitalizm-hakkinda-bilmesi-gerekenler.html  
 **Arşiv Zaman Damgası:** 20210731143938  
 **Etiketler:** İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, mustakil_yasam, goruntu_hakikat, kapitalizm_mulkiyet, kirsal_koy  

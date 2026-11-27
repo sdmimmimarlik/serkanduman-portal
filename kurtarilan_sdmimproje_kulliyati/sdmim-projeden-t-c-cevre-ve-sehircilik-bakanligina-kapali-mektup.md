@@ -1,7 +1,7 @@
 ﻿# sdmim proje’den T.C. Çevre Ve Şehircilik Bakanlığı’na kapalı mektup
 
 **Tarih:** 21/11/2013  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmim-projeden-t-c-cevre-ve-sehircilik-bakanligina-kapali-mektup/  
+**Orijinal Kaynak:** /sdmimproje/sdmim-projeden-t-c-cevre-ve-sehircilik-bakanligina-kapali-mektup.html  
 **Arşiv Zaman Damgası:** 20190102000651  
 **Etiketler:** Turgut Cansever, İstanbul, Meksika, İslam & Medeniyet Tasavvuru, Fıtrî Mesken & Ev Felsefesi, Müstakil Yaşam & Hürriyet, Şehir Hukuku & Şehircilik, Postmodernizm & Tüketim Eleştirisi, Sinema & Mekân İdrakı, Kapitalizm & Çevre, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** cansever, sehir_hukuku, dogu_bati, medeniyet, ev_felsefesi, mustakil_yasam, goruntu_hakikat, kapitalizm_mulkiyet, kirsal_koy  

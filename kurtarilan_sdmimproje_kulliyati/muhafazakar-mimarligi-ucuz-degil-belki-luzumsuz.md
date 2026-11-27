@@ -1,7 +1,7 @@
 ﻿# muhafazakar mimarlığı ucuz değil, belki lüzumsuz
 
 **Tarih:** 11/05/2012  
-**Orijinal Kaynak:** http://sdmimproje.com/muhafazakar-mimarligi-ucuz-degil-belki-luzumsuz/  
+**Orijinal Kaynak:** /sdmimproje/muhafazakar-mimarligi-ucuz-degil-belki-luzumsuz.html  
 **Arşiv Zaman Damgası:** 20190101190911  
 **Etiketler:** Le Corbusier, Datça & Ege, İslam & Medeniyet Tasavvuru, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** apartman_elestirisi, kirsal_koy, medeniyet  

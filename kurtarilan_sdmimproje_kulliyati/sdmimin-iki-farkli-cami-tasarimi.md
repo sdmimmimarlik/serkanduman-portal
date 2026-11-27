@@ -1,7 +1,7 @@
 ﻿# SDMIM’in iki farklı cami tasarımı:
 
 **Tarih:** 2012-09-17T18:16:33+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/sdmimin-iki-farkli-cami-tasarimi/  
+**Orijinal Kaynak:** /sdmimproje/sdmimin-iki-farkli-cami-tasarimi.html  
 **Arşiv Zaman Damgası:** 20140106155841  
 **Etiketler:** Depreme Dayanıklı Yapı, İstanbul, İslam & Medeniyet Tasavvuru, Müstakil Yaşam & Hürriyet, Apartman & Dikey Şehirleşme Eleştirisi, Cami Mimarisi & Kubbe  
 **Atlas Düğümleri:** afet_deprem, sehir_hukuku, medeniyet, mustakil_yasam, apartman_elestirisi  

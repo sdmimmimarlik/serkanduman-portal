@@ -1,7 +1,7 @@
 ﻿# insanları burada hayvan barınakları bekliyor; cümlesinin düşündüremedikleri
 
 **Tarih:** 2012-05-22T10:59:14+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/insanlari-burada-hayvan-barinaklari-bekliyor-cumlesinin-dusunduremedikleri/  
+**Orijinal Kaynak:** /sdmimproje/insanlari-burada-hayvan-barinaklari-bekliyor-cumlesinin-dusunduremedikleri.html  
 **Arşiv Zaman Damgası:** 20120614122030  
 **Etiketler:** Müstakil Yaşam & Hürriyet, Doğu-Batı Ayrımı, İslam & Medeniyet Tasavvuru  
 **Atlas Düğümleri:** mustakil_yasam, dogu_bati, medeniyet  

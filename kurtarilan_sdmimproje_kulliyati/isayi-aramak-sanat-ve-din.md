@@ -1,7 +1,7 @@
 ﻿# İsa’yı Aramak – Sanat ve Din
 
 **Tarih:** 12/12/2019  
-**Orijinal Kaynak:** http://sdmimproje.com/isayi-aramak-sanat-ve-din/  
+**Orijinal Kaynak:** /sdmimproje/isayi-aramak-sanat-ve-din.html  
 **Arşiv Zaman Damgası:** 20191218023431  
 **Etiketler:** Datça & Ege, Sinema & Mekân İdrakı, Kapitalizm & Çevre  
 **Atlas Düğümleri:** kirsal_koy, goruntu_hakikat, kapitalizm_mulkiyet  

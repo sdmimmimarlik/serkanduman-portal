@@ -1,7 +1,7 @@
 ﻿# What do Fight Club and Dhikr Ceremony Tell to Architecture, Life and City Planning?
 
 **Tarih:** 2012-04-27T10:41:02+00:00  
-**Orijinal Kaynak:** http://sdmimproje.com/what-do-fight-club-and-dhikr-ceremony-tell-to-architecture-life-and-city-planning/  
+**Orijinal Kaynak:** /sdmimproje/what-do-fight-club-and-dhikr-ceremony-tell-to-architecture-life-and-city-planning.html  
 **Arşiv Zaman Damgası:** 20120610023116  
 **Etiketler:** Turgut Cansever, Sinema & Mekân İdrakı  
 **Atlas Düğümleri:** cansever, goruntu_hakikat  

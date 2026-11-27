@@ -1,7 +1,7 @@
 ﻿# NEDEN DOĞAL EV? – Sık Sorulan Sorular
 
 **Tarih:** 31/05/2018  
-**Orijinal Kaynak:** http://sdmimproje.com/neden-dogal-ev-sik-sorulan-sorular/  
+**Orijinal Kaynak:** /sdmimproje/neden-dogal-ev-sik-sorulan-sorular.html  
 **Arşiv Zaman Damgası:** 20190101105603  
 **Etiketler:** Mimar Sinan, Doğal Yapı Rehberi, Çorlu & Trakya, Kırsal Mimari, Köy & Kaçış  
 **Atlas Düğümleri:** medeniyet, dogal_yapi_rehberi, yerel_yonetimler, kirsal_koy  
