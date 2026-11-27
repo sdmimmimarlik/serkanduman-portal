@@ -1,13 +1,21 @@
-﻿# sdmim proje kucuk evler (34)
+﻿# The Shadow House — Liddicoat & Goldhill (Küçük Evler 34)
 
 - **Tarih:** 2012-10-15
-- **Kategori:** 
+- **Kategori:** Bakanlığa Açık Mektup & 34 Küçük Ev
 - **Orijinal URL:** 
-- **Etiketler:** SDMIMProje Külliyatı, Bakanlığa Açık Mektup & 34 Küçük Ev, Şehir
+- **Etiketler:** SDMIMProje Külliyatı, Bakanlığa Açık Mektup & 34 Küçük Ev, Küçük Evler, Şehir
+- **Öne Çıkan Görsel:** /images/sdmim/kucuk-evler/the-shadow-house/1329116152-tom-gildon-004-1000x664.jpg
 
 ---
 
-Hukuku, Müstakil Hayat & Köy | Asıl Adres: http://sdmimproje.com:80/sdmim-projeden-t-c-cevre-ve-sehircilik-bakanligina-acik-
-mektup/sdmim-proje-kucuk-evler-34/
-SDMIM Mimarlık (Dr. Mimar Serkan Duman) tarafından T.C. Çevre ve Şehircilik Bakanlığı'na sunulan 'Açık
-Mektup: Küçük Evler' serisinin 34 numaralı müstakil konut mimari vaziyet, plan ve cephe paftası.
+# The Shadow House — Liddicoat & Goldhill (Küçük Evler 34)
+
+- **Müellif Mimar:** Liddicoat & Goldhill
+- **Mevki:** Camden, Londra, Birleşik Krallık
+- **Proje Yılı:** 2011 (Kış)
+- **Alan:** Toplam İnşaat Alanı: 77 m² | Yapım Maliyeti: £210.000
+- **Strüktür:** Masif Duvar, Karartılmış Tuğla ve Açık Çelik Strüktür
+- **Fotoğrafçı:** Keith Collie, Tom Gildon
+- **Kaynak:** http://www.archdaily.com/207581/the-shadow-house-liddicoat-goldhill/
+
+SDMIM Mimarlık (Dr. Mimar Serkan Duman) tarafından T.C. Çevre ve Şehircilik Bakanlığı'na sunulan 'Açık Mektup: Küçük Evler' serisinin 34 numaralı müstakil konut projesi: The Shadow House (Liddicoat & Goldhill).

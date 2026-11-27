@@ -1,13 +1,21 @@
-﻿# sdmim proje kucuk evler (23)
+﻿# Gelukstraat — Dierendonck Blancke Architecten (Küçük Evler 23)
 
 - **Tarih:** 2012-10-15
-- **Kategori:** 
+- **Kategori:** Bakanlığa Açık Mektup & 34 Küçük Ev
 - **Orijinal URL:** 
-- **Etiketler:** SDMIMProje Külliyatı, Bakanlığa Açık Mektup & 34 Küçük Ev, Şehir
+- **Etiketler:** SDMIMProje Külliyatı, Bakanlığa Açık Mektup & 34 Küçük Ev, Küçük Evler, Şehir
+- **Öne Çıkan Görsel:** /images/sdmim/kucuk-evler/gelukstraat/1331623396-dba-009gelukstraat-1000x681.jpg
 
 ---
 
-Hukuku, Müstakil Hayat & Köy | Asıl Adres: http://sdmimproje.com:80/sdmim-projeden-t-c-cevre-ve-sehircilik-bakanligina-acik-
-mektup/sdmim-proje-kucuk-evler-23/
-SDMIM Mimarlık (Dr. Mimar Serkan Duman) tarafından T.C. Çevre ve Şehircilik Bakanlığı'na sunulan 'Açık
-Mektup: Küçük Evler' serisinin 23 numaralı müstakil konut mimari vaziyet, plan ve cephe paftası.
+# Gelukstraat — Dierendonck Blancke Architecten (Küçük Evler 23)
+
+- **Müellif Mimar:** Dierendonck Blancke Architecten
+- **Mevki:** Gelukstraat, Gent (Ghent), Belçika
+- **Proje Yılı:** 2011
+- **Alan:** Toplam Yüzölçümü: 89 m² | Yapım Maliyeti: 137.667 Avro
+- **Strüktür:** Yığma Tuğla ve Çağdaş Çelik/Ahşap Düşey Entegrasyon
+- **Fotoğrafçı:** Filip Dujardin
+- **Kaynak:** http://www.archdaily.com/216130/gelukstraat-dierendonck-blancke-architecten/
+
+SDMIM Mimarlık (Dr. Mimar Serkan Duman) tarafından T.C. Çevre ve Şehircilik Bakanlığı'na sunulan 'Açık Mektup: Küçük Evler' serisinin 23 numaralı müstakil konut projesi: Gelukstraat (Dierendonck Blancke Architecten).
