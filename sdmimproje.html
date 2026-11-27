@@ -247,74 +247,74 @@
           </span>
           <span class="text-zinc-500">Tıklayarak ortak külliyatta filtreleyin</span>
         </div>
-        <div class="flex flex-wrap items-center gap-1.5 text-xs font-mono">
-          <button onclick="filterByTag('Turgut Cansever')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+        <div class="flex flex-wrap items-center gap-1.5 text-xs font-mono" id="tag-cloud-buttons">
+          <button type="button" data-tag="Turgut Cansever" onclick="filterByTag('Turgut Cansever')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="Turgut Cansever külliyatı">
             👤 Turgut Cansever
           </button>
-          <button onclick="filterByTag('Hasan Fethi')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+          <button type="button" data-tag="Hasan Fethi" onclick="filterByTag('Hasan Fethi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="Hasan Fethi külliyatı">
             👤 Hasan Fethi
           </button>
-          <button onclick="filterByTag('Abdel-Wahed El-Wakil')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+          <button type="button" data-tag="Abdel-Wahed El-Wakil" onclick="filterByTag('Abdel-Wahed El-Wakil')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="El-Wakil eserleri ve tahlilleri">
             👤 El-Wakil
           </button>
-          <button onclick="filterByTag('Ahmet Hamdi Tanpınar')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+          <button type="button" data-tag="Ahmet Hamdi Tanpınar" onclick="filterByTag('Ahmet Hamdi Tanpınar')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="Ahmet Hamdi Tanpınar mefhumları">
             👤 Tanpınar
           </button>
-          <button onclick="filterByTag('Mimar Sinan')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+          <button type="button" data-tag="Mimar Sinan" onclick="filterByTag('Mimar Sinan')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="Mimar Sinan tahlilleri">
             👤 Mimar Sinan
           </button>
-          <button onclick="filterByTag('Aldo Rossi')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+          <button type="button" data-tag="Aldo Rossi" onclick="filterByTag('Aldo Rossi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="Aldo Rossi şehir ve tipoloji tahlilleri">
             👤 Aldo Rossi
           </button>
-          <button onclick="filterByTag('Dücane Cündioğlu')" class="px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition">
+          <button type="button" data-tag="Dücane Cündioğlu" onclick="filterByTag('Dücane Cündioğlu')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-sky-950/50 hover:bg-sky-900/60 border border-sky-600/40 text-sky-200 transition cursor-pointer" title="Dücane Cündioğlu tahlilleri">
             👤 Dücane Cündioğlu
           </button>
-          <button onclick="filterByTag('Kerpiç')" class="px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition">
+          <button type="button" data-tag="Kerpiç" onclick="filterByTag('Kerpiç')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition cursor-pointer" title="Kerpiç yapılar ve geleneksel mesken">
             🧱 Kerpiç
           </button>
-          <button onclick="filterByTag('Toprak Yapı')" class="px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition">
+          <button type="button" data-tag="Toprak Yapı" onclick="filterByTag('Toprak Yapı')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition cursor-pointer" title="Toprak mimarisi ve fıtrî yapılar">
             🧱 Toprak Yapı
           </button>
-          <button onclick="filterByTag('Sıkıştırılmış Toprak')" class="px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition">
+          <button type="button" data-tag="Rammed Earth" onclick="filterByTag('Rammed Earth')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition cursor-pointer" title="Sıkıştırılmış toprak (Rammed Earth) yapıları">
             🧱 Rammed Earth
           </button>
-          <button onclick="filterByTag('Alker')" class="px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition">
+          <button type="button" data-tag="Alker" onclick="filterByTag('Alker')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition cursor-pointer" title="Alker (Alçılı Toprak) tekniği">
             🧱 Alker
           </button>
-          <button onclick="filterByTag('Saman Balyası')" class="px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition">
+          <button type="button" data-tag="Saman Balyası" onclick="filterByTag('Saman Balyası')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition cursor-pointer" title="Saman balyası doğal strüktürler">
             🧱 Saman Balyası
           </button>
-          <button onclick="filterByTag('Pasif İklimlendirme')" class="px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition">
+          <button type="button" data-tag="Pasif İklimlendirme" onclick="filterByTag('Pasif İklimlendirme')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-emerald-950/50 hover:bg-emerald-900/60 border border-emerald-600/40 text-emerald-200 transition cursor-pointer" title="Pasif iklimlendirme ve tabii havalandırma">
             🧱 Pasif İklim
           </button>
-          <button onclick="filterByTag('İstanbul')" class="px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition">
+          <button type="button" data-tag="İstanbul" onclick="filterByTag('İstanbul')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition cursor-pointer" title="İstanbul şehir hafızası ve tahlilleri">
             📍 İstanbul
           </button>
-          <button onclick="filterByTag('Tarihi Yarımada')" class="px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition">
+          <button type="button" data-tag="Tarihi Yarımada" onclick="filterByTag('Tarihi Yarımada')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition cursor-pointer" title="Tarihî Yarımada ve Suriçi">
             📍 Tarihi Yarımada
           </button>
-          <button onclick="filterByTag('Çamlıca')" class="px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition">
+          <button type="button" data-tag="Çamlıca" onclick="filterByTag('Çamlıca')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition cursor-pointer" title="Çamlıca tahlilleri ve cami tenkitleri">
             📍 Çamlıca
           </button>
-          <button onclick="filterByTag('Auroville')" class="px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition">
+          <button type="button" data-tag="Auroville" onclick="filterByTag('Auroville')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition cursor-pointer" title="Auroville eko-köy tecrübesi">
             📍 Auroville Eko-Köyü
           </button>
-          <button onclick="filterByTag('Fas')" class="px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition">
+          <button type="button" data-tag="Fas" onclick="filterByTag('Fas')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-purple-950/50 hover:bg-purple-900/60 border border-purple-600/40 text-purple-200 transition cursor-pointer" title="Fas ve Mağrip mimarisi">
             📍 Fas
           </button>
-          <button onclick="filterByTag('İslam & Medeniyet Tasavvuru')" class="px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition">
+          <button type="button" data-tag="İslam & Medeniyet Tasavvuru" onclick="filterByTag('İslam & Medeniyet Tasavvuru')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition cursor-pointer" title="İslam ve medeniyet tasavvuru">
             📜 Medeniyet Tasavvuru
           </button>
-          <button onclick="filterByTag('Doğu-Batı Ayrımı')" class="px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition">
+          <button type="button" data-tag="Doğu-Batı Ayrımı" onclick="filterByTag('Doğu-Batı Ayrımı')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition cursor-pointer" title="Doğu-Batı ayrımı ve felsefe">
             📜 Doğu-Batı Ayrımı
           </button>
-          <button onclick="filterByTag('Şehir Hukuku')" class="px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition">
+          <button type="button" data-tag="Şehir Hukuku" onclick="filterByTag('Şehir Hukuku')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition cursor-pointer" title="İslam şehir hukuku ve komşuluk hakkı">
             📜 Şehir Hukuku
           </button>
-          <button onclick="filterByTag('Apartman')" class="px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition">
+          <button type="button" data-tag="Apartman" onclick="filterByTag('Apartman')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition cursor-pointer" title="Apartman ve dikey yapılaşma eleştirisi">
             📜 Apartman Eleştirisi
           </button>
-          <button onclick="filterByTag('Cami Mimarisi')" class="px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition">
+          <button type="button" data-tag="Cami Mimarisi" onclick="filterByTag('Cami Mimarisi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-amber-950/50 hover:bg-amber-900/60 border border-amber-600/40 text-amber-200 transition cursor-pointer" title="Cami mimarisi ve kubbe tenkitleri">
             📜 Cami Mimarisi
           </button>
           <a href="/dusunce-atlasi.html" class="px-3 py-1 rounded-lg bg-gradient-to-r from-amber-600/30 to-amber-500/20 hover:from-amber-600/50 hover:to-amber-500/40 border border-amber-500/50 text-amber-300 font-bold transition flex items-center gap-1">
@@ -490,6 +490,35 @@
     let currentSort = 'default';
     let activeArticle = null;
 
+    // Türkçe karakter, inceltme işaretleri ve büyük/küçük harf duyarsız arama normalizasyonu
+    function normalizeText(str) {
+      if (!str) return '';
+      return str
+        .toString()
+        .replace(/İ/g, 'i')
+        .replace(/I/g, 'ı')
+        .replace(/ı/g, 'i')
+        .replace(/ç/g, 'c')
+        .replace(/ğ/g, 'g')
+        .replace(/ö/g, 'o')
+        .replace(/ş/g, 's')
+        .replace(/ü/g, 'u')
+        .replace(/Ç/g, 'c')
+        .replace(/Ğ/g, 'g')
+        .replace(/Ö/g, 'o')
+        .replace(/Ş/g, 's')
+        .replace(/Ü/g, 'u')
+        .replace(/â/g, 'a')
+        .replace(/î/g, 'i')
+        .replace(/û/g, 'u')
+        .replace(/Â/g, 'a')
+        .replace(/Î/g, 'i')
+        .replace(/Û/g, 'u')
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+    }
+
     // Kategori eşleştirmeleri
     function matchCategory(article, cat) {
       if (cat === 'all') return true;
@@ -508,20 +537,35 @@
       const noResults = document.getElementById('no-results');
       const resultsCount = document.getElementById('results-count');
 
+      const normQ = normalizeText(currentSearch);
+
       let filtered = sdmimArticles.filter(item => {
         const matchesCat = matchCategory(item, currentFilter);
         if (!matchesCat) return false;
 
-        if (!currentSearch) return true;
-        const q = currentSearch.toLowerCase();
-        const matchesTag = item.tags && item.tags.some(t => t.toLowerCase().includes(q));
+        if (!normQ) return true;
+
+        const normTitle = normalizeText(item.title);
+        const normExcerpt = normalizeText(item.excerpt);
+        const normId = normalizeText(item.id);
+        const normOrig = normalizeText(item.orig_url);
+        const normTags = (item.tags || []).map(t => normalizeText(t));
+
+        // Rammed Earth ve Sıkıştırılmış Toprak eşanlamlı sorgu desteği
+        let matchesAlias = false;
+        if (normQ === 'rammed earth' || normQ === 'sikistirilmis toprak') {
+          matchesAlias = normTags.some(t => t.includes('toprak') || t.includes('kerpic') || t.includes('rammed')) ||
+                         normTitle.includes('toprak') || normExcerpt.includes('toprak');
+        }
+
+        const matchesTag = normTags.some(t => t.includes(normQ));
         return (
-          item.title.toLowerCase().includes(q) ||
-          item.excerpt.toLowerCase().includes(q) ||
-          item.orig_url.toLowerCase().includes(q) ||
-          item.id.toLowerCase().includes(q) ||
-          item.date.toLowerCase().includes(q) ||
-          matchesTag
+          normTitle.includes(normQ) ||
+          normExcerpt.includes(normQ) ||
+          normId.includes(normQ) ||
+          normOrig.includes(normQ) ||
+          matchesTag ||
+          matchesAlias
         );
       });
 
@@ -652,14 +696,63 @@
 
     window.filterByTag = filterByTag;
     function filterByTag(tag) {
+      if (!tag) return;
+
       const input = document.getElementById('archive-search');
+
+      // Eğer aynı etiket zaten aktifse, tıklanınca filtreyi sıfırla (toggle mantığı)
+      if (currentSearch && normalizeText(currentSearch) === normalizeText(tag)) {
+        clearSearch();
+        return;
+      }
+
+      // Ortak külliyatta filtreleme: Kullanıcı hangi kategoride olursa olsun, ortak etiket tıklandığında
+      // kategori kısıtlamasını kaldırıp tüm külliyatta listele (Tüm Vesikalar sekmesini aktif et)
+      if (currentFilter !== 'all') {
+        currentFilter = 'all';
+        document.querySelectorAll('.cat-btn').forEach(btn => {
+          if (btn.getAttribute('data-cat') === 'all') {
+            btn.className = 'cat-btn px-3 py-1.5 rounded-lg border bg-amber-500/20 border-amber-400 text-amber-200 transition flex-shrink-0 font-semibold';
+          } else {
+            btn.className = 'cat-btn px-3 py-1.5 rounded-lg border bg-zinc-900/80 border-zinc-800 hover:border-zinc-700 text-zinc-400 hover:text-zinc-200 transition flex-shrink-0';
+          }
+        });
+      }
+
       input.value = tag;
-      handleSearch(tag);
-      const searchBox = document.getElementById('archive-search');
-      if (searchBox) {
-        const top = searchBox.getBoundingClientRect().top + window.scrollY - 80;
+      currentSearch = tag.trim();
+
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (clearBtn) clearBtn.classList.remove('hidden');
+
+      // URL parametresini güncelle (kategori kısıtını temizleyip tag parametresini ekle)
+      const url = new URL(window.location.href);
+      url.searchParams.delete('cat');
+      url.searchParams.delete('category');
+      url.searchParams.set('tag', tag);
+      history.replaceState(null, '', url.toString());
+
+      updateActiveTagButtons(tag);
+      renderArticles();
+
+      // Kullanıcıyı sonuçların başladığı alana yumuşakça kaydır
+      const resultsEl = document.getElementById('results-count');
+      if (resultsEl) {
+        const top = resultsEl.getBoundingClientRect().top + window.scrollY - 90;
         window.scrollTo({ top: top, behavior: 'smooth' });
       }
+    }
+
+    function updateActiveTagButtons(activeTag) {
+      const normActive = normalizeText(activeTag);
+      document.querySelectorAll('#tag-cloud-buttons button').forEach(btn => {
+        const btnTag = btn.getAttribute('data-tag') || '';
+        if (normActive && normalizeText(btnTag) === normActive) {
+          btn.classList.add('ring-2', 'ring-amber-400', 'bg-amber-500/30', 'font-bold');
+        } else {
+          btn.classList.remove('ring-2', 'ring-amber-400', 'bg-amber-500/30', 'font-bold');
+        }
+      });
     }
 
     function handleSearch(val) {
@@ -670,6 +763,7 @@
       } else {
         clearBtn.classList.add('hidden');
       }
+      updateActiveTagButtons(currentSearch);
       renderArticles();
     }
 
@@ -678,6 +772,14 @@
       input.value = '';
       currentSearch = '';
       document.getElementById('search-clear-btn').classList.add('hidden');
+      updateActiveTagButtons('');
+
+      const url = new URL(window.location.href);
+      url.searchParams.delete('tag');
+      url.searchParams.delete('search');
+      url.searchParams.delete('filter');
+      history.replaceState(null, '', url.toString());
+
       renderArticles();
     }
 
@@ -835,6 +937,7 @@
         document.getElementById('archive-search').value = tagParam;
         currentSearch = tagParam.trim();
         document.getElementById('search-clear-btn').classList.remove('hidden');
+        updateActiveTagButtons(currentSearch);
       }
 
       renderArticles();
