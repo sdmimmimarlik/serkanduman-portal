@@ -1,0 +1,107 @@
+﻿# Mistik bir eko-köy Auroville’e yolculuk
+
+**Tarih:** 23/12/2020  
+**Orijinal Kaynak:** http://sdmimproje.com/mistik-bir-eko-koy-aurovillee-yolculuk/  
+**Arşiv Zaman Damgası:** 20210731160202  
+**Etiketler:** Kerpiç, İstanbul, Auroville (Hindistan), Fas & Mağrip, Mısır & Kahire, Paris, İslam & Medeniyet Tasavvuru, Kırsal Mimari, Köy & Kaçış, Mimarlık Ortamı & Akademi Tenkidi  
+**Atlas Düğümleri:** toprak_yapi, sehir_hukuku, auroville_ornegi, dogu_bati, hassan_fathy, cansever, medeniyet, kirsal_koy, mimarlik_egitimi  
+
+---
+
+![](/images/sdmim/D1M_0bnWwAAMgdN-1-480x510.jpg)
+
+[https://www.gzt.com/nihayet/mistik-bir-eko-koy-aurovillee-yolculuk-3516763](https://www.gzt.com/nihayet/mistik-bir-eko-koy-aurovillee-yolculuk-3516763)
+
+# Mistik bir eko-köy Auroville’e yolculuk
+
+​Mistik bir eko-köy Auroville’e yolculuk
+
+## Toprak mimarlığının ortaya çıktığı ve bu hususta dünya merkezlerinden birisi sayılabilecek bir ülkede, unutulmuş olan mimari teknik ve gelenekleri öğrenmek için ne yazık ki yeterli imkân olmadığını fark ettiğimde, bakışımı Türkiye dışına yönlendirmek zorunda kaldım. Önce Fas’ta, hâlâ canlı olan toprak mimarlığını, çalışmaya devam eden yerel ustalardan öğrendim. Bir sonraki yolculuğumu ise geleneksel teknikleri, modern tekniklerle buluşturma çabasında olan ve 1989’dan bu yana, kurduğu Auroville Toprak Enstitüsü’nde çalışmalar yapan Fransız Satprem Maïni ile bir araya gelmek için Hindistan’a yapmaya karar verdim.
+
+Hindistan’a gitme kararını aldığım dönemde, Irak’ta yoğun bir iş ortamında çalışmaktaydım. Bu sebeple gideceğim yer hakkında fazla araştırma yapamamıştım doğrusu. Birkaç yazışma, adres bilgileri vs. Beni gitmem gereken yere ulaştıracak bilgilerden fazlası yoktu elimde. Hindistan’a da ilk kez gidiyordum, tabiri caizse, bindik bir alamete durumundaydım. Neyle karşılaşacağıma dair pek fikrim yoktu.
+
+Uçağım, Abu Dabi üzerinden Chennai Uluslararası Havaalanı’na aktarmalı gidiyordu. Abu Dabi’de bindiğim uçak Hindistan’a gidiyor olduğumu iyice hissettirdi. Çünkü neredeyse uçağın tamamı Hint yolcularla doluydu. Yanımdaki beyefendi ile yemek, şehirler, Hinduizm ve vejetaryenlik üzerine yaptığım sohbetlerle ise zihnim nereye gittiğine dair yavaş yavaş fikir sahibi olmaya başlamıştı. Pasaport memuruna, mimar olduğumu, toprak mimarlığı çalışmak üzere buraya geldiğimi anlatmaya çalıştıktan sonra, memur ikinci bir memura danışıp vizemi onayladı.
+
+![The mother (anne), Auroville’ın kurucusu Roger Anger](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/38/resized_567b1-28efaf394.jpg)
+
+The mother (anne), Auroville’ın kurucusu Roger Anger
+
+Böylece rahat bir nefes alarak bagajımı beklemeye koyuldum. Beklerken altmışlı yaşlarında, minyon, sarışın bir hanımefendi ile sohbet etmeye başladık. Uçaktayken de birbirimizi görmüş, o aşinalık ve tarif etmesi zor bir çekimle muhabbetimiz ilerlemişti.
+
+New York’tan Sydney’e giden bu hanımda insana huzur veren bir hâl vardı. Bir taraftan bagajını kaçırma korkusu yaşıyor, ben de “Merak etmeyin, benim bir gözüm sizin bagajınızda” diyerek onu rahatlatmaya çalışıyordum.
+
+Söz verdiğim için, şeklini şemailini öğrendiğim bavulunu kendi bavulumdan daha önemseyerek takip ediyor, sözümü tutmaya çalışıyordum.
+
+Hanımefendi şifacılıkla uğraştığını söylemişti, benimse Auroville’e gittiğimi öğrenince heyecanlandı. Orada uzun süre bulunduğunu, hatta şifacılığı orada öğrendiğini, çok güzel bir yer olduğunu söyledi ve birkaç isme selam götürmemi rica etti. Bu sözleriyle, Auroville’in tahmin ettiğimden daha farklı bir muhtevası olduğunu anlamaya başladım. Konuşmaya dalmışken, aynı anda bavulunun önümüzden geçmiş gidiyor olduğunu fark ettik.
+
+![](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/43/resized_c053f-3e6b99ce3.jpg)
+
+Ben telaşla bagajını almaya giderken, acaba kendi bavulumu kaçırdım mı diye düşünüyordum. Bavulun yanına vardığımda ise benim bavulumun tam da onunkinin yanında olduğunu fark ettim. Bu hoş rastlantıdan sonra, uzun zamandır tanıyormuş gibi olduğum hanımla, karanlık Chennai şehrinde vedalaştık ve ben önceden ayarlanmış ve beni almaya gelmiş olan taksiyi aramaya başladım. Ben onu ararken, taksici beni buldu ve yaklaşık iki buçuk saatlik yolculuğumuza başladık.
+
+Coşkun Aral’ın “Dünyanın her yerine gittim ancak tekrar tekrar gitmek istediğim tek yer Hindistan” sözü aklımdaydı. Bununla birlikte Hindistan hep bir gün mutlaka gitmeliyim dediğim bir yerdi. İşte şimdi taksinin içinden bu meraklı gözlerle dışarıya bakıyor ve hiçbir ayrıntıyı kaçırmamaya çabalıyordum.
+
+Gördüklerimi bir kendi ülkemle kıyaslıyor (tipik davranış), bir buraya özgü şeyleri bulmaya çalışıyordum. İlk dikkatimi çeken hemen her aracın arkasında “blow horn”, “sound horn” gibi ifadelerin bulunmasıydı. Belli ki burada korna sevilen ve çalınması istenen bir sesti. Ancak şu da anlaşılıyor ki, korna trafikte önemli bir güvenlik ve uyarı aracıydı.
+
+![](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/45/resized_c5e80-c9a46fd91.jpg)
+
+Taksi ile gece karanlığında başlayan yolculuğumuza güneş eşlik etmeye başlamış, etraf iyice aydınlanmıştı, çay (Hindistan’da da çaya “şay” deniyor) molası verdik. Sütlü çayı büyük bir bardak yardımıyla kazandan alıp kafasının üstünden doğru geri kazana boşaltmak suretiyle sürekli karışıma tabi tutan çaycıdan aldığımız iki bardak çayı içerken, gözüme ilerideki bambu ve yapraklarla kaplı uzun yapı ilişti.
+
+Ne olduğunu sorduğumda “inşa aşamasında olan bir tapınak“ cevabını aldım. Yolumuza devam ettik. Bir süre sonra otoyoldan sapıp, toprak bir yola girdik ve on beş dakika kadar bu yolda ilerledik. Avrupalıların elinin değdiği belli olan yapıların ve ağır sırt çantalı öğrencilerin arasından ilerleyerek, “Sanırım şimdi geldik” dediğim birkaç bina sonrasında, taksi bir araç kapısından içeri girip durdu.
+
+![Matrimandır’ın dış yüzeyi 1415 adet altın diskle kaplı](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/45/resized_830c5-f56460748.jpg)
+
+Matrimandır’ın dış yüzeyi 1415 adet altın diskle kaplı
+
+Taksiciye “Beni bilmediğim bu yerde bırakma” der gibi baktığımdan olsa gerek, eşyalarımı alıp henüz erken olduğundan canlanmamış Toprak Enstitüsü’nde yürümeye başladık. İki köpek tehditmişiz gibi yanımıza gelip havlamaya başladı, ardındansa üzerinde sadece şort olan, çıplak ayaklı birisi (ki bu kişi Satprem Maïni olmalıydı) yanımıza geldi.
+
+![Satprem Maïni](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/47/resized_a4202-716484b7indir.jpg)
+
+Satprem Maïni
+
+Tanıştıktan ve yatacak yerimi öğrendikten sonra, taksici ile vedalaşıp yerime yerleştim ve uyku gözümden daha fazla akmasın diye yatıp uyudum. Kalktığımda pazar günü olduğundan olsa gerek ortamda hâlâ bir canlanma yoktu.
+
+Hatta neredeyse enstitüde tek olduğumu düşünmeye başlamıştım ki, bir kişi motorla yanaştı. Buraları gezdiğini söyleyen beyefendinin turist olduğu anlaşılıyordu. Yüzüne bakınca Hint olduğunu düşünmek zordu doğrusu.
+
+Zaten sonradan tıpkı Freddie Mercury gibi, İran’dan Hindistan’a göçmüş Parsilerden olduğunu öğrenecektim. Benim de yabancı olduğumu anlayınca kahve içmeyi teklif eden beyefendinin motorunun arkasına atladım. Arada nerede kahve içebiliriz diye elindeki Pondicherry haritasına bakıyor, bazen de burası hakkında bildiklerini paylaşıyordu.
+
+Henüz tanıştığım beyefendinin motorunda, sırtına yapışmış vaziyetteyken ve nerede olduğumu tam anlamıyla bilmezken yaşadıklarımı bir kenara bırakacak ve sonradan vâkıf olduğum bilgilere bir bakacak olursak Chennai şehrine indim -ki bu şehir (eski adıyla Madras) Hindistan’ın 29 eyaletinden biri olan ve Tamilce konuşulan, Hindistan’ın güneydoğusunda, Tamil Nadu (Tamil ülkesinin) eyaletinin başkenti. Geldiğim yer olan Auroville ise Pondicherry (Puducherry de deniyor) denen ve Puducherry, Karaikal, Mahe ve Yanam kıyı yerleşimlerinin genel adı olan bir şehir. Auroville bu şehrin 15 km dışında kurulmuş bir alan.
+
+![](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/51/resized_64114-794bf0e6thumbs_b_c_399ee10abc873367a4fe9fe6c1627b3e.jpg)
+
+Pondicherry’nin, konumu gereği deniz ticaret yollarına olan hâkim durumu, 16. yüzyılda Portekizliler, Danimarkalılar, Hollandalılar ve İngilizlerin ilgisini çekmiş. Uzun süre çıkar savaşlarının yaşandığı bölge son olarak yerel yöneticilerle anlaşma sağlayan Fransızlara geçmiş ve Fransızlar da burayı kolonileri hâline getirmişler. Nitekim bugün bile hâlâ mimarisi ve yerleşik halkıyla bunu hissetmek zor değil. Auroville’e baktığımızda ise işin içinden çıkmanın o kadar da kolay olmadığı görülecektir.
+
+Sınırları dairesel olarak bir yeşil kuşak (green belt) ile net biçimde belirlenmiş -bu daire biçimi enteresandır; ilk tapınak olarak kabul edilen Göbeklitepe ibadethaneleri de sıfırdan kurgulanan Bağdat şehri de Stonehenge de ve hatta Burning Man festivali yerleşimi bile daire biçimindedir-, kurucuları ve yaşayan cemaati tarafından kutsal kabul edilen, öyle ki toprağının dışarı çıkarılması bile yasak olan, Fransız gelenekleri, Hinduizm ve birtakım mistik görüşlerin karışımıyla, modern dünyaya alternatif olarak gelişmiş enteresan bir dünya denebilir.
+
+![](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/50/resized_51c3d-7371908914.jpg)
+
+Hindistan’ın zaten kendisi dünya içinde başka bir dünya iken, Auroville bu başkalığın tarifsiz kaldığı bir nokta. Auroville’e yolunuz düşerse şimdiden söyleyeyim “mother” sözcüğünü çok duyacaksınız. Bu “mother” Türk bir baba ile Mısırlı bir anneden olma Mirra Alfassa’ya (1878-1973) ait bir sıfat. Auroville’i şekillendiren ve manifestosunu yazan kişi. Mirra’nın doğumunun hemen ardından ailesi Fransa’ya yerleşir. Mirra küçük yaşlarından itibaren resim ve müzik çalışır. Yirmili yaşlarında, okültizm (gizlicilik) çalışmak için Cezayir’e gider. Paris’e döndükten sonra ise ruhsal yolculuğuna buradaki farklı gruplarla çalışarak devam eder.
+
+Mirra Alfassa, ikinci kocası Paul Richard’dan, Sri Aurobindo ismini duyar. Bunun üzerine onu ziyaret etmek için 1910 yılında Pondicherry’ye gelir. Sri Aurobindo Ashram’ı yol gösterici veya ustası olarak kabul eden müstakbel “Anne” Birinci Dünya Savaşı patlak verdikten sonra Hindistan’dan ayrılır ve 1920 yılında geri döndükten sonra ise, ömrünün sonuna kadar burada kalır.
+
+Yaşamının devamında spritüel inançlarına farklı boyutlar katan Mirra Alfassa, etrafına toplananlarla birlikte, kendilerinin yaşayacağı ve büyük bir yangın geçirmiş olan şimdiki Auroville bölgesini tekrar ağaçlandırarak, içinde alternatif tıp, organik tarım, geleneksel zanaatlar, sanat vb. işlerin çalışılacağı Auroville’i kurar. Hâlâ kahve içecek bir yer bakıyorduk. Beyefendi, biraz ilerideki bisikletli adama içinde “bakery” geçen bir soru cümlesi yöneltti. Bisikletli, Hintli kadın dansçılardan aşina olduğum kıvrak bir el işaretiyle sol tarafı gösterdi, oysa biz sağa döndük… -Uyanır uyanmaz kendini motorun birinde bir yabancıyla bulan ve içinde bulunduğu yere dair çok az fikri olan, kafası allak bullak olmuş biri için bu karışıklık, “en iyisi üzerine düşünmemek” olarak ifade buldu.- Bunun bir benzerini daha sonraları, Türkiye’den götürdüğüm yiyeceği ikram ettiğim bir gençle, ikramı beğenip beğenmediğini sorduğumda yaşamıştım.
+
+Bizde “şöyle böyle” manasına gelen başı iki yana sallama hareketini yapınca “Yoksa beğenmedin mi?” dediğimi hatırlıyorum. Oysa o çok beğendim demek istemişti.
+
+![](https://img.piri.net/mnresize/900/-/resim/imagecrop/2019/12/30/07/49/resized_47663-fdccd71111.jpg)
+
+Kahvemizi içtikten sonra beni bırakmak isteyen beyefendi ile Auroville’de yolumuzu kaybettik. “**Earth Institute**”ü ise ancak görünümünden Avrupa kökenli olduğu anlaşılan ve uzun zamandır burada yaşadığı belli olan bir hanım aracılığıyla bulabildik. Çoğunluğu Hint olan arkadaşlarım oldu. Kiraladığım motosikletle onlarla yolculuklara çıkıyor, etrafı keşfediyorduk.
+
+Matrimandir’i ilk gördüğüm anı hatırlıyorum. Dünya üzerinde böylesine bir yapının olduğunu bilmiyor olmamın şaşkınlığı bir yana, yapının biçimi de ayrı bir şaşkınlık kaynağıydı. Matrimandir, “Anne”nin 1970’te ortaya attığı ve Auroville’in ruhu ya da kalbi olarak nitelendirilen bir tür tapınak ya da meditasyon yapısı.
+
+Mimarı, yine The Mother tarafından projesi kabul edilen Fransız mimar Roger Anger. Dev bir küre olarak tasarlanan Matrimandir’in, dış yüzeyi 1415 tane altın diskle kaplı. Bu yapısı dışarıdan bakan insana, içine girilebilecek bir yapıdan ziyade ancak bir obje olabilir hissi veriyor. Auroville ilk kurulduğunda hedef, “Geleceğin Şehri”ni ya da “Dünyanın İhtiyacı Olan Şehir”i kurmaktı. The Mother, Anne bu amaç için çalışıyor eskizler bile yapıyordu. Hedef şehri galaksi biçiminde inşa etmekti. Merkezinde, bireylerin sessizce meditasyon yapabileceği, Auroville’in ruhu olan Matrimandir’in, dört ışınsal kolla ayrışan, kent yaşamı için gerekli endüstriyel (kuzey) , kültürel (kuzeydoğu), konut (güney/güney oğu) ve uluslararası (batı) alanlarının yapılması tasarlanmıştı. Bu alanların ise bir yeşil kuşakla sarılması ve ağaçlık alanda, çiftlikler ve ibadethanelerin dağınık olarak bulunması planlanmıştı.
+
+Mimar Roger Anger, mimarlar ve şehir plancıları olarak Anne ile sürekli irtibatlı olduklarını ve ona danışarak hareket ettiklerini söylüyor. Bir gün konuşurken Anne’nin ona şehrin hâlihazırda başka bir katmanda bulunduğunu, tek yapılması gerekenin onu getirip dünyaya kurmak olduğunu söylediğini anlatıyor… Günümüzde bu plan, kısmen uygulanmış hâlde duruyor. Matrimandir’e girmek isteyenin, önceden rezervasyon yaptırması gerekiyor. Önce Auroville’in merkez ofislerinde toplanılıyor, ardındansa gruplar hâlinde gönüllü rehberlerle içeri giriliyor.
+
+İçeride fotoğraf çekmek yasak. Buraya koymak için bile internette bir resim bulamadım doğrusu. Yapının yanına yaklaştığınızda dışından pek de bir şey göremediğinizi anlıyorsunuz. Kürenin altından içeri alınıyor, size verilen çorapları giyiyor ve on dakikalık sessiz meditasyonunuzu yapıp çıkıyorsunuz. Benim gibi modern hayatı ve çağı algılamak isteyen birisi için müthiş bir deneyimdi doğrusu. Ben orada bir tapınağa değil, modern insanın bitimsiz arayışının içine girmiştim âdeta…
+
+Toprak Enstitüsü’nde, hemen her çeşit toprak tekniğine dair çalışmalar yaptık. Hedefi ucuz, sağlam ve kolay üretilebilir yapılar olduğundan dolayı Satprem Maïni, çimento ve beton ile çalışmakta bir beis görmüyor. An cak ben doğal yöntemlerin peşinde olduğum için sorularım genelde, çimentonun yerine kireç kullanımı ile ilgili oluyordu. Auroville’in birçok yapısının altında Maïni’nin imzası var.
+
+Bu yapılarla ödüller de almış. Türkiye’de beton kullanmadan inşa ettiğimiz kerpiç evle ilgili de önemli sohbetler ettiğimizi hatırlıyorum. Zaten kendisi de 1996’da Habitat 2 için İstanbul’da birtakım çalışmalar için bulunmuş. Götürdüğüm lokumu görür görmez Turkish delight diyenlere “No, this is lokum” dediğini hatırlıyorum. Toprak Enstitüsü’nün ilginç bir müzesi de var. Burada MÖ 1300 yılına ait bir kerpiç tuğla da enstitünün yıllarca önce ürettiği ve suyun içinde bozulmadan bekleyen bir tuğla da dünyanın hemen her yerinden gelen toprak numuneleri de bulunuyor. Ben de Türkiye’den götürdüğüm toprağı kaydı alınarak müzeye verdim.
+
+Auroville’de tek toprak mimarlığı ile uğraşan Satprem Maïni değil. Renee isimli bir yapı biyoloğu da bu alanda çalışıyor. Ve sadece doğal malzemelerle çalışıyor. Bunun yanında geleneksel kâğıt üretimi ile uğraşan bir fabrika da gezdim. Şimdi ismini hatırlamadığım yaşlı bir Fransız bu işe ömrünü adamış. Türkiye’den geldiğimi duyunca “En iyi sizin bilmeniz lazım” dediğini anımsıyorum.
+
+Muz ağacının kabuklarını kullanarak kâğıt üretiyorlar. Yollara asfalt dökülmüyor, Auroville’de. Bunun ne kadar önemli bir şey olduğunu anlamak gerekiyor. Evet, biraz toz oluyor ama toprak bizim modern ürünlerimiz kadar kirli değil ki. Yüzümüze gözümüze süreriz…
+
+Auroville’de bulunduğum sürece, vejetaryen Hint yemekleri ve South Indian Filter Coffee yedim ve içtim. Bunlar unutamadığım tatlar oldu. Bununla birlikte birçok yeni bilgi ve dostluklar edindim. Yolculuğumu ise “Golden Triangle” (Altın Üçgen) denen Jaipur, Agra ve Delhi’ye doğru genişleterek bitirdim. Belki bu da başka bir yazının konusu olur, kim bilir?
+
+[Nihayet](https://soundcloud.com/nihayetdergi) · [Mistik bir eko-köy Auroville’e yolculuk – Serkan Duman](https://soundcloud.com/nihayetdergi/mistik-bir-eko-koy-aurovillee-yolculuk-serkan-duman)

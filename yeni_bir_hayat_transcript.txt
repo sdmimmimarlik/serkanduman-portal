@@ -1,0 +1,383 @@
+﻿BLOCKED / FILE_WRITE_TOOL_UNAVAILABLE
+
+Browser extraction on https://www.youtube.com/watch?v=xEdWFMrj9f8 ("Yeni Bir Hayat MÃ¼mkÃ¼n / Dr. Mimar Serkan Duman - YouTube") succeeded completely:
+- Navigated to https://www.youtube.com/watch?v=xEdWFMrj9f8 (no cookie dialog appeared).
+- Clicked "...daha fazla" in the video description box and then clicked "Transkripti gÃ¶ster".
+- Opened the transcript panel on the right ("Bu videoda" -> "KonuÅŸma metni") and extracted all 370 transcript segments (timestamps and spoken lines, 0:05 to 46:27).
+
+Blocker: This browser subagent only has browser/read tools (`webview_browser`, `read_file`, `send_message`, `manage_task`) and does not have a file-writing or shell tool to write directly to `C:\Users\CASPER\Desktop\serkanduman-portal\yeni_bir_hayat_transcript.txt`.
+
+Below is the complete extracted transcript (all 370 segments) ready for you to save to `C:\Users\CASPER\Desktop\serkanduman-portal\yeni_bir_hayat_transcript.txt`:
+
+--- BEGIN TRANSCRIPT ---
+0:05 Uzun zamandÄ±r aÄŸÄ±rlÄ±ÄŸÄ±ndan dolayÄ± etrafÄ±nda dolaÅŸtÄ±ÄŸÄ±m medeniyet kelimesini artÄ±k ciddi ciddi dillendirmeye baÅŸladÄ±m. Bana kalÄ±rsa uzun okuma, Ã§alÄ±ÅŸma ve sÃ¼reÃ§ isteyen bir
+0:14 konu. Ancak her geÃ§en gÃ¼n gÃ¼ndemden biraz daha Ã§ekiliyor. Herkesin ekmeÄŸinde olduÄŸu bir ortamda medeniyet kelimesi ancak iÅŸe yaradÄ±ÄŸÄ±nda kullanÄ±lacak bir
+0:23 araca dÃ¶nÃ¼ÅŸtÃ¼. Bu sebeple son 20 yÄ±ldÄ±r hemen her an aklÄ±mda ve dÃ¼ÅŸÃ¼ncelerimde olan bu konu Ã¼zerine konuÅŸmaya karar verdim.
+0:30 Bu programda benim medeniyet tasavvuruma dair ana konular Ã¼zerinden aÃ§Ä±klamalar yapacaÄŸÄ±m. Medeniyet aslÄ±nda prensipler gereÄŸince yapÄ±lmayanlar ve yine
+0:38 prensipler gereÄŸince duyulan ihtiyaÃ§lara cevap vermektir. Tabii bunun iÃ§in de kiÅŸinin veya toplumun kendisini tanÄ±masÄ±, bilmesi gerekir. YÄ±llardÄ±r
+0:46 Ã¼zerimize uymayan bir kÄ±yafet giydik. Bu kÄ±yafet bir baÅŸkasÄ± tarafÄ±ndan kendi ihtiyaÃ§larÄ± iÃ§in dikilmiÅŸti. Bu sÄ±rada bizim zaten sorunlarÄ±mÄ±z vardÄ±. Bu yeni
+0:54 kÄ±yafet ile birlikte ise bÄ±rakÄ±n sorunlarÄ±n Ã§Ã¶zÃ¼lmesini. VÃ¼cudumuzdaki problemler daha da arttÄ±. Bu elbiseye alÄ±ÅŸtÄ±k ve bizim sandÄ±k. Oysa dÄ±ÅŸarÄ±dan
+1:02 bakÄ±ldÄ±ÄŸÄ±nda bu gariplik hep ayan beyan ortadaydÄ±. Adeta bir nehre dÃ¼ÅŸmÃ¼ÅŸ ve akÄ±ntÄ±yÄ± benimsemiÅŸti. Åimdi hayatÄ± o
+1:09 dar ve durmaya imkan vermeyen nehirden ibaret sanmaya baÅŸladÄ±k. KÄ±yafet demiÅŸken peki kimdi bu kÄ±yafeti bize zorla giydiren? Tabii ki hegomonik
+1:16 gÃ¼Ã§lerdi. Ã–nceki kitabÄ±mda onlardan batÄ± olarak bahsetmiÅŸtim. Bir baÅŸka deyiÅŸle ise dÃ¼nyanÄ±n geri kalanÄ±nÄ± Ã¶tekileÅŸtiren, sÃ¶mÃ¼rÃ¼lecek bir mal
+1:23 olarak gÃ¶ren, dÃ¼nyayÄ± kendi materyalist anlayÄ±ÅŸÄ±yla ÅŸekillendiren hakim gÃ¼Ã§ler.
+1:28 CanÄ±mÄ±za ve malÄ±mÄ±za kastetmeleri yetmiyormuÅŸ gibi bizi bizden aldÄ±lar. Bize bir aÅŸaÄŸÄ±lÄ±k kompleksi aÅŸÄ±ladÄ±lar.
+1:34 Onlar gibi olmaya Ã§alÄ±ÅŸtÄ±kÃ§a her ÅŸey daha da kÃ¶tÃ¼ oldu. Åimdi ise sÄ±ra Ã¼zerimizdeki kÄ±yafeti yÄ±rtÄ±p atmaya, kendi elbisemizi giymeye ve kendi
+1:41 sorunlarÄ±mÄ±za kendi Ã§Ã¶zÃ¼mlerimizi getirmeye geliyor. Bunun iÃ§in Ã¶nce kendimizi sonra da Ã§aÄŸÄ± anlamak gerekiyor. Benim serÃ¼venim de iÅŸte bÃ¶yle
+1:49 baÅŸladÄ±. Bu problemleri hissettiÄŸim iÃ§in Ã¶nce iÃ§inde yaÅŸadÄ±ÄŸÄ±m Ã§aÄŸÄ± anlamaya Ã§alÄ±ÅŸtÄ±m. HazÄ±r yÃ¼ksek lisans yapÄ±yorken de postmodern dÃ¼nyada birey olarak mimar
+1:56 konusunu seÃ§tim. Ã‡Ã¼nkÃ¼ hedefim iÃ§inde yaÅŸadÄ±ÄŸÄ±m dÃ¼nyayÄ± anlamaktÄ±. Mimarlar Ã¼zerinden Ã¶nce iÃ§inde yaÅŸadÄ±ÄŸÄ±m Ã§aÄŸ, sonra da mimarÄ±n ve bireyin dÃ¶nÃ¼ÅŸÃ¼mÃ¼nÃ¼ ve konumunu anlamaya Ã§alÄ±ÅŸtÄ±m.
+2:08 YÄ±l 1969. Amerika'ya gider. DÃ¼ÅŸÃ¼nsenize mesela Kore'nin bir kÃ¶yÃ¼nde insanlar gece oturup radyodan Amerika'nÄ±n aya
+2:15 insan Ã§Ä±kardÄ±ÄŸÄ±nÄ± duyar. Bunu anlamaya Ã§alÄ±ÅŸalÄ±m. Bir tarafta Kaan'Ä±, diÄŸer tarafta roketle aya giden insan.
+2:21 Mimarideki etkileri uzay teknolojisini andÄ±ran garipliklerle oldu. Mesela Star Wars filmi Ã§Ä±ktÄ±. SonralarÄ± bir tapÄ±nma
+2:28 nesnesine dÃ¶nÃ¼ÅŸecek olan bu seri 1970 sonu ve 1990 Ã¶ncesi doÄŸanlarÄ± simgeler aslÄ±nda. Ã‡Ã¼nkÃ¼ bu dÃ¶nem teknolojinin ani
+2:36 deÄŸiÅŸimlerinin baÅŸlangÄ±Ã§ dÃ¶nemidir. Bu nesiller yaratÄ±lan kÃ¼resel pop kÃ¼ltÃ¼rÃ¼nÃ¼n ilk mÃ¼ritleridir. SatÄ±n aldÄ±klarÄ± bebeklerle yatarak uyurlar
+2:43 filan. Her neyse iÅŸte bu nesil artÄ±k yÃ¶netici kesimi oluÅŸturmaya baÅŸlÄ±yor.
+2:47 Ä°deolojilere uÄŸrana can vermeye hevesli nesillerden kÃ¼resel kÃ¼ltÃ¼rÃ¼n oyuncaÄŸÄ± olan nesillere geÃ§iÅŸ baÅŸladÄ±. Bu iyiye mi kÃ¶tÃ¼ye mi iÅŸaret eder bilmem. Ancak
+2:56 deÄŸiÅŸimin farklÄ± boyutlara taÅŸÄ±nacaÄŸÄ±nÄ±n bir gerÃ§eÄŸi. Ã‡ocuk bizim geleceÄŸimiz, Ã§ocuk Ã¼zerine titrediÄŸimiz, uÄŸruna kendi isteklerimiz ve arzularÄ±mÄ±zdan
+3:03 vazgeÃ§eceÄŸimiz, can vereceÄŸimiz bir varlÄ±ktÄ±r. Ã–yleyse bir medeniyet veya ÅŸehir Ã§ocuk Ã¼zerinden ÅŸekillenmelidir.
+3:10 Bu net. Ä°ÅŸte bu sebeple de medeniyet videolarÄ±nÄ±n ilki Ã§ocuk Ã¼zerine.
+3:15 Medeniyet, ÅŸehir, ev gibi konular konuÅŸtuÄŸumuzda Ã§ocuk demek size romantik geliyor olabilir. UÄŸruna akan sularÄ±n durduÄŸu bir varlÄ±ÄŸÄ± konuÅŸmak romantik
+3:24 deÄŸildir. Peki bugÃ¼nkÃ¼ Ã§ocuÄŸun durumu nedir? BugÃ¼n Ã§ocuk arabalarÄ±n hÄ±zlÄ±ca geÃ§tiÄŸi ve tekin olmayan insanlarÄ±n olduÄŸu farz edilen yol denen bir duvarla
+3:32 Ã§izilmiÅŸ, sokaÄŸa sÄ±rt dayamÄ±ÅŸ, bir apartman dairesinin iÃ§ine sÄ±kÄ±ÅŸmÄ±ÅŸ bir ekran mahkumudur adeta. Ã‡ocuk tÄ±pkÄ± bir
+3:39 engelli gibi apartmanÄ±n Ã¶nÃ¼nden servisle alÄ±nÄ±p okula taÅŸÄ±nÄ±r ve oradan yine servisle evine dÃ¶ner. Ara sÄ±ra sÄ±nÄ±rlandÄ±rÄ±lmÄ±ÅŸ parklarda ebeveyn
+3:47 gÃ¶zetiminde ferahlatÄ±lmaya Ã§alÄ±ÅŸan varlÄ±klar haline gelmiÅŸtir. Evde sus koÅŸma aman devirme denerek yerine oturtulan Ã§ocuk tek Ã¶zgÃ¼rlÃ¼k alanÄ±
+3:55 olarak ekranÄ± gÃ¶rÃ¼r. O ekranÄ±n Ã¼rÃ¼nleri problemli bir hayatÄ±n Ã¼rÃ¼nÃ¼dÃ¼r ve kendisinin de problemli bir hayatÄ± olan insanlar tarafÄ±ndan Ã¼retilmektedir.
+4:04 Hatta Ã§oÄŸu zaman bu ekran Ã¼rÃ¼nleri bilinÃ§li olarak Ã§ocuklarÄ± geleceÄŸin itaatkar kÃ¶leleri haline getirmek iÃ§in [mÃ¼zik] yapÄ±lmaktadÄ±r. AynÄ± zamanda Ã§ocuklar ÅŸimdiden o kapitalizmin nesneleri edilmiÅŸlerdir bile.
+4:14 Spiderman'li ayakkabÄ±, Spidermanli oyuncak, Spidermanli elbise ebeveynlerin elinin yanÄ±nda bir de ekran Ã¼zerinden bir baÅŸka el Ã§ocuklara dokunmaktadÄ±r.
+4:23 GÃ¶rÃ¼ntÃ¼, resim ve tiyatro Ã¶zellikle pagan dÃ¼nyadan baÅŸlayarak ardÄ±ndan Ä°ncil okumanÄ±n ancak ruhbanlarÄ±n tekelinde
+4:30 olduÄŸu dÃ¶nemlerde kilisenin cahillerin eÄŸitim aracÄ± olarak kullandÄ±ÄŸÄ± araÃ§lardÄ±r. Daha sonra kiliseden Ã§Ä±kan bu anlayÄ±ÅŸ opera, TV ve sinema olarak ilerler. KÃ¼reselleÅŸme ile birlikte ise
+4:39 eÄŸitilecek cahiller artÄ±k dÃ¼nyanÄ±n geri kalanÄ±dÄ±r. Yani haliyle Ã§ocuklarda. 590 ve 604 yÄ±llarÄ± arasÄ±nda papalÄ±k yapmÄ±ÅŸ
+4:47 Papa BÃ¼yÃ¼k Gregorius, [mÃ¼zik] "Cahillerin eÄŸitimi ancak resimle olabilir." diyerek resmin Hristiyan dÃ¼nyasÄ±na girmesine [mÃ¼zik]
+4:55 Ã¶ncÃ¼lÃ¼k etmiÅŸtir. Aras Ruhban Meclisi 1025'te belki de cahil kiÅŸiler resim sayesinde [mÃ¼zik] Ä°sa'yÄ± gÃ¶zlerinde
+5:02 canlandÄ±rabilir ve onun yaÅŸadÄ±klarÄ±nÄ± anlarlar demiÅŸtir. 1221-1274 [mÃ¼zik] yÄ±llarÄ± arasÄ±nda yaÅŸayan Aziz
+5:09 Beventure ise Ä°sa'nÄ±n fedakarlÄ±klarÄ±nÄ± resimler aracÄ±lÄ±ÄŸÄ± ile gÃ¶receklerdir." [mÃ¼zik] demiÅŸtir. MeÅŸhur Alman ressam
+5:17 Albreh DÃ¼rer ise paganlarÄ±n zÄ±ndÄ±k tanrÄ±larÄ± iÃ§in yaptÄ±klarÄ± resim ve heykellerin [mÃ¼zik] Ä°sa ve Meryem adÄ±na yapÄ±lmasÄ±
+5:24 gerektiÄŸini savunmuÅŸtur. Ä°ÅŸte tarihteki bu ÅŸahsiyetlerin bu sÃ¶zleri ve eylemleri bugÃ¼n iÃ§inde yaÅŸadÄ±ÄŸÄ±mÄ±z dÃ¼nyanÄ±n
+5:32 ÅŸekillenmesinde etkili olmuÅŸtur. [mÃ¼zik] Ã‡Ã¼nkÃ¼ gÃ¶rÃ¼ntÃ¼ egemen bu dÃ¼nyada gÃ¶rÃ¼ntÃ¼nÃ¼n bu egemenliÄŸe nasÄ±l ulaÅŸtÄ±ÄŸÄ±nÄ±n [mÃ¼zik] Ã¶nemli birer ilk
+5:40 Ã¶rnekleridir bunlar. Resim kiliseye girdi ve bÃ¶ylelikle gÃ¶rsel sanatlarÄ±n dÃ¼nyaya yayÄ±lmasÄ±na Ã¶ncÃ¼lÃ¼k edilmiÅŸ
+5:47 oldu. RÃ¶nesans'la birlikte [mÃ¼zik] resmin gerÃ§ekÃ§iliÄŸi arttÄ±. Yani RÃ¶nesanst'tan Ã¶nce minyatÃ¼rler ve e benzeri stilizasyonlar varken
+5:55 RÃ¶nesans'la birlikte Ã¶zellikle Avrupa'da gerÃ§ekÃ§i resim [mÃ¼zik] ortaya Ã§Ä±ktÄ±.
+6:00 Ã–yle ki aynÄ± dÃ¶nemlerde Ortodoks dÃ¼nyasÄ±nda Katolik dÃ¼nyasÄ±na [mÃ¼zik] gerÃ§ekÃ§i resmin doÄŸru olmadÄ±ÄŸÄ±na ve gÃ¼nah olduÄŸuna dair eleÅŸtiriler bile
+6:09 gitti. Ã‡Ã¼nkÃ¼ [mÃ¼zik] OrtodokslarÄ±n resimleri birtÄ±m dini kurallara gÃ¶re yapÄ±lÄ±yordu. Oysa RÃ¶nesans'la birlikte bu kurallar estedikÃ§e [mÃ¼zik] esnedi.
+6:18 Pagan dÃ¼nyadaki resimler Katolik dÃ¼nyasÄ±na aktarÄ±ldÄ±ÄŸÄ±nda yani Ã¶rneÄŸin Zeus iÃ§in yapÄ±lmÄ±ÅŸ bir resim veya heykel
+6:27 veya sahne Katolik dÃ¼nyasÄ±na aktarÄ±ldÄ±ktan sonra pagan dÃ¼nyayla HristiyanlÄ±k karÄ±ÅŸmaya baÅŸladÄ±.
+6:34 Ã–zellikle sanat alanÄ±nda. Ve bu alÄ±ÅŸkanlÄ±k modern dÃ¶nemlerde de terk edilmedi. Resmin kilisenin iÃ§ine dahil
+6:41 edildiÄŸini biliyoruz. Bununla birlikte kiliselerde tiyatrolarda vardÄ±. Yani aslÄ±nda tiyatro da kiliseden Ã§Ä±kmÄ±ÅŸ bir ÅŸeydir. Opera ise bunun bir sonraki
+6:51 adÄ±mÄ±dÄ±r aslÄ±nda. MÃ¼zikli ve daha gÃ¶rsel ÅŸovu olan bir ÅŸeydir opera. Bu opera sahneleri Ã¶ylesine profesyonelleÅŸmiÅŸ,
+7:00 Ã¶ylesine derinleÅŸmiÅŸti ki neredeyse gÃ¼nÃ¼mÃ¼z sinema perdesini veya televizyon ekranÄ±nÄ± aratmayacak derecede Ã§eÅŸitlenmiÅŸti.
+7:09 Yani televizyona ve sinemaya olmayan bir yerden geÃ§iÅŸ yapÄ±lmadÄ±. BÃ¶yle bir kÃ¼ltÃ¼r vardÄ± ve teknoloji ona gÃ¶re iÅŸleyerek
+7:17 ilerledi. Peki iÃ§inde yaÅŸadÄ±ÄŸÄ±mÄ±z Ã§aÄŸ ve ortam Ã§ocuklarÄ± nasÄ±l olumsuz etkiliyor? Bir, fiziksel Ã¶zgÃ¼rlÃ¼ÄŸÃ¼n kÄ±sÄ±tlanmasÄ±.
+7:24 Bundan bahsettim. Ekrana mahkumluk.
+7:26 Bundan da bahsettim. 3. Zihnin kÃ¶relmesi. Ã‡ocuklarÄ±n zihni iÅŸgal edilmiÅŸ. Ã‡ocuÄŸun hayal gÃ¼cÃ¼ sÄ±nÄ±rsÄ±zdÄ±r.
+7:32 Beyni ve duygularÄ± bir sÃ¼nger gibidir adeta. EÄŸer siz onu insan Ã¼retimi yapaylÄ±klarla doldurursanÄ±z hayal gÃ¼cÃ¼ne yer bÄ±rakmamÄ±ÅŸ olursunuz. 4. Tek tipleÅŸmek. Ä°lk Ã¼Ã§ maddenin sonucu. 5.
+7:44 Tabiattan kopukluk ve doÄŸayÄ± tanÄ±yamamak. DolayÄ±sÄ±yla da merhametsizleÅŸmek. DoÄŸayÄ± tanÄ±mayan, aÄŸacÄ± bÃ¶ceÄŸi bilmeyen, bir kuzunun
+7:51 doÄŸumuna ÅŸahit olmayan Ã§ocuktan merhamet nasÄ±l beklenebilir ki? Tabiat ile iÃ§ iÃ§e yaÅŸayan Ã§ocuklarÄ±n zihni aÃ§Ä±ktÄ±r. Belki de Ã§obanlarÄ±n Ã§alÄ±ÅŸtÄ±klarÄ± vakit
+7:59 sÄ±navlarda kolaylÄ±kla derece almalarÄ± bu sebepledir. Ãœstelik bundan Ã¶nceki nesiller bir ÅŸekilde doÄŸanÄ±n iÃ§indeydi.
+8:05 Bu sebeple tabiattan kopuk yetiÅŸecek nesillerin neye evrileceÄŸi muamma. DoÄŸal beslenme, saÄŸlÄ±klÄ± hayat gibi konulara bu videoda deÄŸinmiyorum. Ancak Ã§ocuk
+8:13 iÃ§in bunlar da Ã§ok Ã¶nemlidir. Ã–ncelikle ÅŸehirde, kasabada veya kÃ¶yde olsun bir anne Ã§ocuÄŸunu gÃ¼venle dÄ±ÅŸarÄ±ya bÄ±rakabilmelidir. Ã‡ocuk dÄ±ÅŸarÄ±dan korkmamalÄ±dÄ±r. Mesela kÃ¶y bÃ¶yledir.
+8:23 Ã‡ocuk rahatlÄ±kla dÄ±ÅŸarÄ± Ã§Ä±kabilir. KÃ¶yÃ¼n sakinleri veya o Ã§ocuktan daha bÃ¼yÃ¼k Ã§ocuklar onlarÄ± gÃ¶zetir veya gÃ¶zetmelerine bile gerek kalmaz. Bu
+8:31 dediÄŸim ÅŸehirde de olabilir. Bu iddia size garip gelebilir. Ancak bir Ã¶rnek olarak ÅŸunu verebilirim. Toprak mimarlÄ±ÄŸÄ±na ilk baÅŸladÄ±ÄŸÄ±m yÄ±llarda her
+8:40 eski pÃ¼skÃ¼ ne olduÄŸu belli olmayan barakaya kerpiÅŸ dendiÄŸinden olsa gerek bana yapamazsÄ±n deniyordu. Buna raÄŸmen prensip gereÄŸi betona dÃ¶nmedim ve
+8:47 inandÄ±ÄŸÄ±m yolda yÃ¼rÃ¼meye ve Ã§alÄ±ÅŸmaya devam ettim. ArdÄ±ndan kÃ¶ylerde yapÄ±nca ÅŸehirde yapamazsÄ±n denmeye baÅŸladÄ± bana.
+8:53 En son ise bizzat ÅŸehrin gÃ¶beÄŸinde Ã¼stelik kerpiÅŸ dÃ¶kerek bir ev inÅŸa ettik. Bu da gÃ¶steriyor ki insan prensip sahibi olduktan ve inandÄ±ktan ve
+9:02 Ã§alÄ±ÅŸtÄ±ktan sonra her ÅŸey olabilir. Ä°lk videoda deÄŸindiÄŸim gibi medeniyet de bÃ¶yle bir ÅŸeydir zaten. Evet, ÅŸehirler kÃ¶yleÅŸmelidir. Zaten eskiden ÅŸehirlerimiz bÃ¶yle yerlerdi.
+9:13 BostanlarÄ±yla, kÃ¶yleriyle ÅŸehir kÃ¶ylerden oluÅŸan bir demetti. Ã–rneÄŸin Ä°stanbul'un sonu kÃ¶y biten semtlerin isimleri de iÅŸte buradan gelmektedir.
+9:21 Burjuva kelimesi Almanya'nÄ±n Burk kentinden gelmektedir. Burk kale demektir. Burjuva kÃ¶leleri olan kÃ¶ylÃ¼lerden ve diÄŸer etmenlerden
+9:30 kendisini ve sermayesini korumak iÃ§in bu ÅŸatolarda yaÅŸardÄ± veya sÄ±ÄŸÄ±nÄ±rdÄ±.
+9:34 TeomanduralÄ± bu ÅŸatolarÄ±n iÃ§indeki yaÅŸam itibariyle bugÃ¼nkÃ¼ ÅŸehirlere evrildiÄŸini sÃ¶ylemektedir. Yani ÅŸehirlerimiz bizim geleneksel Ã¶zelliklerimizi
+9:42 yansÄ±tmamakta. Aksine kapitalist dÃ¼nyanÄ±n hapishaneleri, surlarla Ã§evrili kaleleri olarak var olmaktadÄ±r.
+9:49 Hapishanede mutlu olamayan insanlar tek mutluluÄŸun para harcamak olduÄŸunu sandÄ±lar. Ancak o da olmadÄ±. Burk bir kaleydi. Åehirde de insanÄ±mÄ±z kendini
+9:58 koruma altÄ±na almak iÃ§in sitelere sÄ±ÄŸÄ±ndÄ±. Yani kale iÃ§inde kale, hapishane iÃ§inde hapishane. Arabayla ulaÅŸÄ±labilen, otoparkÄ±ndan asansÃ¶rle eve
+10:06 Ã§Ä±kÄ±labilen, otopark Ã¼stÃ¼ Ã§imlerde gezinilen, kullanÄ±lmayan, yÃ¼zme havuzlarÄ±na bakÄ±lan siteler. Ancak sitelerde insanlarÄ± bir araya getiren tek ortak nokta paraydÄ±. Herkes kendi
+10:15 sÄ±nÄ±fÄ±na yakÄ±n insanlarla bir araya geldi. Ancak para insanlÄ±k iÃ§in bir Ã¶lÃ§Ã¼t deÄŸildir ki. Yani hiÃ§bir ÅŸey deÄŸiÅŸmedi. GÃ¼ven yine saÄŸlanamadÄ±. Anne
+10:23 sitedeki evin parasÄ±nÄ± karÅŸÄ±layabilmek iÃ§in kariyer yapmak adÄ±na plazalara yÃ¶neldi. KazanÄ±lan para Ã§ocuÄŸun bakÄ±ÅŸ aÃ§Ä±sÄ±na gitti. Yani Ã§ocuk annesinden uzak, bakÄ±cÄ±sÄ±nÄ±n merhametine kaldÄ±.
+10:32 KÃ¶ydeki anne ise cahil olarak nitelendirildi. SalÃ§a Tarhana'a da yapsa, Ã§ocuklarÄ±na da baksa cahildi o.
+10:38 Oysa plazadaki mail cevaplayan veya ona Ã§ay getiren anne kariyer yapÄ±yordu.
+10:43 Kapitalist ÅŸehirde emek zayi olan bir emektir. Bir taraftan da Ã§ocuk aÃ§Ä±sÄ±ndan anne ve baba ayrÄ±mÄ± da muÄŸlaklaÅŸtÄ±.
+10:50 Ã‡Ã¼nkÃ¼ iki ebeveyn de sabah Ã§Ä±kÄ±p akÅŸam gelen insanlardÄ±. Bu baÄŸlamda sermaye sahipleri iÃ§in anne, baba ve Ã§ocuk mal satÄ±lacak aynÄ± ÅŸey yani tÃ¼keticidir.
+11:01 Hepsinin aynÄ± ÅŸey olmasÄ± onlar iÃ§in Ã¶nemlidir. Ã‡ocuk Ã¶zgÃ¼r olmalÄ±dÄ±r. Ã‡ocuÄŸun sÄ±nÄ±rÄ± kendi yÃ¼rÃ¼me mesafesidir.
+11:09 Yani ÅŸehirler birbirinden kopuk mahalleler veya kÃ¶ylerden meydana getirilmelidir. Zihninde kavrayabildiÄŸi, sÄ±nÄ±rlarÄ±nÄ± bildiÄŸi, komÅŸularÄ±nÄ±,
+11:16 bahÃ§elerini, aÄŸaÃ§larÄ±nÄ± tanÄ±dÄ±ÄŸÄ± bir kÃ¶y veya mahalle Ã§ocukta vatan duygusu oluÅŸturur. Ã‡Ã¼nkÃ¼ bunlarÄ±n tamamÄ± onun evi ve yuvasÄ±dÄ±r ve korunmasÄ±
+11:25 gereklidir. Ancak iÃ§ine kaÃ§ar gibi sÄ±ÄŸÄ±nabildiÄŸi bir beton kutudaki Ã§ocuk ÅŸehri vatan bellemez. SonuÃ§ olarak ÅŸehir ve mimari medeniyetin kapsayÄ±cÄ±lÄ±k
+11:33 manasÄ±nda en Ã¶nemli Ã¶ÄŸesidir. Ancak gÃ¼nÃ¼mÃ¼z itibariyle felsefe, dÃ¼ÅŸÃ¼nce ve zaman isteyen bu konu bizim iÃ§in
+11:40 hÃ¼kÃ¼metinden en altÄ±ndaki bireye en zayÄ±f olduÄŸumuz ve Ã¼zerine en Ã§ok Ã§alÄ±ÅŸmamÄ±z gereken konudur. Oysa Ã¶rneÄŸin
+11:48 Ä°slam dÃ¼nyasÄ± iÃ§in mimari diÄŸer sanat ve kÃ¼ltÃ¼r dallarÄ±na gÃ¶re Ã§ok Ã¶nem verilen bir konuydu. BaÅŸta inancÄ±n fiziksel
+11:55 merkezinde mimari bir yapÄ± olan Kabe vardÄ±. Ve evlerin sÃ¼slemeleri, duvara asÄ±lan resimler, kilimler, yapÄ± ve ÅŸehir
+12:02 gÃ¶zsellerinden oluÅŸuyordu. Bir hÃ¼kÃ¼mdar ÅŸehri gÃ¼zel camiler, Ã§eÅŸmeler, medreseler, Ã§arÅŸÄ±lar ve konaklarla ÅŸenlendiriyordu. Bu Ä°slam dÃ¼nyasÄ±nÄ±n
+12:11 veya bizim geleneÄŸimizin mimariye ne kadar Ã¶nem verdiÄŸinin bir gÃ¶stergesidir.
+12:16 VelhasÄ±lÄ± Ã§ocuklarÄ±n yÄ±ldÄ±zlarÄ±nÄ±n Ã¶nÃ¼ne geÃ§meyelim. BÄ±rakalÄ±m da rahat rahat izleyip dÃ¼ÅŸlere dalabilsinler.
+12:24 Para, para, [mÃ¼zik] para, para.
+12:26 Yani ekonomi. Åaka bir yana para elbette Ã¶nemli ancak gÃ¼nÃ¼mÃ¼zde aÅŸÄ±rÄ± Ã¶nemsendiÄŸi de bir gerÃ§ek. Ã‡Ã¼nkÃ¼ ihtiyaÃ§ Ã§ok, alacak sÄ±nÄ±rsÄ±z ÅŸey var. Modern ÅŸehirler nasÄ±l
+12:35 oluÅŸtu? Sanayi devrimi ile birlikte fabrikalarda Ã§alÄ±ÅŸtÄ±racak insan gÃ¼cÃ¼ne ihtiyaÃ§ doÄŸdu. Ä°nsanlar kÃ¶ylerden Ã§Ä±kÄ±p fabrikalarda Ã§alÄ±ÅŸmak iÃ§in ÅŸehre geldi.
+12:44 Fabrikalar Ã§oÄŸaldÄ±kÃ§a seri Ã¼retim mallar piyasayÄ± sardÄ± ve insan Ã¼retimi fabrikayla yarÄ±ÅŸamadÄ±. BÃ¶yle olunca daha fazla insan iÅŸsiz kaldÄ± ve iÅŸÃ§i oldu.
+12:53 YarÄ±ÅŸamadÄ±ÄŸÄ± market zincirinde Ã§alÄ±ÅŸan olmak zorunda kalan bakkal gibi. Para babalarÄ± bazen cebri yollara da baÅŸvurdular insanlarÄ± iÅŸÃ§i yapmak iÃ§in.
+13:01 Ã–rneÄŸin Ä°ngiltere'de et ithalatÄ± kÄ±sÄ±tlandÄ±rÄ±lmÄ±ÅŸtÄ±. Bu sebeple yerel Ã¼retici hayatta kalabiliyordu. Sermaye sahipleri meÅŸhur dergi yollandÄ±ÄŸÄ±
+13:09 ekonomisti Ã§Ä±kardÄ±lar. Bu yayÄ±n ile hÃ¼kÃ¼met Ã¼zerinde baskÄ± kurup et ithalatÄ±nÄ± serbest bÄ±raktÄ±rdÄ±lar. Hal bÃ¶yle olunca da daha fazla kÃ¶ylÃ¼ iÅŸsiz
+13:17 kaldÄ± ve ÅŸehre gÃ¶Ã§erek fabrika iÅŸÃ§isi oldu. Sanayi devrimi dÃ¶neminde ÅŸehirler dolup taÅŸÄ±nca iÅŸÃ§i sÄ±nÄ±fÄ± iÃ§in konut ve
+13:25 para sÄ±kÄ±ntÄ±sÄ± doÄŸdu. Ã–yle ki bir Ã§ift kendi yattÄ±klarÄ± yataÄŸa Ã¼Ã§Ã¼ncÃ¼ bir kiÅŸiye kiraya verir olmuÅŸtu. Ã‡ocuklar
+13:32 bile sabah 6'dan akÅŸam 8'e kadar fabrikalarda Ã§alÄ±ÅŸmak zorundaydÄ±.
+13:36 Sosyalist dÃ¼ÅŸÃ¼ncenin yÃ¼kseldiÄŸi o gÃ¼nlerde Charles Forer, Simon ve Robert Owen gibi Ã¼topik sosyalistler ortaya
+13:43 Ã§Ä±ktÄ±. Bunlardan Robert Owen bir Ä°ngiliz fabrikatÃ¶rdÃ¼. Ä°ÅŸÃ§ilerin daha iyi yaÅŸam ÅŸartlarÄ±na kavuÅŸmasÄ±nÄ± kafaya takan Owen, teorisyenliÄŸini aksiyona
+13:51 dÃ¶nÃ¼ÅŸtÃ¼rÃ¼p Ä°skocya Newark'da bir yer kiralayarak para kaybetmek pahasÄ±na fikirlerini denemeye koyuldu. Burada fabrikalarda gÃ¼n Ä±ÅŸÄ±ÄŸÄ± gÃ¶rmeden Ã§alÄ±ÅŸan
+14:00 Ã§ocuklarÄ±n gelecekte suÃ§ makinelerÄ±na dÃ¶nÃ¼ÅŸeceklerini sÃ¶yleyerek Ã§ocuklarÄ±n fabrika yerine okula gitmesi iÃ§in okul kurdu ve iÅŸÃ§ilerin 8 saat Ã§alÄ±ÅŸmasÄ± gibi
+14:08 iyileÅŸtirmeleri denedi. Bunda baÅŸarÄ±lÄ± da oldu. Daha sonra takipÃ§ileriyle beraber Amerika BirleÅŸik Devletleri'nde New Harmony'de ikinci bir deneme daha
+14:17 yaptÄ±. Buradaki okul sistemi de daha sonra elit Amerikan okullarÄ±na ilham olmuÅŸtur. Buna neden deÄŸiniyorum? Åu
+14:24 sebeple kendi sorunlarÄ±na eÄŸilen ve yeni Ã§Ã¶zÃ¼mler Ã¼reten, Ã¼stelik para kaybetmek pahasisinde bunu yapan bir kiÅŸi var karÅŸÄ±mÄ±zda. Ã–yle ki 8 saat Ã¶nerisi hala
+14:33 tÃ¼m dÃ¼nyada kullanÄ±lÄ±yor. Ancak yine de gÃ¼nÃ¼n sonunda Robert Owen bir kapitalisti. Yeri gelmiÅŸken hatÄ±rlatayÄ±m. Daha fazlasÄ± iÃ§in
+14:41 Medeniyet GÃ¼nlÃ¼kleri 3 canlÄ± yayÄ±nÄ±nÄ± dinleyebilirsiniz. Peki TÃ¼rkiye'de ÅŸehirler nasÄ±l oluÅŸtu? Ä°ngiltere ve Fransa'ya nispetle bakÄ±ldÄ±ÄŸÄ±nda
+14:48 TÃ¼rkiye'nin bir sanayi devrimi yaÅŸamadÄ±ÄŸÄ± gÃ¶rÃ¼lÃ¼r. Bizde ilk ÅŸehirleÅŸme hareketi yeni baÅŸkent Ankara'nÄ±n kurulmasÄ±dÄ±r. Bu da Ã¶yle naif olmuÅŸtur
+14:56 ki salt bÃ¼rokrasi iÃ§in meydana getirilen ÅŸehir bÃ¼rokrasiye hizmet etmek iÃ§in gelenler tarafÄ±ndan doldurulur. Ä°lk gece kondular bÃ¶yle ortaya Ã§Ä±kar. KÄ±sÄ±tlÄ±
+15:04 manada da olsa sanayisinden bahsedilebilecek ÅŸehir Ä°stanbul'dur.
+15:07 Hani TÃ¼rk filmlerinde konaÄŸÄ±ndan fabrikasÄ±na giden fabrikatÃ¶rler vardÄ± ya iÅŸte onlar bile az sayÄ±dadÄ±r aslÄ±nda.
+15:13 Bir tek Hulusi Kentmen'den bahsedilebilir. Neyse efendim bizim ÅŸehirlerimiz gelenler iÃ§in gelenler iÃ§in gelenler iÃ§in gelenlerden oluÅŸur. Yani
+15:21 bir kiÅŸi bir ÅŸekilde gelir. Sonra bir baÅŸkasÄ± ona ekmek piÅŸirmek, diÄŸeri Ã§ay vermek bir diÄŸeri de muhabbet etmek.
+15:27 Evet, egzajere ediyorum ama durum bÃ¶ylesine trajik komiktir aslÄ±nda. KÃ¶y ve Anadolu ÅŸehirleri aÅŸÄ±rÄ± ihmal edilmiÅŸ. Bu sebeple yurt iÃ§inde suni bir
+15:36 hareket doÄŸmuÅŸtur. GÃ¼nÃ¼mÃ¼ze geldiÄŸimizde ise bÃ¼yÃ¼k ÅŸehirlerde kalabalÄ±klar aÅŸÄ±rÄ± artmÄ±ÅŸ, Anadolu ÅŸehirleri de onlara Ã¶kÃ¼lmÃ¼ÅŸtÃ¼r. ArtÄ±k bir sanayiden
+15:44 bahsedebiliyoruz ama hala kendi sorunlarÄ±mÄ±za Ã§Ã¶zÃ¼m arayan bir Robert Owen'a rastlamÄ±yoruz. Bu baÄŸlamda geÃ§en gÃ¼nlerde Baykar ve SelÃ§uk Bayraktar'Ä±
+15:51 mentionlayarak bir tweet attÄ±m. Bu tweet'te daha iyi teknolojiye sahip hava araÃ§larÄ± yapmak istiyorsanÄ±z teknoloji kampÃ¼sÃ¼ deÄŸil teknoloji kÃ¶yÃ¼ kurmanÄ±zÄ±
+16:00 ve Ã§alÄ±ÅŸanlarÄ±nÄ±zÄ±n o kÃ¶yde ikamet etmesini tavsiye ederim dedim. Buradaki amacÄ±m vatanseverliÄŸi ile ve vizyonuyla bilinen bayraktarlara bu mevzuyu
+16:08 bildirmekti. Ã‡Ã¼nkÃ¼ eÄŸer bir deÄŸiÅŸim baÅŸlayacaksa buna Ã¶n ayak olabilecek imkanlarÄ± ve aÃ§Ä±k fikirleri vardÄ±. Ã‡Ã¼nkÃ¼ yeni bir hayat ÅŸart. BugÃ¼n ezilmenin ve
+16:16 geri kalmÄ±ÅŸlÄ±ÄŸÄ±n bÄ±kkÄ±nlÄ±ÄŸÄ±na tepki olarak doÄŸan teknolojik geliÅŸmelerin bu ÅŸekilde devam edeceÄŸinin bir garantisi yok. Ã‡Ã¼nkÃ¼ insani olmayan ÅŸehirlerde
+16:24 yaÅŸayÄ±p insan kalmak zor. Harala GÃ¼rele iÃ§inde yaÅŸayan bir mÃ¼hendisten ne kadar yeni fikir Ã¼retmesini bekleyebilirsiniz ki? Åimdi gelelim medeniyet ve ekonomi
+16:32 iliÅŸkisine. Para Ã¶nemli. Ä°nsan nerede doyarsa orada yaÅŸar. Åehirlerimizin kÃ¶yleÅŸmesi ve kÃ¶ylerin yeniden dÃ¼ÅŸÃ¼nÃ¼lmesi mevzusuna bakacak olursak
+16:40 kÃ¶ylerin iÅŸ kollarÄ±na gÃ¶re meydana Ã§Ä±kmasÄ± gerekiyor ki kÃ¶y Ã¶zÃ¼nde bÃ¶yle bir yerdir. KÃ¶ylerin salt, tarÄ±m ve hayvancÄ±lÄ±k ile anÄ±lmasÄ± gÃ¼nÃ¼mÃ¼z itibariyle yetersiz bir anlayÄ±ÅŸtÄ±r.
+16:51 [mÃ¼zik] Ä°ÅŸte Ã¶rneÄŸin Baykar ÅŸirketi bir kÃ¶y kurduÄŸunda bu teknoloji kÃ¶yÃ¼ olacaktÄ±r. Mesela bir kÃ¶y peynirci, diÄŸer kÃ¶y ise tekstilci olabilir.
+16:59 Nitekim bunun Ã¶rnekleri vardÄ±r. Mesela Denizli'nin BabadaÄŸ kÃ¶yÃ¼ dokunmacÄ±lÄ±kla Ã¶nlenmiÅŸ ve zamanÄ±nÄ±n en bÃ¼yÃ¼k SÃ¼merbank fabrikasÄ±nÄ±n iki katÄ± Ã¼retimi tek baÅŸÄ±na
+17:08 bu kÃ¶y yapmÄ±ÅŸ. Yani Ã¶ncelikle kÃ¶yler belli bir ekonomik model etrafÄ±nda ÅŸekillenmelidir. Bir de bu kÃ¶ylerin merkezinde Ã§arÅŸÄ±lÄ± kÃ¶y dediÄŸim kÃ¶yler
+17:16 olmalÄ±dÄ±r. Ana Ã¶zelliÄŸi Ã§arÅŸÄ± ve pazar olan bu kÃ¶yler bÃ¼rokratik anlamda merkezdir. AynÄ± zamanda civar kÃ¶ydekiler mallarÄ±nÄ± doÄŸrudan bu Ã§arÅŸÄ± ve pazarda
+17:24 satabilecek iÅŸ anlaÅŸmalarÄ± yapabileceklerdir. KÃ¶yler Ã¼rÃ¼nlerini Ã¶ncelikle burada eritecek, Ã¼rÃ¼n arttÄ±kÃ§a civara daÄŸÄ±lacaktÄ±r. Daha rahat ve
+17:32 entelektÃ¼el anlamda bilinÃ§li bir Ã¼retimin olduÄŸu bir ortamda Ã¼rÃ¼nler elbette daha nitelikli olacak. Bu da onlarÄ±n deÄŸerini arttÄ±racaktÄ±r. Mesela
+17:39 organik gÄ±da Ã¼retiminin olduÄŸu bir kÃ¶y daha fazla kazanacaktÄ±r. Bu kolaydÄ±r.
+17:43 Ã‡Ã¼nkÃ¼ siz dÃ¼ÅŸÃ¼nce anlamÄ±nda bilinÃ§li bir gÄ±da kÃ¶yÃ¼ kuruyorsunuz. Mesela kÃ¶yÃ¼ne dÃ¶nÃ¼p kÃ¶ylÃ¼sÃ¼nÃ¼ de bilinÃ§lendirerek kaliteli peynir, kiraz, el iÅŸi, bez ve
+17:52 benzeri Ã¼rÃ¼nler Ã¼reten bazÄ± kimselerin Ã¼rÃ¼nlerini daha yÃ¼ksek fiyatla doÄŸrudan geliÅŸmiÅŸ pazarlara sattÄ±klarÄ± Ã¶rnekler vardÄ±r. KÃ¶yler arasÄ± mesafe Ã§ocuk
+18:01 videosunda bahsettiÄŸim minimum Ã§ocuk yÃ¼rÃ¼yÃ¼ÅŸÃ¼ uzaklÄ±ÄŸÄ±nda olacak. Aralarda tabii kuÅŸak ya da yeÅŸil kuÅŸak bulunacaktÄ±r. KÃ¶ylerin haddinden fazla
+18:08 bÃ¼yÃ¼mesine mÃ¼saade edilmeyecek. KÃ¶yler geniÅŸleyerek deÄŸil bÃ¶lÃ¼nerek Ã§oÄŸalacaktÄ±r. KÃ¶ylerdeki evler doÄŸal malzemelerle inÅŸa edilecek. Enerji ve su
+18:16 baÄŸÄ±msÄ±zlÄ±ÄŸÄ±, atÄ±k yÃ¶netimi dÃ¼ÅŸÃ¼nÃ¼lerek meydana getirilecektir. Ekonomi biraz da bakÄ±ÅŸ aÃ§Ä±sÄ±dÄ±r. Åehirde saygÄ± elde etmek iÃ§in Ã¶rneÄŸin lÃ¼ks araba almasÄ±
+18:25 gerektiÄŸine inanan bir insanÄ±n elbette kÃ¶yde bÃ¶yle dertleri azalacaktÄ±r. Evet, insan doyumsuz olabilen bir varlÄ±ktÄ±r.
+18:32 Ancak kÃ¶y ortamÄ±nda ÅŸehirdeki kadar Ã§ok hayali ve gereksiz ihtiyaÃ§ olmayacaktÄ±r.
+18:37 YaÅŸamanÄ±n tabiat iÃ§erisinde sÄ±kÄ±ÅŸÄ±klÄ±k, trafik gibi saÃ§malÄ±klarÄ±n olmadÄ±ÄŸÄ± bir yerde ilerlediÄŸi dÃ¼ÅŸÃ¼nÃ¼ldÃ¼ÄŸÃ¼nde maddi kaygÄ±larÄ±n azaldÄ±ÄŸÄ± gÃ¶rÃ¼lecektir. AynÄ±
+18:45 zamanda temiz gÄ±da ve benzeri Ã¼retimin doÄŸrudan merkezinde oturan insan iÃ§in tÃ¼ketim market baÄŸÄ±mlÄ±lÄ±ÄŸÄ±nÄ±n Ã¶tesine geÃ§ecektir. KÃ¶yler kuruldukÃ§a ÅŸehirler
+18:53 normalleÅŸecek ve dengeli nÃ¼fusa eriÅŸecektir. BÃ¶ylelikle mevcut ÅŸehirlerin kÃ¶yleÅŸmesi de saÄŸlanacaktÄ±r. Bu noktada ÅŸehrin kÃ¶yleÅŸmesi ne demek?
+19:02 Daha Ã¶nce yaptÄ±ÄŸÄ±m kÃ¶y nedir videosunda birtÄ±m ipuÃ§larÄ± bulabilirsiniz. KÃ¶y ne demek? KÃ¶y Ã¼retim demek. DoÄŸa demek
+19:11 hÃ¼rriyet demek. KÃ¶y, asker, gÄ±da, direnÃ§, baÄŸÄ±msÄ±zlÄ±k demek. Neden mi?
+19:16 ÅÃ¶yle, kÃ¶y geleneksel olarak yerleÅŸim yerlerine uzaklÄ±ÄŸÄ± sebebiyle kendi iÅŸini gÃ¶rmÃ¼ÅŸ birimlerdir. Ekmek, sebze, et,
+19:24 tahÄ±l, meyve, hemen her ÅŸey. TÃ¼m bunlarÄ±n yapÄ±labilmesi iÃ§in de insan gÃ¼cÃ¼ yetiÅŸmiÅŸtir kÃ¶ylerde. KÃ¶ylÃ¼ yerleÅŸim yerlerinden uzak kalmÄ±ÅŸtÄ±r.
+19:32 Ancak bu sayede doÄŸanÄ±n sahibi olmuÅŸtur. DoÄŸayÄ± bilen insanlÄ±ktan Ã§Ä±kar mÄ±? Ã‡Ä±kmaz.
+19:37 Bunlar hepsi daÄŸÄ±tÄ±lmÄ±ÅŸ, mahvedilmiÅŸ bir [mÃ¼zik] doÄŸadan.
+19:41 HÄ±. DoÄŸanÄ±n doÄŸayla baÄŸ kesilmiÅŸ. Ä°lgisi iliÅŸi yok. Apartman katÄ±nda yetiÅŸmiÅŸ, asfaltta yetiÅŸmiÅŸ.
+19:49 AÄŸacÄ± bÄ±rak ot gÃ¶rmemiÅŸ.
+19:52 Ã‡ocuk bunda insaf duygusunu nasÄ±l yaratÄ±rsÄ±n? Neyle yaratÄ±rsÄ±n? Ve onu din terbiyesi [mÃ¼zik] de kurtarmaz. Ã‡Ã¼nkÃ¼
+20:00 ezbere kalacaktÄ±r. KulaÄŸÄ±nda bÃ¶yle yabancÄ± bir ses olarak kalacaktÄ±r. Bunu gÃ¶rmek istiyor insan. [mÃ¼zik] yaÅŸamak istiyor. GÃ¶ÄŸÃ¼ gÃ¶receksin.
+20:10 O yÄ±ldÄ±zlarÄ± gÃ¶receksin. O biraz Ã¶nce sÃ¶ylediÄŸim gibi hayvanÄ±n doÄŸuÅŸu, bitkinin yetiÅŸiÅŸi ve emek. EmeÄŸin kendisi tarÄ±mdadÄ±r, topraktadÄ±r.
+20:22 Fabrikada emek boÅŸa giden bir emektir.
+20:25 Ä°nsanÄ± yabancÄ±laÅŸtÄ±rÄ±yor. Ä°ÅŸte oradaki emek [mÃ¼zik] insanÄ± kendine dÃ¶ndÃ¼ren emek tarÄ±m emeÄŸidir yahut zanaatkarlÄ±ktÄ±r. [mÃ¼zik]
+20:33 EmeÄŸimin sonucunu gÃ¶rÃ¼yorum. EktiÄŸim bitiyor ya. Bu sevgi buradadÄ±r. Ä°ÅŸte 1950 yÄ±lÄ±nda TÃ¼rkiye nÃ¼fusunun %80'ine
+20:42 yakÄ±nÄ± kÄ±rsalda yaÅŸÄ±yordu. Daha sonra kÃ¶ylÃ¼ler fabrikalarda, inÅŸaatlarda, temizlik iÅŸinde aklÄ±nÄ±za ne gelirse artÄ±k Ã§alÄ±ÅŸmak iÃ§in kentlere yÃ¶neldi.
+20:51 Kent ne demek? Kent yoÄŸunluk demek.
+20:53 Doyurulmak iÃ§in akvaryumda balÄ±k misali bekleyen markete, fÄ±rÄ±na, doÄŸalgaza muhtaÃ§ insanlar demek. [mÃ¼zik] Kentcillik, empati yoksunluÄŸu ve
+21:01 merhametsizlik demek. BÃ¼tÃ¼n bu sorunlarÄ±n kÄ±smen daha az gÃ¶rÃ¼nÃ¼r olmasÄ±nÄ±n nedeni kÃ¶ylerin can Ã§ekiÅŸse de hala yaÅŸÄ±yor oluÅŸundandÄ±r. Ã–yle ki kente
+21:09 gÃ¶Ã§enlerin Ã¶nemli bir bÃ¶lÃ¼mÃ¼nÃ¼n bugÃ¼ne kadar kÃ¶y ile iliÅŸkisi vardÄ±. SalÃ§asÄ±, turÅŸusu gelirdi. Bayramlarda gidecekleri evleri vardÄ±. Ancak kÃ¶yler bitmek Ã¼zere.
+21:18 KÃ¶y nÃ¼fusu yaÅŸlandÄ±. Ã‡arpÄ±k ve doÄŸadan kopuk kentlerde insanÄ±mÄ±zÄ±n beton kutularda yaÅŸadÄ±ÄŸÄ±, Ã§alÄ±ÅŸtÄ±ÄŸÄ± ve aralarÄ±nda gezinmeye Ã§abaladÄ±ÄŸÄ±
+21:25 dÃ¼ÅŸÃ¼nÃ¼ldÃ¼ÄŸÃ¼nde ve bu insanlarÄ±n bÃ¼yÃ¼k bÃ¶lÃ¼mÃ¼nÃ¼n geÃ§miÅŸinin kÃ¶y olduÄŸu gÃ¶ze alÄ±ndÄ±ÄŸÄ±nda psikolojik bunalÄ±mlar kaÃ§Ä±nÄ±lmazdÄ±r.
+21:33 Mimari anlamasÄ± zor bir alandÄ±r.
+21:35 DetaylÄ±, felsefik, uzun vade isteyen aynÄ± zamanda hayatÄ±n doÄŸrudan iÃ§inde, Ã¼retimi iÃ§in bÃ¼yÃ¼k maliyet ve iÅŸ gÃ¼cÃ¼ gerektiren bir alandÄ±r. Bu sebeple planÄ±
+21:43 olmayan toplum yoÄŸun iÅŸ gÃ¼cÃ¼ ve para harcasa da kendine ancak bir hapishane inÅŸa edebilir. BugÃ¼n antidepresan ilaÃ§ kullanÄ±mÄ±nÄ±n patlama yapma nedeni de
+21:51 budur. Beka meselesi denildiÄŸinde akan sular durur ve herkes mutabakat gÃ¶sterir. Ancak ÅŸehir de bir beka meselesidir. NasÄ±l mÄ±? Ã–ncelikle
+21:59 ÅŸehirleÅŸmesini tamamlamÄ±ÅŸ toplumlarda askerlik gereksiz bir yÃ¼k olarak belirir. Kimse asker olmak istemez. AynÄ± zamanda her ÅŸeyle markete, kablolara
+22:06 baÄŸlÄ± yaÅŸayan bir toplumun dirayetini kesmek Ã§ok kolay olacaktÄ±r. Problem anÄ±nda gÄ±da alamayan, Ä±sÄ±namayan, sÄ±ÄŸÄ±nacak yer bulamayan insanlar kolay
+22:13 teslim olur. Åehir bir insan tarafÄ±ndan sahiplenilmez. KÃ¶yÃ¼n sahibi ise kÃ¶ylÃ¼dÃ¼r. Deprem bize bir kere daha
+22:20 gÃ¶sterdi ki hem deprem anÄ±nda hem de depremden sonra ÅŸehirler felÃ§ olmuÅŸtur.
+22:25 KÃ¶ylerde mÃ¼hendislik dÄ±ÅŸÄ± ilerleyen az katlÄ± yapÄ±lar dahi daha az insanÄ±n hayatÄ±na mal olmuÅŸ, deprem sonrasÄ±nda kÃ¶ylerdeki Ã¼stelik yaÅŸlÄ± olmalarÄ±na
+22:33 raÄŸmen insanlar ÅŸehirdekilerine gÃ¶re kendilerini idare edebilmiÅŸlerdir.
+22:37 Åehirliler kÃ¶ylere sayfiye yeri olarak bakmakta. Gidip gitmeyecekleri belli olmayan ev veya ev benzeri konteynerÄ±, tiny house gibi gariplikler inÅŸa
+22:44 etmektedirler. Bu insanlardan bir kÃ¶ylÃ¼ gibi Ã¼retim yapmalarÄ± beklenemez. Zaten hemen her alanda para babalarÄ±nÄ±n dev ÅŸirketlerine baÄŸÄ±mlÄ± olarak yaÅŸayan
+22:52 insanlar kÃ¶yler tamamen bittikten sonra gÄ±da anlamÄ±nda da baÄŸÄ±mlÄ± hale [mÃ¼zik] gelecektir. Peki ne yapmalÄ±? YapÄ±lacak
+23:00 ÅŸey belli. Modern dÃ¶nem Ã¶ncesi ÅŸehirlerimizde keskin bir kÄ±rkent ayrÄ±mÄ± yoktu. Ä°stanbul gibi bir metropolde dahi yakÄ±n Ã§evrede bostanlarda gÄ±da Ã¼retimi
+23:09 yapÄ±lÄ±yordu. ArnavutkÃ¶y, MecidiyekÃ¶y gibi isimlerden de anlaÅŸÄ±lacaÄŸÄ± Ã¼zre Ä°stanbul kÃ¶ylerden oluÅŸan bir demetti.
+23:15 Bu geriye kalan bÃ¼tÃ¼n ÅŸehirlerimiz iÃ§in geÃ§erliydi. Ã–yleyse ÅŸehirlerimizi kÃ¶yleÅŸtirmek durumundayÄ±z. DoÄŸaya yer aÃ§malÄ±yÄ±z. Hem psikolojik anlamda hem de maddi anlamda bu bir zorunluluktur.
+23:25 Bunun iÃ§in dÃ¼ÅŸÃ¼nce anlamÄ±nda Ã§alÄ±ÅŸmalar baÅŸlamak zorundadÄ±r. Haydi artÄ±k kendi sorunlarÄ±mÄ±zÄ± belirleyip kendi Ã§Ã¶zÃ¼mlerimizi Ã¼retmeye baÅŸlayalÄ±m.
+23:33 Hayat estetiÄŸi ne demek? Hayat kelime kÃ¶ken itibariyle diri olma, canlÄ± olma ve yaÅŸama. Estetik ise duyu organlarÄ±yla
+23:40 kavranabilen, gÃ¼zele iliÅŸkin ve gÃ¼zellik teorisi anlamlarÄ±na gelir. Hayat estetiÄŸi mÃ¼him bir mevzudur. Ã–zellikle de bizler iÃ§in. Bunun baÅŸlÄ±ca nedeni
+23:48 hayatÄ± ve yaÅŸayÄ±ÅŸ biÃ§imini bir tÃ¼r sanat olarak gÃ¶ren bir kÃ¼ltÃ¼r geÃ§miÅŸimizin olmasÄ±dÄ±r. BugÃ¼n iÃ§inde yaÅŸadÄ±ÄŸÄ±mÄ±z hayat hegemonik batÄ± gÃ¼Ã§lerinin kendi
+23:56 yaÅŸam tarzlarÄ±nÄ± dÃ¼nyanÄ±n geri kalanÄ±na dayatmasÄ±yla oluÅŸmuÅŸtur. Bu yaÅŸam tarzÄ±nÄ±n merkezinde de pagan hristiyan anlayÄ±ÅŸÄ± mevcuttur. Yani bugÃ¼nÃ¼n kÃ¼resel kÃ¼ltÃ¼rÃ¼ bu ÅŸekilde biÃ§imlenmiÅŸtir.
+24:06 KÄ±yafetinden eÄŸlence anlayÄ±ÅŸÄ±na, tÃ¼ketim Ã§Ä±lgÄ±nlÄ±ÄŸÄ±ndan ÅŸehirlerin oluÅŸumuna durum bu ÅŸekildedir. Ã–rneÄŸin sanat
+24:13 dendiÄŸinde akla resim, heykel, tiyatro, sinema gibi izlenen Ã¼rÃ¼nler gelir. AdÄ± Ã¼stÃ¼nde Ã¼rÃ¼n. Ancak DoÄŸu geleneÄŸinde birÃ§ok noktada hayatÄ±n kendisi sanattÄ±.
+24:23 Oturma kalkmasÄ±ndan Ã§ay seremonisine, zikrinden dÃ¶vÃ¼ÅŸ sanatlarÄ±na kadar.
+24:28 BatÄ±da felsefe pasif biÃ§imde hayattan koparken doÄŸuda bizzat felsefeciler aktif ÅŸekilde hayatÄ±n iÃ§indeydiler.
+24:34 Ã–rneÄŸin Japonya'da Ã¼stat Rickyu Ã§ay seremonisine yeni bir bakÄ±ÅŸ getirmiÅŸ ve seremoninin nasÄ±l yapÄ±lacaÄŸÄ±na dair fikirler Ã¼retmiÅŸtir. Bu donmuÅŸ bir eylem
+24:43 deÄŸildir. FarklÄ± insanlar tarafÄ±ndan sÃ¼rekli uygulanÄ±r. Yani kiÅŸi bu sanatta pasif deÄŸil, bizzat aktif biÃ§imde rol alÄ±r. Ã–rneÄŸin Zikr ayini de bÃ¶yledir.
+24:52 Pasif bir izleyici yoktur. Her fert katÄ±lÄ±mcÄ± olarak bulunur. Hayat estetiÄŸi kiÅŸinin nasÄ±l yaÅŸayacaÄŸÄ±na dair felsefe Ã¼retmesi ve uygulamasÄ±dÄ±r. AslÄ±nda bu
+25:00 felsefe evde yaÅŸamdan, komÅŸularla iliÅŸkiye, tabiata, bakÄ±ÅŸtan Ã§alÄ±ÅŸma ÅŸekline kadar her ÅŸeyi iÃ§ine alÄ±r. Bu baÄŸlamda evin iÃ§inden baÅŸladÄ±ÄŸÄ±mÄ±zda
+25:08 benim iÃ§in oldukÃ§a kÄ±ymetli bir durum olan yer kÃ¼ltÃ¼rÃ¼nden bahsetmek isterim.
+25:12 Modern dÃ¶nemlere kadar Avrupa dÄ±ÅŸÄ±nda kalan neredeyse bÃ¼tÃ¼n toplumlar yerde yaÅŸÄ±yordu. Bizde de durum bÃ¶yleydi. Bu ne demek? yerde oturmak, bir dÃ¶ÅŸek
+25:20 Ã¼zerinde yatmak gibi. Ek olarak ÅŸunu sÃ¶yleyebilirim ki bugÃ¼n nasÄ±l ki koltuk, sandalye, masa ve benzeri mobilyalar olmadan yaÅŸayamÄ±yorsak, zihnimiz buna
+25:29 gÃ¶re ÅŸekillenmiÅŸse o gÃ¼nlerde de insanlarÄ±n zihni yer yaÅŸantÄ±sÄ±na gÃ¶re biÃ§imlenmiÅŸti. BugÃ¼n yer kÃ¼ltÃ¼rÃ¼nÃ¼n nitelikli fragmanlarÄ±nÄ± Japonya'da
+25:37 gÃ¶rÃ¼yor. Ã–yle ki bu kÃ¼ltÃ¼r Ã¶ylesine saygÄ± gÃ¶rÃ¼yor ki birÃ§ok film, oyun ve turistik faaliyet bu baÄŸlamda ÅŸekilleniyor. Bizde ise bir tÃ¼r fakirlik
+25:44 ve marjinallik alameti olarak beliren bu durum tekrardan ele alÄ±nmaya muhtaÃ§tÄ±r.
+25:48 Yer kÃ¼ltÃ¼rÃ¼ hayat felsefesinin baÅŸÄ± gibi geliyor bana. Ã‡Ã¼nkÃ¼ adeta kiÅŸinin yaÅŸamÄ±na dair her ÅŸeyi etkileyecek ve yeniden dÃ¼ÅŸÃ¼me itecek bir Ã§ekirdek
+25:57 hÃ¼vviyetinde. NasÄ±l mÄ±? Yerde yaÅŸayabilmek muhtevasÄ±nda daha az eÅŸya, daha esnek mekan, daha rahat kÄ±yafet, daha dinÃ§ beden, doÄŸa ile daha doÄŸru
+26:05 iliÅŸki, israfÄ± Ã¶nlemek, yere yakÄ±nlÄ±k ve pratiklik gibi etmenler barÄ±ndÄ±rÄ±yor. BugÃ¼n evlerimizi eÅŸya ile dolduruyoruz.
+26:11 Adeta bizim yerimize onlar oturuyor evimizde. Sanki onlarÄ± rahatlatabilmek iÃ§in de daha bÃ¼yÃ¼k evlere ihtiyaÃ§ duyuyoruz. AklÄ±nÄ±za bir kÃ¶y veya geleneksel bir ÅŸehrimizdeki evi getirin.
+26:21 Mesela bir evin sofasÄ±nÄ±. Yerlerde minderler belki bir duvara yaslanmÄ±ÅŸ bir sedir. O kadar. KapÄ±dan misafirler girer ve oturur. KaÃ§ kiÅŸinin geldiÄŸi mÃ¼him
+26:28 deÄŸildir. Mekan sÄ±nÄ±rsÄ±zdÄ±r. Yere hemen bir sofra Ã¶rtÃ¼sÃ¼ serilir ve tepsilerle yemek gelir. Ä°ÅŸte misafir aÄŸÄ±rlamak bu kadar kolaydÄ±r. Peki ya bugÃ¼n
+26:36 misafirlerin kaÃ§ kiÅŸi geleceÄŸi, ne zaman geleceÄŸi haftalar Ã¶ncesinden planlanÄ±r.
+26:40 Yine de buna raÄŸmen evde bÃ¼yÃ¼k bir telaÅŸ olur. Koca yemek masasÄ±, Ã§atalÄ±, bÄ±Ã§aÄŸÄ±, bir umum zervatÄ± ile doldurulur ve misafir iÅŸkencesi baÅŸlar. Misafirler
+26:49 gidince rahat bir nefes alÄ±nÄ±r ki bu misafirler Ã§oÄŸunlukla yakÄ±n akraba veya yakÄ±n arkadaÅŸtÄ±r. Ona raÄŸmen durum bÃ¶yledir. Bu Ã¶rnek Ã§ok basit
+26:58 farkÄ±ndayÄ±m. Ancak anlaÅŸÄ±labilmek adÄ±na gÃ¼nÃ¼mÃ¼z insanÄ±nÄ±n modern dÃ¼nyaya sÄ±kÄ±ÅŸan zihnine Ã¶ncelikle bÃ¶yle Ã¶rnekler vermek
+27:05 gerekiyor. BugÃ¼nÃ¼n kÃ¼ltÃ¼rÃ¼nÃ¼ meydana getiren anlayÄ±ÅŸa baktÄ±ÄŸÄ±mÄ±zda evi adeta izlenecek ya da ziyaret edilecek bir mÃ¼ze gibi eÅŸya ve objelerle donatan,
+27:14 kÄ±ra bahÃ§eye bile sandalye, masa kuran, doÄŸadan ve insandan kopuk bir aristokrat burjuva ÅŸekli gÃ¶rÃ¼yoruz. Zenginliklerini gÃ¶stermek iÃ§in evlerinin cephelerini
+27:22 sÃ¼sleten, aÅŸÃ§Ä±larÄ±na ancak zengin evlerde piÅŸebilecek ve kendi aile isimlerini verdikleri pahalÄ± yemekler hazÄ±rlatan bahÃ§elerini zenginliklerinden
+27:30 Ã¶tÃ¼rÃ¼ hayvan otlatmadÄ±klarÄ±nÄ± ve tarÄ±m yapmadÄ±klarÄ±nÄ± belirtmek iÃ§in Ã§imlerle bezeyen bir anlayÄ±ÅŸ bu. Ä°ÅŸte bugÃ¼n herkes bu yaÅŸam ÅŸeklinden imkanÄ± kadar
+27:38 pay alma Ã§abasÄ±nda. GÃ¼nÃ¼mÃ¼z pasif izleme kÃ¼ltÃ¼rÃ¼nÃ¼n doÄŸduÄŸu batÄ± dÃ¼nyasÄ±nda orijin kilisedir. Ä°zlemeye dayalÄ± ve iÅŸtirakin olmadÄ±ÄŸÄ± bu faaliyetler adeta
+27:47 ruhbanlarÄ±n elinde esir olan kiÅŸiyi temsil eder. Kilise sÄ±rasÄ±na otur ve dinle, izle denmiÅŸtir bu [mÃ¼zik] insana.
+27:53 SinemasÄ±ndan roller coaster'Ä±na kadar her ÅŸey bÃ¶yle ÅŸekillenmiÅŸtir. Oysa dediÄŸim gibi doÄŸu toplumlarÄ±nda iÅŸtirakÄ±n olmadÄ±ÄŸÄ± faaliyet uygun gÃ¶rÃ¼lmez.
+28:00 [mÃ¼zik]
+28:01 Beden ve beÅŸ duyu iÅŸin iÃ§inde olmalÄ±dÄ±r.
+28:03 Bu noktada Ä°slam kÃ¼ltÃ¼rÃ¼nÃ¼n kilisenin aksine namaz ile var olmasÄ± buna iÅŸarettir. Benzerlerini birÃ§ok yer kÃ¼ltÃ¼rÃ¼ne sahip toplumlarda da
+28:10 gÃ¶rebilirsiniz. KÄ±sacasÄ± yeri yeniden deÄŸerlendirmek gereklidir. Bu sayede evlerin kÃ¼Ã§Ã¼lerek geniÅŸlediÄŸini ve inÅŸa etmenin kolaylaÅŸtÄ±ÄŸÄ±nÄ±, yere yakÄ±n
+28:19 mÃ¼stakil yaÅŸamÄ±n geliÅŸtiÄŸini, komÅŸularla iliÅŸkinin arttÄ±ÄŸÄ±nÄ±, tabiata olan bakÄ±ÅŸÄ±mÄ±zÄ±n farklÄ±laÅŸtÄ±ÄŸÄ±nÄ± gÃ¶receÄŸiz.
+28:26 Yer yaÅŸamÄ±nÄ±n bir diÄŸer Ã¶zelliÄŸi de mekanÄ±n temiz ve kutsal olmasÄ± durumudur. GÃ¼zelim halÄ± ve kilimlerle bezenmiÅŸ zemine ayakkabÄ±yla basÄ±lmaz.
+28:34 Elbette ayakkabÄ±yla mekana girmemek salt, temizlik deÄŸil, saygÄ± ve kutsilik ile de ilgilidir. Bu noktadan sonra
+28:41 salon, banyo, koridor, tuvalet, balkon ve benzeri birÃ§ok kelimeden oluÅŸan mimari mekan isimlerimizin sofa, baÅŸa,
+28:49 hela, hayat, sedir, seki, yer sofrasÄ± gibi isimlere de dÃ¶nÃ¼ÅŸmeye baÅŸladÄ±ÄŸÄ±nÄ± gÃ¶receÄŸiz. Bu bize bizi getirecek ve birÃ§ok yeniliÄŸi de keÅŸfedeceÄŸiz. Elbette
+28:58 hayat estetiÄŸi sadece yerde yaÅŸamaktan ibaret deÄŸildir. Ticaret, insan ve Ã§evre iliÅŸkisi, doÄŸal gÄ±da, baÄŸÄ±msÄ±z enerji, kararÄ±nda tÃ¼ketim gibi olgular da
+29:06 vardÄ±r. ArtÄ±k tek yapmak gereken bir kÃ¶ÅŸeye itilmiÅŸ ÅŸark kÃ¶ÅŸesini karÅŸÄ±mÄ±za alÄ±p yeniden bir konuÅŸmak ve potansiyelini deÄŸerlendirmektir.
+29:14 KonuÅŸtukÃ§a gÃ¶receÄŸiz ki bize yeni yollar aÃ§Ä±lacaktÄ±r. Evlerin ve mahallelerin veya kÃ¶ylerin bu anlayÄ±ÅŸla ÅŸekillenmesi
+29:21 ekrana mahkum olmuÅŸ toplumlarÄ±n sohbete, meÅŸke ve tabiata yÃ¶nelmesini saÄŸlayacak.
+29:26 pasif bir nesne olmaktan Ã§Ä±karÄ±p aktif birer ferde dÃ¶nÃ¼ÅŸmesine imkan tanÄ±yacaktÄ±r.
+29:32 GÃ¼nÃ¼mÃ¼z mimari anlayÄ±ÅŸÄ± tek tipleÅŸtirme Ã¼zerine kuruludur. Benzer parselasyon, benzer yapÄ± Ã¼retim biÃ§imi ve dolayÄ±sÄ±yla da stereotip hayatlar ortaya koyan bir
+29:40 anlayÄ±ÅŸtÄ±r bu. Bu sistem iÃ§inde dÃ¼ÅŸÃ¼nce barÄ±ndÄ±rmayan, bilgisayar programlarÄ± aracÄ±lÄ±ÄŸÄ±yla Ã¼retilen tekrarlardan ibarettir. Oysa her insan, aile ve
+29:48 topluluk farklÄ±dÄ±r. Bunun yanÄ±nda her iklim, coÄŸrafya ve kÃ¼ltÃ¼r de farklÄ±dÄ±r.
+29:52 Fakat bu kadar farklÄ±lÄ±ÄŸa raÄŸmen tek tip yaklaÅŸÄ±m her insanÄ± ve yapÄ±yÄ± zapt altÄ±na almakta ve Ã§eÅŸitliliÄŸe engel
+29:59 olmaktadÄ±r. AynÄ± zamanda tek bir merkezden yÃ¶netilen mimari Ã¼retimler insana olan gÃ¼vensizliÄŸi de beraberinde getirmektedir. OnaylÄ± paftalar ve
+30:07 dilekÃ§eler aracÄ±lÄ±ÄŸÄ±yla insan aradan Ã§Ä±karÄ±lmaya Ã§alÄ±ÅŸÄ±lÄ±r. Ä°nsana olan bu gÃ¼vensizlik neticesinde insanÄ±n dahil olduÄŸu her noktada problemler ortaya
+30:15 Ã§Ä±kmaktadÄ±r. Ä°ÅŸte bu nedenle hegemonik gÃ¼Ã§lerin hedefi insanÄ± aradan tamamen Ã§Ä±karacak teknolojiler ortaya koymak ve her ÅŸeyi datalaÅŸtÄ±rmak Ã¼zerinedir.
+30:23 Modern Ã¶ncesi dÃ¶nemde belediye ve benzeri kurumlar olmamasÄ±na raÄŸmen oldukÃ§a nitelikli yapÄ±lar ortaya Ã§Ä±kmÄ±ÅŸtÄ±r. Ä°mkansÄ±zlÄ±klar ve fakirlik nedeniyle minimum ÅŸartlarda [mÃ¼zik]
+30:31 yapÄ±lmak zorunda kalÄ±nan yapÄ±lar dahi gÃ¶revlerini yerine getirecek kabiliyete sahiptiler. Ancak bugÃ¼n bu kadar kontrol, denetim ve teknolojiye raÄŸmen
+30:39 mimari Ã§evremizin niteliksizliÄŸi ve problemleri ortadadÄ±r. Ama AvrupalÄ±lar yapmÄ±ÅŸ filan dediÄŸinizi duyar gibiyim.
+30:46 Son 200 yÄ±lÄ±mÄ±zÄ± onlara benzemeye Ã§alÄ±ÅŸarak geÃ§irdik. Peki elde ÅŸehircilik aÃ§Ä±sÄ±ndan ne var?
+30:53 Koca bir sÄ±fÄ±r demek isterdim. Ancak ekside olduÄŸumuz ortada. Zira bu terazinin bu sikleti Ã§ekmediÄŸi aÅŸikar.
+30:58 [mÃ¼zik]
+30:59 Mevzunun zaten Avrupa ile filan bir ilgisi de kalmadÄ±. Mevcut kÃ¼resel kapitalist medeniyetin Ã§atÄ±rdamalarÄ± duyulmaya baÅŸlandÄ±. DÃ¼nya alarm veriyor.
+31:07 Teoman DuralÄ±'nÄ±n ifadesiyle biz de bu kÃ¼resel medeniyetin Ã¼yelerinden birisi olarak eÄŸer yeni bir medeniyet kuramazsak yÄ±kÄ±ntÄ±nÄ±n altÄ±nda kalacaÄŸÄ±z.
+31:15 Diyelim ki dÃ¼nyanÄ±n durumu Ã§ok iyi.
+31:17 KÃ¼resel kapitalist medeniyetin sorunu yok. Ã‡evre ile ilgili bir problem de yok. Peki biz bu kadar haksÄ±zlÄ±ÄŸÄ±n, israfÄ±n, gelir adaletsizliÄŸin ve hoyratÃ§a yaÅŸamÄ±n olduÄŸu bu dÃ¼zene devam
+31:25 [mÃ¼zik] mÄ± etmek istiyoruz? Ya da sorunlu hayat ÅŸeklimiz ve olumsuz ÅŸehirlerimiz iÃ§in bir yenilik aramayacak mÄ±yÄ±z? hebba olan potansiyellerimizi deÄŸerlendirmeyecek miyiz? Her neyse ben
+31:34 medeniyet tasavvurumu anlatmaya devam edeyim. Evet, Ã¶ncelikle insan faktÃ¶rÃ¼nÃ¼ yeniden ele almak ve gÃ¼venilir insan yetiÅŸtirmek durumundayÄ±z. Eskiden bir
+31:42 kiÅŸi ev yaptÄ±racaÄŸÄ± zaman bir usta ile anlaÅŸÄ±r ve teknik anlamda her kararÄ± ona bÄ±rakÄ±rdÄ±. Usta zaten rÃ¼ÅŸtÃ¼nÃ¼ ispat etmiÅŸ [mÃ¼zik] birisi olurdu. Usta yanÄ±nda bir iki Ã§Ä±rakla evi bitirirdi.
+31:53 Bu esnada ev sahibi ev yapÄ±mÄ± ile ilgili usta dÄ±ÅŸÄ±nda kalan malzeme tedariÄŸi, yemek saÄŸlamak ve benzeri ihtiyaÃ§larÄ± giderir. [mÃ¼zik] Ã‡oÄŸunlukla komÅŸularda
+32:01 ev sahibine yardÄ±mcÄ± olurdu. Bu baÄŸlamda birer hoÅŸluk olarak Ã¶rneÄŸin inÅŸaat bir bayram havasÄ±nda geÃ§er. Beraber Ã§alÄ±ÅŸÄ±lÄ±r. Ev bittikten sonra
+32:08 komÅŸulardan hediyeler gelir ve Ã§atÄ±ya bayrak asÄ±lÄ±rdÄ±. Bu neÅŸeyi [mÃ¼zik] hafife almamak lazÄ±m. O gÃ¼nlerde bir usta ve komÅŸular ile yapÄ±lan evlerin
+32:15 niteliÄŸi ortadayken bugÃ¼n mimarÄ±, mÃ¼hendisi, belediyesi, bakanlÄ±ÄŸÄ± gerisini siz sÃ¶yleyin iÅŸin iÃ§inde olmasÄ±na raÄŸmen durumumuz ortada. Ben
+32:23 diyorum ki insan yetiÅŸtirelim. Bu potansiyel bugÃ¼ne ÅŸÃ¶yle uyarlanabilir.
+32:27 Diyelim ki bir mimar var ve nitelikli iÅŸler ortaya koymuÅŸ, rÃ¼ÅŸtÃ¼nÃ¼ ispat etmiÅŸ ve gÃ¼ven kazanmÄ±ÅŸ. Ä°ÅŸte o mimar yanÄ±nda yetiÅŸen bir baÅŸka mimara icazet
+32:35 verebilir. Bilir ki icazet verdiÄŸi kiÅŸi bir yanlÄ±ÅŸ yaparsa eleÅŸtirilen o olacak. Bu sebeple Ã§ok dikkatli davranÄ±r.
+32:43 Åimdilerde bir mimar yetersiz olduÄŸunda kim eleÅŸtirilir? Sistem. Her ÅŸeyi sisteme atÄ±p kurtuluruz. Zira Ã¼niversite diyemezsin. MimarÄ±n hocasÄ± belli
+32:51 deÄŸildir. Belediye iyi kontrol etmemiÅŸ diyemezsin. Bu da paydaÅŸlardan sadece biridir. Sistemler aradan Ã§Ä±karsÄ±n.
+32:57 BazÄ±larÄ± diyecektir ki mimar tasarÄ±lar o kadar. Halbuki mimar yapÄ±sal anlamda da bir usta gibi temelden Ã§atÄ±ya her konuya hakim olmalÄ± ve inÅŸaatÄ±n baÅŸÄ±ndaki kiÅŸi
+33:06 olarak belirmelidir. Zira bugÃ¼n de mimarÄ±n bu liderliÄŸi devam etmektedir.
+33:10 GÃ¼nÃ¼mÃ¼zde mimari sadece mÃ¼ze, terminal, kamu yapÄ±sÄ± gibi Ã¶zellikli binalarda aranÄ±yor. GeÃ§miÅŸe bakÄ±ÅŸ aÃ§Ä±sÄ±ndan da aynÄ±dÄ±r. Tarih okumalarÄ± hep abideler
+33:18 Ã¼zerinden yapÄ±lÄ±r. Oysa sivil yapÄ±lar mimarinin en baÅŸat unsurudur. Evi, mahalleyi, kÃ¶yÃ¼ ve bir bÃ¼tÃ¼n anlamÄ±nda ÅŸehirleri dÃ¼ÅŸÃ¼nmek Ã§ok kÄ±ymetlidir.
+33:28 Mimaride her ÅŸeyin baÅŸÄ±nda ev vardÄ±r.
+33:30 Ä°slam mimarisi aÃ§Ä±sÄ±ndan da bu durum bÃ¶yledir. Zira Hzreti Peygamberin evi aynÄ± zamanda cami olmuÅŸ ve bÃ¼tÃ¼n mimari buradan ÅŸekillenmiÅŸtir. Yani ev
+33:39 mimarinin Ã§ekirdeÄŸidir. Ev nÃ¼vesi iÃ§inde bir dÃ¼nyayÄ± saklar. BugÃ¼n Ã¶zellikle TÃ¼rkiye'de beton her yeri esir almÄ±ÅŸ
+33:45 durumdadÄ±r. BÃ¼tÃ¼n inÅŸaat sektÃ¶rÃ¼ betona gÃ¶re ÅŸekillenmiÅŸtir. Ã‡evre problemleri, baÄŸÄ±mlÄ±lÄ±k sorunu, Ã§irkinliÄŸi, soÄŸukluÄŸu bir yana beton zihinleri de esir
+33:54 almÄ±ÅŸtÄ±r. Bu sÄ±kÄ±ntÄ±lÄ± bakÄ±ÅŸ mimarÄ±ndan mÃ¼hendisine, mÃ¼teahitinden iÅŸÃ§isine, tasarÄ±mÄ±ndan inÅŸaat ÅŸekline her noktada
+34:01 kendini gÃ¶sterir. Beton kapitalizmin eli kolu olmuÅŸ ve parayÄ± en Ã¼st noktaya yerleÅŸtirmiÅŸtir. NeÅŸeyi ortadan kaldÄ±rmÄ±ÅŸ, bu sebeple de huzuru yok
+34:09 etmiÅŸtir. DoÄŸal malzemelerle ilerleyen ve yerinde Ã¼retimin yoÄŸun olduÄŸu inÅŸai biÃ§im salt para ile olan iliÅŸkiyi talih hale getirecek ve insana yuvanÄ±n
+34:17 sÄ±caklÄ±ÄŸÄ±nÄ± hatÄ±rlatacaktÄ±r. [mÃ¼zik] Zira ben yaptÄ±ÄŸÄ±m yapÄ±larda bu hissiyatÄ± daha ilk kerpiÅŸ dÃ¶kÃ¼ldÃ¼ÄŸÃ¼nde Ã§alÄ±ÅŸanÄ±ndan ev sahibine, komÅŸusundan
+34:25 gelip geÃ§enine herkesin yÃ¼zÃ¼nde fark ediyorum. Ä°ÅŸte bu sebeple artÄ±k beton dÄ±ÅŸÄ± Ã¼retime kapÄ± aralamalÄ± ve ahÅŸap, taÅŸ, kerpiÃ§ gibi malzemelerde
+34:34 uzmanlaÅŸmÄ±ÅŸ insanlarÄ±n yetiÅŸmesine [mÃ¼zik] imkan tanÄ±malÄ±yÄ±z. Tek bir dev mÃ¼teahit ve onun bÃ¼tÃ¼ncÃ¼l yaklaÅŸÄ±mÄ± yerine kÃ¼Ã§Ã¼k mÃ¼teahitleri var etmeli,
+34:43 yapÄ±larÄ± kÃ¼Ã§Ã¼ltmeli, mÃ¼stakilleÅŸtirmeli, detaylandÄ±rmalÄ± ve aileye Ã¶zel bakÄ±ÅŸÄ± gÃ¼Ã§lendirmeliyiz. BÃ¼tÃ¼ncÃ¼l yaklaÅŸÄ±m modernizmin eseridir ve oldukÃ§a problemlidir. Bu bakÄ±ÅŸ insana eÄŸilemez.
+34:54 Mesela on binlerce insanÄ±n yaÅŸayacaÄŸÄ± yeri bir seferde yapar ve o alandaki aÄŸacÄ±, bÃ¶ceÄŸi Ã¶nemsemez. NÃ¼kleer [mÃ¼zik]
+35:01 santral inÅŸa ediyormuÅŸÃ§asÄ±na dev makinelerla girer ve Ã§Ä±kar. herkesi aynÄ± kutuya hapseder ve Ã§eker [mÃ¼zik] gider.
+35:08 Oysa her bir aile farklÄ± kÃ¼ltÃ¼re ve hayat tarzÄ±na sahiptir. Her biri Ã¶zel ilgiyi hak eder. Ä°nsana yatÄ±rÄ±m bÃ¶yle
+35:15 olur. Medeniyet tasavvurumun kÃ¶yleÅŸmek Ã¼zerine olduÄŸu artÄ±k aÅŸikar. Bu noktada evlerin inÅŸasÄ±nda komÅŸularÄ±n birbiriyle konuÅŸarak karar almasÄ± Ã¶nemlidir.
+35:25 Uzaktaki bir belediyenin tanÄ±madÄ±ÄŸÄ± bir ortama hÄ±ÅŸÄ±mla girmesindense [mÃ¼zik] bizzat orada yaÅŸayanlarÄ±n evlerin ÅŸekillenmesinde sÃ¶z sahibi olmasÄ±
+35:33 gerekmektedir. YapÄ±lacak ev komÅŸunun hakkÄ±nÄ± gÃ¶zeterek inÅŸa edilmelidir.
+35:37 [mÃ¼zik]
+35:38 Ä°nsan tabiatÄ±n, Ã§evresinin, komÅŸusunun, hayvanÄ±n, bitkinin hakkÄ±nÄ± bilerek yaÅŸamalÄ±dÄ±r. Evler de bu anlayÄ±ÅŸ Ã¼zerinden ÅŸekillenmelidir. Daha kÃ¼Ã§Ã¼k
+35:47 alanlarda efektif yaÅŸamanÄ±n yollarÄ± aranmalÄ±dÄ±r. Bu sayede ev daha kolay inÅŸa edilir ve ucuz olur. AynÄ± zamanda
+35:54 arsa ve mekan israfÄ± Ã¶nlenir. Hayat estetiÄŸi videosunda bahsettiÄŸim daha az eÅŸya Ã§ok fonksiyonlu mekan meselesinden bahsediyorum. [mÃ¼zik]
+36:02 AyrÄ±ca tabiatÄ±n bÃ¼tÃ¼n potansiyeli, suyu, enerjisi, Ä±sÄ± yalÄ±tÄ±mÄ± gibi konular gÃ¼ndeme alÄ±nmalÄ± ve deÄŸerlendirilmelidir. GÃ¼neÅŸ enerjisi
+36:10 kazanÄ±mÄ± su hasadÄ±, Ä±sÄ±nmak ve serinlemek iÃ§in pasif yÃ¶ntemlerle daha az enerji tÃ¼ketimi Ã¼zerine
+36:17 Ã§alÄ±ÅŸÄ±lmalÄ±dÄ±r. BunlarÄ±n hepsinin Ã§Ã¶zÃ¼mÃ¼ zaten mevcuttur. DoÄŸru yapÄ±lan bir doÄŸal yapÄ± bunlarÄ± zaten saÄŸlayacaktÄ±r. Ev bir
+36:25 kozmostur. Avlusu, bahÃ§esi ufak bir su e ile birlikte huzurlu bir dÃ¼nyadÄ±r. Hedefimiz insanÄ±n mutluluÄŸu olmalÄ±dÄ±r.
+36:32 Evi bÃ¶yle deÄŸerlendirmek insanÄ±n hayata olan bakÄ±ÅŸÄ±nÄ± da etkileyecek. Temiz gÄ±da, baÄŸÄ±msÄ±z hayat gibi konular Ã¶ne Ã§Ä±kacaktÄ±r. GittikÃ§e tek merkezli hale
+36:40 doÄŸru giden gÄ±dayÄ±, enerjiyi ve tÃ¼ketim seyrini tek eline alan bir sistemden Ã§Ä±kÄ±ÅŸÄ± da saÄŸlayacak ve gÃ¼Ã§lenmemize olanak verecektir. Ev dÄ±ÅŸÄ± kamusal
+36:48 yapÄ±lardan da bahsetmek gerekirse ekonomik model videomda bahsettiÄŸim merkez kÃ¶yleri hatÄ±rlayalÄ±m. Bu bÃ¼rokratik merkez kamusal yapÄ±larÄ± ev
+36:57 Ã¼zerinden yaptÄ±ÄŸÄ±m deÄŸerlendirmeden hareketle gÃ¼ndeme alacaktÄ±r. Yine doÄŸal malzeme, Ã§evre bilinci ve efektif mekan
+37:04 anlayÄ±ÅŸÄ± sÃ¼recektir. UnutmayÄ±n, yeni bir dÃ¼nya mÃ¼mkÃ¼n. hayal etmekten vazgeÃ§meyin.
+37:10 Ä°nsan deÄŸerli bir varlÄ±ktÄ±r. Ã‡Ã¼nkÃ¼ insanÄ±n aklÄ± vardÄ±r. Bu sayede de etrafÄ±nda olan bitenleri kavrayabilme, onlarÄ± yerli yerine koyabilme ve
+37:19 varlÄ±klarÄ±n hakkÄ±nÄ± verebilme istidadÄ±na sahiptir. Bu sebeptendir ki insan iÃ§in Hazreti insan ifadesi kullanÄ±lmÄ±ÅŸtÄ±r.
+37:26 Ä°nsanÄ±n hak etmediÄŸi her durum onun iÃ§in bir zulÃ¼mdÃ¼r ve bu zulme sÃ¼rekli maruz kalan bir insanÄ±n onu gÃ¼zel yapan Ã¶zelliklerini yitirme tehlikesi vardÄ±r.
+37:36 Ä°nsan insana, hayvana, bitkiye, Ã§evreye zulm etmemelidir. GÃ¼nÃ¼mÃ¼z ÅŸehirleri insanÄ± dÄ±ÅŸlamÄ±ÅŸ, onu Ã¶nemsiz bir nesne
+37:43 haline getirmiÅŸtir. Ä°nsan adeta kapitalizmin oyuncaÄŸÄ± olmuÅŸ, Ã‡ark'taki diÅŸlilere dÃ¶nÃ¼ÅŸmÃ¼ÅŸtÃ¼r. GÃ¼neÅŸe gÃ¶re yatÄ±p
+37:51 kalkan, acÄ±kÄ±nca yemek yiyen, uykusu gelince uyuyan, uykusunu alÄ±nca kalkan, velhasÄ±lÄ± tabiatÄ±n bir parÃ§asÄ± olan
+37:58 insan, mekanik bir zaman ve mekan dÃ¼zeninin kÃ¶lesi haline getirilmiÅŸtir.
+38:03 Ancak sÄ±nÄ±rlÄ± bir zÃ¼mrenin ulaÅŸabileceÄŸi lÃ¼ks hayata bir gÃ¼n kavuÅŸmak hezeyanÄ±yla kendini avutan veya bu sistemde hayatÄ±nÄ±
+38:10 sÃ¼rdÃ¼rmeye Ã§alÄ±ÅŸan insan deÄŸerli bir varlÄ±k olduÄŸunu unutmuÅŸtur. Ä°nsanÄ±n deÄŸerli bir varlÄ±k olduÄŸunu hatÄ±rlamasÄ±
+38:17 iÃ§in onun insanca bir durumda ve ortamda yaÅŸamasÄ± gerekmektedir. BÃ¶yle dediÄŸimde insanlarÄ±n aklÄ±na sÃ¶mÃ¼rgeci devletlerin
+38:25 kurduÄŸu Banlio hayatÄ± geliyor. Ancak banlio hayatÄ± kapitalizmin iÃ§inde yine belirli bir zÃ¼mrenin hakkÄ±ndan fazlasÄ±nÄ± tÃ¼keterek ÅŸehir merkezlerine ve
+38:33 marketlere baÄŸÄ±mlÄ± yaÅŸadÄ±klarÄ± tabiatÄ±n paraziti gibi davrandÄ±ÄŸÄ± bir yerleÅŸim biÃ§imidir. Bu da insani bir hayat olmayÄ± baÅŸka tÃ¼rlÃ¼ bir zulme iÅŸaret etmektedir.
+38:42 Kapitalist modern ÅŸehirler kapitalizmin Ã§arklarÄ±nÄ±n rahat iÅŸleyebilmesi adÄ±na tasarlanÄ±r. Her Ã¼lke bu teoriye en yakÄ±n biÃ§imde ÅŸehirlerini dÃ¼zenlemek ister. Bu
+38:51 teorinin Ã¼topyasÄ± sÃ¼per dÃ¼zenli ÅŸehirlerdir. Åehir adeta bir fabrikanÄ±n mal Ã¼retirken kullandÄ±ÄŸÄ± Ã¼rÃ¼n bandÄ± gibi olsun istenir. Ãœretimden maksimum
+38:59 kazanÃ§, minimum kayÄ±p beklendiÄŸinden ÅŸehir de bu ideoloji ile ÅŸekillendirilmeye Ã§alÄ±ÅŸÄ±lÄ±r. Yollar, dÃ¼kkanlar, konutlar, rekreasyon alanlarÄ±
+39:08 kapitalist ve modern anlamda maksimum fayda iÃ§in dizayn edilir. Åehrin adeta bir tanrÄ± mimar modeli tarafÄ±ndan tasarlanabiliyor oluÅŸu ve insanlarÄ±n
+39:17 nasÄ±l yaÅŸayacaÄŸÄ±na karar verme durumu baÅŸlÄ± baÅŸÄ±na Ã¼zerinde durulmasÄ± gereken bir konudur. Her ne kadar dÃ¼z yollar, dama tahtasÄ± gibi dÃ¼zenlenen parseller
+39:25 ve yapÄ±lar yÃ¼zeysel anlamda rahat ve dÃ¼zenli bir ÅŸehir sunuyor gibi gÃ¶rÃ¼nse de insanÄ± ve tabiatÄ± da mekanikleÅŸtiren
+39:32 ve onlarÄ± ana unsur olmaktan Ã§Ä±karan bir bakÄ±ÅŸ aÃ§Ä±sÄ±nÄ± iÅŸaret ediyor. AslÄ±nda dÃ¼nya genelinde kapitalizm dÄ±ÅŸÄ±nda bir sistemin Ã§alÄ±ÅŸmasÄ±na izin de verilmediÄŸi
+39:40 iÃ§in bu yÃ¼zeysel tutumu tam anlamÄ±yla uygulamayÄ± baÅŸaran ÅŸehirler gÃ¼zel olarak algÄ±lanmaktadÄ±r.
+39:47 Peki gÃ¼zel ÅŸehirleÅŸme nasÄ±l olur? Burada ÅŸehri sadece dev yerleÅŸimler olarak deÄŸil insanlarÄ±n beraber yaÅŸadÄ±ÄŸÄ± her
+39:55 yer olarak ele alacaÄŸÄ±m. Ã–ncelikle gÃ¼zel ÅŸehir tabiata ve insana uygun olan ÅŸehirdir. Bu ÅŸehir hem ahlaki hem de boyut olarak sÄ±nÄ±rlarÄ±nÄ± bilmelidir.
+40:03 GÃ¼zel ÅŸehri anlamak zor bir hadise deÄŸildir. Mimar olsun olmasÄ±n her bozulmamÄ±ÅŸ gÃ¶z ve ruh gÃ¼zel ÅŸehri anlayabilir. GÃ¼zel bir yerleÅŸime
+40:11 baktÄ±ÄŸÄ±nÄ±zda o yerleÅŸimin adeta tabiat tarafÄ±ndan kendiliÄŸinden ortaya Ã§Ä±kmÄ±ÅŸ bir yuvalar bÃ¼tÃ¼nÃ¼ olduÄŸunu fark edersiniz. Mesela bunu bir kuÅŸun ya da
+40:20 karÄ±ncanÄ±n yuvasÄ±nda gÃ¶rebilirsiniz. O yerleÅŸim tabiatla iÃ§ iÃ§edir. Elbette bu yerleÅŸimde yerleÅŸimi kullanan canlÄ±nÄ±n Ã¶zellikleri de belirir. Bir yerleÅŸimin
+40:28 tabiatÄ±n hareketlerinin doÄŸal bir sonucu olarak belirmesi gerekmektedir. Yani topografya, rÃ¼zgar, gÃ¼neÅŸ gibi etmenler
+40:35 mimariyi ÅŸekillendirir. Bununla birlikte ÅŸehirde yaÅŸayacak insanlarÄ±n hukuku ve birbiriyle olan iliÅŸkileri de deÄŸerlendirilmelidir. Bu da ÅŸehrin nasÄ±l
+40:44 olacaÄŸÄ±na eline cetveli veya yazÄ±lÄ±mÄ± alan bir tanrÄ± mimar tarafÄ±ndan deÄŸil, bizzatihi orada yaÅŸayacaklar tarafÄ±ndan karar verilmesi gerekliliÄŸini getirir.
+40:52 BugÃ¼n dÃ¼zenli tertipli denen ve matematik geometri kullanÄ±larak ortaya Ã§Ä±ktÄ±ÄŸÄ± iddia edilen ÅŸehirler yÃ¼zeysel ve sathi ÅŸehirlerdir. Bu ÅŸehirleri
+41:01 yÃ¼celtmek iÃ§in karÅŸÄ±larÄ±na konan tabi ÅŸehirlerde bir matematik ve geometrinin olmadÄ±ÄŸÄ± iddia edilir. Oysa o yerleÅŸimlerde tÄ±pkÄ± tabiatÄ±n meydana
+41:10 getirdiÄŸi tÃ¼m olgularda olduÄŸu gibi matematik ve geometri vardÄ±r. Ancak bakmasÄ±nÄ± bilen iÃ§in vardÄ±r. NasÄ±l mÄ±?
+41:18 ÅÃ¶yle. Matematikteki fraktal terimi kendine benzeme veya oransal kÄ±rÄ±lma Ã¶zelliÄŸi gÃ¶steren karmaÅŸÄ±k geometrik ÅŸekillerin ortak adÄ± olarak geÃ§er. Bir
+41:27 kar tanesine veya Ã§iÃ§eÄŸin yapraklarÄ±na dikkatli baktÄ±ÄŸÄ±nÄ±zda birbirini tekrar eden ÅŸekiller olduÄŸunu fark edersiniz.
+41:34 Mikroskop altÄ±na indiÄŸinizde ise bu ritmik ÅŸekillenmelerin sonsuz bir biÃ§imde devam ettiÄŸini gÃ¶rÃ¼rsÃ¼nÃ¼z.
+41:39 YÃ¼zeysel anlamda baktÄ±ÄŸÄ±nÄ±zda ÅŸekilsiz gibi duran Ã¶rneÄŸin yaprak, kaya parÃ§asÄ±, hÃ¼cre, gÃ¶k cisimleri gibi hemen her
+41:47 tabii varlÄ±ÄŸÄ±n iÃ§erisinde bir geometrinin olduÄŸunu gÃ¶rÃ¼rsÃ¼nÃ¼z. fraktal Ã§alÄ±ÅŸmalarÄ± bize bunu gÃ¶stermiÅŸtir. Ä°ÅŸte tabiata uygun gerÃ§ekleÅŸen yerleÅŸimlerde
+41:56 de bu matematik ve geometri bulunmaktadÄ±r. Ãœstelik Ã§ok detaylÄ± ve derin ÅŸekildedir. Buradaki matematik modern ÅŸehirdeki dama tahtasÄ± veya
+42:04 cetvelle Ã§izilmiÅŸ yÃ¼zeysel ÅŸekillerle karÅŸÄ±laÅŸtÄ±rÄ±ldÄ±ÄŸÄ±nda asÄ±l Ã¼stÃ¼nlÃ¼ÄŸÃ¼n hangisinde olduÄŸu anlaÅŸÄ±lacaktÄ±r. Zira dÃ¼zenli ve kolay kavranabildiÄŸi iÃ§in
+42:13 Ã¶vÃ¼len modern ÅŸehirlerin aslÄ±nda ne kadar ilkel olduÄŸu ortaya Ã§Ä±kacaktÄ±r.
+42:17 Peki ilk bakÄ±ÅŸta dÃ¼zensiz gibi gÃ¶rÃ¼nen ama derine inildiÄŸinde dÃ¼zenli olduÄŸu fark edilen tabii ÅŸehirlerin inÅŸa edicileri raktal ilmini bilmeden bunu nasÄ±l yapabildiler? Elbette sezgiyle.
+42:29 Tabiatla uyumlu yaÅŸamÄ±ÅŸ toplumlar doÄŸanÄ±n bir parÃ§asÄ± olduklarÄ± iÃ§in haliyle doÄŸa gibi davrandÄ±lar. RÃ¼zgar, gÃ¼neÅŸ, topografya, hayvanlar, bitkiler
+42:38 ve insan ile girdikleri iliÅŸkiler onlara bu yerleÅŸimleri yaptÄ±rdÄ±. AklÄ± olan birisi ÅŸehir gibi karmaÅŸÄ±k bir olgunun
+42:45 birkaÃ§ dÃ¼z Ã§izgiyile yapÄ±lamayacaÄŸÄ±nÄ± kavrayabilir. YÃ¼zeysel ÅŸehirler kendisini doÄŸadan kopukluÄŸu ile de belli eder. Bir hayvanÄ±n yuvasÄ±na baktÄ±ÄŸÄ±nÄ±zda
+42:53 o oluÅŸum sizi rahatsÄ±z etmez. Ã‡Ã¼nkÃ¼ doÄŸanÄ±n bir parÃ§asÄ± olarak belirir.
+42:57 Ancak yapay ÅŸehirler tabiata atÄ±lmÄ±ÅŸ plastik bir Ã§Ã¶p gibi kendini hemen belli eder. GeÃ§miÅŸte tÄ±pkÄ± o hayvan yuvalarÄ±
+43:04 gibi doÄŸayla uyumlu birÃ§ok ÅŸehir inÅŸa edilmiÅŸtir. Ã–yle ki bu ÅŸehirlere baktÄ±ÄŸÄ±nÄ±zda ortaya Ã§Ä±kan yapÄ±larÄ± insan mÄ± yoksa doÄŸa olaylarÄ± mÄ± meydana getirmiÅŸ bile dedirtmiÅŸtir bu ÅŸehirler.
+43:14 AynÄ± zamanda en Ã¼st Ã¶lÃ§ekten alt Ã¶lÃ§eklere dahi indiÄŸinizde bu hadise devam eder. TÄ±pkÄ± bir aÄŸaca dÄ±ÅŸarÄ±dan bakÄ±lmasÄ±yla yapraÄŸÄ±ndaki hÃ¼creye
+43:23 bakÄ±lmasÄ± gibi. Ã–yle ki hÃ¼credeki geometrinin de aÄŸacÄ±n geometrisinin de fraktal manada olduÄŸu gÃ¶zlemlenir. Bazen
+43:30 bir hÃ¼crenin ÅŸeklinin benzerini Ã¶rneÄŸin daÄŸlara yukarÄ±dan baktÄ±ÄŸÄ±nÄ±zda bile gÃ¶rebilirsiniz. Ä°ÅŸte bunun gibi ÅŸehirler vardÄ±. Buraya kadar anlattÄ±klarÄ±m sadece
+43:39 yapÄ±sal anlamda vernakÃ¼ler mimarlÄ±k yani doÄŸayla uyumlu mimarlÄ±k gibi algÄ±lanÄ±yor olabilir. Ancak bundan Ã¶te bir ÅŸeyden
+43:48 bahsediyorum. Ã‡Ã¼nkÃ¼ insan bir hayvan veya bitki gibi tabiata ait bir canlÄ± olduÄŸu gibi aklÄ± ve inancÄ± da olan bir
+43:55 varlÄ±ktÄ±r. Bu farklÄ±lÄ±klar da ÅŸehrin ortaya Ã§Ä±kÄ±ÅŸÄ±na etki edecektir. Ã–nemli olan buradaki akÄ±l ve inancÄ±n tabiatla Ã§eliÅŸmemesi. Bu noktada devreye kozmos
+44:04 girer. Yani kozmik kavrayÄ±ÅŸ. Ã–rneÄŸin Japonya bir ada Ã¼lkesi olduÄŸu iÃ§in bu durum kendisini Japon bahÃ§esinde kayalarÄ±n ada, kÃ¼Ã§Ã¼k taÅŸlarÄ±n okyanus
+44:12 olarak belirmesiyle bulur veya Ã§Ã¶lde yaÅŸayanlar iÃ§in gÃ¶kyÃ¼zÃ¼ daha kÄ±ymetli olduÄŸundan iÅŸin iÃ§ine bir avlu girer.
+44:19 Bunlar basit ancak aÃ§Ä±klayÄ±cÄ± ve kolay anlaÅŸÄ±labilecek Ã¶rneklerdir. Bununla birlikte toplumlarÄ±n kozmik kavrayÄ±ÅŸÄ±
+44:26 onlarÄ±n hayatÄ±nÄ±n her biÃ§iminde haliyle mimarisinde de geniÅŸ Ã¶lÃ§ekli yer bulur.
+44:31 Tabiattaki oluÅŸumlarÄ±n yukarÄ±dan aÅŸaÄŸÄ±ya kadar sÃ¼rekli bir Ã§eÅŸitlilikte [mÃ¼zik] olmasÄ± bir tÃ¼r sonsuzluktur aslÄ±nda. Her farklÄ± Ã¶lÃ§ek farklÄ± bir durumu gÃ¶sterir.
+44:40 Rahman suresi 29. ayette Allah kendisi iÃ§in her an yeni bir ÅŸende yani halde olduÄŸunu sÃ¶ylemektedir. Bu durumu
+44:48 tabiatÄ±n kendisinde de sonsuzluk olarak gÃ¶rmekteyiz. Åehre yukarÄ±dan baktÄ±ÄŸÄ±mÄ±zda baÅŸka bir geometri, en kÃ¼Ã§Ã¼k birimine baktÄ±ÄŸÄ±mÄ±zda ise yine
+44:56 baÅŸka bir geometriyile karÅŸÄ± karÅŸÄ±ya kalmaktayÄ±z. Bunu ortaya Ã§Ä±karan bir diÄŸer etmen de bÃ¶yle ÅŸehirlerin zamanla
+45:03 ihtiyaca gÃ¶re oluÅŸmasÄ±. Yine yapÄ±larÄ±nÄ±n keskin ve bitmiÅŸ bir proje ile yapÄ±lmasÄ± deÄŸil, inÅŸa aÅŸamasÄ±nda da deÄŸiÅŸime aÃ§Ä±k
+45:11 olmasÄ±dÄ±r. Yani Ã¶rneÄŸin toprak kazÄ±ldÄ±ÄŸÄ±nda ortaya Ã§Ä±kan bir kaya [mÃ¼zik] parÃ§asÄ±nÄ±n evin iÃ§inde kalmasÄ± ya da bir aÄŸacÄ±n kesilmeden muhafaza
+45:19 edilmesi gibi. Yine basit Ã¶rnekler veriyorum. Bunlar geniÅŸletilebilir.
+45:23 BÃ¶ylesi yerleÅŸimlerin tabiatÄ±n bir Ã¼rÃ¼nÃ¼ gibi olmasÄ± ve sonsuzluÄŸu bÃ¶ylesi nedenlerledir. Bu sonsuzluÄŸa bir de
+45:30 baÅŸka aÃ§Ä±dan yaklaÅŸmak istiyorum. ÅÃ¶yle bir Ã¶rnek vereceÄŸim. UÃ§suz bucaksÄ±z bir ovada olduÄŸumuzu hayal edelim. Buraya yaklaÅŸÄ±k 60 mÂ²elik bir mekan koyalÄ±m.
+45:41 Ä°Ã§i boÅŸ olan bu mekan bu haliyle iÃ§inde yapÄ±labileceklerin sayÄ±sÄ±zlÄ±ÄŸÄ± hasebiyle hala sonsuz bir mekan olarak var
+45:48 olmaktadÄ±r. Yani hala ovanÄ±n bir parÃ§asÄ± olarak belirmektedir. Ancak Ã¶rneÄŸin siz bu mekanÄ± koltuklar ve sahne ile
+45:55 doldurup adÄ±na seminer salonu dediÄŸinizde o mekanÄ± tek bir iÅŸle ve belirli sayÄ±da insanla sÄ±nÄ±rlayÄ±p sonsuzluÄŸunu bitirmiÅŸ olursunuz. Oysa
+46:04 aynÄ± mekan boÅŸken hem uyuyabilir, yemek yiyebilir, kitap okuyabilir. Ãœstelik bunu sayÄ±sÄ± belli olmayan kadar insanla
+46:11 yapabilirdiniz. Ä°ÅŸte sonsuz mekan iÅŸlevsellik anlamÄ±nda bÃ¶yle de bir ÅŸeydir. AynÄ± zamanda mekanÄ± doÄŸa ile uyumlu malzemeler ve teknikle [mÃ¼zik]
+46:19 inÅŸa ettiÄŸinizde de yapÄ±sal manada yine sonsuzluÄŸu kesmemiÅŸ ve onu doÄŸanÄ±n parÃ§asÄ± yapmÄ±ÅŸ olursunuz. Yani hem
+46:27 geometrik olarak hem de zaman olarak sÄ±nÄ±rsÄ±zlÄ±k budur. Ä°ÅŸte ben buna sonsuz mekan diyorum. Ä°nsan sonsuz mekanÄ± aramalÄ±dÄ±r.
+--- END TRANSCRIPT ---
