@@ -230,7 +230,7 @@
 
   <!-- Üst Başlık & Çatı Navigasyon -->
   <header class="border-b border-zinc-800 bg-[#08090b]/80 backdrop-blur-md sticky top-0 z-40">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex flex-col md:flex-row items-center md:items-start justify-between gap-4 text-center md:text-left">
       <div>
         <a href="index.html" class="hover:opacity-85 transition">
           <h1 class="text-sm sm:text-base font-mono font-bold tracking-[0.25em] text-white uppercase">
@@ -242,7 +242,7 @@
         </a>
       </div>
 
-      <div class="flex items-center gap-2.5 text-xs font-mono font-semibold">
+      <div class="flex flex-wrap items-center justify-center md:justify-end gap-2 text-xs font-mono font-semibold">
         <a href="index.html" class="px-3 py-1.5 rounded border border-zinc-700 bg-zinc-900 text-zinc-300 hover:text-white hover:border-zinc-500 transition">
           &larr; Ana Sayfa
         </a>
@@ -321,7 +321,7 @@
     <!-- Okuma Görünümü (Tek Makale Okuyucu) -->
     <article id="article-reader-view" class="hidden">
       <!-- Geri Dön Butonu -->
-      <div class="mb-8 flex items-center justify-between pb-4 border-b border-zinc-800">
+      <div class="mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pb-4 border-b border-zinc-800">
         <button onclick="closeReader()" class="px-3.5 py-1.5 rounded-lg border border-zinc-700 bg-zinc-900 text-xs font-mono font-semibold text-zinc-300 hover:text-white hover:border-zinc-500 transition flex items-center gap-2">
           <span>&larr; Tüm Makalelere Dön</span>
         </button>
