@@ -7728,8 +7728,9 @@ Değişen d&#252;nya g&#246;zardı edildi.&rdquo;</p>
       document.querySelectorAll('#yt-tabs .yt-tab').forEach(b => {
         b.className = 'yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-900 text-zinc-300 border border-zinc-700 hover:text-white transition';
       });
-      if (btn) {
-        btn.className = 'yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-700 text-white border border-zinc-500 transition';
+      const activeBtn = btn || document.querySelector('#yt-tabs .yt-tab[onclick*="\'' + cat + '\'"]');
+      if (activeBtn) {
+        activeBtn.className = 'yt-tab px-3 py-1.5 rounded text-xs font-mono font-semibold bg-zinc-700 text-white border border-zinc-500 transition';
       }
 
       if (cat === 'all') {
