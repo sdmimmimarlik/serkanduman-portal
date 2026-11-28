@@ -847,6 +847,23 @@
         <div class="body-text" id="panel-body" style="font-style:italic;">...</div>
       </div>
 
+      <!-- Külliyat Portalları Entegrasyonu (Doğrudan Filtre Köprüleri) -->
+      <div class="section-title">Külliyat Portallarında Filtrele</div>
+      <div class="portal-links" style="display:flex; flex-direction:column; gap:6px; margin-bottom:18px;">
+        <a id="portal-link-makaleler" href="makaleler.html" class="nav-pill" style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; font-size:12px; text-decoration:none; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:8px; color:var(--text-main); transition:all 0.2s;">
+          <span>📄 Bu Mefhumdaki Makaleler</span>
+          <span style="color:var(--accent-gold); font-family:var(--font-mono); font-size:11px;">Filtrele &rarr;</span>
+        </a>
+        <a id="portal-link-basin" href="basin.html" class="nav-pill" style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; font-size:12px; text-decoration:none; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:8px; color:var(--text-main); transition:all 0.2s;">
+          <span>📰 Matbuat &amp; Medya Kayıtları</span>
+          <span style="color:var(--accent-terracotta); font-family:var(--font-mono); font-size:11px;">Filtrele &rarr;</span>
+        </a>
+        <a id="portal-link-sdmimproje" href="sdmimproje.html" class="nav-pill" style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; font-size:12px; text-decoration:none; background:rgba(255,255,255,0.03); border:1px solid var(--border-color); border-radius:8px; color:var(--text-main); transition:all 0.2s;">
+          <span>🏛️ sdmimproje.com Arşivi</span>
+          <span style="color:#fce4b8; font-family:var(--font-mono); font-size:11px;">Taranmış Arşiv &rarr;</span>
+        </a>
+      </div>
+
       <div class="section-title">
         <span>Münasebettar Eserler &amp; Kayıtlar</span>
         <span id="panel-resource-count" style="font-family:var(--font-mono); color:#9e9ba7;"></span>
@@ -1271,6 +1288,34 @@
                       "author":  "Dr. Mimar Serkan Duman",
                       "source":  "sdmim.com / Hece Dergisi Özel Sayı",
                       "resources":  [
+                                        {
+                                            "type":  "makale",
+                                            "title":  "Telif Makale: Şehir, İrade ve Mimar: Turgut Cansever'in Şehir Tasavvuru ve Müstakil Ev Modeli",
+                                            "url":  "makaleler.html#hece-dergisi-turgut-cansever-ozel-sayisi",
+                                            "duration":  "Hece Özel Sayı · 12 dk",
+                                            "meta":  "Hece Dergisi Sayı 334 · Turgut Cansever Özel Sayısı"
+                                        },
+                                        {
+                                            "type":  "basin",
+                                            "title":  "Matbuat: Hece Dergisi Cansever Özel Sayısı Müellifliği",
+                                            "url":  "basin.html#hece-cansever-2024",
+                                            "duration":  "Ekim 2024 · Matbuat",
+                                            "meta":  "Hece Dergisi Sayı 334"
+                                        },
+                                        {
+                                            "type":  "basin",
+                                            "title":  "Televizyon: TV5 'Buluşma Noktası' Turgut Cansever Özel Yayını",
+                                            "url":  "basin.html#tv5-cansever-anlatisi-2023",
+                                            "duration":  "24 Şubat 2023 · TV5",
+                                            "meta":  "TV5 Buluşma Noktası"
+                                        },
+                                        {
+                                            "type":  "basin",
+                                            "title":  "Matbuat: Turgut Cansever'in Dünyasında Sanat ve İslam Mimarisi",
+                                            "url":  "basin.html#sanat-aleminde-cansever-2024",
+                                            "duration":  "2024 · Sanat Âlemi",
+                                            "meta":  "Sanat Âlemi Dergisi"
+                                        },
                                         {
                                             "type":  "makale",
                                             "title":  "Telif Makale: Akıl, Duygu ve Sanat: Teoman Duralı ile Felsefe Tefekkürü",
@@ -9361,6 +9406,14 @@
       document.getElementById('panel-source').innerText = selected.source || 'Dr. Mimar Serkan Duman Arşivi';
       document.getElementById('panel-body').innerText = selected.body || 'Bu kavram, mimarlık kuramı ve medeniyet inşasındaki temel sütunlardan birini teşkil eder.';
 
+      // Portallar Bağlantısını Dinamik Güncelle
+      const linkMak = document.getElementById('portal-link-makaleler');
+      const linkBas = document.getElementById('portal-link-basin');
+      const linkSdm = document.getElementById('portal-link-sdmimproje');
+      if (linkMak) linkMak.href = 'makaleler.html?tag=' + encodeURIComponent(selected.id);
+      if (linkBas) linkBas.href = 'basin.html?tag=' + encodeURIComponent(selected.id);
+      if (linkSdm) linkSdm.href = 'sdmimproje.html?tag=' + encodeURIComponent(selected.name.split('&')[0].trim());
+
       // Kaynaklar & Videolar
       const resContainer = document.getElementById('panel-resources');
       const countSpan = document.getElementById('panel-resource-count');
@@ -9384,6 +9437,9 @@
           } else if (res.type === 'makale') {
             typeBadge = '<span class="res-badge res-badge-makale">📄 Makale</span>';
             actionText = 'Makaleyi Oku →';
+          } else if (res.type === 'basin' || res.type === 'medya') {
+            typeBadge = '<span class="res-badge" style="background:rgba(230,184,125,0.2);border:1px solid #e6b87d;color:#f5d09b;">📰 Matbuat &amp; Basın</span>';
+            actionText = 'Kaydı Aç ↗';
           } else if (res.type === 'kitap') {
             typeBadge = '<span class="res-badge res-badge-kitap">📖 Kitap</span>';
             actionText = 'Kitabı İncele ↗';
