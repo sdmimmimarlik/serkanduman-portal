@@ -313,6 +313,12 @@
             Medeniyet Tasavvuru (13)
           </button>
         </div>
+
+        <!-- Aktif Etiket Göstergesi (Tüm etiket tıklamaları için) -->
+        <div id="active-tag-banner" class="hidden mt-3 inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-[#e6b87d]/15 border border-[#e6b87d]/50 text-[#f5d09b] text-xs font-mono">
+          <span id="active-tag-text"></span>
+          <button onclick="filterByTag('all', null)" class="ml-1 text-zinc-400 hover:text-white transition">✕ Kaldır</button>
+        </div>
       </div>
 
       <!-- Kart Listesi -->
@@ -1304,8 +1310,15 @@
 
         const tagsHtml = (art.tag_names || []).map((t, idx) => {
           const tagKey = art.tags[idx] || '';
-          return `<a href="dusunce-atlasi.html?node=${tagKey}" onclick="event.stopPropagation()" class="tag-pill text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800/80 border border-zinc-700 text-zinc-300">${t}</a>`;
-        }).join('');
+          const isAtlasNode = !['akademik_tez', 'kitaplar', 'milli_matbuat'].includes(tagKey);
+          const atlasLink = isAtlasNode 
+            ? `<a href="dusunce-atlasi.html?node=${tagKey}" target="_blank" onclick="event.stopPropagation()" title="Düşünce Atlasında Mefhumu Gör" class="text-amber-400 hover:text-amber-300 ml-1 font-bold">✦</a>`
+            : '';
+          return `<span class="inline-flex items-center text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800/90 border border-zinc-700 text-zinc-300 hover:border-amber-500/50 transition">
+            <button type="button" onclick="event.stopPropagation(); filterByTag('${tagKey}', null)" class="hover:text-white">${t}</button>
+            ${atlasLink}
+          </span>`;
+        }).join(' ');
 
         card.innerHTML = `
           <div>
@@ -1352,7 +1365,19 @@
       document.querySelectorAll('.filter-tab').forEach(btn => btn.classList.remove('active'));
       const activeBtn = btnElement || document.querySelector(`.filter-tab[onclick*="'${tag}'"]`);
       if (activeBtn) activeBtn.classList.add('active');
+
+      const banner = document.getElementById('active-tag-banner');
+      const bannerText = document.getElementById('active-tag-text');
+      if (banner && bannerText) {
+        if (tag === 'all') {
+          banner.classList.add('hidden');
+        } else {
+          banner.classList.remove('hidden');
+          bannerText.innerText = `🏷️ Aktif Etiket: ${tag}`;
+        }
+      }
       renderArticlesList();
+      window.scrollTo({ top: 120, behavior: 'smooth' });
     }
 
     function openArticle(slug) {
@@ -1438,16 +1463,27 @@
         body.appendChild(secDiv);
       });
 
-      // Atlas Etiketleri
+      // Atlas Etiketleri & İçiçe Filtreleme
       const tagsContainer = document.getElementById('reader-atlas-tags');
       tagsContainer.innerHTML = '';
       (art.tag_names || []).forEach((tName, idx) => {
         const tagKey = art.tags[idx] || '';
-        const a = document.createElement('a');
-        a.href = 'dusunce-atlasi.html?node=' + tagKey;
-        a.className = 'tag-pill text-xs font-mono px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-700 text-[#f5d09b] hover:bg-[#d97746]/20 transition flex items-center gap-1.5';
-        a.innerHTML = `<span>✦ ${tName}</span> ↗`;
-        tagsContainer.appendChild(a);
+        const isAtlasNode = !['akademik_tez', 'kitaplar', 'milli_matbuat'].includes(tagKey);
+        
+        const wrapper = document.createElement('div');
+        wrapper.className = 'inline-flex items-center gap-1.5 p-1 rounded-lg bg-zinc-900 border border-zinc-700 text-xs font-mono';
+
+        let atlasBtn = isAtlasNode 
+          ? `<a href="dusunce-atlasi.html?node=${tagKey}" target="_blank" class="px-2 py-1 rounded bg-[#e6b87d]/20 text-[#f5d09b] hover:bg-[#e6b87d]/30 transition" title="Düşünce Atlasında Mefhumu Aç">✦ Atlas ↗</a>`
+          : '';
+
+        wrapper.innerHTML = `
+          <button type="button" onclick="closeReader(); filterByTag('${tagKey}', null)" class="px-2.5 py-1 text-zinc-300 hover:text-white transition">
+            📄 ${tName}
+          </button>
+          ${atlasBtn}
+        `;
+        tagsContainer.appendChild(wrapper);
       });
 
       window.scrollTo({top: 0, behavior: 'smooth'});
@@ -1460,11 +1496,16 @@
       window.scrollTo({top: 0, behavior: 'smooth'});
     }
 
-    // Hash Kontrolü
+    // Hash ve URL Parametreleri Kontrolü
     window.addEventListener('DOMContentLoaded', () => {
       renderArticlesList();
+      const urlParams = new URLSearchParams(window.location.search);
+      const tagParam = urlParams.get('tag') || urlParams.get('node');
+      if (tagParam) {
+        filterByTag(tagParam, null);
+      }
       const hash = window.location.hash.replace('#', '');
-      if (hash) {
+      if (hash && hash !== 'articles-grid') {
         openArticle(hash);
       }
     });
