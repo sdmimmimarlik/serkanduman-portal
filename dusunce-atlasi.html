@@ -651,6 +651,19 @@
       z-index: 10;
     }
 
+    /* ── Tablet & Orta Ekran Uyumu ── */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      #detail-panel {
+        width: 380px;
+      }
+      .brand-title {
+        font-size: 20px;
+      }
+      .top-bar {
+        max-width: calc(100vw - 410px);
+      }
+    }
+
     /* ── Mobil Uyum (Responsive Styles) ── */
     @media (max-width: 768px) {
       body {
@@ -663,13 +676,28 @@
         max-width: calc(100vw - 28px);
       }
 
+      .brand-row {
+        gap: 8px 12px;
+      }
+
       .brand-title {
-        font-size: 18px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+      }
+
+      .nav-pill {
+        font-size: 10px;
+        padding: 3px 8px;
+        border-radius: 6px;
+      }
+
+      .brand-sub {
+        font-size: 11px;
       }
 
       .search-wrap {
         max-width: 100%;
-        margin-top: 10px;
+        margin-top: 8px;
       }
 
       .filter-bar {
@@ -705,8 +733,12 @@
         transform: translateY(100%);
       }
 
+      #detail-panel.hidden {
+        transform: translateY(100%) !important;
+      }
+
       #detail-panel:not(.hidden) {
-        transform: translateY(0);
+        transform: translateY(0) !important;
       }
 
       .panel-header {
