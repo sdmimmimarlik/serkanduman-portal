@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
 <head>
   <!-- Google tag (gtag.js) -->
@@ -221,6 +221,44 @@
         </button>
         <button onclick="filterMedia('yayin', this)" class="filter-tab px-3 py-1.5 rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-300 transition">
           Konferans, Radyo &amp; Video (3)
+        </button>
+      </div>
+
+      <!-- Mefhum & Etiket Bulutu (Atlas ile Entegre) -->
+      <div class="mt-4 pt-3 border-t border-zinc-800/80 flex flex-wrap items-center gap-1.5 text-xs font-mono" id="media-tag-cloud">
+        <span class="text-zinc-500 text-[11px] mr-1">🏷️ Mefhum Filtresi:</span>
+        <button onclick="filterByTag('Turgut Cansever', 'cansever')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Turgut Cansever
+        </button>
+        <button onclick="filterByTag('Toprak Yapı', 'toprak_yapi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Toprak Yapı &amp; Kerpiç
+        </button>
+        <button onclick="filterByTag('Deprem', 'afet_deprem')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Deprem &amp; Afet
+        </button>
+        <button onclick="filterByTag('Malavi', 'malavi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Malavi &amp; Afrika
+        </button>
+        <button onclick="filterByTag('Nail Çakırhan', 'nail_cakirhan')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Nail Çakırhan
+        </button>
+        <button onclick="filterByTag('Doğu-Batı Ayrımında', 'dogu_bati')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Doğu-Batı
+        </button>
+        <button onclick="filterByTag('Auroville', 'auroville_ornegi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Auroville
+        </button>
+        <button onclick="filterByTag('Apartmanlaşma', 'apartman_elestirisi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Apartmanlaşma
+        </button>
+        <button onclick="filterByTag('Cami Mimarisi', 'medeniyet')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Cami Mimarisi
+        </button>
+        <button onclick="filterByTag('Mimarlık Eğitimi', 'mimarlik_egitimi')" class="tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition">
+          Mimarlık Eğitimi
+        </button>
+        <button id="clear-tag-btn" onclick="clearTagFilter()" class="hidden px-2.5 py-1 rounded-lg bg-amber-500/20 border border-amber-500/50 text-amber-300 hover:bg-amber-500/30 transition flex items-center gap-1">
+          <span>✕ Filtreyi Kaldır</span>
         </button>
       </div>
     </div>
@@ -641,8 +679,40 @@
       }
     ];
 
+    // Atlas Düğümü Eşleştirme Sözlüğü
+    const TAG_NODE_MAP = {
+      'turgut cansever': 'cansever',
+      'cansever': 'cansever',
+      'toprak yapı': 'toprak_yapi',
+      'toprak ev': 'toprak_yapi',
+      'kerpiç': 'toprak_yapi',
+      'toprak malzeme': 'toprak_yapi',
+      'deprem': 'afet_deprem',
+      'sismik': 'afet_deprem',
+      'afet': 'afet_deprem',
+      'malavi': 'malavi',
+      'afrika': 'malavi',
+      'nail çakırhan': 'nail_cakirhan',
+      'ula evleri': 'nail_cakirhan',
+      'doğu-batı ayrımında': 'dogu_bati',
+      'doğu-batı': 'dogu_bati',
+      'auroville': 'auroville_ornegi',
+      'apartmanlaşma': 'apartman_elestirisi',
+      'kat mülkiyeti': 'apartman_elestirisi',
+      'cami mimarisi': 'medeniyet',
+      'mabet': 'medeniyet',
+      'tevhid idraki': 'medeniyet',
+      'medeniyet': 'medeniyet',
+      'mimarlık eğitimi': 'mimarlik_egitimi',
+      'hassan fathy': 'hassan_fathy',
+      'çocuk ve şehir': 'cocuk_sehir',
+      'kentsel dönüşüm': 'sehir_hukuku',
+      'şehir hukuku': 'sehir_hukuku'
+    };
+
     let currentCategory = 'all';
     let currentSearchQuery = '';
+    let currentTag = '';
     let currentView = 'grid';
 
     function renderMedia() {
@@ -656,6 +726,14 @@
       const filtered = MEDIA_ITEMS.filter(item => {
         const matchesCategory = (currentCategory === 'all' || item.category === currentCategory);
         if (!matchesCategory) return false;
+
+        // Etiket Filtresi
+        if (currentTag) {
+          const tLower = currentTag.toLowerCase();
+          const hasTag = (item.tags || []).some(t => t.toLowerCase().includes(tLower) || tLower.includes(t.toLowerCase()));
+          const hasAtlasNode = item.node_id === currentTag;
+          if (!hasTag && !hasAtlasNode) return false;
+        }
 
         if (!currentSearchQuery) return true;
         const q = currentSearchQuery.toLowerCase();
@@ -679,9 +757,17 @@
         const card = document.createElement('div');
         card.className = 'media-card rounded-xl p-5 sm:p-6 flex flex-col justify-between';
 
-        const tagsHtml = (item.tags || []).map(t => 
-          `<span class="text-[10px] font-mono px-2 py-0.5 rounded bg-zinc-800/80 border border-zinc-700/60 text-zinc-400">${t}</span>`
-        ).join(' ');
+        const tagsHtml = (item.tags || []).map(t => {
+          const tLower = t.toLowerCase();
+          const atlasNode = item.node_id || TAG_NODE_MAP[tLower] || '';
+          const atlasLink = atlasNode 
+            ? `<a href="dusunce-atlasi.html?node=${atlasNode}" target="_blank" onclick="event.stopPropagation()" title="Düşünce Atlasında Mefhumu Aç" class="text-amber-400 hover:text-amber-300 ml-1 font-bold">✦</a>` 
+            : '';
+          return `<span class="inline-flex items-center text-[11px] font-mono px-2 py-0.5 rounded bg-zinc-800/90 border border-zinc-700 text-zinc-300 hover:border-amber-500/50 transition">
+            <button type="button" onclick="filterByTag('${t}', '${atlasNode}')" class="hover:text-white">${t}</button>
+            ${atlasLink}
+          </span>`;
+        }).join(' ');
 
         card.innerHTML = `
           <div>
@@ -755,6 +841,35 @@
       });
     }
 
+    function filterByTag(tag, atlasNode) {
+      currentTag = tag;
+      const clearBtn = document.getElementById('clear-tag-btn');
+      if (clearBtn) {
+        clearBtn.classList.remove('hidden');
+        clearBtn.innerHTML = `<span>✕ '${tag}' Etiketi Aktif (Kaldır)</span>`;
+      }
+      // Tag cloud butonlarını güncelle
+      document.querySelectorAll('.tag-cloud-btn').forEach(btn => {
+        if (btn.innerText.toLowerCase().includes(tag.toLowerCase())) {
+          btn.className = "tag-cloud-btn px-2.5 py-1 rounded-lg bg-[#e6b87d]/20 border border-[#e6b87d] text-[#f5d09b] font-semibold transition";
+        } else {
+          btn.className = "tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition";
+        }
+      });
+      renderMedia();
+      window.scrollTo({ top: 120, behavior: 'smooth' });
+    }
+
+    function clearTagFilter() {
+      currentTag = '';
+      const clearBtn = document.getElementById('clear-tag-btn');
+      if (clearBtn) clearBtn.classList.add('hidden');
+      document.querySelectorAll('.tag-cloud-btn').forEach(btn => {
+        btn.className = "tag-cloud-btn px-2.5 py-1 rounded-lg bg-zinc-900 hover:bg-[#e6b87d]/20 border border-zinc-700 hover:border-[#e6b87d] text-zinc-300 hover:text-[#f5d09b] transition";
+      });
+      renderMedia();
+    }
+
     function filterMedia(category, btnElement) {
       currentCategory = category;
       document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
@@ -787,9 +902,15 @@
       }
     }
 
-    // İlk yükleme
+    // İlk yükleme ve URL Parametreleri
     document.addEventListener('DOMContentLoaded', () => {
-      renderMedia();
+      const urlParams = new URLSearchParams(window.location.search);
+      const tagParam = urlParams.get('tag') || urlParams.get('search') || urlParams.get('node');
+      if (tagParam) {
+        filterByTag(tagParam, tagParam);
+      } else {
+        renderMedia();
+      }
     });
   </script>
 </body>
